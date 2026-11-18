@@ -1,0 +1,201 @@
+<TEI>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcription of GA 0136+0137 (A)</title>
+      <editor role="encoder">Robert Turnbull</editor></titleStmt>
+      <publicationStmt>
+        <p>Generated on 2026-11-18 13:12:55.494039 using D-Codex.</p>
+      </publicationStmt>
+      <sourceDesc><msDesc>
+		<msIdentifier>
+            <country>Egypt</country>
+            <settlement>Sinai</settlement>
+            <repository>Saint Catherine's Monastery</repository>
+            <idno>Harris 9</idno>
+          <altIdentifier type="GA"><idno>0136+0137</idno></altIdentifier><altIdentifier type="TM"><idno>999998</idno></altIdentifier></msIdentifier><msContents><summary>Greek-Arabic bilingual fragments of Matthew.</summary></msContents>
+        <history><origin><origDate notBefore="0800" notAfter="0899">9th century</origDate></origin></history></msDesc><msDesc>
+		<msIdentifier>
+            <country>Russia</country>
+            <settlement>St. Petersburg</settlement>
+            <repository>National Library of Russia</repository>
+            <idno>Ф. № 906 /Gr. 281</idno>
+          </msIdentifier>
+        </msDesc></sourceDesc>
+    </fileDesc>
+  <revisionDesc><change when="2026-11-19"><name>Robert Turnbull</name> added a manuscript description (from the Greek transcription); the language (xml:lang="ar" on text) for the BICROSS Navigator.</change></revisionDesc></teiHeader>
+  <text xml:lang="ar">
+    <body>
+      <ab n="B01K13V46"><gap/>
+<note type="editorial">1r</note>__وه كثير الثمن
+<note type="editorial">ذ</note>هب فباع
+__ شي له
+_اشتراها.
+</ab>
+      <ab n="B01K13V47"><note type="editorial">ا</note>يضا يشبه
+___ السموات
+__كه
+___ت فى البحر
+_______ كل
+__ناس جمعت
+</ab>
+      <ab n="B01K13V48">___ا امتلت
+__صعدوها
+علي الشط.
+_جلسوا
+فاختاروا
+___ في انيه
+والاشرار برا طرحوا
+</ab>
+      <ab n="B01K13V49"><note type="editorial">1v</note>هكذا
+يكون فى انقضا
+هذا العالم
+تخرج الملا-
+يكه فيفرزون
+الاشرار من بين
+الاصديقين
+</ab>
+      <ab n="B01K13V50">فيلقوهم
+فى قامين
+___نار__
+هناك يكون.
+البكا وصرير
+الاسنان.
+</ab>
+      <ab n="B01K13V51">فقال لهم يسوع
+فهمتم هذا كله /
+فقالوا
+له نعم يا رب.
+</ab>
+      <ab n="B01K13V52">وهو قال لهم
+<gap/></ab>
+      <ab n="B01K14V6"><note type="editorial">1r</note><gap/>
+_____وسط
+_____ هروذس.</ab>
+      <ab n="B01K14V7">_______حلف
+___ها انه
+ها ما سالت.
+</ab>
+      <ab n="B01K14V8">_______لمت
+____ها
+_____له اعطني هاهنا
+___عه راس
+__نا
+___صبغ
+</ab>
+      <ab n="B01K14V9">__زن ا-
+____ فمنجل
+___مان وا
+___كيين
+<note type="editorial">1v</note>امر ان تعطا.
+</ab>
+      <ab n="B01K14V10">وبعث فقطع
+راس يوحنا
+في الحبس
+</ab>
+      <ab n="B01K14V11">واتى<note type="editorial">Uncertain</note> براسه<note type="editorial">Uncertain</note>
+في القصعه
+ودفع الى الجا-
+ريه والجاريه
+جابته الى امها
+</ab>
+      <ab n="B01K14V12">____و تلا-
+ميذه فا-
+خذوا الجثه
+ودفنوها و-
+جاوا فاخبروا
+بيسوع.
+</ab>
+      <ab n="B01K14V13">فلما سمع يسوع
+انصرف من هناك
+فى سفينه الى بريه
+<gap/></ab>
+      <ab n="B01K25V9">اجبن العاقلات
+فقلن
+لعله لا يكفينا
+واياكن ولكن
+اذهبن الى
+الذين يبيعون
+فاشترين لكن.
+</ab>
+      <ab n="B01K25V10">فبينما هن ذاهبات
+ليشترين اتا الختن
+والمتهيين دخلن
+معه الى
+العرس واغلق
+الباب.</ab>
+      <ab n="B01K25V11">اخيرا
+اتين بقيه
+العذارى يقلن
+يا رب يا رب افتح لنا.
+</ab>
+      <ab n="B01K25V12">وانه اجاب فقال
+امين اقول لكم
+انى لست اعرفكم.
+</ab>
+      <ab n="B01K25V13"><note type="editorial">2v</note>اسهروا الان فانكم
+لن تعرفوا اليوم
+ولا الساعه.
+</ab>
+      <ab n="B01K25V14">كمثل انسان اراد يسافر
+فدعا
+عبيده وا-
+عطاهم
+ماله
+</ab>
+      <ab n="B01K25V15">وانه اعطا لواحد
+خمس وزنات
+ولاخر اثنتين ولاخر واحده
+كل واحد على قدر
+قوته / ثم
+سافر.
+</ab>
+      <ab n="B01K25V16">فذهب
+الذى اخذ الخمس وزنات
+فعمل بها
+وصنع
+<gap/></ab>
+      <ab n="B01K25V41"><gap/>
+<note type="editorial">3r</note>الى النار المُعده
+للشيطان
+وملايكته.
+</ab>
+      <ab n="B01K25V42">لانى جُعت ولم
+تعطونى اكل.
+عطشت ولم
+تسقونى</ab>
+      <ab n="B01K25V43">غريبا
+كنت فلم تا-
+وني عريان
+ولم تكسوني
+مريض وفى الحبس
+ولم تفتقدو-
+نى.
+</ab>
+      <ab n="B01K25V44">حينيذ يجيبوه
+وهم قايلين
+يا رب متى رايناك
+<note type="editorial">3v</note>جايعا او عطشانا
+او غريبا او عريانا
+او مريضا او فى الحبس
+ولم نخدمك.
+</ab>
+      <ab n="B01K25V45">حينيذ يجيىبهم
+الملك قايلا امين
+اقول لكم اذا
+لم تصنعوا لاحد
+هاولا الصغار
+ولا لى صنعتم.
+</ab>
+      <ab n="B01K25V46">فيذهبون هاولا
+الى
+العذاب الداهر.
+والصديقين الى الحياه
+الداهره.
+</ab>
+      <ab n="B01K26V1">فكان لما تم
+يسوع كل هذا الكلام
+<gap/></ab>
+    </body>
+  </text>
+</TEI>

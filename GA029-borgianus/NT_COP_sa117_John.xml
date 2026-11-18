@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI [
+]>
+
+<?xml-stylesheet type="text/xsl" href="coptic.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa117">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title>A Transcription of a Sahidic manuscript of John (sa117)</title>
+<title type="document" key="620117" n="sa117">sa117</title>
+<title type="collection" level="s" xml:lang="en">The New Testament</title>
+<title type="work" level="m" xml:lang="en" n="04">The Gospel according to John</title>
+<title type="short" level="m" xml:lang="en" n="04">john</title>
+<editor role="encoder">Robert Turnbull</editor><respStmt><resp>Transcribed by</resp><name>Dr. Hans Förster</name>
+</respStmt><respStmt><resp>Proofread by</resp><name>Matthias Schulz</name>
+</respStmt>
+
+<sponsor><name type="org">the International Greek New Testament Project</name></sponsor> 
+</titleStmt>
+
+<editionStmt>
+<edition n="1.0">Version 1.0, created <date>13.12.2023</date></edition>
+</editionStmt>
+
+<publicationStmt>
+<publisher>
+ <name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+<name type="org">University of Birmingham</name></publisher>
+<date>13.12.2023</date>
+<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators  and an indication is given of any changes made. See further <ptr target="https://creativecommons.org/licenses/by/4.0/"/>.</p></availability></publicationStmt>
+
+<sourceDesc>
+<msDesc>
+ <msIdentifier>
+ <altIdentifier type="smr"><idno>sa117</idno></altIdentifier>
+ <altIdentifier type="NTVMR"><idno>620117</idno></altIdentifier>
+ <altIdentifier type="GA"><idno>029</idno></altIdentifier><altIdentifier type="TM"><idno>61746</idno></altIdentifier></msIdentifier><msContents><summary>Greek-Sahidic Coptic bilingual of the Gospels.</summary></msContents>
+<history><origin><origDate notBefore="0400" notAfter="0499">5th century</origDate></origin></history></msDesc>
+<listWit><witness xml:id="firsthand"/><witness xml:id="corr"/><witness xml:id="corr1"/></listWit>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc n="1.6">
+<projectDesc><p>This transcription was made by Dr. Hans Förster and colleagues towards the Editio Critica Maior of John between 2010 and 2015.</p></projectDesc>
+<editorialDecl><p>The initial transcription file was a plain text file for use with COLLATE, later converted to XML.</p>
+
+<p>The plain text file was converted to XML by Hugh Houghton and Catherine Smith using the project's Python conversion scripts in 2023.</p>
+<p>The XML specifications used are version 1.6 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/4301/"/></p></editorialDecl>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+             <revisionDesc><change when="2026-11-19"><name>Robert Turnbull</name> added the verse numbers of John 6:21-58, which were labelled John.4.21-58; the manuscript's GA, TM, summary, date for the BICROSS Navigator.</change></revisionDesc></teiHeader><text xml:lang="cop"><body>
+<pb xml:id="P142r-sa117" n="142r" type="folio"/>
+<cb n="P142rC1-sa117"/>
+<lb/><div n="John" type="book"><div n="John.1" type="chapter"><ab n="John.1.7"><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">[ⲥ︤ⲟ︦ⲑ︥]</fw></seg>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/><note type="editorial">1.1-1.6</note>
+<lb/><w><supplied reason="lacuna/illegible">ⲉ</supplied><unclear>ⲧⲃ</unclear><supplied reason="lacuna/illegible">ⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲡⲟⲩⲟⲉⲓⲛ·</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ϫ</supplied><unclear>ⲉ</unclear>ⲕ<unclear>ⲁ</unclear><supplied reason="lacuna/illegible">ⲥ</supplied></w><w><supplied reason="lacuna/illegible">ⲉⲣⲉⲟⲩⲟⲛ</supplied></w>
+<lb/><w><unclear>ⲛ</unclear>ⲓⲙ</w><w><supplied reason="lacuna/illegible">ⲡⲓⲥⲧⲉⲩⲉ</supplied></w>
+<lb/><w>ⲉⲃⲟ<unclear>ⲗ</unclear></w><w><supplied reason="lacuna/illegible">ϩⲓⲧⲟⲟⲧϥ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w>
+<lb/></ab><ab n="John.1.8"><w>ⲛⲉⲡⲉ<supplied reason="lacuna/illegible">ⲧⲙⲙⲁⲩ</supplied></w>
+<lb/><w>ⲁⲛ</w><w>ⲡⲉ</w><w><unclear>ⲡ</unclear><supplied reason="lacuna/illegible">ⲟⲩⲟⲉⲓⲛ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w>
+<lb/><w>ⲁⲗⲗⲁ</w><w>ϫⲉⲕⲁⲥ</w><w><supplied reason="lacuna/illegible">ⲛⲧⲟϥ</supplied></w>
+<lb/><w>ⲉϥⲉⲣ</w><w>ⲙ︤ⲛ︥ⲧ<supplied reason="lacuna/illegible">ⲣⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲉ</supplied>
+<lb break="no"/>ⲧⲃⲉ</w><w>ⲡⲟⲩⲟⲉ<supplied reason="lacuna/illegible">ⲓⲛ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w>
+<lb/></ab><ab n="John.1.9"><w>ⲡⲟⲩⲟⲉⲓⲛ</w><w>ⲙ̄<supplied reason="lacuna/illegible">ⲙⲉ</supplied></w>
+<lb/><w>ⲉⲧⲣ̄</w><w><unclear>ⲟⲩⲟⲉⲓ</unclear>ⲛ</w><w><supplied reason="lacuna/illegible">ⲉ</supplied>
+<lb break="no"/>ⲣⲱⲙⲉ</w><w>ⲛⲓⲙ</w><w><unclear>ⲡⲉ</unclear></w><w><supplied reason="lacuna/illegible">ⲉϥ</supplied>
+<lb break="no"/>ⲛⲏⲩ</w><w>ⲉ<unclear>ⲡⲕⲟⲥⲙ</unclear><supplied reason="lacuna/illegible">ⲟⲥ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w>
+<lb/></ab><ab n="John.1.10"><w>ⲛⲉϥϩ︤ⲙ︥</w><w>ⲡⲕⲟ<unclear>ⲥ</unclear><supplied reason="lacuna/illegible">ⲙⲟⲥ</supplied></w>
+<lb/><w>ⲡⲉ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲛ̄ⲧ<unclear>ⲁ</unclear>
+<lb break="no"/>ⲡⲕⲟⲥⲙⲟⲥ</w><w><unclear>ϣ</unclear><supplied reason="lacuna/illegible">ⲱ</supplied>
+<lb break="no"/>ⲡⲉ</w><w>ⲉⲃⲟⲗ</w><w>ϩ<supplied reason="lacuna/illegible">ⲓⲧⲟ</supplied>
+<lb break="no"/>ⲟⲧϥ</w><pc>·</pc><w>ⲁⲩ<unclear>ⲱ</unclear></w><w><supplied reason="lacuna/illegible">ⲙ</supplied>
+<lb break="no"/>ⲡⲉ<unclear>ⲡ</unclear>ⲕⲟⲥ<supplied reason="lacuna/illegible">ⲙⲟⲥ</supplied></w>
+<lb/><w>ⲥⲟⲩⲱⲛ<unclear>ϥ</unclear></w><pc>·</pc></ab><ab n="John.1.11"><w><supplied reason="lacuna/illegible">ⲁϥ</supplied>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲉⲓ</supplied></w><w><unclear>ϣ</unclear>ⲁ</w><w>ⲛⲉ<supplied reason="lacuna/illegible">ⲧⲉ</supplied>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲛⲟⲩϥ</supplied></w><w><unclear>ⲛⲉ</unclear></w><pc>·</pc><w><supplied reason="lacuna/illegible">ⲁⲩⲱ</supplied></w>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/><note type="editorial">1.12-1.14</note>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/></ab><ab n="John.1.15"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<cb n="P142rC2-sa117"/>
+<lb/><note type="editorial">outer column lost</note>
+<pb xml:id="P142v-sa117" n="142v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">[ⲥ︤ⲡ︥]</fw></seg>
+<cb n="P142vC1-sa117"/>
+<lb/><note type="editorial">outer column lost</note>
+<cb n="P142vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 1:19-22</note>
+<pb xml:id="P143r-sa117" n="143r" type="folio"/>
+<cb n="P143rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">[ⲥ︤ⲡ︦ⲁ︥]</fw></seg>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><w><supplied reason="lacuna/illegible">ⲛⲥⲱⲓ̈</supplied></w><w><supplied reason="lacuna/illegible">ⲁϥϣⲱⲡ</supplied><unclear>ⲉ</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ϩⲁ</supplied></w><w><supplied reason="lacuna/illegible">ⲧⲁϩⲏ</supplied></w><w><supplied reason="lacuna/illegible">ϫ</supplied><unclear>ⲉ</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲛⲉϥⲟ</supplied></w><w><supplied reason="lacuna/illegible">ⲛϣⲟⲣⲡ</supplied></w><w>ⲉ
+<lb break="no"/><supplied reason="lacuna/illegible">ⲣⲟⲓ̈</supplied></w><w><supplied reason="lacuna/illegible">ⲡⲉ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w></ab><ab n="John.1.16"><w><supplied reason="lacuna/illegible">ϫⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲉ</supplied>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲃⲟⲗ</supplied></w><w><supplied reason="lacuna/illegible">ϩⲙ</supplied></w><w><supplied reason="lacuna/illegible">ⲡⲉϥϫ</supplied><unclear>ⲱ</unclear>ⲕ</w>
+<lb/><w><supplied reason="lacuna/illegible">ⲁⲛⲟⲛ</supplied></w><w><supplied reason="lacuna/illegible">ⲧⲏⲣⲛ</supplied>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲛⲧⲁⲛϫⲓ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲟⲩ</supplied>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲱⲛϩ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w><w><supplied reason="lacuna/illegible">ⲁⲩ</supplied><unclear>ⲱ</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲟⲩⲭⲁⲣⲓⲥ</supplied></w><w><supplied reason="lacuna/illegible">ⲉ</supplied><unclear>ⲡ</unclear>ⲙⲁ</w>
+<lb/><w><supplied reason="lacuna/illegible">ⲛⲟⲩⲭⲁⲣⲓⲥ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w></ab><ab n="John.1.17"><w><unclear>ϫⲉ</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲡⲛⲟⲙⲟⲥ</supplied></w><w><supplied reason="lacuna/illegible">ⲉⲛ</supplied><unclear>ⲧⲁⲩ</unclear>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲧⲁⲁϥ</supplied></w><w><supplied reason="lacuna/illegible">ⲉⲃⲟⲗ</supplied></w><w><supplied reason="lacuna/illegible">ϩ</supplied><unclear>ⲓ</unclear>ⲧ︤ⲙ︥</w>
+<lb/><w><supplied reason="lacuna/illegible">ⲙⲱⲩ̈ⲥⲏⲥ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲧⲉⲭⲁⲣⲓⲥ</supplied></w><w><supplied reason="lacuna/illegible">ϩⲱ</supplied>ⲱⲥ</w>
+<lb/><w><supplied reason="lacuna/illegible">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna/illegible">ⲧⲙⲉ</supplied></w><w><unclear>ⲉ</unclear>ⲛⲧⲁⲥ
+<lb break="no"/><supplied reason="lacuna/illegible">ϣⲱⲡⲉ</supplied></w><w><unclear>ⲉ</unclear>ⲃⲟⲗ</w><w><unclear>ϩⲓ</unclear>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲧⲛ</supplied></w><w><supplied reason="lacuna/illegible">ⲓ︦ⲥ︦</supplied></w><w><supplied reason="lacuna/illegible">ⲡⲉ</supplied><unclear>ⲭ</unclear>︦ⲥ︦</w><pc>·</pc>
+<lb/></ab><ab n="John.1.18"><w><supplied reason="lacuna/illegible">ⲡⲛⲟⲩⲧⲉ</supplied></w><w>ⲙ<unclear>̄ⲡ</unclear>ⲉⲗⲁ
+<lb break="no"/><supplied reason="lacuna/illegible">ⲁⲩ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲁⲩ</supplied></w><w><supplied reason="lacuna/illegible">ⲉ</supplied><unclear>ⲣⲟϥ</unclear></w><w><unclear>ⲉⲛⲉϩ</unclear></w><pc>·</pc>
+<lb/><w><supplied reason="lacuna/illegible">ⲡⲛⲟⲩⲧⲉ</supplied></w><w><unclear>ⲡ</unclear>ϣⲏ
+<lb break="no"/><supplied reason="lacuna/illegible">ⲣⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲟⲩ</supplied><unclear>ⲱ</unclear>ⲧ</w><w>ⲡⲉⲧ
+<lb break="no"/><supplied reason="lacuna/illegible">ϣⲟⲟⲡ</supplied></w><w><supplied reason="lacuna/illegible">ϩ</supplied><unclear>ⲛ</unclear></w><w>ⲕⲟⲩⲛ︤ϥ︥</w>
+<lb/><w><supplied reason="lacuna/illegible">ⲙⲡⲉϥⲉ</supplied><unclear>ⲓ</unclear>ⲱⲧ</w><pc>·</pc><w>ⲡⲉ
+<lb break="no"/><supplied reason="lacuna/illegible">ⲧⲙⲙⲁⲩ</supplied></w><w><unclear>ⲡⲉⲛⲧ</unclear>ⲁϥ
+<lb break="no"/><supplied reason="lacuna/illegible">ϣⲁϫⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲉⲣⲟϥ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w></ab><ab n="John.1.19"><w><supplied reason="lacuna/illegible">ⲁⲩ</supplied><unclear>ⲱ</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲧⲁⲓ̈</supplied></w><w><supplied reason="lacuna/illegible">ⲧⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲧⲙⲛⲧⲙ</supplied><unclear>ⲛⲧ</unclear>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲣⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲓ̈ⲱϩⲁⲛ</supplied><unclear>ⲛⲏ</unclear>ⲥ</w>
+<lb/><w><supplied reason="lacuna/illegible">ⲛⲧⲉⲣⲉⲛⲓ̈ⲟ</supplied><unclear>ⲩⲇⲁ</unclear>ⲓ<unclear>̈</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲧⲛⲛⲟⲟⲩ</supplied></w><w><supplied reason="lacuna/illegible">ϣⲁ</supplied>ⲣⲟϥ</w>
+<lb/><space unit="char" extent="2"/><w><unclear>ⲉ</unclear>ⲃⲟⲗ</w>
+<cb n="P143rC2-sa117"/>
+<lb/><w>ϩ︤<unclear>ⲛ</unclear></w><w>ⲑ<unclear>︦</unclear>ⲓ<unclear>︦</unclear>ⲗ<unclear>︦</unclear>ⲏ<unclear>︦ⲙ</unclear>︦</w><w><unclear>ⲛϩⲉⲛ</unclear>
+<lb break="no"/><unclear>ⲟⲩⲏⲏⲃ</unclear></w><w>ⲙ︤︤<unclear>ⲛ</unclear></w><w><unclear>ϩⲉⲛ</unclear>
+<lb break="no"/>ⲗⲉ<unclear>ⲩⲉⲓⲧⲏⲥ</unclear></w><w><unclear>ϫⲉ</unclear>
+<lb break="no"/>ⲕⲁⲥ</w><w><unclear>ⲉⲩⲉϫⲛ</unclear>ⲟⲩϥ</w>
+<lb/><w>ϫⲉ</w><w>ⲛ<unclear>ⲧⲕ</unclear></w><w><unclear>ⲛⲓ</unclear>ⲙ</w><pc>·</pc></ab><ab n="John.1.20"><w>ⲁⲩⲱ</w>
+<lb/><w>ⲁϥϩⲟ<unclear>ⲙ</unclear><supplied reason="lacuna/illegible">ⲟ</supplied><unclear>ⲗⲟⲅⲉⲓ</unclear></w>
+<lb/><w>ⲁⲩⲱ</w><w><unclear>ⲙⲡ</unclear>ϥⲁⲣⲛⲁ</w>
+<lb/><w>ϫⲉ</w><w>ⲛ̇ⲁ<unclear>ⲛ</unclear><supplied reason="lacuna/illegible">ⲟ</supplied>ⲕ</w><w>ⲁⲛ</w><w>ⲡⲉ</w>
+<lb/><w>ⲡⲉⲭ︦ⲥ︦</w><pc>·</pc></ab><ab n="John.1.21"><w>ⲁⲩϫⲛⲟⲩϥ</w>
+<lb/><w><unclear>ϫⲉ</unclear></w><w><unclear>ⲛⲧ</unclear><supplied reason="lacuna/illegible">ⲟ</supplied><unclear>ⲕ</unclear></w><w><unclear>ⲡ</unclear>ⲉ</w><w>ϩⲏ
+<lb break="no"/><unclear>ⲗ</unclear>ⲓⲁ<unclear>ⲥ</unclear></w><w><supplied reason="lacuna/illegible">ⲁ</supplied>ⲩⲱ</w><w>ⲡⲉ
+<lb break="no"/>ϫⲁ<unclear>ϥ</unclear></w><w><supplied reason="lacuna/illegible">ϫⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲁ</supplied><unclear>ⲛ</unclear>ⲟⲕ</w>
+<lb/><w>ⲁⲛ</w><w><unclear>ⲡ</unclear><supplied reason="lacuna/illegible">ⲉ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲧⲟ</supplied>ⲕ</w><w>ⲡⲉ</w>
+<lb/><w>ⲡⲉ<unclear>ⲡ</unclear><supplied reason="lacuna/illegible">ⲣⲟⲫⲏ</supplied><unclear>ⲧ</unclear>ⲏⲥ</w>
+<lb/><w>ⲁⲩⲱ</w><w><supplied reason="lacuna/illegible">ⲁϥⲟⲩ</supplied><unclear>ⲱ</unclear>ϣⲃ̄</w>
+<lb/><w>ϫⲉ</w><w>ⲙ̄<supplied reason="lacuna/illegible">ⲙⲟⲛ</supplied></w></ab><ab n="John.1.22"><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="firsthand"><w><unclear>ⲡⲉ</unclear>ϫⲁⲩ</w><w>ⲛⲁϥ</w></rdg></app>
+<lb/><w>ϫⲉ</w><w>ⲛ̇<unclear>ⲧⲟⲕ</unclear></w><w><unclear>ϭⲉ</unclear></w><w>ⲛ̄<unclear>ⲧⲕ</unclear></w>
+<lb/><w>ⲛⲓⲙ</w><pc>·</pc><w>ϫⲉ<unclear>ⲕⲁ</unclear>ⲥ</w><w><unclear>ⲉ</unclear><supplied reason="lacuna/illegible">ⲛⲉ</supplied>
+<lb break="no"/>ϫⲓ</w><w>ⲡⲟⲩⲱ</w><w><unclear>ⲛ</unclear>̄<unclear>ⲛ</unclear>ⲉ<unclear>ⲛ</unclear>
+<lb break="no"/>ⲧⲁⲩ<unclear>ⲧⲁⲟⲩ</unclear>ⲟⲛ</w><pc>·</pc><w><unclear>ⲉⲕ</unclear>
+<lb break="no"/>ϫⲱ</w><w>ⲙ̄ⲙ<unclear>ⲟ</unclear>ⲥ</w><w>ϫ<unclear>ⲉ</unclear></w>
+<lb/><w>ⲟⲩ</w><w>ⲉⲧⲃⲏⲏⲧ<supplied reason="lacuna/illegible">ⲕ</supplied></w>
+<lb/></ab><ab n="John.1.23"><w>ⲡⲉϫⲁϥ</w><w>ϫⲉ</w><w><unclear>ⲁ</unclear>
+<lb break="no"/><unclear>ⲛⲟⲕ</unclear></w><w><unclear>ⲡⲉ</unclear></w><w><supplied reason="lacuna/illegible">ⲧⲉⲥⲙⲏ</supplied></w><w><supplied reason="lacuna/illegible">ⲙⲡⲉⲧ</supplied>
+<lb break="no"/>ⲱϣ</w><w><unclear>ⲉ</unclear>ⲃ<unclear>ⲟ</unclear><supplied reason="lacuna/illegible">ⲗ</supplied></w><w><supplied reason="lacuna/illegible">ϩⲓ</supplied></w><w><supplied reason="lacuna/illegible">ⲡ</supplied>ϫⲁⲓⲉ</w>
+<lb/><w>ϫⲉ</w><w><unclear>ⲥⲟ</unclear>ⲩ<unclear>ⲧ</unclear><supplied reason="lacuna/illegible">ⲛ</supplied></w><w><unclear>ⲧ</unclear>ⲉ
+<lb break="no"/>ϩⲓⲏ</w><w>ⲙ̇ⲡϫⲟ<unclear>ⲓ</unclear>ⲥ</w><w><unclear>ⲕⲁⲧⲁ</unclear></w>
+<lb/><w>ⲑⲉ</w><w>ⲉⲛⲧⲁ<unclear>ϥ</unclear>ϫ<unclear>ⲟⲟ</unclear>ⲥ</w><w>ⲛ
+<lb break="no"/>ϭⲓ</w><w>ⲏⲥⲁⲓ̈ⲁⲥ</w><w>ⲡⲉⲡⲣⲟⲫⲏ
+<lb break="no"/><space unit="char" extent="12"/><unclear>ⲧⲏ</unclear>ⲥ·</w><note type="editorial">Wortende in eigener Zeile</note>
+<pb xml:id="P143v-sa117" n="143v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲥ︤ⲡ︦ⲃ︥</fw></seg>
+<cb n="P143vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 1,24-28</note>
+<cb n="P143vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 1,28-32</note>
+<pb xml:id="P151r-sa117" n="151r" type="folio"/>
+<cb n="P151rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲥ︤ϥ︦ⲍ︥</fw></seg>
+<lb/></ab></div><div n="John.3" type="chapter"><ab n="John.3.2"><gap reason="lacuna" unit="char" extent="unknown"/><w>ⲉⲧⲕ︥ⲉ<unclear>ⲓⲣ</unclear>ⲉ</w><w>ⲛ̇ⲧⲟⲕ</w>
+<lb/><w>ⲙ<unclear>̄ⲙⲟⲟ</unclear>ⲩ</w><w><unclear>ⲉⲓ</unclear>ⲙⲏⲧ<unclear>ⲓ</unclear></w>
+<lb/><w>ⲉⲣⲉ<unclear>ⲡ</unclear>ⲛ<unclear>ⲟ</unclear>ⲩⲧⲉ</w><w>ⲛ︤ⲙ︥
+<lb break="no"/>ⲙⲁϥ</w><pc>·</pc></ab><ab n="John.3.3"><w>ⲁⲓ︦ⲥ︦</w><w>ⲟⲩⲱ
+<lb break="no"/>ϣ︤ⲃ︥</w><w>ⲡⲉϫ<unclear>ⲁ</unclear>ϥ</w><w>ⲛⲁϥ</w>
+<lb/><w>ϫⲉ</w><w>ⲁⲙⲏⲛ</w><w>ϩⲁ<unclear>ⲙⲏ</unclear>ⲛ</w>
+<lb/><w>ϯϫⲱ</w><w>ⲙⲙⲟⲥ</w><w><unclear>ⲛⲁⲕ</unclear></w>
+<lb/><w>ϫⲉ</w><w>ⲉⲩⲧ︤ⲙ︥ϫⲡⲉ</w>
+<lb/><w>ⲟⲩⲁ</w><w>ⲛ̄ⲕⲉⲥⲟⲡ</w>
+<lb/><w>ⲙ︤ⲛ︥</w><w><unclear>ϣϭⲟⲙ</unclear></w><w><unclear>ⲙ</unclear>
+<lb break="no"/><unclear>ⲙ</unclear>ⲟϥ</w><w><unclear>ⲉ</unclear>ⲛⲁⲩ</w><w><unclear>ⲉⲧ</unclear></w>
+<lb/><w><unclear>ⲙ</unclear>︤<unclear>ⲛ</unclear>︥<unclear>ⲧⲉ</unclear>ⲣ<unclear>ⲟ</unclear></w><w><unclear>ⲙ</unclear>̄<unclear>ⲡⲛⲟⲩ</unclear>
+<lb break="no"/><unclear>ⲧⲉ</unclear></w><pc>·</pc></ab><ab n="John.3.4"><w>ⲡⲉϫⲉ</w><w>ⲛⲓⲕⲟ
+<lb break="no"/>ⲇⲏⲙ<unclear>ⲟⲥ</unclear></w><w><unclear>ⲛⲁϥ</unclear></w><w><unclear>ϫⲉ</unclear></w>
+<lb/><w>ⲛ̇<unclear>ⲁϣ</unclear></w><w><unclear>ⲛ</unclear>̄<unclear>ϩⲉ</unclear></w><w><unclear>ⲥⲉ</unclear>ⲛⲁ
+<lb break="no"/>ϫ<unclear>ⲡ</unclear>ⲉ</w><w>ⲡⲣ<unclear>ⲱ</unclear>ⲙⲉ</w>
+<lb/><w>ⲛ̇ⲕⲉⲥⲟⲡ</w><pc>·</pc><w>ⲉⲁϥ
+<lb break="no"/><unclear>ⲣ</unclear></w><w>ϩⲗ︥ⲗⲟ</w><w><unclear>ⲙⲏ</unclear></w><w>ⲟⲩⲛ</w>
+<lb/><w>ϣϭⲟ<unclear>ⲙ</unclear></w><w>ⲙⲙ<unclear>ⲟ</unclear>ϥ</w>
+<lb/><w><unclear>ⲉⲃ</unclear>ⲱ<unclear>ⲕ</unclear></w><w>ⲉϩⲟⲩⲛ</w><w>ⲉ
+<lb break="no"/>ϩⲏⲧⲥ</w><w><unclear>ⲛⲧ</unclear>ⲉϥⲙⲁ
+<lb break="no"/>ⲁ<unclear>ⲩ</unclear></w><w><unclear>ⲛⲕⲉⲥⲟⲡ</unclear></w><w>ⲛ̇
+<lb break="no"/>ⲥⲉϫ<unclear>ⲡⲟ</unclear>ϥ·</w></ab><ab n="John.3.5"><w><unclear>ⲁ</unclear>ϥⲟⲩ
+<lb break="no"/>ⲱϣ<unclear>ⲃ</unclear></w><w><unclear>ⲛϭⲓ</unclear></w><w><unclear>ⲓ</unclear>︦<unclear>ⲥ</unclear>︦</w>
+<lb/><w>ϫⲉ</w><w>ϩ<unclear>ⲁⲙⲏⲛ</unclear></w><w>ϩⲁ
+<lb break="no"/><unclear>ⲙⲏⲛ</unclear></w><w><unclear>ϯϫⲱ</unclear></w><w>ⲙⲙⲟⲥ</w>
+<lb/><w>ⲛ<unclear>ⲁ</unclear>ⲕ</w><pc>·</pc><w>ϫⲉ</w><w>ⲉⲩⲧⲙ︥
+<lb break="no"/>ϫ<unclear>ⲡ</unclear>ⲉ</w><w>ⲟⲩⲁ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩ︤ⲛ︥</w><w>ⲟⲩⲙⲟⲟⲩ</w><w>ⲙⲛ</w><w><unclear>ⲟⲩ</unclear>
+<lb break="no"/>ⲡ︦ⲛ︦ⲁ︦·</w><w>ⲙ︤ⲛ︥</w><w><unclear>ϣ</unclear>ϭⲟⲙ</w>
+<lb/><w><unclear>ⲙ</unclear>ⲙⲟϥ</w><w>ⲉ<unclear>ⲉ</unclear>ⲓ̈</w><w>ⲉϩ<unclear>ⲟⲩⲛ</unclear></w>
+<cb n="P151rC2-sa117"/>
+<lb/><w>ⲉ<unclear>ⲧⲙ</unclear>ⲛ︥ⲧⲉⲣⲟ</w><w>ⲙ̄
+<lb break="no"/>ⲡ<unclear>ⲛ</unclear>ⲟⲩⲧⲉ</w><pc>·</pc></ab><ab n="John.3.6"><w>ⲡⲉⲛ
+<lb break="no"/>ⲧ<unclear>ⲁⲩϫⲡⲟ</unclear>ϥ</w><w>ⲉⲃ<unclear>ⲟ</unclear>ⲗ</w>
+<lb/><w><unclear>ϩ</unclear>︤ⲛ︥</w><w>ⲧⲥⲁⲣⲝ</w><w>ⲟⲩⲥⲁ
+<lb break="no"/>ⲣⲝ</w><w><unclear>ⲡ</unclear>ⲉ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲡⲉⲛ
+<lb break="no"/>ⲧⲁⲩϫⲡⲟϥ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩ︤ⲙ︥</w><w>ⲡⲉⲡ︦ⲛ︦ⲁ︦</w><w>ⲟⲩ
+<lb break="no"/><unclear>ⲡ</unclear>︦ⲛ︦ⲁ︦</w><w>ⲡⲉ</w><pc>·</pc></ab><ab n="John.3.7"><w>ⲙ̇ⲡ︤ⲣ︥
+<lb break="no"/>ⲣ̇</w><w>ϣⲡⲏⲣⲉ</w><w>ⲙ̄ⲡⲁⲓ̈</w>
+<lb/><w>ϫⲉ</w><w>ⲁⲓ̈ϫⲟⲟⲥ</w><w>ⲛⲁⲕ</w>
+<lb/><w>ϫⲉ</w><w>ϩⲁⲡ︤ⲥ︥</w><w>ⲉⲧⲣⲉⲩ
+<lb break="no"/>ϫ<unclear>ⲡ</unclear>ⲉ</w><w>ⲧⲏⲩⲧ︤ⲛ︥</w><w>ⲛ̇
+<lb break="no"/>ⲕⲉⲥⲟⲡ</w><pc>·</pc></ab><ab n="John.3.8"><w>ⲡⲉⲡ︦ⲛ︦ⲁ︦</w>
+<lb/><w><unclear>ⲛⲓ</unclear>ϥⲉ</w><w>ⲉⲡⲙⲁ</w><w>ⲉ
+<lb break="no"/>ⲧ<unclear>ϥ</unclear>ⲟⲩⲁϣ︤ϥ︥</w><pc>·</pc><w>ⲁⲩⲱ</w>
+<lb/><w><unclear>ⲕ</unclear>ⲥⲱⲧⲙ︥</w><w>ⲉⲧⲉϥ
+<lb break="no"/>ⲥⲙⲏ</w><pc>·</pc><w>ⲁⲗⲗⲁ</w><w>ⲛ︤ⲅ<unclear>︥</unclear>
+<lb break="no"/>ⲥⲟⲟⲩⲛ</w><w>ⲁⲛ</w><w>ϫⲉ</w>
+<lb/><w>ⲛ̇ⲧⲁϥⲉⲓ</w><w>ⲧⲱⲛ</w><pc>·</pc>
+<lb/><w>ⲁⲩⲱ</w><w>ⲉϥⲛⲁ</w><w>ⲉⲧⲱⲛ</w>
+<lb/><w>ⲧⲁⲓ̈</w><w>ⲧⲉ</w><w>ⲑⲉ</w><w>ⲛ̇ⲟⲩⲟⲛ</w>
+<lb/><w>ⲛⲓⲙ</w><w>ⲉⲛⲧⲁⲩϫ<unclear>ⲡ</unclear>ⲟϥ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲉⲡ︦ⲛ︦ⲁ︦</w><pc>·</pc>
+<lb/></ab><ab n="John.3.9"><w>ⲁⲛⲓⲕⲟⲇⲏⲙⲟⲥ</w>
+<lb/><w>ⲟⲩⲱϣ︤ⲃ︥</w><w><unclear>ⲡ</unclear>ⲉϫⲁϥ</w>
+<lb/><w>ⲛⲁϥ</w><pc>·</pc><w>ϫⲉ</w><w>ⲛ̇ⲁϣ</w><w>ⲛ
+<lb break="no"/><unclear>ϩ</unclear>ⲉ</w><w>ⲉⲣⲉϣ</w><w>ⲛⲁⲓ̈</w>
+<lb/><w>ⲛⲁϣⲱⲡⲉ</w>
+<lb/></ab><ab n="John.3.10"><space unit="char" extent="12"/><w><supplied reason="lacuna/illegible">ⲁⲓ︦ⲥ︦</supplied></w><note type="editorial">3.11-4.44</note>
+<pb xml:id="P151v-sa117" n="151v" type="folio"/><note type="editorial">+pnum</note><w>|ⲥ︤ϥ︦ⲏ︥|</w><w>}</w>
+<cb n="P151vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 3:10-13</note>
+<cb n="P151vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 3:13-17</note>
+<pb xml:id="P161r-sa117" n="161r" type="folio"/>
+<cb n="P161rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">317</fw></seg>
+<lb/></ab></div><div n="John.4" type="chapter"><ab n="John.4.45"><gap reason="lacuna" unit="char" extent="unknown"/><w>ⲉⲣ<unclear>ⲟⲟ</unclear>ⲩ</w><w>ⲛ̇<unclear>ϭⲓ</unclear></w><w>ⲛ̄ⲅⲁ
+<lb break="no"/>ⲉϩⲱⲃ</w><w>ⲛ<unclear>ⲓⲙ</unclear></w><w><unclear>ⲉⲛ</unclear>
+<lb break="no"/><unclear>ⲧⲁ</unclear>ϥⲁⲁⲩ</w><w>ϩ<unclear>ⲛ</unclear></w><w><unclear>ⲑ</unclear>︦ⲓ︦ⲗ︦ⲏ︦<unclear>ⲙ</unclear>︦</w>
+<lb/><w>ϩ︤ⲙ︥</w><w>ⲡϣⲁ</w><w><unclear>ⲛⲧⲟⲟⲩ</unclear></w>
+<lb/><w>ⲅⲁⲣ</w><w>ϩⲱⲟⲩ</w><w><unclear>ⲟⲛ</unclear></w><w><unclear>ⲛⲉ</unclear>
+<lb break="no"/><unclear>ⲁⲩⲉⲓ</unclear></w><w><unclear>ⲉⲡ</unclear>ϣⲁ</w><w><unclear>ⲡ</unclear>ⲉ</w><pc>·</pc><w>--</w>
+<lb/><pc>¶</pc></ab><ab n="John.4.46"><w><unclear>ⲁϥⲉⲓ</unclear></w><w><unclear>ϭ</unclear>ⲉ</w><w>ⲟⲛ</w><w><unclear>ⲉⲧ</unclear>ⲕ<unclear>ⲁ</unclear>
+<lb break="no"/>ⲛⲁ</w><w><unclear>ⲛⲧⲅⲁⲗⲓⲗⲁⲓⲁ</unclear></w>
+<lb/><w><unclear>ⲡⲙⲁ</unclear></w><w>ⲉⲛ<unclear>ⲧⲁϥⲧⲣⲉ</unclear>
+<lb break="no"/><unclear>ⲡⲙ</unclear>ⲟⲟⲩ</w><w><unclear>ⲣ</unclear></w><w><unclear>ⲏⲣⲡ</unclear></w>
+<lb rend="hang"/><w>ⲁⲩⲱ</w><w><unclear>ⲛⲉⲩⲛ</unclear></w><w><unclear>ⲟⲩⲃ</unclear>ⲁ
+<lb break="no"/><unclear>ⲥⲓⲗⲓⲕⲟⲥ</unclear></w><w><unclear>ⲉⲣⲉ</unclear>
+<lb break="no"/>ⲡⲉϥ<unclear>ϣⲏⲣⲉ</unclear></w><w><unclear>ϣⲱ</unclear>
+<lb break="no"/><unclear>ⲛⲉ</unclear></w><w>ϩ<unclear>ⲛ</unclear></w><w><unclear>ⲕⲁⲫⲁⲣⲛⲁ</unclear>
+<lb break="no"/>ⲟⲩⲙ·</w></ab><ab n="John.4.47"><w>ⲡⲁⲓ̈</w><w>ⲛⲧⲉ
+<lb break="no"/>ⲣⲉ<unclear>ϥⲥ</unclear>ⲱ<unclear>ⲧⲙ</unclear></w><w><unclear>ϫⲉ</unclear></w>
+<lb/><w>ⲁⲓ︦ⲥ︦</w><w>ⲉⲓ</w><w>ⲉ<unclear>ⲃⲟⲗ</unclear></w><w><unclear>ϩⲛ</unclear></w>
+<lb/><w>ϯⲟⲩⲇⲁⲓⲁ</w><w><unclear>ⲉⲧⲅⲁ</unclear>
+<lb break="no"/><unclear>ⲗⲓⲗⲁⲓⲁ</unclear></w><w><unclear>ⲁϥⲃ</unclear>ⲱ<unclear>ⲕ</unclear></w>
+<lb/><w><unclear>ϣⲁ</unclear>ⲣⲟϥ</w><w>.</w><w><unclear>ⲁⲩⲱ</unclear></w>
+<lb/><w>ⲁϥⲥⲉⲡⲥⲱ<unclear>ⲡ</unclear>︤ϥ̄</w><pc>·</pc>
+<lb/><w>ϫⲉⲕⲁⲥ</w><w>ⲉϥⲉⲉⲓ</w>
+<lb/><w>ⲉ<unclear>ⲡⲉⲥⲏ</unclear>ⲧ</w><w>ⲛ̇<unclear>ϥ</unclear>
+<lb break="no"/><unclear>ⲧⲁⲗϭⲉ</unclear></w><w><unclear>ⲡⲉϥϣⲏ</unclear>
+<lb break="no"/>ⲣⲉ</w><w><unclear>ⲛⲉϥⲛⲁⲙⲟⲩ</unclear></w>
+<cb n="P161rC2-sa117"/>
+<lb/><w><unclear>ⲅⲁⲣ</unclear></w><w><unclear>ⲡⲉ</unclear></w><pc>·</pc></ab><ab n="John.4.48"><w><unclear>ⲡⲉ</unclear>ϫⲉ</w>
+<lb/><w>ⲓ︦ⲥ︦</w><w><unclear>ϭⲉ</unclear></w><w><unclear>ⲛ</unclear>ⲁ<unclear>ϥ</unclear></w><w>ϫⲉ</w><w><unclear>ⲉ</unclear>
+<lb break="no"/>ⲧⲉ<unclear>ⲧ</unclear>︤ⲛ<unclear>︥</unclear>ⲧ︤ⲙ︥ⲛⲁⲩ</w>
+<lb/><w><unclear>ⲉ</unclear>ϩ<unclear>ⲉⲛⲙⲁ</unclear>ⲉⲓⲛ</w>
+<lb/><w><unclear>ⲙ</unclear>ⲛ</w><w>ϩⲉⲛϣⲡⲏ
+<lb break="no"/>ⲣⲉ</w><w>ⲛ̇ⲛ<unclear>ⲉ</unclear>ⲧ︤ⲙ︥ⲡⲓ
+<lb break="no"/>ⲥⲧⲉⲩⲉ</w><pc>·</pc></ab><ab n="John.4.49"><w>ⲡⲉϫⲁϥ</w>
+<lb/><w>ⲛⲁϥ</w><w>ⲛ̇ϭⲓ</w><w>ⲡⲃⲁⲥⲓ
+<lb break="no"/>ⲗⲓⲕⲟⲥ</w><w><unclear>ϫ</unclear>ⲉ</w><w><unclear>ⲡ</unclear>ϫⲟ
+<lb break="no"/><unclear>ⲉⲓⲥ</unclear></w><w><unclear>ⲁⲙ</unclear>ⲟⲩ</w><w><unclear>ⲉⲡ</unclear>ⲉ
+<lb break="no"/>ⲥⲏⲧ</w><w>ⲉ<unclear>ⲙⲡⲁⲧ</unclear>ⲉ</w>
+<lb/><w><unclear>ⲡ</unclear>ⲁϣ<unclear>ⲏⲣ</unclear>ⲉ</w><w><unclear>ⲙ</unclear>ⲟⲩ</w><pc>·</pc>
+<lb/></ab><ab n="John.4.50"><w><unclear>ⲡⲉ</unclear>ϫⲉ</w><w>ⲓ︦ⲥ︦</w><w>ⲛⲁϥ</w><w>ϫⲉ</w>
+<lb/><w>ⲃⲱⲕ</w><w>ⲡⲉ<unclear>ⲕϣⲏ</unclear>
+<lb break="no"/><unclear>ⲣ</unclear>ⲉ</w><w>ⲟⲛϩ</w><pc>·</pc><w>ⲁϥ<unclear>ⲡⲓ</unclear>
+<lb break="no"/><unclear>ⲥⲧ</unclear>ⲉⲩ<unclear>ⲉ</unclear></w><w><unclear>ⲛϭⲓ</unclear></w><w><unclear>ⲡⲣ</unclear>ⲱ
+<lb break="no"/><unclear>ⲙ</unclear>ⲉ</w><w><unclear>ⲉⲡϣ</unclear>ⲁϫⲉ</w>
+<lb/><w><unclear>ⲉ</unclear>ⲛⲧⲁ<unclear>ⲓ</unclear>︦ⲥ︦</w><w>ϫⲟⲟϥ</w>
+<lb/><w><unclear>ⲛ</unclear>ⲁϥ</w><pc>·</pc><w>ⲁⲩⲱ</w><w><unclear>ⲁϥ</unclear>
+<lb break="no"/><unclear>ⲃⲱ</unclear>ⲕ</w><pc>·</pc></ab><ab n="John.4.51"><w>ⲉϥⲛⲏⲩ</w>
+<lb rend="hang"/><w>ⲇⲉ</w><w>ⲉ<unclear>ⲡ</unclear>ⲉⲥⲏ<unclear>ⲧ</unclear></w><w><unclear>ⲁ</unclear>
+<lb break="no"/><unclear>ⲛ</unclear>ⲉϥϩ︤ⲙ︥ϩ<unclear>ⲁ</unclear>ⲗ</w><w><unclear>ⲧⲱ</unclear>
+<lb break="no"/>ⲙ︤ⲛ︥ⲧ</w><w>ⲉⲣⲟϥ</w><w>ⲁ<unclear>ⲩ</unclear>ⲱ</w>
+<lb/><w><unclear>ⲁⲩⲧⲁ</unclear>ⲙⲟϥ</w><w>ⲉⲩϫⲱ</w>
+<lb/><w>ⲙⲙⲟ<unclear>ⲥ</unclear></w><w>ϫⲉ</w><w><unclear>ⲡ</unclear>ⲉ<unclear>ⲕ</unclear>
+<lb break="no"/><unclear>ϣ</unclear>ⲏⲣⲉ</w><w>ⲟ<unclear>ⲛϩ</unclear></w><pc>·</pc></ab><ab n="John.4.52"><w>ⲁϥ
+<lb break="no"/>ϫⲛⲟⲩⲟⲩ</w><w>ϭⲉ</w>
+<lb/><w>ⲉⲡⲛⲁⲩ</w><w>ⲉⲛⲧⲁϥ<supplied reason="lacuna-placeholder">...</supplied></w><note type="editorial">4.53-6.20</note>
+<pb xml:id="P161v-sa117" n="161v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">[ⲧ︤ⲓ︦ⲍ︥]</fw></seg>
+<cb n="P161vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 4:52-5:2</note>
+<cb n="P161vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 5:2-5:7</note>
+<pb xml:id="P169r-sa117" n="169r" type="folio"/>
+<cb n="P169rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">[ⲧ︤ⲓ︦ⲏ︥]</fw></seg>
+<lb/></ab></div><div n="John.6" type="chapter"><ab n="John.6.21"><w><supplied reason="lacuna/illegible">ⲛⲉⲩⲟⲩⲱϣ</supplied></w><w><supplied reason="lacuna/illegible">ϭⲉ</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲉⲧⲁⲗⲟϥ</supplied></w><w><supplied reason="lacuna/illegible">ⲉⲡϫⲟⲉⲓ̈</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲧⲉⲩⲛ</supplied>ⲟ<supplied reason="lacuna/illegible">ⲩ</supplied>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲁⲡϫⲟⲉⲓ̈</supplied></w><w><supplied reason="lacuna/illegible">ⲙⲟ</supplied>ⲟⲛ<unclear>ⲉ</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲉⲡⲉⲕⲣⲟ</supplied></w><w><supplied reason="lacuna/illegible">ⲉ</supplied>ⲛⲉⲩ
+<lb break="no"/><supplied reason="lacuna/illegible">ⲛⲁⲃⲱⲕ</supplied></w><w><unclear>ⲉ</unclear>ⲣⲟϥ</w>
+<lb/></ab><ab n="John.6.22"><w><supplied reason="lacuna/illegible">ⲙⲡⲉϥⲣⲁⲥ</supplied>ⲧⲉ</w><w>ⲡ<unclear>ⲙⲏ</unclear>
+<lb break="no"/><supplied reason="lacuna/illegible">ⲏϣⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲉ</supplied><unclear>ⲧ</unclear>ⲁϩⲉⲣⲁ
+<lb break="no"/><supplied reason="lacuna/illegible">ⲧϥ</supplied></w><w><supplied reason="lacuna/illegible">ϩⲓ</supplied></w><w><supplied reason="lacuna/illegible">ⲡ</supplied>ⲓⲕⲣⲟ</w><w>ⲛ̄
+<lb break="no"/><supplied reason="lacuna/illegible">ⲑⲁ</supplied><unclear>ⲗ</unclear>ⲁⲥⲥⲁ</w><w>ⲁⲩ
+<lb break="no"/><unclear>ⲛ</unclear>ⲁⲩ</w><w>ϫⲉ</w><w>ⲙⲛ̄</w><w>ϭ<unclear>ⲉ</unclear></w>
+<lb/><w><supplied reason="lacuna/illegible">ϫ</supplied>ⲟⲉⲓ̄</w><w>ⲙ̄ⲙⲁⲩ</w><w>ⲛ̄
+<lb break="no"/><unclear>ⲥ</unclear>ⲁ</w><w>ⲡⲏ̇</w>
+<lb/><w>ⲉⲛⲧⲁⲙ̄ⲙⲁⲑⲏ
+<lb break="no"/><unclear>ⲧ</unclear>ⲏⲥ</w><w>ⲛ̇ⲓ︦ⲥ︦</w><w>ⲧⲁⲗⲉ</w>
+<lb/><w>ⲉⲣⲟϥ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ϫⲉ</w>
+<lb/><w>ⲙ̄ⲡⲉⲓ︦ⲥ︦</w><w>ⲧⲁⲗⲉ</w>
+<lb/><w>ⲙ︤ⲛ︥</w><w>ⲛⲉϥⲙⲁⲑⲏ
+<lb break="no"/>ⲧⲏⲥ</w><pc>·</pc><w>ⲁⲗⲗⲁ</w><w>ⲛⲉ<unclear>ϥ</unclear>
+<lb break="no"/>ⲙⲁⲑⲏⲧⲏⲥ</w><w>ⲙⲁⲩ
+<lb break="no"/>ⲁⲁⲩ</w><w>ⲛⲉⲛⲧⲁⲩⲃⲱⲕ</w>
+<lb/></ab><ab n="John.6.23"><w>ⲁⲩⲱ</w><w>ⲉⲓⲥ</w><w>ϩⲉⲛⲕⲉ
+<lb break="no"/>ⲉϫⲏⲩ</w><w>ⲁⲩⲉⲓ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩ︤ⲛ︥</w><w>ⲧⲓⲃⲉⲣⲓⲁⲥ</w><w>ϩⲁ
+<lb break="no"/>ⲧⲙ̇</w><w>ⲡⲙⲁ</w><w>ⲉⲛⲧⲁⲩ</w>
+<lb/><w>ⲟⲩⲱⲙ</w><w>ⲙ̇ⲡⲟⲉⲓⲕ</w>
+<lb/><w>ⲉⲡϫⲟⲉⲓⲥ</w><w>ϣ︤ⲡ︥ϩⲙⲟⲧ</w>
+<lb/><space unit="char" extent="2"/><w>ⲉϫⲱϥ̇</w>
+<cb n="P169rC2-sa117"/>
+<lb/></ab><ab n="John.6.24"><w><supplied reason="lacuna/illegible">ⲛⲧⲉⲣⲉⲡⲙⲏⲏϣⲉ</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ϭⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲁⲩ</supplied></w><w><supplied reason="lacuna/illegible">ϫⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲓ︦ⲥ︦</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲙⲙⲁⲩ</supplied></w><w><supplied reason="lacuna/illegible">ⲁⲛ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w><w><supplied reason="lacuna/illegible">ⲟⲩⲇⲉ</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ·</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲁⲩⲁⲗⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲧⲟⲟⲩ</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲉⲛⲉϫⲏⲩ</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w><w><supplied reason="lacuna/illegible">ⲁⲩⲉⲓ</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲉⲕⲁⲫⲁⲣⲛⲁⲟⲩⲙ</supplied></w>
+<lb/><w><supplied reason="lacuna/illegible">ⲉⲩϣⲓⲛⲉ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲥⲁ</supplied></w>
+<lb/><w><unclear>ⲓ</unclear>︦<supplied reason="lacuna/illegible">ⲥ︦</supplied></w><w><supplied reason="lacuna/illegible">·</supplied></w></ab><ab n="John.6.25"><w><supplied reason="lacuna/illegible">ⲁⲩⲱ</supplied></w><w><supplied reason="lacuna/illegible">ⲛⲧⲉⲣⲟⲩ</supplied>
+<lb break="no"/>ϩⲉ</w><w><unclear>ⲉⲣ</unclear><supplied reason="lacuna/illegible">ⲟ</supplied><unclear>ϥ</unclear></w><w><unclear>ϩ</unclear><supplied reason="lacuna/illegible">ⲓ</supplied></w><w><unclear>ⲡ</unclear>ⲉ
+<lb break="no"/>ⲕⲣⲟ</w><w>ⲛ̇ⲑⲁⲗⲁⲥⲥⲁ</w>
+<lb/><w>ⲡⲉϫⲁⲩ</w><w>ⲛⲁϥ</w><w>ϫⲉ</w>
+<lb/><w>ϩⲣⲁⲃⲃⲉⲓ</w><w>ⲛ̂ⲧⲁⲕ</w>
+<lb/><w>ⲉⲓ̄</w><w>ⲉⲡⲉⲓ̈ⲙⲁ</w><w>ⲛ̂ⲁϣ</w>
+<lb/><w>ⲛ̂ⲛⲁⲩ</w></ab><ab n="John.6.26"><w>ⲁⲓ︦ⲥ︦</w><w>ⲟⲩ
+<lb break="no"/>ⲱϣ︤ⲃ︥</w><w>ⲛⲁⲩ</w><w>ⲉϥ
+<lb break="no"/>ϫⲱ</w><w>ⲙ̄ⲙⲟⲥ</w><pc>·</pc><w>ϫⲉ</w>
+<lb/><w>ϩⲁⲙⲏⲛ</w><w>ϩⲁⲙⲏⲛ</w>
+<lb/><w>ϯϫⲱ̂</w><w>ⲙ̄ⲙⲟⲥ</w><w>ⲛⲏ
+<lb break="no"/>ⲧⲛ̄</w><w>ϫⲉ</w><w>ⲛ̂ⲛⲉⲧⲉ
+<lb break="no"/>ⲧⲛϣⲓⲛⲉ</w><w>ⲛ̂ⲥⲱⲓ̈</w>
+<lb/><w>ⲁⲛ</w><w>ⲡⲉ</w><pc>·</pc><w>ϫⲉ</w><w>ⲁⲧⲉ
+<lb break="no"/>ⲧⲛ̄ⲛⲁⲩ</w><w>ⲉϩⲉⲛ
+<lb break="no"/>ⲙⲁⲉⲓⲛ</w><pc>·</pc><w>ⲁⲗⲗⲁ</w><w>ϫⲉ</w>
+<lb/><w>ⲁⲧⲉⲧⲛ̄ⲟⲩⲱⲙ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩ᷍ⲛ</w><w>ⲛ̂ⲟⲉⲓⲕ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲁⲧⲉⲧⲛ̄ⲥⲉⲓ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.27"><w>ⲙ̄ⲡⲣ̂ⲣ̂</w><w>ϩⲱⲃ</w><w>ⲉⲧⲉϩⲣ<unclear>ⲉ</unclear></w>
+<lb/><space unit="char" extent="2"/><w>ⲉⲧⲛⲁⲧⲁⲕⲟ</w><pc>·</pc>
+<pb xml:id="P169v-sa117" n="169v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">[ⲧ︤ⲗ︦ⲉ︥]</fw></seg>
+<cb n="P169vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:28-31</note>
+<cb n="P169vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:31-34</note>
+<pb xml:id="P170r-sa117" n="170r" type="folio"/>
+<cb n="P170rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲗ︦ⲋ︥</fw></seg>
+<lb/><w>ⲁⲗⲗⲁ</w><w>ⲉⲧⲉϩⲣⲉ</w><w>ⲛ̂
+<lb break="no"/>ⲧⲟϥ</w><w>ⲉⲧⲛⲁⲙⲟⲩⲛ
+<lb break="no"/>ⲉⲃⲟⲗ</w><w>ⲉⲩⲱⲛ︤ϩ︥</w>
+<lb/><w>ⲛ̄ϣⲁ</w><w>ⲉⲛⲉϩ</w><w>ⲧⲁⲓ̈</w>
+<lb/><w>ⲉⲧⲉⲣⲉⲡϣⲏⲣⲉ</w>
+<lb/><w>ⲙ̄ⲡⲣⲱⲙⲉ</w><w>ⲛⲁⲧⲁ̇</w>
+<lb/><w>ⲁⲁⲥ</w><w>ⲛⲏⲧ︤ⲛ︥</w><w>ⲡⲁⲓ̈</w>
+<lb/><w>ⲅⲁⲣ</w><w>ⲡⲉⲛⲧⲁⲡⲛⲟⲩ
+<lb break="no"/>ⲧⲉ</w><w>ⲡⲉⲓⲱⲧ</w><w>ⲥⲫⲣⲁ
+<lb break="no"/>ⲅⲓⲍⲉ</w><w>ⲙ̂ⲙⲟϥ</w>
+<lb rend="hang"/></ab><ab n="John.6.28"><w>ⲡⲉϫⲁⲩ</w><w>ϭⲉ</w><w>ⲛⲁϥ</w><w>ϫⲉ</w>
+<lb/><w>ⲟⲩ</w><w>ⲡⲉⲧⲛ̄ⲛⲁⲁϥ</w>
+<lb/><w>ϫⲉⲕⲁⲥ</w><w>ⲉⲛⲉⲣ̂</w>
+<lb/><w>ϩⲱⲃ⳿</w><w>ⲉⲛⲉϩⲃⲏⲩⲉ</w>
+<lb/><w>ⲙ̄ⲡⲛⲟⲩⲧⲉ</w>
+<lb/></ab><ab n="John.6.29"><w>ⲁⲓ︦ⲥ︦</w><w>ⲟⲩⲱϣ︤ⲃ︥</w><w>ⲡⲉ
+<lb break="no"/>ϫⲁϥ</w><w>ⲛⲁⲩ</w><w>ϫⲉ</w><w>ⲡⲁⲓ̈</w>
+<lb/><w>ⲡⲉ</w><w>ⲡϩⲱⲃ</w><w>ⲙ̄ⲡⲛⲟⲩ
+<lb break="no"/>ⲧⲉ</w><pc>·</pc><w>ϫⲉ</w><w>ⲉⲧⲉⲧⲛⲉ
+<lb break="no"/>ⲡⲓⲥⲧⲉⲩⲉ</w><w>ⲉⲡⲉⲛ
+<lb break="no"/>ⲧⲁⲡⲏ</w><w>ⲧ︤ⲛ︥ⲛⲟⲟⲩϥ</w>
+<lb/></ab><ab n="John.6.30"><w>ⲡⲉϫⲁⲩ</w><w>ⲛⲁϥ</w><w>ϫⲉ</w>
+<lb/><w>ⲟⲩ</w><w>ϭⲉ</w><w>ⲛ̂ⲧⲟⲕ</w><w>ⲙ̂
+<lb break="no"/>ⲙⲁⲉⲓⲛ</w><w>ⲡⲉⲧ︤ⲕ︥
+<lb break="no"/>ⲉⲓⲣⲉ</w><w>ⲙ̂ⲙⲟϥ</w><pc>·</pc><w>ϫⲉ
+<lb break="no"/>ⲕⲁⲥ</w><w>ⲉⲛⲉⲛⲁⲩ</w><pc>·</pc>
+<lb/><w>ⲁⲩⲱ</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="firsthand"><w>ⲛ</w></rdg></app><w>ⲧ︤ⲙ︥ⲡⲓⲥⲧⲉⲩⲉ</w>
+<lb/><w>ⲉⲣⲟⲕ</w><pc>·</pc><w>ⲟⲩ</w><w>ⲡⲉ</w><w>ⲡϩⲱⲃ</w>
+<lb/><w>ⲉⲧⲕ̄ⲉⲓⲣⲉ</w><w>ⲙ̄ⲙⲟϥ</w>
+<lb/></ab><ab n="John.6.31"><w>ⲁⲛⲉⲛⲉⲓⲟⲧⲉ</w>
+<cb n="P170rC2-sa117"/>
+<lb/><w>ⲟⲩⲱⲙ</w><w>ⲙⲡⲙⲁⲛ
+<lb break="no"/>ⲛⲁ</w><w>ϩⲛ</w><w>ⲧⲉⲣⲏⲙⲟⲥ</w>
+<lb/><w>ⲕⲁⲧⲁ</w><w>ⲑⲉ</w><w>ⲉⲧⲥⲏϩ</w><pc>·</pc>
+<lb/><w>ϫⲉ</w><w>ⲁϥϯ</w><w>ⲛⲁⲩ</w><w>ⲛ̂ⲟⲩ
+<lb break="no"/>ⲟⲉⲓⲕ⳿</w><w>ⲉⲟⲩⲟⲙ︤ϥ︥</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲛ̄</w><w>ⲧⲡⲉ</w>
+<lb/></ab><ab n="John.6.32"><w>ⲡⲉϫⲉ</w><w>ⲓ︦ⲥ︦</w><w>ϭⲉ</w><w>ⲛⲁⲩ</w>
+<lb/><w>ϫⲉ</w><w>ϩⲁⲙⲏⲛ</w><w>ϩⲁⲙⲏⲛ</w>
+<lb/><w>ϯϫⲱ</w><w>ⲙ̂ⲙⲟⲥ</w><w>ⲛⲏ
+<lb break="no"/>ⲧⲛ̂</w><pc>·</pc><w>ϫⲉ</w><w>ⲙⲱⲩ̈ⲥⲏⲥ</w>
+<lb/><w>ⲁⲛ</w><w>ⲡⲉⲛⲧⲁϥϯ</w>
+<lb/><w>ⲛⲏⲧ︤ⲛ︥</w><w>ⲙ̂ⲡⲟⲉⲓⲕ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲛ︥</w><w>ⲧⲡⲉ</w>
+<lb/><w>ⲁⲗⲗⲁ</w><w>ⲡⲁⲉⲓⲱⲧ</w><pc>·</pc>
+<lb/><w>ⲡⲉⲧϯ</w><w>ⲛⲏⲧ︤ⲛ︥</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲛ̄</w><w>ⲧⲡⲉ</w>
+<lb/><w>ⲙ̄ⲡⲟⲉⲓⲕ</w><w>ⲙ̂
+<lb break="no"/>ⲙⲉ</w><pc>·</pc></ab><ab n="John.6.33"><w>ⲡⲟⲉⲓⲕ</w><w>ⲅⲁⲣ</w>
+<lb/><w>ⲡⲉ</w><w>ⲡϣⲏⲣⲉ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲛⲟⲩⲧⲉ</w><w>ⲡⲉⲧ
+<lb break="no"/>ⲛⲏⲩ</w><w>ⲉⲡⲉⲥⲏⲧ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲛ̂</w><w>ⲧⲡⲉ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲛ︤ϥ︥ϯ</w><w>ⲛ̄
+<lb break="no"/>ⲟⲩⲱⲛ︤ϩ︥</w><w>ⲙ̂
+<lb break="no"/>ⲡⲕⲟⲥⲙⲟⲥ</w>
+<lb/></ab><ab n="John.6.34"><w>ⲡⲉϫⲁⲩ</w><w>ϭⲉ</w>
+<lb/><w>ⲛⲁϥ</w><w>ϫⲉ</w><w>ⲡϫⲟ</w><w>|ⲉⲓⲥ|</w>
+<lb/><w>ⲙⲁ</w><w>ⲛⲁⲛ</w>
+<pb xml:id="P170v-sa117" n="170v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲗ︦ⲍ︥</fw></seg>
+<cb n="P170vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:34-38</note>
+<cb n="P170vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:38-42</note>
+<pb xml:id="P171r-sa117" n="171r" type="folio"/>
+<cb n="P171rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲗ︦ⲏ︥</fw></seg>
+<lb/><w>ⲙ̄ⲡⲉⲓⲟⲉⲓⲕ</w><w>ⲛⲟⲩ
+<lb break="no"/>ⲟⲉⲓϣ</w><w>ⲛⲓⲙ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.35"><w>ⲡⲉϫⲉ</w><w>ⲓ︦ⲥ︦</w><w>ϭⲉ</w><w>ⲛⲁⲩ</w>
+<lb/><w>ϫⲉ</w><w>ⲁⲛⲟⲕ</w><w>ⲡⲉ</w><w>ⲡⲟ
+<lb break="no"/>ⲉⲓⲕ</w><w>ⲙ̄ⲡⲱⲛ︤ϩ︥</w>
+<lb/><w>ⲡⲉⲧⲛⲏⲩ</w><w>ϣⲁ
+<lb break="no"/>ⲣⲟⲉⲓ</w><w>ⲛⲉϥⲛⲁϩⲕⲟ</w>
+<lb/><w>ⲁⲛ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲡⲉⲧⲡⲓ
+<lb break="no"/>ⲥⲧⲉⲩⲉ</w><w>ⲉⲣⲟⲉⲓ</w>
+<lb/><w>ⲛ︤ϥ︥ⲛⲁⲉⲓⲃⲉ</w><w>ⲁⲛ</w>
+<lb/><w><unclear>ⲉⲛⲉϩ</unclear></w><pc>·</pc><space unit="char" extent="2"/></ab><ab n="John.6.36"><w>ⲁⲗⲗⲁ</w><w>ⲁⲓ̈
+<lb break="no"/>ϫⲟⲟⲥ</w><w>ⲛⲏⲧ︤ⲛ︥</w><pc>·</pc><w>ϫⲉ</w>
+<lb/><w>ⲁⲧⲉⲧⲛ̄ⲛⲁⲩ</w><w>ⲉⲣⲟⲓ̈</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲛ̄ⲧⲉⲧ︤ⲛ︥ⲡⲓ
+<lb break="no"/>ⲥⲧⲉⲩⲉ</w><w>ⲁⲛ</w><pc>·</pc></ab><ab n="John.6.37"><w>ⲟⲩⲟⲛ</w>
+<lb/><w>ⲛⲓⲙ</w><w>ⲉⲧⲉⲣⲉⲡ<unclear>ⲁⲉⲓ</unclear>
+<lb break="no"/>ⲱⲧ</w><w>ⲛⲁⲧⲁⲁϥ</w><w>ⲛⲁⲓ</w>
+<lb/><w>ϥⲛⲏⲩ</w><w>ϣⲁⲣⲟⲉⲓ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲡⲉⲧⲛⲏ<unclear>ⲩ</unclear></w>
+<lb/><w>ϣⲁⲣⲟⲓ̈</w><w>ⲛ̄<unclear>ϯⲛⲁ</unclear>
+<lb break="no"/>ⲛⲟϫ︤ϥ︥</w><w>ⲉⲃⲟ<unclear>ⲗ</unclear></w><w><unclear>ⲁⲛ</unclear></w>
+<lb/></ab><ab n="John.6.38"><w>ϫⲉ</w><w>ⲛ̄ⲧⲁⲉⲓ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩⲛ̄</w><w>ⲧⲡⲉ</w><w>ⲉⲧⲣⲁ</w>
+<lb/><w>ⲉⲓⲣⲉ</w><w>ⲁⲛ</w><w>ⲙ̄ⲡⲁ
+<lb break="no"/>ⲟⲩⲱϣ</w><pc>·</pc><w>ⲁⲗ<unclear>ⲗⲁ</unclear></w><w><unclear>ⲙ</unclear>̄
+<cb n="P171rC2-sa117" break="no"/>
+<lb/>ⲡⲟⲩⲱϣ</w><w>ⲙ̄ⲡⲉⲛ
+<lb break="no"/>ⲧⲁϥⲧⲟⲩⲟⲉⲓ</w><pc>·</pc></ab><ab n="John.6.39"><w>ⲡⲁⲓ̈</w>
+<lb/><w>ⲇⲉ</w><w>ⲡⲉ</w><w>ⲡⲟⲩⲱϣ</w>
+<lb/><w>ⲙ̄ⲡⲉⲛⲧⲁϥⲧⲁⲟⲩⲟⲓ̈</w>
+<lb/><w>ϫⲉⲕⲁⲥ</w><w>ⲛⲉⲛⲧⲁϥ
+<lb break="no"/>ⲧⲁⲁⲩ</w><w>ⲛⲁⲓ̈</w><w>ⲧⲏⲣⲟⲩ</w>
+<lb/><w>ⲛ̄ⲛⲁⲧⲁⲕⲟ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ⲛ̄ϩⲏⲧⲟⲩ</w><pc>·</pc><w>ⲁⲗⲗⲁ</w>
+<lb/><w>ⲉⲓ̈ⲉⲧⲟⲩⲛⲟⲥⲟⲩ</w>
+<lb/><w>ϩⲙ</w><w>ⲡϩⲁⲉ</w><w>ⲛϩⲟⲟⲩ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.40"><w>ⲡⲁⲓ̈</w><w>ⲅⲁⲣ</w><w>ⲡⲉ</w><w>ⲡⲟⲩ
+<lb break="no"/>ⲱϣ</w><w>ⲙⲡⲁⲉⲓⲱⲧ</w><pc>·</pc>
+<lb/><w>ϫⲉⲕⲁⲥ</w><w>ⲟⲩⲟⲛ</w><w>ⲛⲓⲙ</w>
+<lb/><w>ⲉⲧⲛⲁⲩ</w><w>ⲉⲡϣⲏⲣⲉ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲉⲧⲡⲓⲥⲧⲉⲩⲉ</w>
+<lb/><w>ⲉⲣⲟϥ</w><w>ⲉϥⲉϫⲓ̈</w><w>ⲛ̄ⲟⲩ
+<lb break="no"/>ⲱⲛϩ̄</w><w>ⲛ̂ϣⲁ</w><w>ⲉⲛⲉϩ</w><pc>·</pc>
+<lb/><w>ⲁⲩⲱ</w><w>ⲁⲛⲟⲕ</w><w>ⲧⲁⲧⲟⲩ</w>
+<lb/><w>ⲛⲟⲥϥ̄</w><w>ϩⲙ̄</w><w>ⲡϩⲁⲉ</w>
+<lb/><w>ⲛ̄ϩⲟⲟⲩ</w><pc>·</pc></ab><ab n="John.6.41"><w>ⲛⲉⲩ
+<lb break="no"/>ⲕⲣ︤ⲙ︥ⲣ︤ⲙ︥</w><w>ϭⲉ</w><w>ⲡⲉ</w><w>ⲛ̂
+<lb break="no"/>ϭⲓ</w><w>ⲛ̄ⲓ̈ⲟⲩⲇⲁⲓ̈</w><w>ⲉⲧⲃⲏ
+<lb break="no"/>ⲏⲧ︤ϥ︥</w><pc>·</pc><w>ϫⲉ</w><w>ⲁϥϫⲟ
+<lb break="no"/>ⲟⲥ</w><w>ϫⲉ</w><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ⲡⲉ</w><w>ⲡⲟⲉⲓⲕ</w><w>ⲉⲛ
+<lb break="no"/>ⲧⲁϥⲉⲓ</w><w><unclear>ⲉⲃⲟⲗ</unclear></w><w><unclear>ϩⲛ</unclear>̄
+<lb break="no"/>ⲧⲡⲉ</w><pc>·</pc></ab><ab n="John.6.42"><w><unclear>ⲁⲩⲱ</unclear></w><w><unclear>ⲛⲉⲩ</unclear>
+<lb break="no"/>ϫⲱ</w><w>ⲙ̄ⲙⲟⲥ</w><w><unclear>ϫⲉ</unclear></w><w><unclear>ⲙⲏ</unclear></w>
+<pb xml:id="P171v-sa117" n="171v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲗ︦ⲑ︥</fw></seg>
+<cb n="P171vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:42-46</note>
+<cb n="P171vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:46-51</note>
+<pb xml:id="P172r-sa117" n="172r" type="folio"/>
+<cb n="P172rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︥</fw></seg>
+<lb/><w>ⲙ̄ⲡⲁⲓ̈</w><w>ⲁⲛ</w><w>ⲡⲉ</w><w>ⲓ︦ⲥ︦</w>
+<lb/><w>ⲡϣⲏⲣⲉ</w><w>ⲛ̄ⲓ̈ⲱ
+<lb break="no"/>ⲥⲏⲫ</w><w>ⲡⲁⲓ̈</w><w>ⲁⲛⲟⲛ</w>
+<lb/><w>ⲉⲧ︤ⲛ︥ⲥⲟⲟⲩⲛ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲉϥⲉⲓⲱⲧ</w><w>ⲙⲛ</w>
+<lb/><w>ⲧⲉϥⲙⲁⲁⲩ</w><pc>·</pc><w>ⲛ̄ⲁϣ</w>
+<lb/><w>ⲛ̄ϩⲉ</w><w>ϥϫⲱ̄</w>
+<lb/><w>ⲙ̄ⲙⲟⲥ</w><w>ϫⲉ</w><w>ⲛ̄ⲧⲁⲓ̈ⲉⲓ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲛ̄</w><w>ⲧⲡⲉ·</w>
+<lb/></ab><ab n="John.6.43"><w>ⲁⲓ︦ⲥ︦</w><w>ⲟⲩⲱϣ︤ⲃ︥</w><w>ⲡⲉ
+<lb break="no"/>ϫⲁϥ</w><w>ⲛⲁⲩ</w><w>ϫⲉ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲣ̂ⲕⲣ︤ⲙ︥ⲣ︤ⲙ︥</w><note type="editorial">Dopplung von ⲣ︤ⲙ︥ zu tilgen</note><w>ⲙ︤ⲛ︥</w>
+<lb/><w>ⲛⲉⲧ︤ⲛ︥ⲉⲣⲏⲩ</w>
+<lb/></ab><ab n="John.6.44"><w>ⲙ︤ⲛ︥</w><w>ϣϭⲟⲙ</w><w>ⲛ̂ⲗⲁⲁⲩ</w>
+<lb/><w>ⲉⲉⲓ</w><w>ϣⲁⲣⲟⲉⲓ</w><w>ⲉⲓ
+<lb break="no"/>ⲙⲏⲧⲓ</w><w>ⲉⲛⲧⲉⲡⲁ
+<lb break="no"/>ⲉⲓⲱⲧ</w><w>ⲉⲛⲧⲁϥ
+<lb break="no"/>ⲧⲁⲟⲩⲟⲉⲓ</w><w>ⲥⲱⲕ</w>
+<lb/><w>ⲙ̄ⲙⲟϥ</w><w>ⲁⲩⲱ</w><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ϩⲱ̂</w><w>ⲧⲁⲧⲟⲩⲛⲟⲥ︤ϥ︥</w><w>ϩⲙ̄</w>
+<lb/><w>ⲡϩⲁⲉ</w><w>ⲛ̄ϩⲟⲟⲩ</w><pc>·</pc></ab><ab n="John.6.45"><w>ϥⲥⲏϩ</w>
+<lb/><w>ϩⲛ̄</w><w>ⲛⲉⲡⲣⲟⲫⲏⲧⲏⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲥⲉⲛⲁϣⲱⲡⲉ</w><w>ⲧⲏ
+<lb break="no"/>ⲣⲟⲩ</w><w>ⲛ̄ⲣⲉϥϫⲓ</w><w>ⲥⲃⲱ̂</w>
+<lb/><w>ϩⲓⲧⲙ̄</w><w>ⲡⲛⲟⲩⲧⲉ</w><pc>·</pc><w>ⲟⲩⲟⲛ</w>
+<lb/><w>ⲛⲓⲙ</w><w>ⲛ̄ⲧⲁϥⲥⲱⲧ︤ⲙ︥</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲓⲧⲙ̄</w><w>ⲡⲉⲓⲱⲧ</w><w>ⲁⲩⲱ</w>
+<lb/><w>ⲁϥϫⲓ</w><w>ⲥⲃⲱ</w><w>ϥⲛⲏⲩ</w><w>ϣⲁ
+<lb break="no"/>ⲣⲟⲓ̈</w><pc>·</pc></ab><ab n="John.6.46"><w>ⲛ̄ⲉⲃⲟⲗ</w><w>ⲁⲛ</w><w>ϫⲉ</w>
+<lb/><w>ⲁⲟⲩⲁ̄</w><w>ⲛⲁⲩ</w><w>ⲉⲡⲉⲓⲱⲧ</w><w>ⲉⲓ
+<cb n="P172rC2-sa117" break="no"/>
+<lb/>ⲙⲏⲧⲓ</w><w>ⲡⲉⲧϣⲟ
+<lb break="no"/>ⲟⲡ</w><w>ⲉⲃⲟⲗ</w><w>ϩⲓⲧⲙ̄</w>
+<lb/><w>ⲡⲛⲟⲩⲧⲉ</w><pc>·</pc><w>ⲡⲁⲓ̈</w>
+<lb/><w>ⲡⲉⲛⲧⲁϥⲛⲁⲩ</w><w>ⲉ
+<lb break="no"/>ⲡⲉⲓⲱⲧ</w><pc>·</pc></ab><ab n="John.6.47"><w>ϩⲁⲙⲏⲛ</w>
+<lb/><w>ϩⲁⲙⲏⲛ</w><w>ϯϫⲱ̄</w><w>ⲙ̄ⲙⲟⲥ</w>
+<lb/><w>ⲛⲏⲧⲛ̄</w><w>ϫⲉ</w><w>ⲡⲉⲧⲡⲓ
+<lb break="no"/>ⲥⲧⲉⲩⲉ</w><w>ⲉⲣⲟⲉⲓ</w><w>ⲟⲩ
+<lb break="no"/>ⲛ̄ⲧⲁϥ</w><w>ⲙ̄ⲙⲁⲩ</w><w>ⲙ̄ⲡⲱ
+<lb break="no"/>ⲛϩ̄</w><w>ⲛ̄ϣⲁ</w><w>ⲉⲛⲉϩ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.48"><w>ⲁⲛⲟⲕ</w><w>ⲡⲉ</w><w>ⲡⲟⲉⲓⲕ</w>
+<lb/><w>ⲙ̄ⲡⲱⲛϩ̄</w></ab><ab n="John.6.49"><w>ⲁⲛⲉⲧⲛ̄
+<lb break="no"/>ⲉⲓⲟⲧⲉ</w><w>ⲟⲩⲱⲙ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲙⲁⲛⲛⲁ</w><w>ϩⲛ̄</w><w>ⲧⲉ
+<lb break="no"/>ⲣⲏⲙⲟⲥ</w><w>ⲁⲩⲙⲟⲩ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.50"><w>ⲡⲁⲓ̈</w><w>ⲇⲉ</w><w>ⲡⲉ</w><w>ⲡⲟ
+<lb break="no"/>ⲉⲓⲕ</w><w>ⲉⲧⲛⲏⲩ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩ︤ⲛ︥</w><w>ⲧⲡⲉ</w><pc>·</pc><w>ϫⲉⲕⲁⲥ</w>
+<lb/><w>ⲉⲣϣⲁⲛⲟⲩⲁ</w><w>ⲟⲩⲱⲙ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ⲛ̄ϩⲏⲧϥ</w><pc>·</pc>
+<lb/><w>ⲛ̄ⲛⲉϥⲙⲟⲩ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.51"><w>ⲁⲛⲟⲕ</w><w>ⲡⲉ</w><w>ⲡⲟ
+<lb break="no"/>ⲉⲓⲕ</w><w>ⲉⲧⲟⲛϩ̄</w>
+<lb/><w>ⲉⲛⲧⲁϥⲉⲓ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩⲛ̄</w><w>ⲧⲡⲉ</w><pc>·</pc><w>ⲉⲣ
+<lb break="no"/>ϣⲁⲛⲟⲩⲁ</w><w>ⲟⲩ
+<lb break="no"/>ⲱⲙ</w><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲙ︥</w>
+<lb/><w>ⲡⲉⲓ̈ⲟⲉⲓⲕ</w>
+<lb/><w>ϥⲛⲁⲱⲛ︤ϩ︥</w>
+<pb xml:id="P172v-sa117" n="172v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︦ⲁ︥</fw></seg>
+<cb n="P172vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:51-54</note>
+<cb n="P172vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:54-58</note>
+<pb xml:id="P173r-sa117" n="173r" type="folio"/>
+<cb n="P173rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︦ⲃ︥</fw></seg>
+<lb/><w>ⲛ̄ϣⲁ</w><w>ⲉⲛⲉϩ·</w><w>ⲡⲟ
+<lb break="no"/>ⲉⲓⲕ</w><w>ⲇⲉ</w><w>ⲉϯⲛⲁⲧⲁ
+<lb break="no"/>ⲁϥ</w><w>ⲁⲛⲟⲕ</w><w>ⲡⲉ</w><w>ⲧⲁ
+<lb break="no"/>ⲥⲁⲣ︤ⲝ︥</w><w>ϩⲁ</w><w>ⲡⲱⲛ︤ϩ︥</w>
+<lb/><w>ⲙ̄ⲡⲕⲟⲥⲙⲟⲥ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.52"><w>ⲛ̄ⲓ̈ⲟⲩⲇⲁⲓ̈</w><w>ϭⲉ</w><w>ⲛⲉⲩ
+<lb break="no"/>ⲙⲓϣⲉ</w><w>ⲙⲛ̄</w><w>ⲛⲉⲩⲉ
+<lb break="no"/>ⲣⲏⲩ</w><w>ⲉⲩϫⲱ</w><w>ⲙ̄ⲙⲟⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲛ̂ⲁϣ</w><w>ⲛ̄ϩⲉ</w><w>ⲉⲣⲉ
+<lb break="no"/>ⲡⲁⲓ̈</w><w>ⲛⲁϯ</w><w>ⲛⲁⲛ</w><w>ⲛ̂
+<lb break="no"/>ⲧⲉϥⲥⲁⲣⲝ</w><w>ⲉⲟⲩⲟ
+<lb break="no"/>ⲙ︤ⲥ︥</w><pc>·</pc></ab><ab n="John.6.53"><w>ⲡⲉϫⲉ</w><w>ⲓ︦ⲥ︦</w>
+<lb rend="hang"/><w>ϭⲉ</w><w>ⲛⲁⲩ</w><pc>:</pc><w>ϫⲉ</w><w>ϩⲁⲙⲏⲛ</w>
+<lb/><w>ϩⲁⲙⲏⲛ</w><w>ϯϫⲱ̂</w><w>ⲙ̂
+<lb break="no"/>ⲙⲟⲥ</w><w>ⲛⲏⲧ︤ⲛ︥</w><w>ϫⲉ</w>
+<lb/><w>ⲉⲧⲉⲧ︤ⲛ︥ⲧⲙ̄ⲟⲩⲱⲙ</w>
+<lb/><w>ⲛ̄ⲧⲥⲁⲣ︤ⲝ︥</w><w>ⲙ̄ⲡϣⲏ
+<lb break="no"/>ⲣⲉ</w><w>ⲙ̄ⲡⲣⲱⲙⲉ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲛ̄ⲧⲉⲧ︤ⲛ︥ⲥⲱ</w>
+<lb/><w>ⲙ̄ⲡⲉϥⲥⲛⲟϥ</w>
+<lb/><w>ⲙ︤ⲛ︥ⲧⲏⲧ︤ⲛ︥</w><w>ⲙ̄ⲙⲁⲩ</w>
+<lb/><w>ⲙ̄ⲡⲱⲛ︤ϩ︥</w><w>ⲛ̂ϩⲏⲧ</w>
+<lb/><w>ⲧⲏⲩⲧ᷍ⲛ</w><pc>·</pc></ab><ab n="John.6.54"><w>ⲡⲉⲧ
+<lb break="no"/>ⲟⲩⲱⲙ</w><w>ⲛ̂ⲧⲁⲥⲁ
+<lb break="no"/>ⲣ︤ⲝ︥</w><w>ⲁⲩⲱ</w><w>ⲉⲧⲥⲱ̂</w>
+<lb/><w>ⲙ̄ⲡⲁⲥⲛⲟϥ</w><w>ⲟⲩ
+<lb break="no"/>ⲛ̂ⲧⲁϥ</w><w>ⲙ̂ⲙⲁⲩ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲱⲛ︤ϩ︥</w><w>ⲛ̂ϣⲁ</w><w>ⲉⲛⲉϩ</w>
+<cb n="P173rC2-sa117"/>
+<lb/><w>ⲁⲩⲱ</w><w>ⲁⲛⲟⲕ</w><w>ϯⲛⲁ
+<lb break="no"/>ⲧⲟⲩⲛⲟⲥ︤ϥ︥</w><w>ϩⲙ̄</w><w>ⲡϩⲁⲉ</w>
+<lb/><w>ⲛ̄ϩⲟⲟⲩ</w><pc>·</pc></ab><ab n="John.6.55"><w>ⲧⲁⲥⲁⲣ︤ⲝ︥</w>
+<lb/><w>ⲅⲁⲣ</w><w>ⲟⲩϩⲣⲉ</w><w>ⲙ̂ⲙⲉⲉ</w>
+<lb/><w>ⲧⲉ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲡⲁⲥⲛⲟϥ</w>
+<lb/><w>ⲟⲩⲥⲱ̂</w><w>ⲙ̄ⲙⲉⲉ</w><w>ⲡⲉ</w><pc>·</pc>
+<lb/></ab><ab n="John.6.56"><w>ⲡⲉⲧⲟⲩⲱⲙ</w><w>ⲛ̂̂ⲧⲁ
+<lb break="no"/>ⲥⲁⲣ︤ⲝ︥</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲉⲧ
+<lb break="no"/>ⲥⲱ̂</w><w>ⲙ̄ⲡⲁⲥⲛⲟϥ</w>
+<lb/><w>ϥⲛⲁϭⲱ</w><w>ϩⲣⲁⲓ̈</w><w>ⲛ̂ϩⲏⲧ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲁⲛⲟⲕ</w><w>ϩⲣⲁⲓ̈</w>
+<lb/><w>ⲛ̄ϩⲏⲧ︤ϥ︥</w><pc>·</pc></ab><ab n="John.6.57"><w>ⲕⲁⲧⲁ</w><w>ⲑⲉ</w>
+<lb/><w>ⲉⲛⲧⲁϥⲧⲁⲩⲟⲉⲓ</w>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲡⲉⲓⲱⲧ</w><w>ⲉⲧ
+<lb break="no"/>ⲟⲛ︤ϩ︥</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ϩⲱ</w><w>ϯⲟⲛ︤ϩ︥</w><w>ⲉⲧⲃⲉ</w>
+<lb/><w>ⲡⲉⲓⲱⲧ</w><pc>·</pc><w>ⲁⲩⲱ</w>
+<lb/><w>ⲡⲉⲧⲛⲁⲟⲩⲟⲙ<supplied reason="lacuna/illegible">ⲛⲧ</supplied></w>
+<lb/><w>ⲡⲉⲧⲙ︥ⲙⲁⲩ</w><w>ϩⲱ<unclear>ⲱϥ</unclear></w>
+<lb/><w>ⲟⲛ</w><w>ⲛⲁⲱⲛ︤ϩ︥</w><w>ⲉⲧⲃⲏ
+<lb break="no"/>ⲏⲧ</w><pc>·</pc></ab><ab n="John.6.58"><w>ⲡⲁⲓ</w><w>ⲡⲉ</w><w>ⲡⲟ<supplied reason="lacuna/illegible">ⲉⲓⲕ</supplied></w>
+<lb/><w>ⲉⲛⲧⲁϥⲉⲓ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩⲛ̄</w><w>ⲧⲡⲉ</w><pc>·</pc><w>ⲛ̄ⲕⲁⲧⲁ</w>
+<lb/><w>ⲑⲉ</w><w>ⲁⲛ</w><w>ⲉⲛⲧⲁⲛⲉ
+<lb break="no"/>ⲧⲛ̄ⲉⲓⲟⲧⲉ</w><w>ⲟⲩⲱ<unclear>ⲙ</unclear></w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲁⲩⲙⲟⲩ</w><w>ⲡⲉⲧ
+<lb break="no"/>ⲛⲁⲟⲩⲱⲙ</w><w>ⲇⲉ</w><w>ⲙ̄ⲡⲉⲓ
+<lb break="no"/>ⲟⲉⲓⲕ</w><pc>·</pc><w>ϥⲛⲁⲱ
+<lb break="no"/>ⲛ︤ϩ︥</w><w>ⲛ̂ϣⲁ</w><w>ⲉⲛⲉϩ</w>
+<pb xml:id="P173v-sa117" n="173v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︦ⲅ︥</fw></seg>
+<cb n="P173vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:59-63</note>
+<cb n="P173vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 6:63-67</note>
+<pb xml:id="P175r-sa117" n="175r" type="folio"/>
+<cb n="P175rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︦ⲋ︥</fw></seg>
+<lb/></ab><ab n="John.6.68"><w><supplied reason="lacuna/illegible">ⲁ</supplied><unclear>ϥ</unclear>ⲟⲩⲱϣⲃ</w><w>ⲛⲁϥ</w>
+<lb/><w><unclear>ⲛ</unclear>ϭⲓ</w><w>ⲥⲓⲙⲱⲛ</w><w>ⲡⲉ
+<lb break="no"/><unclear>ⲧⲣ</unclear>ⲟⲥ</w><w>ϫⲉ</w><w>ⲡϫⲟⲓ̄ⲥ</w>
+<lb/><w><unclear>ⲉⲛ</unclear>ⲛⲁⲃⲱⲕ</w><w>ϣⲁ</w>
+<lb/><w>ⲛⲓⲙ</w><pc>·</pc><w>ϩⲉⲛϣⲁϫⲉ</w>
+<lb/><w>ⲛⲱⲛϩ</w><w>ⲛ̂ϣⲁ</w><w>ⲉⲛⲉϩ</w><pc>·</pc>
+<lb/><w><supplied reason="lacuna/illegible">ⲛ</supplied>ⲉⲧ̄ⲛⲧⲟⲟⲧ︤ⲕ︥</w><pc>·</pc></ab><ab n="John.6.69"><w>ⲁⲩⲱ</w>
+<lb/><w>ⲁⲛⲟⲛ</w><w>ⲁⲛⲡⲓⲥⲧⲉⲩⲉ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲁⲛⲉⲓⲙⲉ</w><w>ϫⲉ</w>
+<lb/><w>ⲛⲧⲟⲕ</w><w>ⲡⲉ</w><w>ⲡⲉⲭ︦ⲥ︦</w>
+<lb/><w>ⲡⲉⲧⲟⲩⲁⲁⲃ</w><w>ⲛ̂ⲧⲉ
+<lb break="no"/>ⲡⲛⲟⲩⲧⲉ</w><pc>:</pc></ab><ab n="John.6.70"><w>ⲁϥ
+<lb break="no" rend="hang"/>ⲟⲩⲱϣⲃ</w><w>ⲛⲁⲩ</w><w>ⲛ̂ϭⲓ</w>
+<lb/><w>ⲓ︦ⲥ︦</w><w>ⲡⲉϫⲁϥ</w><w>ϫⲉ</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="firsthand"><w>ⲙⲏ</w></rdg></app><w>ⲛ̄ⲁ
+<lb break="no"/>ⲛⲟⲕ</w><w>ⲁⲛ</w><w>ⲁⲓ̈ⲥⲉⲧ︤ⲡ︥</w>
+<lb/><w>ⲧⲏⲩⲧ︤ⲛ︥</w><w>ⲙ̄ⲡⲙⲛ︤ⲧ︥
+<lb break="no"/>ⲥⲛⲟⲟⲩⲥ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲟⲩⲁ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ⲛ̂ϩⲏⲧ</w><w>ⲧⲏⲩ
+<lb break="no"/>ⲧ︤ⲛ︥</w><w>ⲟⲩⲇⲓⲁⲃⲟⲗⲟⲥ</w>
+<lb/><w><unclear>ⲡⲉ</unclear></w><pc>·</pc></ab><ab n="John.6.71"><w>ⲛⲉϥϫⲱ</w><w>ⲙ̄
+<lb break="no"/>ⲙⲟⲥ</w><w>ⲉⲧⲃⲉ</w><w>ⲓ̈ⲟⲩⲇⲁⲥ</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="firsthand"><w>ⲡϣⲏⲣⲉ</w><w>ⲛⲥⲓⲙⲱⲛ</w></rdg></app>
+<lb/><w>ⲡⲓⲥⲕⲁⲣⲓⲱⲧⲏⲥ</w><pc>·</pc>
+<lb/><w>ⲡⲁⲓ̈</w><w>ⲅⲁⲣ</w><w>ⲡⲉⲧⲛⲁ
+<lb break="no"/>ⲡⲁⲣⲁⲇⲓⲇⲟⲩ</w><w>ⲙ̄
+<lb break="no"/>ⲙⲟϥ</w><w>ⲉⲟⲩⲁ</w><w>ⲡⲉ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲙⲛ︤ⲧ︥
+<lb break="no"/>ⲥⲛⲟⲟⲩⲥ</w><pc>:</pc><space unit="char" extent="2"/></ab></div><div n="John.7" type="chapter"><ab n="John.7.1"><w>ⲙ︤ⲛ︥ⲛ̂</w>
+<lb rend="hang"/><w><hi rend="cap2">ⲥ</hi>ⲁ</w><w>ⲛⲁⲓ̈</w><w>ⲛⲉϥⲙⲟⲟϣⲉ</w>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲓ︦ⲥ︦</w><w>ϩⲛ̂</w><w>ⲧⲅⲁⲗⲓⲗⲁⲓ
+<lb break="no"/>ⲁ</w><w>ⲛ̂ⲛⲉϥⲟⲩⲱϣ</w><w>ⲅⲁⲣ</w>
+<lb/><w>ⲁⲛ</w><w>ⲡⲉ</w><w>ⲉⲙⲟⲟϣ</w><w>ϩⲛ︥</w>
+<lb/><space unit="char" extent="7"/><w>ϯⲟⲩⲇⲁⲓⲁ</w><pc>·</pc>
+<cb n="P175rC2-sa117"/>
+<lb/><w>ϫⲉ</w><w>ⲛ̂ⲛⲉⲩϣⲓⲛⲉ</w>
+<lb/><w>ⲛ̂ⲥⲱϥ</w><w>ⲡⲉ</w><w>ⲛ̇ϭⲓ</w><w>ⲛ̂
+<lb break="no"/>ⲓ̈ⲟⲩⲇⲁⲓ</w><w>ⲉⲙⲟⲟⲩⲧϥ</w>
+<lb rend="hang"/></ab><ab n="John.7.2"><w>ⲛⲉϥϩⲏⲛ</w><w>ⲇⲉ</w><w>ⲉϩⲟⲩⲛ</w>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲡϣⲁ⳿</w><w>ⲛ̂ⲛ̂ⲓ̈ⲟⲩ
+<lb break="no"/>ⲇⲁⲓ̈</w><w>ⲧⲉⲥⲕⲏⲛⲟ
+<lb break="no"/>ⲡⲏⲅⲓⲁ</w><pc>·</pc></ab><ab n="John.7.3"><w>ⲡⲉϫⲁⲩ</w><w>ϭⲉ</w>
+<lb/><w>ⲛⲁϥ</w><w>ⲛ̂ϭⲓ</w><w>ⲛⲉϥⲥⲛⲏⲩ</w>
+<lb/><w>ϫⲉ</w><w>ⲡⲱⲱⲛⲉ</w><w>ⲉⲃⲟⲗ</w>
+<lb/><w>ϩⲙ︥</w><w>ⲡⲉⲓ̈ⲙⲁ</w><w>ⲛⲅ︥ⲃⲱⲕ</w>
+<lb/><w>ⲉϩⲣⲁⲓ̈</w><w>ⲉϯⲟⲩⲇⲁⲓⲁ</w>
+<lb/><w>ϫⲉⲕⲁⲥ</w><w>ⲉⲣⲉⲛⲉⲕ
+<lb break="no"/>ⲙⲁⲑⲏⲧⲏⲥ</w><w>ϩⲱⲟⲩ</w>
+<lb/><w>ⲛⲁⲩ</w><w>ⲉⲛⲉϩⲃⲏⲩⲉ</w>
+<lb/><w>ⲉⲧ︤ⲕ︥ⲉⲓⲣⲉ</w><w>ⲙ̄ⲙⲟⲟⲩ</w><pc>·</pc>
+<lb/></ab><ab n="John.7.4"><w>ⲙⲉⲣⲉⲗⲁⲁⲩ</w><w>ⲅⲁⲣ</w><w>ⲣ̂</w>
+<lb/><w>ϩⲱⲃ</w><w>ϩ︤ⲙ︥</w><w>ⲡϩⲱⲡ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲛ︤ϥ︥ϣⲓⲛⲉ</w>
+<lb/><w>ⲛ̂ⲧⲟϥ</w><w>ⲛ̂ⲥⲁ</w><w>ϣⲱ
+<lb break="no"/>ⲡⲉ</w><w>ϩ︤ⲛ︥</w><w>ⲟⲩⲡⲁⲣⲣⲏ
+<lb break="no"/>ⲥⲓⲁ</w><pc>·</pc><w>ⲉϣϫⲉ</w><w>ⲕⲉⲓⲣⲉ</w>
+<lb/><w>ⲛⲁⲓ̈</w><w>ⲟⲩⲟⲛϩ︤ⲕ︥</w><w>ⲉ
+<lb break="no"/>ⲃⲟⲗ</w><w>ⲙ̄ⲡⲕⲟⲥⲙⲟⲥ</w><pc>·</pc>
+<lb/></ab><ab n="John.7.5"><w>ⲛⲉⲣⲉⲛⲉϥⲕⲉ
+<lb break="no"/>ⲥⲛⲏⲩ</w><w>ⲅⲁⲣ</w><w>ⲡⲓⲥⲧⲉⲩⲉ</w>
+<lb/><w>ⲁⲛ</w><w>ⲉⲣⲟϥ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.6"><w>ⲡⲉϫⲁϥ</w><w>ϭⲉ</w><w>ⲛⲁⲩ</w>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲓ︦ⲥ︦</w><w>ϫⲉ</w><w><unclear>ⲡ</unclear>ⲁⲟⲩ
+<lb break="no"/>ⲟⲉⲓϣ</w><w>ⲁⲛⲟⲕ</w>
+<pb xml:id="P175v-sa117" n="175v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︦ⲍ︥</fw></seg>
+<cb n="P175vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:6-10</note>
+<cb n="P175vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:11-15</note>
+<pb xml:id="P176r-sa117" n="176r" type="folio"/>
+<cb n="P176rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︦ⲏ︥</fw></seg>
+<lb/><w>ⲙⲡⲁⲧϥⲉⲓ</w><pc>·</pc><w>ⲡⲉ
+<lb break="no"/>ⲧ︤ⲛ︥ⲟⲩⲟⲉⲓϣ</w><w>ⲇⲉ</w>
+<lb/><w>ⲛ̄ⲧⲱⲧⲛ</w><w>ⲥⲃⲧⲱⲧ</w>
+<lb/><w>ⲛ̂ⲥⲏⲩ</w><w>ⲛⲓⲙ⳿</w><pc>·</pc></ab><ab n="John.7.7"><w>ⲙⲙⲛ̄</w>
+<lb/><w>ϣϭⲟⲙ</w><w>ⲉⲧⲣⲉⲡ<unclear>ⲕⲟ</unclear>
+<lb break="no"/>ⲥⲙⲟⲥ</w><w>ⲙⲉⲥⲧⲉ</w>
+<lb/><w>ⲧⲏⲩⲧⲛ</w><pc>·</pc><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ⲇⲉ</w><w>ⲉϥⲙⲟⲥⲧⲉ</w>
+<lb/><w>ⲙ̄ⲙⲟⲉⲓ</w><pc>·</pc><w>ϫⲉ</w><w>ϯⲣ̂</w>
+<lb/><w>ⲙ︤ⲛ︥ⲧⲣⲉ</w><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ⲉⲧⲃⲏⲏⲧ︤ϥ︥</w><pc>·</pc><w>ϫⲉ</w>
+<lb/><w>ⲛⲉϥϩ<unclear>ⲃⲏ</unclear>ⲩⲉ</w><w>ⲥⲉ
+<lb break="no"/>ϩⲟⲟⲩ·</w></ab><ab n="John.7.8"><w>ⲛ̂ⲧⲱⲧⲛ︥</w>
+<lb/><w>ⲃⲱⲕ</w><w>ⲉϩⲣⲁⲓ̈</w><w>ⲉ
+<lb break="no"/>ⲡϣⲁ</w><pc>·</pc><w>ⲁⲛⲟⲕ</w><w>ⲇⲉ</w>
+<lb/><w><unclear>ⲉⲙ</unclear>ⲡⲁϯⲛⲟⲩ</w><w>ⲉⲉⲓ</w>
+<lb/><w>ⲉⲡⲉⲓ̈ϣⲁ⳿</w><pc>·</pc><w>ϫⲉ</w>
+<lb/><w>ⲙ̂ⲡⲁⲧⲉⲡⲁⲟⲩⲟ
+<lb break="no"/>ⲉⲓϣ</w><w>ϫⲱⲕ⳿</w><w>ⲉⲃⲟⲗ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.9"><w><hi rend="cap2">ⲛ̂</hi>ⲧⲉⲣⲉϥϫⲉ</w><w>ⲛⲁⲓ̈</w>
+<lb/><w>ⲇⲉ</w><w>ⲛ̂ⲧⲟϥ</w><pc>·</pc><w>ⲁϥϭⲱ</w>
+<lb/><w>ϩⲛ̂</w><w>ⲧⲅⲁⲗⲓⲗⲁⲓⲁ</w><pc>·</pc>
+<lb/></ab><ab n="John.7.10"><w>ⲛ̂ⲧⲉⲣⲉⲛⲉϥⲥ<unclear>ⲛⲏ</unclear>ⲩ</w>
+<lb/><w>ⲇⲉ</w><w>ⲃⲱⲕ</w><w>ⲉϩⲣⲁⲓ̈</w>
+<lb/><w>ⲉⲡϣⲁ</w><pc>·</pc><space unit="char" extent="2"/><w>ⲧⲟⲧⲉ</w>
+<lb/><w>ⲛ̂ⲧⲟϥ</w><w>ϩⲱⲱϥ</w>
+<lb/><w>ⲁϥⲃⲱⲕ</w><w>ⲉϩⲣⲁⲓ̈</w><w>ϩ︤ⲛ︥</w>
+<lb/><w>ⲟⲩⲟⲩⲱⲛ︤ϩ︥</w><w>ⲁⲛ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><pc>·</pc><w>ⲁⲗⲗⲁ</w>
+<lb/><w>ϩ︤ⲛ︥</w><w>ⲟⲩϩⲱⲡ</w><pc>·</pc>
+<cb n="P176rC2-sa117"/>
+<lb rend="hang"/></ab><ab n="John.7.11"><w><hi rend="cap2">ⲛ</hi>ⲓⲟⲩⲇⲁⲓ̈</w><w>ϭⲉ</w><w>ⲛⲉⲩ
+<lb break="no"/>ϣⲓⲛⲉ</w><w>ⲛ̄ⲥⲱϥ</w><w>ⲡⲉ</w>
+<lb/><w>ϩ︤ⲙ︥</w><w>ⲡⲉⲣⲡⲉ</w><pc>·</pc><w>ⲁⲩⲱ</w>
+<lb/><w>ⲛⲉⲩϫⲱ</w><w>ⲙ̄ⲙⲟⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲉϥⲧⲱⲛ</w><w>ⲡ<unclear>ⲏ</unclear></w>
+<lb/></ab><ab n="John.7.12"><w>ⲁⲩⲱ</w><w>ⲛⲉⲣⲉⲟⲩⲕⲣⲙ
+<lb break="no"/>ⲣⲙ</w><w>ⲉⲛⲁϣⲱϥ</w>
+<lb/><w>ϣⲟⲟⲡ</w><w>ⲉⲧⲃⲏⲏ
+<lb break="no"/>ⲧϥ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲙⲏⲏϣⲉ</w>
+<lb/><w>ϩⲟⲉⲓⲛⲉ</w><w>ⲙⲉⲛ</w>
+<lb/><w>ⲛⲉⲩϫⲱ</w><w>ⲙ̂ⲙⲟⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲟⲩⲁⲅⲁⲑⲟⲥ</w>
+<lb/><w>ⲡⲉ</w><pc>·</pc><w>ϩⲉⲛⲕⲟⲟⲩⲉ</w>
+<lb/><w>ⲇⲉ</w><w>ⲛⲉⲩϫⲱ</w><w>ⲙ̄
+<lb break="no"/>ⲙⲟⲥ</w><w>ϫⲉ</w><w>ⲙ̄ⲙⲟⲛ</w>
+<lb/><w>ⲁⲗⲗⲁ</w><w>ⲉϥⲡⲗⲁⲛⲁ</w>
+<lb/><w>ⲙⲡⲙⲏⲏϣⲉ</w><pc>:</pc></ab><ab n="John.7.13"><w>ⲛⲉ
+<lb break="no"/>ⲙ︤ⲛ︥</w><w>ⲗⲁⲁⲩ</w><w>ⲙⲉⲛ
+<lb break="no"/>ⲧⲟⲓ</w><w>ϣⲁϫⲉ</w><w>ⲉⲧⲃⲏ
+<lb break="no"/>ⲏⲧϥ</w><w>ϩ︤ⲛ︥</w><w>ⲟⲩⲡⲁⲣ
+<lb break="no"/>ⲣⲏⲥⲓⲁ</w><w>ⲉⲧⲃⲉ</w><w>ⲑⲟ
+<lb break="no"/>ⲧⲉ</w><w>ⲛ̂ⲛ̂ⲓ̈ⲟⲩⲇⲁⲓ̈</w><pc>:</pc>
+<lb rend="hang"/></ab><ab n="John.7.14"><w><hi rend="cap2">ϩ</hi>ⲛ</w><w>ⲧⲙⲏⲧⲉ</w><w>ⲇⲉ</w><w>ⲙ̄
+<lb break="no"/>ⲡϣⲁ</w><w>ⲁⲓ︦ⲥ︦</w><w>ⲃⲱⲕ</w><w>ⲉ
+<lb break="no"/>ϩⲣⲁⲓ̈</w><w>ⲉⲡⲉⲣⲡⲉ</w>
+<lb/><w>ⲁϥϯ</w><w>ⲥⲃⲱ·</w></ab><ab n="John.7.15"><w>ⲛⲉⲩ
+<lb break="no"/>ⲣ</w><w>ϣⲡⲏⲣⲉ</w><w>ϭⲉ</w><w>ⲛ̂
+<lb break="no"/>ϭⲓ</w><w>ⲛ̂ⲓ̈ⲟⲩⲇⲁⲓ̈</w><w>ⲉⲩ
+<lb break="no"/>ϫⲱ̂</w><w>ⲙ̄ⲙⲟⲥ·</w><w>ϫⲉ</w><w>ⲛ̂
+<lb break="no"/>ⲁϣ</w><w>ⲛϩⲉ</w><w>ⲡⲁⲓ̈</w><w>ⲥⲟⲟⲩ<unclear>ⲛ</unclear></w>
+<lb/><w>ⲛ̂ⲥϩⲁⲓ̈</w><w>ⲉⲙ
+<pb xml:id="P176v-sa117" n="176v" type="folio" break="no"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲙ︦ⲑ︥</fw></seg>
+<cb n="P176vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:15-19</note>
+<cb n="P176vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:19-23</note>
+<pb xml:id="P177r-sa117" n="177r" type="folio" break="no"/>
+<cb n="P177rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︥</fw></seg>
+<lb/>ⲡⲟⲩⲧⲥⲁⲃⲟϥ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.16"><w>ⲁϥⲟⲩⲱϣ︤ⲃ︥</w><w>ϭⲉ</w><w>ⲛⲁⲩ</w>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲓ︦ⲥ︦</w><w>ⲉϥϫⲱ̇</w><w>ⲙ̂
+<lb break="no"/>ⲙⲟⲥ</w><w>ϫⲉ</w><w>ⲧⲁⲥⲃⲱ̇</w>
+<lb/><w>ⲁⲛⲟⲕ</w><w>ⲛ̂ⲧⲱⲓ̈</w><w>ⲁⲛ</w>
+<lb/><w>ⲧⲉ</w><pc>·</pc><w>ⲁⲗⲗⲁ</w><w>ⲧⲁ</w><w>ⲡⲉⲛ
+<lb break="no"/>ⲧⲁϥⲧⲁⲩⲟⲉⲓ</w><w>ⲧⲉ</w><pc>·</pc>
+<lb/></ab><ab n="John.7.17"><w>ⲉⲣϣⲁⲛⲟⲩⲁ</w><w>ⲣ̂</w><w>ϩⲛⲁϥ</w>
+<lb/><w>ⲉⲉⲓⲣⲉ</w><w>ⲙⲡⲉϥⲟⲩ
+<lb break="no"/>ⲱϣ</w><w>ϥⲛⲁⲉⲓⲙⲉ</w>
+<lb/><w>ⲉⲧⲃⲉ</w><w>ⲧⲉⲓ̈ⲥⲃⲱ̇</w>
+<lb/><w>ϫⲉ</w><w>ⲟⲩⲉⲃⲟⲗ</w><w>ϩ︤ⲙ︥</w>
+<lb/><w>ⲡⲛⲟⲩⲧⲉ</w><w>ⲧⲉ</w><pc>·</pc><w>ϫⲉ</w>
+<lb/><w>ⲛ̇ⲁⲛⲟⲕ</w><w>ⲉⲓ̈ϣⲁϫⲉ</w>
+<lb/><w>ϩⲁⲣⲟⲉⲓ</w><w>ⲙⲁⲩⲁⲁⲧ</w>
+<lb/></ab><ab n="John.7.18"><w>ⲡⲉⲧϣⲁϫⲉ</w><w>ϩⲁ
+<lb break="no"/>ⲣⲟϥ</w><w>ⲙⲁⲩⲁⲁϥ</w>
+<lb/><w>ⲉϥϣⲓⲛⲉ</w><w>ⲛ̂ⲥⲁ</w>
+<lb/><w>ⲡⲉϥⲉⲟⲟⲩ</w><w>ⲙ̄ⲙⲓ
+<lb break="no"/>ⲛ</w><w>ⲉⲙ̄ⲙⲟϥ</w><pc>·</pc><w>ⲡⲉⲧ
+<lb break="no"/>ϣⲓⲛⲉ</w><w>ⲇⲉ</w><w>ⲛ̂ⲧⲟϥ</w>
+<lb/><w>ⲛ̂ⲥⲁ</w><w>ⲡⲉⲟⲟⲩ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲉⲛⲧⲁϥⲧ᷍ⲛⲛⲟ
+<lb break="no"/>ⲟⲩϥ</w><pc>·</pc><w>ⲡⲁⲓ̈</w><w>ⲟⲩⲙⲉⲉ</w>
+<lb/><w>ⲡⲉ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲙ︤ⲛ︥</w><w>ϫⲓ</w><w>ⲛ
+<lb break="no"/>ϭⲟⲛ︤ⲥ︥</w><w>ϩⲣⲁⲓ̈</w><w>ⲛ̂ϩⲏ
+<lb break="no"/>ⲧϥ</w><pc>·</pc></ab><ab n="John.7.19"><w>ⲙⲏ</w><w>ⲙⲱⲩ̈ⲥⲏⲥ</w>
+<lb/><w>ⲁⲛ</w><w>ⲡⲉ</w><w>ⲛⲧⲁϥϯ</w><w>ⲛⲏ
+<lb break="no"/>ⲧⲛ̄</w><w>ⲙ̄ⲡⲛⲟⲙⲟⲥ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲙ︤ⲛ︥</w><w>ⲗⲁⲁⲩ</w><w>ⲙ̂ⲙⲱ
+<lb break="no"/><space unit="char" extent="10"/>ⲧ︤ⲛ︥</w><pc>·</pc>
+<cb n="P177rC2-sa117"/>
+<lb/><w>ⲉⲓⲣⲉ</w><w>ⲙ̇ⲡⲛⲟⲙⲟⲥ</w>
+<lb/><w>ⲁϩⲣⲱⲧⲛ̂</w><w>ⲉⲧⲉⲧ︤ⲛ︥
+<lb break="no"/>ϣⲓⲛⲉ</w><w>ⲛ̂ⲥⲁ</w><w>ⲙⲟⲩ
+<lb break="no"/>ⲟⲩⲧ</w><w>ⲙ̂ⲙⲟⲉⲓ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.20"><w>ⲁϥⲟⲩⲱϣ︤ⲃ︥</w><w>ⲛ̂ϭⲓ</w>
+<lb/><w>ⲡⲙⲏⲏϣⲉ</w><w>ϫⲉ</w><w>ⲟⲩ
+<lb break="no"/>ⲛ̂</w><w>ⲟⲩⲇⲁⲓⲙⲟⲛⲓⲟⲛ</w>
+<lb/><w>ⲛ᷍ⲙⲙⲁⲕ</w><w>ⲛⲓⲙ</w><w>ⲡⲉⲧ
+<lb break="no"/>ϣⲓⲛⲉ</w><w>ⲛ̂ⲥⲁ</w><w>ⲙⲟⲟⲩ
+<lb break="no"/>ⲧ︤ⲕ︥</w><pc>:</pc></ab><ab n="John.7.21"><w>ⲁⲓ︦ⲥ︦</w><w>ⲟⲩⲱϣ︤ⲃ︥</w>
+<lb rend="hang"/><w>ⲡⲉϫⲁϥ</w><w>ⲛⲁⲩ</w><w>ϫⲉ</w><w>ⲟⲩ
+<lb break="no"/>ϩⲱⲃ</w><w>ⲛ̂ⲟⲩⲱⲧ</w><w>ⲡⲉ</w><w>ⲛ
+<lb break="no"/>ⲧⲁⲓ̈ⲁⲁϥ</w><w>ⲁⲩⲱ</w><w>ⲧⲉⲧ᷍ⲛ
+<lb break="no"/>ⲣ̂</w><w>ϣⲡⲏⲣⲉ</w><w>ⲧⲏⲣⲧ︤ⲛ︥</w>
+<lb/></ab><ab n="John.7.22"><w>ⲉⲧⲃⲉ</w><w>ⲡⲁⲓ̈</w><w>ⲁⲙⲱⲩ̈
+<lb break="no"/>ⲥⲏⲥ</w><w>ϯ</w><w>ⲛⲏⲧ᷍ⲛ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲥ︤ⲃ︥ⲃⲉ</w><w>ⲟⲩⲭ</w><w>ⲟⲧⲓ</w>
+<lb/><w>ϫⲉ</w><w>ⲟⲩⲉⲃⲟⲗ</w><w>ϩ᷍ⲙ</w>
+<lb/><w>ⲙⲱⲩ̈ⲥⲏⲥ</w><w>ⲡⲉ</w><pc>·</pc>
+<lb/><w>ⲁⲗⲗⲁ</w><w>ⲟⲩⲉⲃⲟⲗ</w><w>ϩ᷍ⲛ</w>
+<lb/><w>ⲛⲉⲛⲉⲓⲟⲧⲉ</w><w>ⲡⲉ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲧⲉⲧ︤ⲛ︥ⲥⲃ̇ⲃⲉ</w>
+<lb/><w>ⲣⲱⲙⲉ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲥⲁⲃ
+<lb break="no"/>ⲃⲁⲧⲟⲛ</w><pc>·</pc></ab><ab n="John.7.23"><w>ⲉϣϫⲉ</w>
+<lb/><w>ϣⲁⲣⲉⲣⲱⲙⲉ</w><w>ϫⲓ</w>
+<lb/><w>ⲥ︤ⲃ︥ⲃⲉ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲥⲁⲃ
+<lb break="no"/>ⲃⲁⲧⲟⲛ</w><pc>·</pc><w>ϫⲉ</w><w>ⲛ̂ⲛⲉϥ
+<lb break="no"/>ⲃⲱⲗ</w><w>ⲉⲃⲟⲗ</w><w>ⲛ̂ϭⲓ</w>
+<lb/><w>ⲡⲛⲟⲙⲟⲥ</w><w>ⲙ̂ⲙⲱⲩ̈
+<lb break="no"/>ⲥⲏⲥ</w><pc>·</pc><w>ⲁϩⲣⲱⲧⲛ̄</w><w>ⲧⲉ
+<lb break="no"/>ⲧⲛ̂ⲛⲟϭ︤ⲥ︥</w><w>ⲉⲣⲟⲓ̈</w><w>ϫⲉ</w>
+<lb/><w>ⲁⲓ̈ⲧⲟⲩϫⲉ</w><w>ⲟⲩⲣⲱⲙⲉ</w>
+<lb/><w>ⲧⲏⲣ︤ϥ︥</w><w>ϩ︤ⲙ︥</w><w>ⲡⲥⲁⲃⲃⲁⲧⲟⲛ</w>
+<pb xml:id="P177v-sa117" n="177v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲁ︥</fw></seg>
+<cb n="P177vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:24-28</note>
+<cb n="P177vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:28-32</note>
+<pb xml:id="P178r-sa117" n="178r" type="folio"/>
+<cb n="P178rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲃ︥</fw></seg>
+<lb/></ab><ab n="John.7.24"><w>ⲙ̇<unclear>ⲡ</unclear>ⲣⲕ<unclear>ⲣⲓ</unclear>ⲛⲉ</w><w>ⲕⲁⲧⲁ</w>
+<lb/><w>ⲟ<unclear>ⲩⲙⲛ</unclear>ⲧⲣⲉϥ̇ϫⲓ</w>
+<lb/><w>ϩⲟ</w><pc>·</pc><w>ⲁ<unclear>ⲗⲗ</unclear>ⲁ</w><w><unclear>ⲕ</unclear>ⲣⲓⲛⲉ</w>
+<lb/><w>ⲙ̄ⲡϩ<unclear>ⲁ</unclear>ⲡ</w><w>ⲙⲙⲉ</w><pc>·</pc>
+<lb/></ab><ab n="John.7.25"><w><unclear>ⲛⲉ</unclear>ⲩⲛ̂</w><w>ϩⲟⲉⲓⲛⲉ</w>
+<lb/><w><unclear>ϭ</unclear>ⲉ</w><w><unclear>ϫⲱ</unclear></w><w><unclear>ⲙⲙ</unclear>ⲟⲥ</w>
+<lb/><w><unclear>ⲉⲃ</unclear>ⲟⲗ</w><w>ϩⲛ̄</w><w>ⲛ̂ⲣⲙ̄
+<lb break="no"/>ⲑⲓⲗⲏⲙ</w><pc>·</pc><w>ϫⲉ</w><w>ⲙⲏ</w>
+<lb/><w>ⲡⲁⲓ̈</w><w><unclear>ⲁ</unclear>ⲛ</w><w>ⲡⲉⲧⲟⲩ
+<lb break="no"/>ϣⲓⲛⲉ</w><w>ⲛ̂ⲥⲱϥ</w><w>ⲉ
+<lb break="no"/>ⲙⲟⲟⲩⲧ︤ϥ︥</w><pc>·</pc></ab><ab n="John.7.26"><w>ⲁⲩⲱ</w>
+<lb/><w>ⲉⲓⲥ</w><w>ϩⲏⲏⲧⲉ</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="firsthand"><w>ⲉ</w></rdg></app><w>ϥϣⲁ
+<lb break="no"/>ϫⲉ</w><w>ϩⲛ̂</w><w>ⲟⲩⲡⲁⲣⲣ<unclear>ⲏ</unclear>
+<lb break="no"/>ⲥⲓⲁ·</w><w>ⲁⲩⲱ</w><w>ⲛ̂ⲥⲉ
+<lb break="no"/>ϫⲉ</w><w>ⲗⲁⲁⲩ</w><w>ⲛⲁϥ</w><w>ⲁⲛ</w>
+<lb/><w>ⲙⲏⲡⲱⲥ</w><w>ⲁⲩⲉⲓ
+<lb break="no"/>ⲙⲉ</w><w>ⲛⲁⲙⲉ</w><w>ⲛ̂ϭⲓ</w><w>ⲛ̂
+<lb break="no"/>ⲁⲣⲭⲱⲛ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲛ̄
+<lb break="no"/>ⲁⲣⲭⲉⲓⲉⲣⲉⲩⲥ</w><w>ϫⲉ</w>
+<lb/><w>ⲡⲁⲓ̈</w><w>ⲡⲉ</w><w>ⲡⲉⲭ︦ⲥ︦</w><pc>·</pc>
+<lb/></ab><ab n="John.7.27"><w>ⲁⲗⲗⲁ</w><w>ⲡⲁⲓ̈</w><w>ⲧⲛ̂ⲥⲟ
+<lb break="no"/>ⲟⲩⲛ</w><w>ⲙ̂ⲙⲟϥ</w><w>ϫⲉ</w><w>ⲟⲩ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ⲧⲱⲛ</w><w>ⲡⲉ</w><pc>·</pc>
+<lb/><w>ⲡⲉ<unclear>ⲭ</unclear>︦<unclear>ⲥ</unclear>︦</w><w>ⲇⲉ</w><w>ⲛ̂ⲧⲟϥ</w>
+<lb/><w>ⲉϥϣⲁⲛⲉⲓ</w><w>ⲙⲛ︥</w><w>ⲗⲁⲁⲩ</w>
+<lb/><w>ⲛⲁⲉⲓⲙⲉ</w><w>ϫⲉ</w><w>ⲟⲩ</w><w>ⲉ
+<lb break="no"/>ⲃⲟⲗ</w><w>ⲧⲱⲛ</w><w>ⲡⲉ</w><pc>:</pc>
+<lb rend="hang"/></ab><ab n="John.7.28"><w><hi rend="cap2">ⲓ︦ⲥ︦</hi></w><w>ⲇⲉ</w><w><unclear>ⲁϥⲁϣ</unclear>ⲕⲁⲕ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲉⲣⲡⲉ</w>
+<lb/><w>ⲉϥϯⲥⲃⲱ</w><w>ⲉϥϫⲱ</w>
+<lb/><w>ⲙ̄ⲙⲟⲥ</w><w>ϫⲉ</w><w>ⲧⲉⲧⲛ
+<lb break="no"/>ⲥⲟⲟⲩⲛ</w><w>ⲙ̄ⲙⲟⲓ</w><w>ⲁⲩⲱ</w>
+<lb/><w>ⲧⲉⲧⲛ︥ⲥⲟⲟⲩⲛ</w><w>ϫⲉ</w><w>ⲁⲛ<unclear>ⲅ</unclear></w>
+<lb/><space unit="char" extent="4"/><w>ⲟⲩ</w><w>ⲉⲃⲟⲗ</w><w>ⲧⲱⲛ</w><pc>·</pc>
+<cb n="P178rC2-sa117"/>
+<lb/><w>ⲛ̂ⲧⲁⲉⲓ</w><w>ⲁⲛ</w><w>ϩⲁⲣⲟⲓ̈</w><w>ⲙⲁ<unclear>ⲩ</unclear>
+<lb break="no"/>ⲁⲁⲧ</w><w>ⲁⲗⲗⲁ</w><w>ⲟⲩⲙⲉ</w>
+<lb/><w>ⲡⲉ</w><w>ⲡⲉⲛⲧⲁϥⲧⲁⲩⲟⲓ</w>
+<lb/><w>ⲡⲁⲓ̈</w><w>ⲛⲧⲱⲧ︤ⲛ︥</w><w>ⲉⲛ
+<lb break="no"/>ⲧⲉⲧ︤ⲛ︥ⲥⲟⲟⲩⲛ</w><w>ⲁⲛ</w><w>ⲙⲙⲟϥ</w>
+<lb/></ab><ab n="John.7.29"><w>ⲁⲛⲟⲕ</w><w>ϯⲥⲟⲟⲩⲛ</w><w>ⲙ̂
+<lb break="no"/>ⲙⲟϥ</w><w>ϫⲉ</w><w>ϯϣⲟⲟⲡ</w>
+<lb/><w>ϩⲁϩⲧⲏϥ</w><pc>·</pc><w>ⲁⲩⲱ</w>
+<lb/><w><unclear>ⲡ</unclear>ⲉⲧⲙⲙⲁⲩ</w><w>ⲡⲉ</w><w>ⲛ
+<lb break="no"/>ⲧⲁϥⲧⲁⲩⲟⲉⲓ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.30"><w>ⲛⲉⲩϣⲓⲛⲉ</w><w>ϭⲉ</w><w>ⲡⲉ</w>
+<lb/><w>ⲛ̂ⲥⲁ</w><w>ϭⲟⲡ︤ϥ︥</w><w>ⲡⲉ</w><pc>·</pc>
+<lb/><w>ⲁⲩⲱ</w><w>ⲙ̄ⲡⲉⲗⲁⲁⲩ</w>
+<lb/><w>ⲛ̂ⲧⲉϥϭⲓϫ</w><w>ⲉϩⲣⲁⲓ̈</w>
+<lb/><w>ⲉϫⲱϥ</w><pc>·</pc><w><unclear>ϫⲉ</unclear></w><w>ⲛ̂ⲛⲉ
+<lb break="no"/>ⲙ̄ⲡⲁⲧⲉⲧⲉϥⲟⲩ
+<lb break="no"/>ⲛⲟⲩ</w><w>ⲉⲓ</w><space unit="char" extent="2"/></ab><ab n="John.7.31"><w>ⲁϩⲁϩ</w>
+<lb rend="hang"/><w>ⲡⲓⲥⲧⲉⲩⲉ</w><w>ⲉ<unclear>ⲣ</unclear>ⲟϥ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲙ̄</w><w>ⲡⲙⲏ
+<lb break="no"/><unclear>ⲏ</unclear>ϣⲉ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲛ<unclear>ⲉ</unclear>ⲩ
+<lb break="no"/><unclear>ϫ</unclear>ⲱ</w><w>ⲙ̄ⲙⲟⲥ</w><w>ϫⲉ</w>
+<lb/><w>ⲉⲣϣⲁⲛⲡⲉⲭ︦ⲥ︦</w>
+<lb/><w>ⲉⲓ̈</w><w>ⲙⲏ</w><w>ⲉϥⲛⲁⲣ
+<lb break="no"/>ϩⲟⲩⲟ</w><w>ⲉⲙ<unclear>ⲙⲁⲉⲓⲛ</unclear></w>
+<lb/><w>ⲉⲛⲧⲁⲡ<unclear>ⲁⲓ</unclear></w><w><unclear>ⲁⲁⲩ</unclear></w><pc>·</pc>
+<lb/></ab><ab n="John.7.32"><w>ⲁⲛⲉⲫⲁⲣⲓⲥⲁⲓ
+<lb break="no"/>ⲟⲥ</w><w>ϭⲉ</w><w>ⲥⲱⲧⲙ<unclear>︥</unclear></w>
+<lb/><w>ⲉⲡⲙⲏⲏϣⲉ</w>
+<lb/><w>ⲉϥⲕⲣⲙ︥ⲣⲙ</w><w>ⲛ̄ⲛ<unclear>ⲁⲓ</unclear></w>
+<lb/><w>ⲉⲧⲃⲏⲏⲧ︤ϥ︥</w><pc>·</pc><w>ⲁ<unclear>ⲩⲱ</unclear></w>
+<lb/><w><unclear>ⲁⲩϫ</unclear>ⲟⲟⲩ</w>
+<pb xml:id="P178v-sa117" n="178v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲅ︥</fw></seg>
+<cb n="P178vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:32-36</note>
+<cb n="P178vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:36-39</note>
+<pb xml:id="P179r-sa117" n="179r" type="folio"/>
+<cb n="P179rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲇ︥</fw></seg>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲛ̂ⲁⲣⲭⲓⲉⲣⲉⲩⲥ</w>
+<lb/><w>ⲙⲛ</w><w>ⲛⲉⲫⲁⲣⲓⲥⲁⲓ
+<lb break="no"/>ⲟⲥ</w><w>ⲛ̂ϩⲉⲛϩⲩⲡⲏ
+<lb break="no"/>ⲣⲉⲧⲏⲥ</w><w>ϫⲉⲕⲁⲥ</w><w>ⲉⲩ
+<lb break="no"/>ⲉϭⲟⲡ︤ϥ︥</w><pc>:</pc></ab><ab n="John.7.33"><w>ⲡⲉϫⲁϥ</w>
+<lb rend="hang"/><w>ϭⲉ</w><w>ⲛⲁⲩ</w><w>ⲛ̂ϭⲓ</w><w>ⲓ︦ⲥ︦</w><w>ϫⲉ</w>
+<lb/><w>ⲉⲧⲓ</w><w>ⲕⲉⲕⲟⲩⲓ̈</w><w>ⲛ̂ⲟⲩ
+<lb break="no"/>ⲟⲉⲓϣ</w><w>ⲡⲉϯϣⲟ
+<lb break="no"/>ⲟⲡ</w><w>ⲛⲙⲙⲏⲧ︤ⲛ︥</w>
+<lb/><w>ⲁⲩⲱ</w><w>ϯⲛⲁⲃⲱⲕ</w>
+<lb/><w>ϣⲁ</w><w>ⲡⲉⲛⲧⲁϥⲧⲁⲩ
+<lb break="no"/>ⲟⲉⲓ</w><space unit="char" extent="2"/></ab><ab n="John.7.34"><w>ⲧⲉⲧ︤ⲛ︥ϣⲓ
+<lb break="no"/>ⲛⲉ</w><w>ⲛ̂ⲥⲱⲓ</w><w>ⲛⲧⲉ
+<lb break="no"/>ⲧⲛⲧⲙϩⲉ</w><w>ⲉⲣⲟⲓ̈</w><pc>·</pc>
+<lb/><w>ⲁⲩⲱ</w><w>ⲡⲙⲁ</w><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ⲉϯⲙ̂ⲙⲟϥ</w><w>ⲛ̂ⲧⲱ
+<lb break="no"/>ⲧⲛ</w><w>ⲛ̂ⲧⲉⲧⲛⲁϣ
+<lb break="no"/>ⲉⲓ</w><w>ⲁⲛ</w><w>ⲉⲣⲟϥ</w>
+<lb rend="hang"/></ab><ab n="John.7.35"><w>ⲡⲉϫⲉ</w><w>ⲛ̂ⲓ̈ⲟⲩⲇⲁⲓ</w><w><unclear>ϭ</unclear>ⲉ</w>
+<lb/><w>ⲛ̂ⲛⲉⲩⲉⲣⲏⲩ</w><w>ϫⲉ</w>
+<lb/><w>ⲉⲣⲉⲡⲁⲓ̈</w><w>ⲛⲁⲃⲱⲕ</w>
+<lb/><w>ⲉⲧⲱⲛ</w><pc>·</pc><w>ϫⲉ</w><w>ⲁⲛⲟⲛ</w>
+<lb/><w>ⲛⲧ︤ⲛ︥ⲛⲁϩⲉ</w><w>ⲁⲛ</w><w>ⲉ
+<lb break="no"/>ⲣⲟϥ</w><pc>·</pc><w>ⲙⲏ</w><w>ⲉϥⲛⲁ
+<lb break="no"/>ⲃⲱⲕ</w><w>ⲉϩⲣⲁⲓ</w><w>ⲉⲧ
+<lb break="no"/>ⲇⲓⲁⲥⲡⲟⲣⲁ</w><w>ⲛ̂ⲛ̂
+<lb break="no"/>ϩⲉⲗⲗⲏⲛ</w><w>ⲛϥϯ</w>
+<lb/><w>ⲥⲃⲱ</w><w>ⲛⲛ̂ⲟⲩⲉ
+<lb break="no"/>ⲉⲓⲉⲛⲓⲛ</w></ab><ab n="John.7.36"><w>ⲟⲩ̂</w><w>ⲡⲉ</w>
+<lb/><w>ⲡⲉⲓ̈ⲡϣⲁϫⲉ</w><w>ⲉⲛ
+<cb n="P179rC2-sa117" break="no"/>
+<lb/>ⲧⲁϥϫⲟⲟϥ</w><w>ϫⲉ</w><w>ⲧⲉ
+<lb break="no"/>ⲧⲛ</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="firsthand"><w>ⲁ</w></rdg></app><w>ϣⲓⲛⲉ</w><w>ⲛ̂ⲥⲱⲓ</w>
+<lb/><w>ⲛ̂ⲧⲉⲧⲛ̂ⲧ︤ⲙ︥ϩⲉ</w><w>ⲉ
+<lb break="no"/>ⲣⲟⲉⲓ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲡⲙⲁ</w>
+<lb/><w>ⲁⲛⲟⲕ</w><w>ⲉϯⲙ̂ⲙⲟϥ</w>
+<lb/><w>ⲛ̂ⲧⲱⲧ︤ⲛ︥</w><w>ⲛ̂ⲧⲉ
+<lb break="no"/>ⲧⲛⲁϣ</w><w>ⲉⲓ</w><w>ⲁⲛ</w><w>ⲉⲣⲟϥ</w><pc>:</pc>
+<lb rend="hang"/></ab><ab n="John.7.37"><w><hi rend="cap2">ϩ</hi>ⲣⲁⲓ̈</w><w>ⲇⲉ</w><w>ϩ︤ⲙ︥</w><w>ⲡϩⲁⲉ</w>
+<lb/><w>ⲛ̂ϩⲟⲟⲩ</w><w>ⲛⲟϭ</w><w>ⲛ̂
+<lb break="no"/>ⲧⲉ</w><w>ⲡϣⲁ</w><pc>·</pc><w>ⲛⲉⲣⲉ
+<lb break="no"/>ⲓ︦ⲥ︦</w><w>ⲁϩⲉⲣⲁⲧϥ</w><pc>·</pc><w>ⲁⲩⲱ</w>
+<lb/><space unit="char" extent="1"/><w>ⲁϥⲁϣⲕⲁⲕ</w><w>ⲉ
+<lb break="no"/>ⲃⲟⲗ</w><w>ⲉϥϫⲱ</w><w>ⲙ̄
+<lb break="no"/>ⲙⲟⲥ</w><pc>·</pc><w>ϫⲉ</w><w>ⲡⲉⲧⲟ
+<lb break="no"/>ⲃⲉ⳿</w><w>ⲙⲁⲣⲉϥⲉⲓ̈</w><w>ϣⲁ
+<lb break="no"/>ⲣⲟⲓ̈</w><w>ⲛ︤ϥ︥ⲥⲱ̂</w><pc>·</pc></ab><ab n="John.7.38"><w>ⲡⲉⲧ
+<lb break="no"/>ⲡⲓⲥⲧⲉⲩⲉ</w><w>ⲉⲣⲟⲓ̈</w>
+<lb/><w>ⲕⲁⲧⲁ</w><w>ⲑⲉ</w><w>ⲉⲛⲧⲁ
+<lb break="no"/>ⲧⲉⲅⲣⲁⲫⲏ</w><w>ϫⲟⲟⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲟⲩⲛ̂</w><w>ϩⲉⲛⲉⲓ
+<lb break="no"/>ⲉⲣⲱⲟⲩ</w><w>ⲛⲁϩⲁⲧⲉ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ⲛ̂ϩⲏⲧ︤ϥ︥</w><w>ⲙ̄
+<lb break="no"/>ⲙⲟⲟⲩ</w><w>ⲉϥⲟⲛ︤ϩ︥</w>
+<lb/></ab><ab n="John.7.39"><w>ⲛ̂ⲧⲁϥϫⲉ</w><w>ⲡⲁⲓ̈</w><w>ⲇⲉ</w>
+<lb/><w>ⲉⲧⲃⲉ</w><w>ⲡⲉⲡ︦ⲛ︦ⲁ︦</w>
+<lb/><w>ⲉⲧⲟⲩⲛⲁϫⲓⲧϥ̂</w>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲛⲉⲛⲧⲁⲩ
+<lb break="no"/>ⲡⲓⲥⲧⲉⲩⲉ</w><w>ⲉⲣⲟϥ</w>
+<lb/><w>ⲛⲉⲙ̂ⲡⲁⲧⲟⲩϫⲓ</w>
+<lb/><w>ⲡ︦ⲛ︦ⲁ︦</w><w>ⲅⲁⲣ</w><w>ⲡⲉ</w><pc>·</pc><w>ϫⲉ</w><w>ⲓ︦ⲥ︦</w>
+<pb xml:id="P179v-sa117" n="179v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲉ︥</fw></seg>
+<cb n="P179vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:39-44</note>
+<cb n="P179vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:44-49</note>
+<pb xml:id="P180r-sa117" n="180r" type="folio"/>
+<cb n="P180rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲋ︥</fw></seg>
+<lb/><w>ⲛⲉⲙ̂ⲡⲁⲧ︤ϥ︥ϫⲓ</w><w>ⲉ
+<lb break="no"/>ⲟⲟⲩ</w><w>ⲡⲉ</w><pc>·</pc></ab><ab n="John.7.40"><w>ϩⲟⲉⲓ
+<lb break="no" rend="hang"/>ⲛⲉ</w><w>ⲇⲉ</w><w>ⲉⲃⲟⲗ</w><w>ϩⲙ̂</w>
+<lb/><w>ⲡⲙⲏⲏϣⲉ</w><w>ⲛ̂ⲧⲉ
+<lb break="no"/>ⲣⲟⲩⲥⲱⲧⲙ̄</w><w>ⲉⲛⲉⲓ
+<lb break="no"/>ϣⲁϫⲉ</w><pc>·</pc><w>ⲛⲉⲩϫⲱ̇</w>
+<lb/><w>ⲙ̄ⲙⲟⲥ</w><pc>·</pc><w>ϫⲉ</w><w>ⲡⲁⲓ̈</w>
+<lb/><w><unclear>ⲛⲁⲙ</unclear>ⲉ⳿</w><w>ⲡⲉ</w><w>ⲡⲉⲡⲣ
+<lb break="no"/><unclear>ⲟⲫ</unclear>ⲏⲧⲏⲥ</w><pc>·</pc></ab><ab n="John.7.41"><w>ϩⲉⲛⲕ<unclear>ⲟ</unclear>
+<lb break="no"/>ⲟⲩⲉ</w><w>ⲇⲉ</w><w>ⲛⲉⲩϫⲱ</w>
+<lb/><w>ⲙ<unclear>̂ⲙ</unclear>ⲟⲥ</w><w>ϫⲉ</w><w>ⲡⲁⲓ̈</w>
+<lb/><w>ⲡⲉ</w><w>ⲡⲉⲭ︦ⲥ︦</w><pc>·</pc><w><unclear>ϩ</unclear>ⲟⲉⲓ
+<lb break="no"/>ⲛⲉ</w><w>ⲇⲉ</w><w>ⲛⲉⲩϫⲱ</w>
+<lb/><w><unclear>ⲙⲙⲟ</unclear>ⲥ</w><pc>·</pc><w>ϫⲉ</w><w>ⲙⲏ</w><w><unclear>ⲅ</unclear>ⲁⲣ</w>
+<lb/><w>ⲉⲣⲉⲡⲉⲭ︦ⲥ︦</w><w>ⲛⲏⲩ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲛ̄</w><w>ⲧⲅⲁⲗⲓ
+<lb break="no"/>ⲗⲁⲓⲁ</w><pc>·</pc></ab><ab n="John.7.42"><w>ⲛ̂ⲧⲁⲧⲉⲅⲣⲁ
+<lb break="no"/>ⲫⲏ</w><w>ⲁⲛ</w><w>ϫⲟⲟⲥ</w><w>ϫⲉ</w>
+<lb/><w>ⲉⲣⲉⲡⲉⲭ︦ⲥ︦</w><w>ⲛⲏⲩ</w>
+<lb/><w>ⲉⲃⲟⲗ⳿</w><w>ϩ︤ⲙ︥</w><w>ⲡⲉⲥⲡⲉⲣ
+<lb break="no"/>ⲙⲁ</w><w>ⲛ̄ⲇⲁⲩⲉⲓⲇ</w><w>ⲁⲩⲱ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲛ︥</w><w>ⲃⲏⲑⲗⲉ
+<lb break="no"/>ⲉⲙ</w><w>ⲡϯⲙⲉ</w><w>ⲉⲛⲉ
+<lb break="no"/>ⲣⲉⲇⲁⲩⲉⲓⲇ</w><w>ϣⲟ
+<lb break="no"/>ⲟⲡ</w><w>ⲛ̂ϩⲏⲧϥ̂</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.43"><w><hi rend="cap2">ⲁ</hi>ⲩⲡⲱⲣ︤ϫ︥</w><w>ϭⲉ</w><w>ϣⲱ
+<lb break="no"/>ⲡⲉ</w><w>ϩⲙ︥</w><w>ⲡⲙⲏⲏϣⲉ</w>
+<lb/><w>ⲉⲧⲃⲏⲏⲧϥ̇</w><pc>·</pc></ab><ab n="John.7.44"><w>ϩⲟⲉⲓ
+<lb break="no"/>ⲛⲉ</w><w>ⲇⲉ</w><w>ⲉⲃⲟⲗ</w><w>ⲛ̂ϩⲏ
+<lb break="no"/>ⲧⲟ<unclear>ⲩ</unclear></w><w><unclear>ⲛ</unclear>ⲉⲩⲟⲩⲱϣ</w><w>ⲉ
+<lb break="no"/><space unit="char" extent="4"/>ϭⲟⲡ︤ϥ︥</w>
+<cb n="P180rC2-sa117"/>
+<lb/><w>ⲁⲗⲗⲁ</w><w>ⲙⲡⲉⲗⲁⲁⲩ</w>
+<lb/><w>ⲛ̂</w><w>ⲧⲉ<unclear>ϥ</unclear>ϭⲓϫ</w><w>ⲉϩⲣⲁⲓ</w>
+<lb/><w>ⲉϫⲱϥ</w><pc>:</pc><space unit="char" extent="2"/></ab><ab n="John.7.45"><w>ⲁⲩ<unclear>ⲃⲱⲕ</unclear></w>
+<lb rend="hang"/><w>ϭⲉ</w><w>ⲛ̂ϭⲓ</w><w>ⲛ̂ϩⲩⲡ<unclear>ⲏ</unclear>
+<lb break="no"/>ⲣⲉⲧⲏⲥ</w><w>ϣⲁ</w><w>ⲛ̂ⲁⲣ
+<lb break="no"/>ⲭⲓⲉⲣⲉⲩⲥ</w><pc>·</pc><w>ⲙ︤ⲛ︥</w><w>ⲛ<unclear>ⲉ</unclear>
+<lb break="no"/>ⲫⲁⲣⲓⲥⲁⲓⲟⲥ</w><pc>·</pc><w>ⲁⲩⲱ</w>
+<lb/><w>ⲡⲉϫⲉ</w><w>ⲛⲏ̇</w><w>ⲛⲁⲩ</w>
+<lb/><w>ϫⲉ</w><w>ⲉⲧⲃⲉ</w><w>ⲟⲩ</w><w>ⲙ̄
+<lb break="no"/>ⲡⲉⲧⲛ̄ⲛ̄ⲧ︤ϥ︥</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.46"><w>ⲁⲩⲟⲩⲱϣ︤ⲃ︥</w><w>ⲛ̂ϭⲓ</w>
+<lb/><w>ⲛ̂ϩⲩⲡⲏⲣⲉⲧⲏⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲙ̄ⲡⲉⲣⲱⲙⲉ</w>
+<lb/><w>ϣⲁϫⲉ</w><w>ⲉⲛⲉϩ</w><w>ⲛ̂
+<lb break="no"/>ⲑⲉ</w><w>ⲙ̄ⲡⲉⲓ̈ⲣⲱⲙⲉ·</w>
+<lb rend="hang"/></ab><ab n="John.7.47"><w>ⲁⲩⲟⲩⲱϣ︤ⲃ︥</w><w>ⲛⲁⲩ</w>
+<lb/><w>ⲛ̂ϭⲓ</w><w>ⲛⲉⲫ<unclear>ⲁⲣ</unclear>ⲓ
+<lb break="no"/>ⲥⲁⲓⲟⲥ</w><pc>·</pc><w>ϫⲉ</w><w>ⲙⲏ</w>
+<lb/><w>ⲛ̂ⲧⲁⲧⲉⲧ︤ⲛ︥ⲡⲗⲁ
+<lb break="no"/>ⲛⲁ</w><w>ϩⲱⲧ</w><w>ⲧⲏⲩⲧⲛ</w>
+<lb/></ab><ab n="John.7.48"><w>ⲙⲏ</w><w>ⲁⲗⲁⲁⲩ</w><w>ⲡⲓ
+<lb break="no"/>ⲥⲧⲉⲩⲉ</w><w>ⲉ̇ⲣⲟϥ</w><w>ⲉ
+<lb break="no"/>ⲃⲟⲗ</w><w>ϩ︤ⲛ︥</w><w>ⲛ̂ⲁⲣⲭ<unclear>ⲱⲛ</unclear></w>
+<lb/><w>ⲏ</w><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲛ︥</w><w>ⲛⲉ=ⲫⲁⲣⲓⲥⲁⲓⲟⲥ</w><pc>·</pc>
+<lb/></ab><ab n="John.7.49"><w>ⲁⲗⲗⲁ</w><w>ⲡⲉⲓ̈ⲙⲏ
+<lb break="no"/>ⲏϣⲉ</w><w>ⲉⲧⲉ
+<lb break="no"/>ⲛ̄ⲥⲉⲥⲟⲟⲩⲛ</w>
+<lb/><space unit="char" extent="8"/><w>ⲁⲛ</w>
+<pb xml:id="P180v-sa117" n="180v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲍ︥</fw></seg>
+<cb n="P180vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 7:49-52; 8:12</note>
+<cb n="P180vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 8:12-16</note>
+<pb xml:id="P181r-sa117" n="181r" type="folio"/>
+<cb n="P181rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲏ︥</fw></seg>
+<lb/><w>ⲙⲡⲛⲟⲙⲟⲥ</w><w>ⲥⲉ
+<lb break="no"/>ϣⲟⲟⲡ</w><w>ϩⲁ</w><w>ⲡⲥⲁϩⲟ<unclear>ⲩ</unclear></w>
+<lb rend="hang"/></ab><ab n="John.7.50"><w><hi rend="cap2">ⲡ</hi>ⲉϫⲉ</w><w>ⲛⲓⲕⲟⲇⲏ̂ⲙⲟⲥ</w>
+<lb/><w>ⲛⲁⲩ</w><w>ⲡⲉⲛⲧⲁϥⲉⲓ</w>
+<lb/><w>ϣⲁ</w><w>ⲓ︦ⲥ︦</w><w>ⲛ̂ϣⲟⲣⲡ︥</w>
+<lb/><w>ⲉⲟⲩⲁ</w><w>ⲉⲃⲟⲗ</w><w>ⲛϩⲏ
+<lb break="no"/>ⲧⲟⲩ</w><w>ⲡⲉ</w><pc>·</pc></ab><ab n="John.7.51"><w>ϫⲉ</w><w>ⲙⲏ</w>
+<lb/><w>ⲡⲉⲛⲛⲟⲙⲟⲥ</w><w>ⲕⲣⲓ
+<lb break="no"/>ⲛⲉ</w><w>ⲙ̄ⲡⲣⲱⲙⲉ</w>
+<lb/><w>ⲉⲓⲙⲏⲧⲓ</w><w>ⲛ︤ϥ︥ⲥⲱ
+<lb break="no"/>ⲧⲙ̄</w><w>ⲉⲣⲟϥ</w><w>ⲛ̄ϣⲟ
+<lb break="no"/>ⲣ︤ⲡ︥</w><w>ⲁⲩⲱ</w><w>ⲛϥⲉⲓⲙⲉ</w>
+<lb/><w>ϫⲉ</w><w>ⲟⲩ</w><w>ⲡⲉⲧϥ̄ⲉⲓ
+<lb break="no"/>ⲣⲉ</w><w>ⲙ̄ⲙⲟϥ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.7.52"><w><hi rend="cap2">ⲁ</hi>ⲩⲟⲩⲱϣⲃ</w><w>ⲉⲩ
+<lb break="no"/>ϫⲱ̂</w><w>ⲙⲙⲟⲥ</w><w>ⲛⲁϥ</w>
+<lb/><w>ϫⲉ</w><w>ⲙⲏ</w><w>ⲛ̂ⲧ︤ⲕ︥</w><w>ⲟⲩ</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩⲱⲱⲕ</w><w>ⲟⲛ</w>
+<lb/><w>ϩⲛ</w><w>ⲧⲅⲁⲗⲓⲗⲁⲓⲁ</w><pc>·</pc>
+<lb/><w><unclear>ϩ</unclear>ⲟⲧϩⲧ̂</w><w>ⲛ̂ⲛⲉⲅⲣⲁ
+<lb break="no"/>ⲫⲏ</w><w>ⲛⲅ︥ⲛⲁⲩ</w><w>ϫⲉ</w>
+<lb/><w>ⲛⲉⲣⲉⲡⲉⲡⲣⲟ
+<lb break="no"/>ⲫⲏⲧⲏⲥ</w><w>ⲛⲁⲧⲱ
+<lb break="no"/>ⲟⲩⲛ</w><w>ⲁⲛ</w><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲛ︥</w>
+<lb/><w>ⲧⲅⲁⲗⲓⲗⲁⲓⲁ</w><pc>:</pc></ab></div><div n="John.8" type="chapter"><ab n="John.8.12"><w><unclear>ⲓ</unclear>︦ⲥ︦</w><w>ϭⲉ</w>
+<lb rend="hang"/><w><hi rend="cap2">ⲟ</hi>ⲛ</w><w>ⲁϥϣⲁϫⲉ</w><w>ⲛⲙ
+<lb break="no"/>ⲙⲁⲩ</w><w>ⲉϥϫⲱ</w><w>ⲙ̂ⲙ<unclear>ⲟ</unclear>ⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲁⲛⲟⲕ</w><w>ⲡⲉ</w><w>ⲡⲟⲩ
+<lb break="no"/>ⲟⲉⲓⲛ</w><w>ⲙ̄ⲡⲕⲟⲥⲙⲟⲥ</w>
+<lb/><w>ⲡⲉⲧⲛⲁⲟⲩⲁϩϥ</w><w>ⲛ̄
+<lb break="no"/><space unit="char" extent="7"/>ⲥⲱⲓ</w><w>ⲛϥ̂
+<cb n="P181rC2-sa117" break="no"/>
+<lb/>ⲛⲁⲙⲟⲟϣⲉ</w><w>ⲁⲛ</w>
+<lb/><w>ϩ︤ⲙ︥</w><w>ⲡⲕⲁⲕⲉ</w><pc>·</pc><w>ⲁⲗⲗⲁ</w>
+<lb rend="hang"/><w><hi rend="cap2">ϥ</hi>ⲛⲁϫⲓ</w><w>ⲙⲡⲟⲩⲟⲓ̈ⲛ</w>
+<lb/><w>ⲙ̂ⲡⲱⲛ︤ϩ︥</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.8.13"><w><hi rend="cap2">ⲡ</hi>ⲉϫⲉ</w><w>ⲛⲉⲫⲁⲣⲓⲥⲁⲓ
+<lb break="no"/>ⲟⲥ</w><w>ϭⲉ</w><w>ⲛⲁϥ</w><pc>·</pc><w>ϫⲉ</w>
+<lb/><w>ⲛ̂ⲧⲟⲕ</w><w>ⲉⲧⲣ</w><w>ⲙⲛ̄
+<lb break="no"/>ⲧⲣⲉ</w><w>ϩⲁⲣⲟⲕ</w><w>ⲧⲉ<unclear>ⲕ</unclear>
+<lb break="no"/>ⲙ︤ⲛ︦ⲧ︥ⲙⲛⲧ̂ⲣⲉ</w><w><unclear>ⲛ</unclear>
+<lb break="no"/>ⲟⲩⲙⲉ</w><w>ⲁⲛ</w><w>ⲧⲉ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.8.14"><w><hi rend="cap2">ⲁ</hi>ⲓ︦ⲥ︦</w><w>ⲟⲩⲱϣ︤ⲃ︥</w><w><unclear>ⲡ</unclear>ⲉ
+<lb break="no"/>ϫⲁϥ</w><w>ⲛⲁⲩ</w><pc>·</pc><w>ϫⲉ</w><w>ⲕⲁⲛ</w>
+<lb/><w>ⲁⲛⲟⲕ</w><w>ⲉⲉⲓϣⲁⲛ
+<lb break="no"/>ⲣ</w><w>ⲙ︤ⲛ︦ⲧ︥ⲣⲉ</w><w>ϩⲁⲣⲟⲓ̈</w>
+<lb/><w>ⲧⲁⲙⲛ̂ⲧⲙ︤ⲛ︥ⲧⲣⲉ</w>
+<lb/><w>ⲟⲩⲙⲉ</w><w>ⲧⲉ</w><pc>·</pc><w>ϫⲉ</w><w>ϯ
+<lb break="no"/>ⲥⲟⲟⲩⲛ</w><w>ϫⲉ</w><w>ⲛ̂ⲧⲁ<supplied reason="lacuna/illegible">ⲓ</supplied>
+<lb break="no"/>ⲉⲓ</w><w>ⲧⲱⲛ</w><pc>·</pc><w>ⲁⲩⲱ</w><w>ⲉⲓ
+<lb break="no"/>ⲛⲁ</w><w>ⲧⲱⲛ</w><pc>·</pc><w>ⲛⲧⲱ
+<lb break="no"/>ⲧ︤ⲛ︥</w><w>ⲇⲉ</w><w>ⲛ̂ⲧⲉ
+<lb break="no"/>ⲧⲛ<unclear>ⲥⲟ</unclear>ⲟⲩⲛ</w><w>ⲁⲛ</w>
+<lb/><w>ϫⲉ</w><w>ⲛⲧⲁⲓ̈ⲉⲓ</w><w>ⲧⲱⲛ</w>
+<lb/><w><unclear>ⲏ</unclear></w><w><unclear>ⲉⲓⲛⲁ</unclear></w><w><unclear>ⲉⲧ</unclear>ⲱⲛ·</w>
+<lb/></ab><ab n="John.8.15"><w>ⲛ<unclear>ⲧⲱⲧⲛ</unclear></w><w>ⲉⲧⲉⲧⲛ
+<lb break="no"/>ⲕ<unclear>ⲣⲓⲛ</unclear>ⲉ</w><w><unclear>ⲕⲁ</unclear>ⲧⲁ</w><w>ⲥⲁⲣ<unclear>ⲝ</unclear></w>
+<lb/><w>ⲁⲛⲟⲕ</w><w>ⲇⲉ</w><w>ⲛ̂ϯⲕⲣⲓ
+<lb break="no"/>ⲛⲉ</w><w>ⲁⲛ</w><w>ⲛ̂ⲗⲁⲁⲩ</w><pc>·</pc>
+<lb/></ab><ab n="John.8.16"><w>ⲕⲁⲛ</w><w>ⲉⲉⲓ̈ϣⲁⲛⲕⲣⲓ
+<lb break="no"/>ⲛⲉ</w><w>ⲇⲉ</w><w>ⲁⲛⲟⲕ</w><pc>·</pc><w>ⲧⲁ
+<lb break="no"/>ⲕⲣⲓⲥⲓⲥ</w><w>ⲟⲩ
+<pb xml:id="P181v-sa117" n="181v" type="folio" break="no"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲛ︦ⲑ︥</fw></seg>
+<cb n="P181vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 8:16-20</note>
+<cb n="P181vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 8:20-23</note>
+<pb xml:id="P182r-sa117" n="182r" type="folio" break="no"/>
+<cb n="P182rC1-sa117"/>
+<lb/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲝ︥</fw></seg>
+<lb/>ⲙⲉⲉ</w><w>ⲧⲉ</w><w>ϫⲉ</w><w>ⲛⲁⲛⲟⲕ</w>
+<lb/><w>ⲙⲙⲁⲧⲉ</w><w>ⲁⲛ</w><w>ⲡⲉ</w><pc>·</pc>
+<lb/><w>ⲁⲗⲗⲁ</w><w>ⲁⲛⲟⲕ</w><w>ⲙⲛ</w>
+<lb/><w>ⲡⲉⲓⲱⲧ</w><w>ⲉⲛⲧⲁϥ
+<lb break="no"/>ⲧⲁⲩⲟⲉⲓ</w><pc>·</pc></ab><ab n="John.8.17"><w>ϥⲥⲏϩ</w><w>ⲇⲉ</w>
+<lb/><w>ⲟⲛ</w><w>ϩⲙ</w><w>ⲡⲉⲧ︤ⲛ︥ⲛⲟ
+<lb break="no"/>ⲙⲟⲥ</w><pc>·</pc><w>ϫⲉ</w><w>ⲧⲙ̄ⲛⲧ
+<lb break="no"/>ⲙ᷍ⲛⲧⲣⲉ</w><w>ⲛ̂ⲣⲱⲙⲉ</w>
+<lb/><w>ⲥⲛⲁⲩ</w><w>ⲟⲩⲙⲉⲉ</w>
+<lb/><w>ⲧⲉ</w><pc>·</pc></ab><ab n="John.8.18"><w>ⲁⲛⲟⲕ</w><w>ⲡⲉⲧ
+<lb break="no"/>ⲣ</w><w>ⲙ︤ⲛ︥ⲧⲣⲉ</w><w>ϩⲁⲣⲟⲉⲓ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ϥⲣ</w><w>ⲙ︤ⲛ︥ⲧⲣⲉ</w>
+<lb/><w>ⲟⲛ</w><w>ϩⲁⲣⲟⲉⲓ</w><w>ⲛ̂ϭⲓ</w>
+<lb/><w>ⲡⲉⲓⲱⲧ</w><w>ⲉⲛⲧⲁϥ
+<lb break="no"/>ⲧⲁⲩⲟⲉⲓ</w><pc>·</pc></ab><ab n="John.8.19"><w>ⲛⲉⲩ</w>
+<lb rend="hang"/><w>ϫⲱ̂</w><w>ϭⲉ</w><w>ⲙ̂ⲙⲟⲥ</w>
+<lb/><w>ⲛⲁϥ</w><w>ⲡⲉ</w><w>ϫⲉ</w><w>ⲉϥ
+<lb break="no"/>ⲧⲱⲛ</w><w>ⲡⲉⲕⲉⲓⲱⲧ</w>
+<lb rend="hang"/><w><hi rend="cap2">ⲁ</hi>ϥⲟⲩⲱϣⲃ̂</w><w>ⲛ̂
+<lb break="no"/><unclear>ϭ</unclear>ⲓ</w><w>ⲓ︦ⲥ︦</w><w>ⲡⲉϫⲁϥ</w><w>ⲛ<unclear>ⲁⲩ</unclear></w>
+<lb/><w>ϫⲉ</w><w>ⲟⲩⲇⲉ</w><w>ⲛ̂ⲧⲉ
+<lb break="no"/>ⲧⲛⲥⲟⲟⲩⲛ</w><w>ⲙ̂
+<lb break="no"/>ⲙⲟⲓ̈</w><w>ⲁⲛ</w><pc>·</pc><w>ⲟⲩⲇⲉ</w>
+<lb/><w>ⲟⲛ</w><w>ⲛ̂ⲧⲉⲧⲛ̂ⲥⲟ
+<lb break="no"/>ⲟⲩⲛ</w><w>ⲁⲛ</w><w>ⲙ̄ⲡⲁ
+<lb break="no"/>ⲉⲓⲱ̂ⲧ</w><pc>·</pc><w>ⲉⲛⲉⲧⲉⲧⲛ
+<lb break="no"/>ⲥⲟⲟⲩⲛ</w><w>ⲙ̂ⲙⲟⲓ̈</w><w>ⲧⲉ
+<lb break="no"/>ⲧⲛⲁⲥⲟⲩⲛ̂</w><w>ⲡⲁⲉⲓⲱⲧ</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="firsthand"><w>ⲟⲛ</w><w>ⲡⲉ·</w></rdg></app>
+<lb rend="hang"/></ab><ab n="John.8.20"><w><hi rend="cap2">ⲛ</hi>ⲉⲓϣⲁϫⲉ</w><w>ⲁϥϫⲟⲟⲩ</w>
+<lb/><w>ϩⲙ</w><w>ⲡⲅⲁⲍⲟⲫⲩⲗⲁⲕⲓⲟⲛ</w>
+<cb n="P182rC2-sa117"/>
+<lb/><w>ⲉϥϯ</w><w>ⲥⲃⲱ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲉⲣ
+<lb break="no"/>ⲡⲉ</w><w>ⲁⲩⲱ</w><w>ⲙⲡⲉⲗⲁ
+<lb break="no"/>ⲁⲩ</w><w>ϭⲟⲡϥ̇</w><w>ϫⲉ</w><w>ⲙ̄ⲡⲁ</w>
+<lb/><w>ⲡⲁⲧⲉⲧⲉϥⲟⲩⲛⲟⲩ</w><note type="editorial">das zweite ⲡⲁ ist als fehlerhaft zu tilgen</note>
+<lb/><w>ⲉⲓ</w><space unit="char" extent="2"/></ab><ab n="John.8.21"><w>ⲡⲉϫⲁϥ</w><w>ϭⲉ</w>
+<lb rend="hang"/><w><hi rend="cap2">ⲟ</hi>ⲛ</w><w>ⲛⲁⲩ</w><w>ⲛ̂ϭⲓ</w><w>ⲓ︦ⲥ︦</w><w>ϫⲉ</w>
+<lb/><w>ⲁⲛⲟⲕ</w><w>ϯⲛⲁⲃⲱⲕ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲧⲉⲧⲛⲁϣⲓ
+<lb break="no"/>ⲛⲉ</w><w>ⲛ̂ⲥⲱⲉⲓ</w><pc>·</pc><w>ⲁⲩⲱ</w>
+<lb/><w>ⲧⲉⲧⲛⲁⲙⲟⲩ</w><w>ϩⲣⲁⲓ</w>
+<lb/><w>ϩ︤ⲙ︥</w><w>ⲡⲉⲧ︤ⲛ︥ⲛⲟⲃⲉ</w>
+<lb/><w>ⲁⲩⲱ</w><w>ⲡⲙⲁ</w><pc>·</pc><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ⲉϯⲛⲁⲃⲱⲕ</w><w>ⲉ̇ⲣⲟϥ</w>
+<lb/><w>ⲛ̂ⲧⲱⲧⲛ</w><w>ⲙ︤ⲛ︥</w>
+<lb/><w>ϣϭⲟⲙ</w><w>ⲙ̂ⲙⲱⲧ︤ⲛ︥</w>
+<lb/><w>ⲉⲉⲓ</w><w>ⲉⲙⲁⲩ</w><pc>·</pc>
+<lb rend="hang"/></ab><ab n="John.8.22"><w>ⲛⲉⲩϫⲱ</w><w>ϭⲉ</w><w>ⲙⲙⲟⲥ</w>
+<lb/><w>ⲛϭⲓ</w><w>ⲛ̂ⲓ̈ⲟⲩⲇⲁⲓ̈</w>
+<lb/><w>ϫⲉ</w><w>ⲙⲏⲧⲓ</w><w>ⲉϥⲛⲁ
+<lb break="no"/>ⲙⲟⲩⲟⲩⲧ</w><w>ⲙ̄ⲙⲟϥ
+<lb break="no"/>ϫⲉ</w><w>ϥϫⲱ̂</w><w>ⲙ̂ⲙⲟⲥ</w>
+<lb/><w>ϫⲉ</w><w>ⲡⲙⲁ</w><w>ⲁⲛⲟⲕ</w>
+<lb/><w>ⲉϯⲛⲁⲃⲱⲕ</w><w>ⲉ
+<lb break="no"/>ⲣⲟϥ</w><w>ⲛ̂ⲧⲱⲧⲛ</w><w>ⲉ
+<lb break="no"/>ⲧⲉⲧⲛⲁϣ</w><w>ⲉⲓ</w><w>ⲁⲛ</w>
+<lb/><w>ⲉⲙⲁⲩ</w><pc>·</pc><space unit="char" extent="2"/></ab><ab n="John.8.23"><w>ⲁⲩⲱ</w>
+<lb rend="hang"/><w>ⲡⲉϫⲁϥ</w><w>ⲛⲁⲩ</w><w>ϫⲉ</w>
+<lb/><w>ⲛ̂ⲧⲱⲧⲛ̂</w><w>ⲛ̂ⲧⲉⲧⲛ̂</w>
+<lb/><w>ⲉⲃⲟⲗ</w><w>ϩ︤ⲙ︥</w><w>ⲡⲕⲁϩ</w><w>ⲁⲛ<unclear>ⲅ</unclear></w>
+<lb/><w>ⲁⲛⲟⲕ</w><w>ⲟⲩⲉⲃⲟⲗ</w><w>ϩ︤ⲛ︥</w>
+<lb/><w>ⲧⲡⲉ</w><pc>·</pc><w>ⲛ̂ⲧⲱⲧⲛ</w><w>ⲛ̂ⲧⲉ<supplied reason="lacuna-placeholder">...</supplied></w>
+<pb xml:id="P182v-sa117" n="182v" type="folio"/><seg type="margin" subtype="pagetop">
+<lb/><fw type="pageNum">ⲧ︤ⲝ︦ⲁ︥</fw></seg>
+<cb n="P182vC1-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 8:23-27</note>
+<cb n="P182vC2-sa117"/>
+<lb/><note type="editorial">Greek text, Joh 8:27-31</note></ab></div></div></body></text>
+             </TEI>

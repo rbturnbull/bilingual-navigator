@@ -1,0 +1,109 @@
+# The BICROSS Navigator: bilingual New Testament manuscripts, parsed and word-aligned.
+# Build with:  hexapla build bicross-navigator-config.yaml --output site
+# Everything about a manuscript (language, names, identifiers, date, licence) is in its TEI header.
+
+theme:
+  name: BICROSS Navigator
+  logo: theme/bicross-navigator-logo.jpg
+  variables: theme/variables.scss
+  about: theme/about.md
+  licence: CC-BY-NC-SA-4.0
+
+manuscripts:
+  0278-greek:
+    tei: GA0278/NT_GRC_0278_Eph.xml
+    parsing: GA0278/0278-Eph-grc.conllu
+  0278-arabic:
+    tei: GA0278/Eph_0278arb.xml
+    parsing: GA0278/0278-Eph-ar.conllu
+  augiensis-greek:
+    tei: GA010-augiensis/NT_GRC_010_Gal.xml
+    parsing: GA010-augiensis/NT_GRC_010_Gal1.conllu
+  augiensis-latin:
+    tei: GA010-augiensis/09_VL78.xml
+    parsing: GA010-augiensis/09_VL78_Gal1.conllu
+  bezae-greek:
+    tei: GA05-bezae/Bezae-Greek.xml
+    parsing: GA05-bezae/Bezae-Greek-John20.conllu
+  bezae-latin:
+    tei: GA05-bezae/Bezae-Latin.xml
+    parsing: GA05-bezae/Bezae-Latin-John20.conllu
+  borgianus-greek:
+    tei: GA029-borgianus/NT_GRC_029_John.xml
+    parsing: GA029-borgianus/029-John-grc.conllu
+  borgianus-coptic:
+    tei: GA029-borgianus/NT_COP_sa117_John.xml
+    parsing: GA029-borgianus/sa117-John-cop.conllu
+  carolinus-gothic:
+    tei: carolinus/carolinus-romans-gothic.xml
+    parsing: carolinus/carolinus-romans-got-with-gold.conllu
+  carolinus-latin:
+    tei: carolinus/06_VL79.xml
+    parsing: carolinus/carolinus-romans-lat.conllu
+  claromontanus-greek:
+    tei: GA06-claromontanus/NT_GRC_06_Gal.xml
+    parsing: GA06-claromontanus/gal-grc.conllu
+  claromontanus-latin:
+    tei: GA06-claromontanus/09_VL75.xml
+    parsing: GA06-claromontanus/gal-lat.conllu
+  ga460-latin:
+    tei: GA460/Eph_460lat.xml
+    parsing: GA460/Eph_460lat.conllu
+  ga460-arabic:
+    tei: GA460/Eph_460arb.xml
+    parsing: GA460/Eph_460arb.conllu
+  ga629-greek:
+    tei: GA629/NT_GRC_629_1Cor.xml
+    parsing: GA629/NT_GRC_629_1Cor15.conllu
+  ga629-latin:
+    tei: GA629/07_GA629_lat.xml
+    parsing: GA629/07_GA629_lat_1Cor15.conllu
+  harris9-greek:
+    tei: GA0136/Harris9-grc.xml
+    parsing: GA0136/Harris9-grc.conllu
+  harris9-arabic:
+    tei: GA0136/Harris9-ar.xml
+    parsing: GA0136/Harris9-ar.conllu
+  p6-greek:
+    tei: P6/NT_GRC_P6_John.xml
+    parsing: P6/NT_GRC_P6_John.conllu
+  p6-coptic:
+    tei: P6/NT_COP_ac1_John.xml
+    parsing: P6/NT_COP_ac1_John.conllu
+
+# manuscripts are listed in the order of the links file: source, then target.
+alignments:
+  0278:
+    manuscripts: [0278-greek, 0278-arabic]
+    links: GA0278/eph-aligned.jsonl
+  augiensis:
+    manuscripts: [augiensis-greek, augiensis-latin]
+    links: GA010-augiensis/Augiensis-Gal1-aligned.jsonl
+  bezae:
+    manuscripts: [bezae-greek, bezae-latin]
+    links: GA05-bezae/Bezae-John20-aligned.jsonl
+  borgianus:
+    name: Codex Borgianus
+    manuscripts: [borgianus-greek, borgianus-coptic]
+    links: GA029-borgianus/john-aligned.jsonl
+  carolinus:
+    manuscripts: [carolinus-gothic, carolinus-latin]
+    links: carolinus/romans-aligned-gotlat.jsonl
+  claromontanus:
+    manuscripts: [claromontanus-greek, claromontanus-latin]
+    links: GA06-claromontanus/gal-aligned.jsonl
+  ga460:
+    manuscripts: [ga460-latin, ga460-arabic]
+    links: GA460/GA460-Eph-aligned.jsonl
+  ga629:
+    name: Codex Ottobonianus 298
+    manuscripts: [ga629-greek, ga629-latin]
+    links: GA629/GA629-1Cor15-aligned.jsonl
+  harris9:
+    name: Harris 9
+    manuscripts: [harris9-greek, harris9-arabic]
+    links: GA0136/Harris9-aligned.jsonl
+  p6:
+    name: Papyrus 6
+    manuscripts: [p6-greek, p6-coptic]
+    links: P6/P6-John-aligned.jsonl

@@ -1,0 +1,768 @@
+# sent_id = Rom.11.33
+# text = jah witubnjis gudis ƕaiwa unusspilloda sind stauos is jah unbilaistidai wigos is
+# gold_source = treebank: 0/12 words aligned; 0/0 gold arcs used
+1	jah	jah	CCONJ	C-	_	2	cc	_	Conf=form:0.97,lemma:0.97,upos:0.85,xpos:0.85,feats:0.97,head:0.80,deprel:0.85
+2	witubnjis	witubni	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	6	dislocated	_	Conf=form:0.97,lemma:0.92,upos:0.90,xpos:0.92,feats:0.85,head:0.55,deprel:0.50
+3	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+4	ƕaiwa	ƕaiwa	ADV	Du	PronType=Int	6	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+5	unusspilloda	unusspilloþs	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Strength=Strong	6	xcomp	_	Conf=form:0.97,lemma:0.80,upos:0.85,xpos:0.85,feats:0.80,head:0.85,deprel:0.85
+6	sind	wisan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+7	stauos	staua	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.85,deprel:0.85
+8	is	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	det	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+9	jah	jah	CCONJ	C-	_	11	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.85
+10	unbilaistidai	unbilaistiþs	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	11	orphan	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.75,feats:0.75,head:0.60,deprel:0.55
+11	wigos	wigs	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	Conf=form:0.97,lemma:0.80,upos:0.85,xpos:0.97,feats:0.85,head:0.70,deprel:0.65
+12	is	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	det	_	Conf=form:0.97,lemma:0.90,upos:0.90,xpos:0.97,feats:0.90,head:0.90,deprel:0.90
+
+# sent_id = Rom.11.34
+# text = ƕas auk ufkunþa fraþi fraujins aiþþau ƕas imma ragineis was
+# gold_source = treebank: 10/10 words aligned; 10/10 gold arcs used
+1	ƕas	ƕas	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	3	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	auk	auk	ADV	Df	_	3	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	ufkunþa	uf-kunnan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	fraþi	fraþi	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	fraujins	frauja	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	aiþþau	aiþþau	CCONJ	C-	_	10	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	ƕas	ƕas	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	10	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	imma	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	ragineis	ragineis	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	10	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	was	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.11.35
+# text = aiþþau ƕas imma fruma gaf jah fragildaidau imma
+# gold_source = treebank: 8/8 words aligned; 8/8 gold arcs used
+1	aiþþau	aiþþau	CCONJ	C-	_	5	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	ƕas	ƕas	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	imma	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	fruma	fruma	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Strength=Weak	5	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	gaf	giban	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	jah	jah	CCONJ	C-	_	7	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	fragildaidau	fra-gildan	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	imma	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.11.36
+# text = unte us imma jah þairh ina jah in imma alla immuh wulþus du aiwam amen
+# gold_source = treebank: 14/15 words aligned; 11/14 gold arcs used
+1	unte	unte	ADV	Df	_	3	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	us	us	ADP	R-	_	3	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	imma	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	orphan	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.50,deprel:0.50
+4	jah	jah	CCONJ	C-	_	6	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	þairh	þairh	ADP	R-	_	6	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	ina	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	jah	jah	CCONJ	C-	_	9	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	in	in	ADP	R-	_	9	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	imma	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	alla	alls	PRON	Px	Case=Nom|Gender=Neut|Number=Plur	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.60,deprel:0.60
+11	immuh	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	orphan	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.80,feats:0.80,head:0.75,deprel:0.75
+12	wulþus	wulþus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.50,deprel:0.50
+13	du	du	ADP	R-	_	14	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	aiwam	aiws	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	12	orphan	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	amen	amen	INTJ	I-	_	12	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.1
+# text = bidja nu izwis broþrjus þairh bleiþein gudis usgiban leika izwara saud qiwana weihana waila galeikaidana guda andaþahtana blotinassu izwarana
+# gold_source = treebank: 19/19 words aligned; 19/19 gold arcs used
+1	bidja	bidjan	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	nu	nu	ADV	Df	_	1	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	izwis	jūs	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	1	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	broþrjus	broþar	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	1	vocative	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	þairh	þairh	ADP	R-	_	6	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	bleiþein	bleiþei	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	usgiban	us-giban	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	leika	leik	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	izwara	izwar	DET	Ps	Case=Acc|Gender=Neut|Number=Plur|Person=2|Poss=Yes	9	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	saud	sauþs*	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	qiwana	qius*	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Strength=Strong	11	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	weihana	weihs	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Strength=Strong	11	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	waila	wáila	ADV	Df	_	15	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	galeikaidana	ga-leikan	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	guda	guþ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	15	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	andaþahtana	andaþāhts	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Strength=Strong	18	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	blotinassu	blotinassus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	11	appos	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+19	izwarana	izwar	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	18	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.2
+# text = ni galeikoþ izwis þamma aiwa ak inmaidjaiþ ananiujiþai fraþjis izwaris du gakiusan ƕa sijai wilja gudis þatei goþ jah galeikaiþ jah ustauhan
+1	ni	ni	ADV	Df	Polarity=Neg	2	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+2	galeikoþ	gáleikon	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.99
+3	izwis	jūs	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	2	obj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.60,deprel:0.60
+4	þamma	sa	DET	Pd	Case=Dat|Gender=Masc|Number=Sing	5	det	_	Conf=form:0.97,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+5	aiwa	aiws	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	obl:arg	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.60,deprel:0.60
+6	ak	ak	CCONJ	C-	_	7	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+7	inmaidjaiþ	in-maidjan	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+8	ananiujiþai	ananiujiþa	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	Conf=form:0.97,lemma:0.85,upos:0.97,xpos:0.97,feats:0.90,head:0.80,deprel:0.80
+9	fraþjis	fraþi	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+10	izwaris	izwar	DET	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	9	det	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+11	du	du	ADP	R-	_	12	mark	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+12	gakiusan	ga-kiusan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	advcl	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.75,deprel:0.75
+13	ƕa	ƕas	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	14	xcomp	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+14	sijai	wisan	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+15	wilja	wilja	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+16	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+17	þatei	saei	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	18	nsubj	_	Conf=form:0.97,lemma:0.85,upos:0.95,xpos:0.85,feats:0.85,head:0.75,deprel:0.75
+18	goþ	goþs	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	15	acl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.70,deprel:0.70
+19	jah	jah	CCONJ	C-	_	20	cc	_	Conf=form:0.97,lemma:0.97,upos:0.85,xpos:0.85,feats:0.97,head:0.85,deprel:0.85
+20	galeikaiþ	ga-leikan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.75,deprel:0.75
+21	jah	jah	CCONJ	C-	_	22	cc	_	Conf=form:0.97,lemma:0.97,upos:0.85,xpos:0.85,feats:0.97,head:0.85,deprel:0.85
+22	ustauhan	us-tiuhan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.75,deprel:0.75
+
+# sent_id = Rom.12.3
+# text = qiþa auk þairh anst gudis sei gibana ist mis allaim wisandam in izwis ni mais fraþjan þau skuli fraþjan ak fraþjan du waila fraþjan ƕarjammeh swaswe guþ gadailida mitaþ galaubeinais
+# gold_source = treebank: 30/30 words aligned; 30/30 gold arcs used
+1	qiþa	qiþan	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	auk	auk	ADV	Df	_	1	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	þairh	þairh	ADP	R-	_	4	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	anst	ansts	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	sei	izei	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	gibana	giban	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	mis	ik	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	allaim	alls	DET	Px	Case=Dat|Number=Plur	11	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	wisandam	wisan	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	1	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	in	in	ADP	R-	_	13	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	izwis	jūs	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	11	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	ni	ni	ADV	Df	Polarity=Neg	16	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	mais	mais	ADV	Df	Degree=Cmp	16	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	fraþjan	fraþjan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	þau	þau	SCONJ	G-	_	18	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	skuli	skulan*	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+19	fraþjan	fraþjan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	18	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+20	ak	ak	CCONJ	C-	_	21	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+21	fraþjan	fraþjan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	16	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+22	du	du	ADP	R-	_	24	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+23	waila	wáila	ADV	Df	_	24	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+24	fraþjan	fraþjan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	21	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+25	ƕarjammeh	ƕarjizuh	PRON	Px	Case=Dat|Gender=Masc|Number=Sing	28	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+26	swaswe	swaswe	ADV	Dq	PronType=Rel	28	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+27	guþ	guþ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+28	gadailida	ga-dailjan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+29	mitaþ	mitaþs	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+30	galaubeinais	galaubeins	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.4
+# text = swaswe raihtis in ainamma leika liþuns managans habam þaiþ~þan liþjus allai ni þata samo taui haband
+# gold_source = treebank: 15/16 words aligned; 13/13 gold arcs used
+1	swaswe	swaswe	ADV	Dq	PronType=Rel	8	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	raihtis	raihtis	ADV	Df	_	8	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.90,deprel:0.97
+3	in	in	ADP	R-	_	5	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	ainamma	ains	NUM	Ma	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nummod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	leika	leik	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	liþuns	liþus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	managans	manags	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	6	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	habam	haban	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.90,deprel:0.99
+9	þaiþ~þan	þan	CCONJ	C-	_	16	cc	_	Conf=form:0.97,lemma:0.50,upos:0.80,xpos:0.85,feats:0.85,head:0.75,deprel:0.75
+10	liþjus	liþus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	allai	alls	DET	Px	Case=Nom|Gender=Masc|Number=Plur	10	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	ni	ni	ADV	Df	Polarity=Neg	16	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	þata	sa	DET	Pd	Case=Acc|Gender=Neut|Number=Sing	15	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	samo	sama	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Strength=Weak	15	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	taui	taui	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	haband	haban	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.5
+# text = swa managai ain leik sijum in xristau aþþan ainƕarjizuh anþar anþaris liþjus
+# gold_source = treebank: 12/12 words aligned; 12/12 gold arcs used
+1	swa	swa	ADV	Df	_	5	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	managai	manags	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	ain	ains	NUM	Ma	Case=Nom|Gender=Neut|Number=Sing	4	nummod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	leik	leik	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	sijum	wisan	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	in	in	ADP	R-	_	7	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	xristau	Xristus	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	aþþan	aþþan	CCONJ	C-	_	10	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	ainƕarjizuh	ainƕarjizuh	DET	Px	Case=Nom|Gender=Masc|Number=Sing	10	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	anþar	anþar	PRON	Pc	Case=Nom|Gender=Masc|Number=Sing|PronType=Rcp	5	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	anþaris	anþar	PRON	Pc	Case=Gen|Gender=Masc|Number=Sing|PronType=Rcp	12	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	liþjus	liþus	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	10	orphan	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.17
+# text = in andwairþja gudis ak jah in andwairþja manne allaize
+# gold_source = treebank: 9/9 words aligned; 8/8 gold arcs used
+1	in	in	ADP	R-	_	2	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	andwairþja	andwairþi	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.92,deprel:0.99
+3	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	ak	ak	CCONJ	C-	_	7	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	jah	jah	ADV	Df	_	7	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	in	in	ADP	R-	_	7	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	andwairþja	andwairþi	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	2	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	manne	manna	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	allaize	alls	DET	Px	Case=Gen|Gender=Masc,Neut|Number=Plur	8	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.18
+# text = jabai magi wairþan us izwis miþ allaim mannam gawairþi habandans
+# gold_source = treebank: 10/10 words aligned; 10/10 gold arcs used
+1	jabai	jabai	SCONJ	G-	_	2	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	magi	magan*	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	wairþan	wairþan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	us	us	ADP	R-	_	5	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	izwis	jūs	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	3	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	miþ	miþ	ADP	R-	_	8	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	allaim	alls	DET	Px	Case=Dat|Number=Plur	8	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	mannam	manna	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	gawairþi	gawairþi	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	habandans	haban	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.19
+# text = ni izwis silbans gawrikandans liubans ak gibiþ staþ þwairhein gameliþ ist auk mis fraweit leitaidau ik fragilda qiþiþ frauja
+# gold_source = treebank: 19/19 words aligned; 15/19 gold arcs used
+1	ni	ni	ADV	Df	Polarity=Neg	4	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	izwis	jūs	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	silbans	silba	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	2	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	gawrikandans	ga-wrikan	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	liubans	liufs*	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	4	vocative	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	ak	ak	CCONJ	C-	_	7	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	gibiþ	giban	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	staþ	staþs	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	þwairhein	þwairhei	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	gameliþ	ga-meljan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.60,deprel:0.60
+12	auk	auk	ADV	Df	_	11	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	mis	ik	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	15	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	fraweit	fraweit	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	15	nsubj:pass	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	leitaidau	letan	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.50,deprel:0.50
+16	ik	ik	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	fragilda	fra-gildan	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.50,deprel:0.50
+18	qiþiþ	qiþan	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.60,deprel:0.60
+19	frauja	frauja	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.20
+# text = jabai gredo fijand þeinana mat gif imma iþ jabai þaursjai dragkei ina þata auk taujands haurja funins rikis ana haubiþ is
+# gold_source = treebank: 21/21 words aligned; 19/21 gold arcs used
+1	jabai	jabai	SCONJ	G-	_	2	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	gredo	gredon	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	fijand	fijands	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	þeinana	þeins	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	3	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	mat	mats	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	gif	giban	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	imma	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	iþ	iþ	CCONJ	C-	_	11	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	jabai	jabai	SCONJ	G-	_	10	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	þaursjai	þaursjan	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	dragkei	dragkjan	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.85,deprel:0.85
+12	ina	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	þata	sa	PRON	Pd	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	auk	auk	ADV	Df	_	18	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	taujands	taujan	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	18	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	haurja	hauri	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	funins	fon	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	rikis	rikan	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.65,deprel:0.65
+19	ana	ana	ADP	R-	_	20	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+20	haubiþ	haubiþ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+21	is	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.12.21
+# text = ni gajiukaizau af unþiuþa ak gajiukais þiuþa unþiuþ
+# gold_source = treebank: 8/8 words aligned; 8/8 gold arcs used
+1	ni	ni	ADV	Df	Polarity=Neg	2	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	gajiukaizau	ga-jiukan	VERB	V-	Mood=Opt|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	af	af	ADP	R-	_	4	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	unþiuþa	unþiuþ	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	2	obl:agent	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	ak	ak	CCONJ	C-	_	6	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	gajiukais	ga-jiukan	VERB	V-	Mood=Opt|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	þiuþa	þiuþ	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	unþiuþ	unþiuþ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.13.1
+# text = all saiwalo waldufnjam ufarwisandam ufhausjai unte nist waldufni alja fram guda iþ þo wisandona fram guda gasatida sind
+# gold_source = treebank: 18/18 words aligned; 17/18 gold arcs used
+1	all	alls	PRON	Px	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	saiwalo	saiwala	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	waldufnjam	waldufni	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	5	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	ufarwisandam	ufar-wisan	VERB	V-	Case=Dat|Gender=Masc,Neut|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	ufhausjai	uf-hausjan	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	unte	unte	ADV	Df	_	7	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	nist	nist	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.70,deprel:0.70
+8	waldufni	waldufni	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	alja	alja	ADV	Df	_	8	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	fram	fram	ADP	R-	_	11	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	guda	guþ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	iþ	iþ	CCONJ	C-	_	18	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	þo	sa	DET	Pd	Case=Nom|Gender=Neut|Number=Plur	14	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	wisandona	wisan	VERB	V-	Case=Nom|Gender=Neut|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	18	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	fram	fram	ADP	R-	_	16	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	guda	guþ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	17	obl:agent	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	gasatida	ga-satjan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	sind	wisan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.13.2
+# text = swaei sa andstandands waldufnja gudis garaideinai andstoþ iþ þai andstandandans silbans sis wargiþa nimand
+# gold_source = treebank: 14/14 words aligned; 13/14 gold arcs used
+1	swaei	swaei	ADV	Df	_	7	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	sa	sa	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	3	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	andstandands	and-standan	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	7	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	waldufnja	waldufni	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	garaideinai	garaideins	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	andstoþ	and-standan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	iþ	iþ	CCONJ	C-	_	14	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	þai	sa	DET	Pd	Case=Nom|Gender=Masc|Number=Plur	10	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	andstandandans	and-standan	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	14	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	silbans	silba	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Strength=Weak	10	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	sis	sik	PRON	Pk	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	14	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	wargiþa	wargiþa	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	nimand	niman	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.80,deprel:0.80
+
+# sent_id = Rom.13.3
+# text = þai auk reiks ni sind agis godamma waurstwa ak ubilamma aþþan wileis ei ni ogeis waldufni þiuþ taujais jah habais hazein us þamma
+# gold_source = treebank: 23/23 words aligned; 21/23 gold arcs used
+1	þai	sa	DET	Pd	Case=Nom|Gender=Masc|Number=Plur	3	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	auk	auk	ADV	Df	_	5	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	reiks	reiks	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	ni	ni	ADV	Df	Polarity=Neg	7	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	sind	wisan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	agis	agis	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	godamma	goþs	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|Strength=Strong	8	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	waurstwa	waurstw	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	ak	ak	CCONJ	C-	_	10	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	ubilamma	ubils	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|Strength=Strong	7	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	aþþan	aþþan	CCONJ	C-	_	12	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	wileis	wiljan	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.80,deprel:0.80
+13	ei	ei	SCONJ	G-	_	15	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	ni	ni	ADV	Df	Polarity=Neg	15	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	ogeis	ogan*	VERB	V-	Mood=Opt|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	waldufni	waldufni	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	þiuþ	þiuþ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	taujais	taujan	VERB	V-	Mood=Opt|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.60,deprel:0.60
+19	jah	jah	CCONJ	C-	_	20	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+20	habais	haban	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+21	hazein	hazeins	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+22	us	us	ADP	R-	_	23	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+23	þamma	sa	PRON	Pd	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.13.4
+# text = unte gudis andbahts ist þus in godamma iþ jabai ubil taujis ogs unte ni sware þana hairu bairiþ gudis auk andbahts ist fraweitands in þwairhein þamma ubil taujandin
+# gold_source = treebank: 27/28 words aligned; 23/26 gold arcs used
+1	unte	unte	ADV	Df	_	4	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	andbahts	andbahts	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	þus	þu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	in	in	ADP	R-	_	7	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	godamma	goþs	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	4	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	iþ	iþ	CCONJ	C-	_	12	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	jabai	jabai	SCONJ	G-	_	11	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	ubil	ubils	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	11	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	taujis	taujan	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	ogs	ogan*	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.80,deprel:0.80
+13	unte	unte	ADV	Df	_	18	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	ni	ni	ADV	Df	Polarity=Neg	15	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	sware	sware	ADV	Df	_	18	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	þana	sa	DET	Pd	Case=Acc|Gender=Masc|Number=Sing	17	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.80,deprel:0.97
+17	hairu	hairus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+18	bairiþ	bairan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.80,deprel:0.80
+19	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+20	auk	auk	ADV	Df	_	22	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+21	andbahts	andbahts	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	22	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+22	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.60,deprel:0.60
+23	fraweitands	fra-weitan	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	22	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+24	in	in	ADP	R-	_	25	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+25	þwairhein	þwairhei	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+26	þamma	sa	DET	Pd	Case=Dat|Gender=Masc,Neut|Number=Sing	28	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+27	ubil	ubils	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	28	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+28	taujandin	taujan	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	23	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.13.5
+# text = duþþe ufhausjaiþ
+# gold_source = treebank: 2/2 words aligned; 2/2 gold arcs used
+1	duþþe	duþe	ADV	Df	_	2	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	ufhausjaiþ	uf-hausjan	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.9
+# text = jah qiwaim jah dauþaim fraujinoþ
+# gold_source = treebank: 5/5 words aligned; 5/5 gold arcs used
+1	jah	jah	CCONJ	C-	_	2	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	qiwaim	qius*	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	5	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	jah	jah	CCONJ	C-	_	4	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	dauþaim	dauþs	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	2	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	fraujinoþ	fraujinon	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.10
+# text = iþ þu ƕa stojis broþar þeinana aiþþau jah þu ƕa frakant broþr þeinamma allai auk gasatjanda faura stauastola xristaus
+# gold_source = treebank: 19/19 words aligned; 17/19 gold arcs used
+1	iþ	iþ	CCONJ	C-	_	4	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	þu	þu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	ƕa	ƕas	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	stojis	stojan	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	broþar	broþar	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	þeinana	þeins	DET	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	5	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	aiþþau	aiþþau	CCONJ	C-	_	11	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	jah	jah	ADV	Df	_	9	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	þu	þu	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	ƕa	ƕas	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	11	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	frakant	fra-kunnan	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.80,deprel:0.80
+12	broþr	broþar	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	11	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	þeinamma	þeins	DET	Ps	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	12	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	allai	alls	PRON	Px	Case=Nom|Gender=Masc|Number=Plur	16	nsubj:pass	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	auk	auk	ADV	Df	_	16	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	gasatjanda	ga-satjan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.60,deprel:0.60
+17	faura	faura	ADP	R-	_	18	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	stauastola	stauastols	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+19	xristaus	Xristus	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.11
+# text = gameliþ ist auk liba ik qiþiþ frauja þatei mis all kniwe biugiþ jah andhaitiþ all razdo guda
+# gold_source = treebank: 17/17 words aligned; 14/17 gold arcs used
+1	gameliþ	ga-meljan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	auk	auk	ADV	Df	_	2	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	liba	liban	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.55,deprel:0.50
+5	ik	ik	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	qiþiþ	qiþan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.55,deprel:0.50
+7	frauja	frauja	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	þatei	þatei	SCONJ	G-	_	6	ccomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	mis	ik	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	all	alls	PRON	Px	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	kniwe	kniu*	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	biugiþ	biugan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.55,deprel:0.55
+13	jah	jah	CCONJ	C-	_	14	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	andhaitiþ	and-haitan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	all	alls	PRON	Px	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	razdo	razda	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	guda	guþ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	14	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.12
+# text = þannu nu ƕarjizuh unsara fram sis raþjon usgibiþ guda
+# gold_source = treebank: 9/9 words aligned; 9/9 gold arcs used
+1	þannu	þannu	ADV	Df	_	8	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	nu	nu	ADV	Df	_	8	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	ƕarjizuh	ƕarjizuh	PRON	Px	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	unsara	weis	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	fram	fram	ADP	R-	_	6	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	sis	sik	PRON	Pk	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	raþjon	raþjo	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	usgibiþ	us-giban	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	guda	guþ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	8	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.13
+# text = ni þanamais nu uns misso stojaima ak þata stojaiþ mais ei ni satjaiþ bistugq broþr aiþþau gamarzein
+# gold_source = treebank: 17/17 words aligned; 17/17 gold arcs used
+1	ni	ni	ADV	Df	Polarity=Neg	2	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	þanamais	þanamais	ADV	Df	_	6	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	nu	nu	ADV	Df	_	6	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	uns	weis	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	6	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	misso	misso	ADV	Df	_	4	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	stojaima	stojan	VERB	V-	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	ak	ak	CCONJ	C-	_	9	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	þata	sa	PRON	Pd	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	stojaiþ	stojan	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	mais	mais	ADV	Df	Degree=Cmp	9	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	ei	ei	SCONJ	G-	_	13	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	ni	ni	ADV	Df	Polarity=Neg	13	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	satjaiþ	satjan	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	bistugq	bistugq	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	broþr	broþar	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	aiþþau	aiþþau	CCONJ	C-	_	17	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	gamarzein	gamarzeins	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.14
+# text = wait jag~gatraua in fraujin iesua þatei ni waiht gawamm þairh sik silbo niba þamma munandin ƕa unhrain wisan þamma gamain ist
+# gold_source = treebank: 3/21 words aligned; 2/3 gold arcs used
+1	wait	witan	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.80,head:0.80,deprel:0.99
+2	jag~gatraua	ga-trauan	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+3	in	in	ADP	R-	_	4	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.97
+4	fraujin	frauja	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+5	iesua	Iesus	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	4	appos	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+6	þatei	þatei	SCONJ	G-	_	9	mark	_	Conf=form:0.97,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.97
+7	ni	ni	ADV	Df	Polarity=Neg	8	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+8	waiht	waiht	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+9	gawamm	gawamms	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	1	ccomp	_	Conf=form:0.97,lemma:0.88,upos:0.90,xpos:0.90,feats:0.85,head:0.80,deprel:0.80
+10	þairh	þairh	ADP	R-	_	11	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.97
+11	sik	sik	PRON	Pk	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.80,head:0.75,deprel:0.75
+12	silbo	silba	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Strength=Weak	11	amod	_	Conf=form:0.97,lemma:0.97,upos:0.90,xpos:0.90,feats:0.60,head:0.65,deprel:0.65
+13	niba	nibai	SCONJ	G-	_	21	mark	_	Conf=form:0.97,lemma:0.97,upos:0.90,xpos:0.75,feats:0.97,head:0.80,deprel:0.80
+14	þamma	sa	DET	Pd	Case=Dat|Gender=Masc|Number=Sing	15	det	_	Conf=form:0.97,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+15	munandin	munan	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	21	dislocated	_	Conf=form:0.97,lemma:0.93,upos:0.90,xpos:0.95,feats:0.70,head:0.65,deprel:0.65
+16	ƕa	ƕas	PRON	Px	Case=Acc|Gender=Neut|Number=Sing	18	nsubj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+17	unhrain	unhrains	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	18	xcomp	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+18	wisan	wisan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	15	ccomp	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.70,deprel:0.70
+19	þamma	sa	PRON	Pd	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+20	gamain	gamains	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	21	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+21	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.70,deprel:0.70
+
+# sent_id = Rom.14.15
+# text = iþ jabai in matis broþar þeins gaurjada ju ni bi friaþwai gaggis ni nunu mata þeinamma jainamma fraqistjais faur þanei xristus gaswalt
+# gold_source = treebank: 22/22 words aligned; 21/22 gold arcs used
+1	iþ	iþ	CCONJ	C-	_	12	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	jabai	jabai	SCONJ	G-	_	7	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	in	in	ADP	R-	_	4	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	matis	mats	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	broþar	broþar	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	þeins	þeins	DET	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	5	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	gaurjada	gaurjan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	ju	ju	ADV	Df	_	12	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	ni	ni	ADV	Df	Polarity=Neg	12	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	bi	bi	ADP	R-	_	11	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	friaþwai	frijaþwa	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	gaggis	gaggan	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	ni	ni	ADV	Df	Polarity=Neg	18	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	nunu	nunu	ADV	Df	_	18	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	mata	mats	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	þeinamma	þeins	DET	Ps	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=2|Poss=Yes	15	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	jainamma	jains	PRON	Pd	Case=Dat|Gender=Masc|Number=Sing	18	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	fraqistjais	fra-qistjan	VERB	V-	Mood=Opt|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.60,deprel:0.60
+19	faur	faur	ADP	R-	_	20	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+20	þanei	saei	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	22	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+21	xristus	Xristus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+22	gaswalt	ga-swiltan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	acl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.16
+# text = ni wajamerjaidau unsar þiuþ
+# gold_source = treebank: 4/4 words aligned; 4/4 gold arcs used
+1	ni	ni	ADV	Df	Polarity=Neg	2	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	wajamerjaidau	wajamerjan	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	unsar	unsar	DET	Ps	Case=Nom|Gender=Neut|Number=Sing|Person=1|Poss=Yes	4	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	þiuþ	þiuþ	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.17
+# text = nist auk þiudangardi gudis mats jah dragk ak garaihtei jah gawairþi jah faheþs in ahmin weihamma
+# gold_source = treebank: 16/16 words aligned; 16/16 gold arcs used
+1	nist	nist	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	auk	auk	ADV	Df	_	1	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	þiudangardi	þiudangardi	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	mats	mats	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	jah	jah	CCONJ	C-	_	7	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	dragk	dragk	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	ak	ak	CCONJ	C-	_	9	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	garaihtei	garaihtei	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	jah	jah	CCONJ	C-	_	11	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	gawairþi	gawairþi	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	jah	jah	CCONJ	C-	_	13	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	faheþs	faheþs	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	in	in	ADP	R-	_	15	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	ahmin	ahma	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	weihamma	weihs	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|Strength=Strong	15	amod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.18
+# text = saei auk in þaim skalkinoþ xristau waila galeikaiþ guda jah gakusans ist mannam
+# gold_source = treebank: 13/13 words aligned; 13/13 gold arcs used
+1	saei	saei	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	auk	auk	ADV	Df	_	8	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	in	in	ADP	R-	_	4	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	þaim	sa	PRON	Pd	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	skalkinoþ	skalkinon	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	xristau	Xristus	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	5	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	waila	wáila	ADV	Df	_	8	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	galeikaiþ	ga-leikan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	guda	guþ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	8	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	jah	jah	CCONJ	C-	_	12	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	gakusans	ga-kiusan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	mannam	manna	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.19
+# text = þannu nu þoei gawairþjis sind laistjaima jah þoei timreinais sind in uns misso
+# gold_source = treebank: 13/13 words aligned; 13/13 gold arcs used
+1	þannu	þannu	ADV	Df	_	6	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	nu	nu	ADV	Df	_	6	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	þoei	saei	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	gawairþjis	gawairþi	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	sind	wisan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	laistjaima	laistjan	VERB	V-	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	jah	jah	CCONJ	C-	_	10	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	þoei	saei	PRON	Pr	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	10	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	timreinais	timreins	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	10	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	sind	wisan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	in	in	ADP	R-	_	12	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	uns	weis	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	9	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	misso	misso	ADV	Df	_	12	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.14.20
+# text = ni nunu in matis gatair waurstw gudis
+# gold_source = treebank: 7/7 words aligned; 7/7 gold arcs used
+1	ni	ni	ADV	Df	Polarity=Neg	5	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	nunu	nunu	ADV	Df	_	5	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	in	in	ADP	R-	_	4	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	matis	mats	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	gatair	ga-tairan	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	waurstw	waurstw	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.3
+# text = þize idweitjandane þuk gadrusun ana mik
+# gold_source = treebank: 6/6 words aligned; 6/6 gold arcs used
+1	þize	sa	DET	Pd	Case=Gen|Gender=Masc,Neut|Number=Plur	2	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	idweitjandane	idweitjan	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Strength=Weak|Tense=Pres|VerbForm=Part|Voice=Act	4	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	þuk	þu	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	gadrusun	ga-driusan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	ana	ana	ADP	R-	_	6	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	mik	ik	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.4
+# text = swa filu auk swe fauragameliþ warþ du unsarai laiseinai gameliþ warþ ei þairh þulain jah gaþrafstein boko wen habaima
+# gold_source = treebank: 19/19 words aligned; 19/19 gold arcs used
+1	swa	swa	ADV	Df	_	2	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	filu	filu	ADV	Df	Degree=Pos	11	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	auk	auk	ADV	Df	_	11	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	swe	swe	ADV	Dq	PronType=Rel	5	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	fauragameliþ	faura-gameljan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	warþ	wairþan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	du	du	ADP	R-	_	9	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	unsarai	unsar	PRON	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes	9	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	laiseinai	laiseins	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	gameliþ	ga-meljan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	warþ	wairþan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	ei	ei	SCONJ	G-	_	19	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	þairh	þairh	ADP	R-	_	14	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	þulain	þulains	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	jah	jah	CCONJ	C-	_	16	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	gaþrafstein	gaþrafsteins	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	boko	boka	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	wen	wens	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+19	habaima	haban	VERB	V-	Mood=Opt|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.5
+# text = iþ guþ þulainais jah þrafsteinais gibai izwis þata samo fraþjan in izwis misso bi xristu iesu
+# gold_source = treebank: 16/16 words aligned; 16/16 gold arcs used
+1	iþ	iþ	CCONJ	C-	_	6	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	guþ	guþ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	þulainais	þulains	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	jah	jah	CCONJ	C-	_	5	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	þrafsteinais	þrafsteins	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	gibai	giban	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	izwis	jūs	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	6	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	þata	sa	DET	Pd	Case=Acc|Gender=Neut|Number=Sing	9	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	samo	sama	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Strength=Weak	10	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	fraþjan	fraþjan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	in	in	ADP	R-	_	12	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	izwis	jūs	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	10	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	misso	misso	ADV	Df	_	12	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	bi	bi	ADP	R-	_	15	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	xristu	Xristus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	iesu	Iesus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	15	flat:name	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.6
+# text = ei gawiljai ainamma munþa hauhjaiþ guþ jah attan fraujins unsaris iesuis xristaus
+# gold_source = treebank: 12/12 words aligned; 11/11 gold arcs used
+1	ei	ei	SCONJ	G-	_	5	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	gawiljai	gawiljis*	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Strength=Strong	5	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	ainamma	ains	NUM	Ma	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nummod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	munþa	munþs	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	hauhjaiþ	hauhjan	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.88,deprel:0.99
+6	guþ	guþ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	jah	jah	CCONJ	C-	_	8	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	attan	atta	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	fraujins	frauja	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	unsaris	unsar	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	9	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	iesuis	Iesus	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	9	appos	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	xristaus	Xristus	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.7
+# text = in þizei andnimaiþ izwis misso swaswe jah xristus andnam izwis du wulþau gudis
+# gold_source = treebank: 13/13 words aligned; 13/13 gold arcs used
+1	in	in	ADP	R-	_	2	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	þizei	saei	PRON	Pr	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	3	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	andnimaiþ	and-niman	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	izwis	jūs	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	3	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	misso	misso	ADV	Df	_	4	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	swaswe	swaswe	ADV	Dq	PronType=Rel	9	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	jah	jah	ADV	Df	_	8	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	xristus	Xristus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	andnam	and-niman	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	izwis	jūs	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	9	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	du	du	ADP	R-	_	12	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	wulþau	wulþus	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.8
+# text = qiþa auk xristu iesu andbaht waurþanana bimaitis fram sunjai gudis du gatulgjan gahaita attane
+# gold_source = treebank: 14/14 words aligned; 14/14 gold arcs used
+1	qiþa	qiþan	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	auk	auk	ADV	Df	_	1	discourse	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	xristu	Xristus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	iesu	Iesus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	3	flat:name	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	andbaht	andbahts	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	waurþanana	wairþan	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	bimaitis	bimait	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	fram	fram	ADP	R-	_	9	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	sunjai	sunja	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	gudis	guþ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	du	du	ADP	R-	_	12	mark	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	gatulgjan	ga-tulgjan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	gahaita	gahait	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	attane	atta	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.9
+# text = iþ þiudos in armahairteins hauhjan guþ swaswe gameliþ ist duþþe andhaita þus in þiudom frauja jah namin þeinamma liuþo
+# gold_source = treebank: 19/19 words aligned; 16/18 gold arcs used
+1	iþ	iþ	CCONJ	C-	_	5	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	þiudos	þiuda	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	in	in	ADP	R-	_	4	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	armahairteins	armahairtei	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	hauhjan	hauhjan	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.85,deprel:0.85
+6	guþ	guþ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	swaswe	swaswe	ADV	Dq	PronType=Rel	8	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	gameliþ	ga-meljan	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	ist	wisan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.85,deprel:0.85
+10	duþþe	duþe	ADV	Df	_	11	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	andhaita	and-haitan	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	csubj:pass	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.55,deprel:0.55
+12	þus	þu	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	in	in	ADP	R-	_	14	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	þiudom	þiuda	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	frauja	frauja	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	11	vocative	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	jah	jah	CCONJ	C-	_	19	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+17	namin	namo	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	19	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+18	þeinamma	þeins	DET	Ps	Case=Dat|Gender=Masc|Number=Sing|Person=2|Poss=Yes	17	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+19	liuþo	liuþon	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.10
+# text = jah aftra qiþiþ sifaiþ þiudos miþ managein is
+# gold_source = treebank: 8/8 words aligned; 7/8 gold arcs used
+1	jah	jah	CCONJ	C-	_	3	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	aftra	aftra	ADV	Df	_	3	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	qiþiþ	qiþan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	sifaiþ	sifan	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.85,deprel:0.85
+5	þiudos	þiuda	NOUN	Nb	Case=Voc|Gender=Fem|Number=Plur	4	vocative	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	miþ	miþ	ADP	R-	_	7	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	managein	managei	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	is	is	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.11
+# text = jah aftra qiþiþ hazjiþ allos þiudos fraujan jah hazjaina ina allos manageins
+# gold_source = treebank: 12/12 words aligned; 11/12 gold arcs used
+1	jah	jah	CCONJ	C-	_	3	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	aftra	aftra	ADV	Df	_	3	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	qiþiþ	qiþan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	hazjiþ	hazjan	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.93,deprel:0.80
+5	allos	alls	DET	Px	Case=Voc|Gender=Fem|Number=Plur	6	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	þiudos	þiuda	NOUN	Nb	Case=Voc|Gender=Fem|Number=Plur	4	vocative	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	fraujan	frauja	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	jah	jah	CCONJ	C-	_	9	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	hazjaina	hazjan	VERB	V-	Mood=Opt|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	ina	is	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	allos	alls	DET	Px	Case=Nom|Gender=Fem|Number=Plur	12	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	manageins	managei	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+
+# sent_id = Rom.15.12
+# text = jah aftra esaeias qiþiþ wairþiþ waurts iaissaizis jah sa usstandands reikinoþ þiudom du imma þiudos wenjand
+# gold_source = treebank: 16/16 words aligned; 14/16 gold arcs used
+1	jah	jah	CCONJ	C-	_	4	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	aftra	aftra	ADV	Df	_	4	advmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	esaeias	Esaïas	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	qiþiþ	qiþan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	wairþiþ	wairþan	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.92,deprel:0.85
+6	waurts	waurts	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	iaissaizis	Iaissaizis	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+8	jah	jah	CCONJ	C-	_	11	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+9	sa	sa	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	10	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+10	usstandands	us-standan	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	11	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+11	reikinoþ	reikinon	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+12	þiudom	þiuda	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	11	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+13	du	du	ADP	R-	_	14	case	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+14	imma	is	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+15	þiudos	þiuda	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+16	wenjand	wenjan	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:0.80,deprel:0.80
+
+# sent_id = Rom.15.13
+# text = iþ guþ lubainais fulljai izwis allaizos fahedais
+# gold_source = treebank: 7/7 words aligned; 7/7 gold arcs used
+1	iþ	iþ	CCONJ	C-	_	4	cc	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+2	guþ	guþ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+3	lubainais	lubains	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+4	fulljai	fulljan	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+5	izwis	jūs	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	obj	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+6	allaizos	alls	DET	Px	Case=Gen|Gender=Fem|Number=Sing	7	det	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+7	fahedais	faheþs	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	obl:arg	_	Conf=form:0.97,lemma:1.00,upos:1.00,xpos:1.00,feats:1.00,head:1.00,deprel:1.00
+

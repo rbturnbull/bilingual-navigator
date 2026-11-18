@@ -1,0 +1,638 @@
+<!DOCTYPE TEI><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+		<fileDesc>
+            <titleStmt>
+                <title>A transcription of the Arabic text of Ephesians in Gregory-Aland 0278 (Sinai gr. NF Parch 2)</title>
+                <title type="document" n="0278arb">Sinai gr. NF Parch 2</title>
+                <title type="collection" level="s" xml:lang="en">The New Testament</title>
+                <title type="collection" level="s" xml:lang="nl">Het Nieuwe Testament</title>
+                <title type="work" level="m" xml:lang="en" n="10">Ephesians</title>
+                <title type="work" level="m" xml:lang="nl" n="10">De brief aan de Efeziërs</title>
+                <title type="short" level="m" xml:lang="en" n="10">Ephesians</title>
+                <title type="short" level="m" xml:lang="nl" n="10">Efeziërs</title>
+                <editor role="encoder">Robert Turnbull</editor><respStmt>
+                    <resp xml:lang="en">Created by</resp>
+                    <resp xml:lang="nl">Gemaakt door</resp>
+                    <name type="org">The BICROSS Project</name>
+                </respStmt>
+                <respStmt>
+                    <resp xml:lang="en" when-iso="2026-10-23">Transcribed by</resp>
+                    <resp xml:lang="nl" when-iso="2026-10-23">Getranscribeerd door</resp>
+                    <name type="person">Robert Turnbull</name>
+                    <affiliation>Melbourne Data Analytics Platform</affiliation>
+                </respStmt>
+                <funder xml:lang="en">This transcription was produced by members of the BICROSS project, which received funding from the European Union’s Horizon Europe research and innovation programme (grant agreement no. 101043730 – BICROSS – ERC-2021-COG).</funder>
+                <funder xml:lang="nl">Deze transcriptie werd geproduceerd door leden van het BICROSS-project, dat financiering ontving van de Europese Onderzoeksraad (ERC) in het kader van het onderzoeks- en innovatieprogramma Horizon Europe van de Europese Unie (subsidieovereenkomst 101043730 – BICROSS – ERC-2021-COG).</funder>
+                <sponsor>
+                    <name type="org" xml:lang="en">Research Unit Biblical Studies, Faculty of Theology and Religious Studies, KU Leuven</name>
+                </sponsor>
+                <sponsor>
+                    <name type="org" xml:lang="nl">Onderzoekseenheid Bijbelwetenschap, Faculteit Theologie en Religiewetenschappen, KU Leuven</name>
+                </sponsor>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Leuven Multilingual Manuscript Research Centre</name>
+                    <name type="org">KU Leuven</name>
+                </publisher>
+                <date>23.10.2026</date>
+                <availability>
+                    <p xml:lang="en">Attribution 4.0 International (CC BY 4.0) Available for re-use under a creative commons license provided attribution is made to the original creators.</p>
+                    <p xml:lang="nl">Naamsvermelding 4.0 Internationaal (CC BY 4.0) Beschikbaar voor hergebruik onder een creative commons licentie op voorwaarde dat naamsvermelding gebeurt aan de oorspronkelijke makers.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Sinai</settlement>
+				<repository>St Catherine's Monastery</repository>
+				<idno>Greek New Finds Parchment 2</idno>
+                        <altIdentifier type="GA">
+                            <idno>0278</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Liste">
+                            <idno>20278</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents><summary>Greek-Arabic bilingual of the Pauline epistles.</summary>
+                        <msItem>
+                            <title type="uniform" xml:lang="en">The Epistle to the Ephesians</title>
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                    </msContents>
+                <history><origin><origDate notBefore="0800" notAfter="0899">9th century</origDate></origin></history></msDesc>
+            </sourceDesc>
+        </fileDesc>
+		
+		<encodingDesc n="1.6">
+            <projectDesc>
+                <p xml:lang="en">This transcription was made by the BICROSS project.</p>
+                <p xml:lang="nl">Deze transcriptie is gemaakt door de het BICROSS project.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p xml:lang="en">This transcription was produced using D-Codex.</p>
+                <p xml:lang="nl">Deze transcriptie is gemaakt met D-Codex.</p>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+	<revisionDesc><change when="2026-11-19"><name>Robert Turnbull</name> added the language (xml:lang="ar" on text); the manuscript's summary, date for the BICROSS Navigator.</change></revisionDesc></teiHeader>
+  <text xml:lang="ar">
+    <body>
+      <ab n="B10K1V1">من بولس رسول ايسوع
+<lb/>المسيح بمشيه الله
+<lb/>الى الذين هم فى افسس
+<lb/>الاطهار المومنين بيسوع المسيح
+<lb/></ab>
+      <ab n="B10K1V2">السلام معكم والنعمه من الله
+<lb/>ابينا ومن ربنا ايسوع المسيح
+<lb/></ab>
+      <ab n="B10K1V3">مبارك هو الله ابو ربنا
+<lb/>ايسوع المسيح الذى بركنا
+<lb/>بجميع بركات الروح في
+<lb/>السما بأيسوع المسيح
+<lb/></ab>
+      <ab n="B10K1V4">كما تقدم فاختارنا به من
+<lb/>قبل انشا الدنيا
+<lb/>لنكون اطهار
+<lb/><pb n="24v" type="folio" xml:id="P24v-0278arb"/>
+<cb n="P24vC2-0278arb"/>غير ذوى غير بين يديه
+<lb/>وبالحُب سبق فوسمنا
+<lb/>له</ab>
+      <ab n="B10K1V5">ورتبنا بنين بيسوع
+<lb/>المسيح كما ارض مشييته
+<lb/></ab>
+      <ab n="B10K1V6">لنحمد مجد
+<lb/>نعمته التى اصبغها
+<lb/>علينا على يد حبيبه
+<lb/></ab>
+      <ab n="B10K1V7">الذى به لنا الخلاص
+<lb/>وبدمه غُفران
+<lb/>الخطايا كغنى
+<lb/>نعممته<note type="editorial">i.e. نعمته</note>
+<lb/></ab>
+      <ab n="B10K1V8">التى تفاضلت
+<lb/>فينا بكل حكمه
+<lb/>وبكل فهم
+<lb/><gap/></ab>
+      <ab n="B10K1V16"><gap/>
+<lb/><pb n="25r" type="folio" xml:id="P25r-0278arb"/>
+<cb n="P25rC2-0278arb"/>لكم فى صلواتى
+<lb/></ab>
+      <ab n="B10K1V17">ان اله ربنا ايسوع المسيح
+<lb/>ابا المجد يُوتيكم
+<lb/>روح الحكمه والوحى
+<lb/>بعلمه
+<lb/></ab>
+      <ab n="B10K1V18">وتستنير عيون
+<lb/>قلوبكم كى تعرفوا
+<lb/>ما رجا دعوته
+<lb/>وما غنا قُدس
+<lb/>ميراثه
+<lb/>فى القديسين
+<lb/></ab>
+      <ab n="B10K1V19">وما تفاضل عظمه
+<lb/>قُوته فينا
+<lb/>معشر الذين نومن
+<lb/>كفعل
+<lb/><pb n="25v" type="folio" xml:id="P25v-0278arb"/>
+<cb n="P25vC2-0278arb"/>منعه قوته
+<lb/></ab>
+      <ab n="B10K1V20">التى صنع بالمسيح
+<lb/>واقامه من بين الاموات
+<lb/>واجلسه
+<lb/>عن يمينه فى السما
+<lb/></ab>
+      <ab n="B10K1V21">فوق جميع الروسا
+<lb/>والسلاطين
+<lb/>والقوى والساده
+<lb/>وفوق كل اسم يسمى
+<lb/>لا فى هذا العالم فقط
+<lb/>بل وفى المزمع
+<lb/>ايضا</ab>
+      <ab n="B10K1V22">واخضع كل
+<lb/>شى تحت قدميه
+<lb/>وله الذى هو فوق كل
+<lb/>جعل راسا
+<lb/>للبيعه</ab>
+      <ab n="B10K1V23">التى هي
+<lb/><pb n="26r" type="folio" xml:id="P26r-0278arb"/>
+<cb n="P26rC2-0278arb"/>جسمه وتمام
+<lb/>ذلك الذى يكمل
+<lb/>كلاً فى كلٍ
+<lb/></ab>
+      <ab n="B10K2V1">ولكم ايضا الذين كُنتم
+<lb/>اموات بخطاياكم
+<lb/>وبذنوبكم
+<lb/></ab>
+      <ab n="B10K2V2">هذه التى كنتم سلكتم فيها
+<lb/>من قبل كدنيائيه هذه
+<lb/>الدنيا وكمسره
+<lb/>راس سُلطان هوا
+<lb/>الريح هذه التى
+<lb/>تجتهد فى ابنا
+<lb/>المعصيه</ab>
+      <ab n="B10K2V3">فى تلك
+<lb/>الاعمال التى تقلبنا فيها
+<lb/>نحن ايضا قديما بشهوات
+<lb/>ابداننا
+<lb/><pb n="26v" type="folio" xml:id="P26v-0278arb"/>
+<cb n="P26vC2-0278arb"/>وكُنا نعمل هوى اجسادنا
+<lb/>وروياتنا وكُنا
+<lb/>ابنا السخطه
+<lb/>بالتمام كالباقين
+<lb/></ab>
+      <ab n="B10K2V4">غير ان الله الغنى برحمته
+<lb/>من اجل حُبه الجزيل الذى
+<lb/>احبنا</ab>
+      <ab n="B10K2V5">اذ كنا موتا
+<lb/>بخطايانا احيانا مع
+<lb/>المسيح
+<lb/>وبنعمته خلصنا
+<lb/></ab>
+      <ab n="B10K2V6">واقامنا معه واجلسنا معه
+<lb/>فى السما بايسوع المسيح
+<lb/></ab>
+      <ab n="B10K2V7">ليرى العالمين
+<lb/><pb n="27r" type="folio" xml:id="P27r-0278arb"/>
+<cb n="P27rC2-0278arb"/>الاتيه جلاله
+<lb/>غنى نعمته
+<lb/>وطيبه
+<lb/>الذى صار علينا بأيسوع
+<lb/>المسيح</ab>
+      <ab n="B10K2V8">لانا بنعمته
+<lb/>تخلصنا بالايمان
+<lb/>وهذه ليست منكم لكنها
+<lb/>عطيه الله</ab>
+      <ab n="B10K2V9">لا من الاعمال
+<lb/>كى لا يفخر احدًا</ab>
+      <ab n="B10K2V10">لانا
+<lb/>خليقه خاصه خلقنا
+<lb/>بايسوع المسيح للاعمال
+<lb/>الصالحه تلك التى
+<lb/>اعدها الله من قبل كي نسلك فيها
+<lb/></ab>
+      <ab n="B10K2V11">من اجل هذا كونوا ذاكرين
+<lb/>انتم يا معشر الامم من قبل انما
+<lb/>كنتم للجسد
+<lb/><pb n="27v" type="folio" xml:id="P27v-0278arb"/>
+<cb n="P27vC2-0278arb"/>وكنتم تدعون غرله من
+<lb/>تلك التى تسمى الخُتنه
+<lb/>وانما هى عمل الايدى فى اللحم
+<lb/></ab>
+      <ab n="B10K2V12">وكنتم فى ذلك الزمان بلا
+<lb/>مسيح وكُنتم غربا عن
+<lb/>تدبير اسرايل
+<lb/>وكنتم طُراه عند ميثاق
+<lb/>الموعد
+<lb/>وكنتم غير ذوى رجا وغير ذوى
+<lb/>اله فى الدنيا</ab>
+      <ab n="B10K2V13">فاما
+<lb/>الان بيسوع المسيح فانتم الذين
+<lb/>كنتم من قبل اباعد قد صرتم
+<lb/>اقارب بدم المسيح
+<lb/></ab>
+      <ab n="B10K2V14">الذى هو صُلحنا ذلك الذى
+<lb/>جعل كلتاهما واحده
+<lb/>ونقض الجدار
+<lb/><gap/></ab>
+      <ab n="B10K3V9"><gap/>
+<lb/><pb n="28r" type="folio" xml:id="P28r-0278arb"/>
+<cb n="P28rC2-0278arb"/>في الله الذى خلق الكل
+<lb/>بايسوع المسيح</ab>
+      <ab n="B10K3V10">كي على
+<lb/>يد البيعه تتضح حكمه
+<lb/>الله المملوه قضولا
+<lb/>للاركونين والسلاطين
+<lb/>الذين فى السموات
+<lb/></ab>
+      <ab n="B10K3V11">تلك التى كان يسرها من
+<lb/>العالم ____ها بيسوع المسيح
+<lb/>ربنا</ab>
+      <ab n="B10K3V12">الذى به لنا الداله
+<lb/>والقرب بثقه
+<lb/>ايمانه
+<lb/></ab>
+      <ab n="B10K3V13">من اجل هذا انا اسل ان لا
+<lb/>اسام شدايدى فداكم
+<lb/>لان هذه هى مدحتكم
+<lb/></ab>
+      <ab n="B10K3V14">واحنى ركبتى الى ابى ربنا
+<lb/>ايسوع المسيح</ab>
+      <ab n="B10K3V15">الذى منه
+<lb/><pb n="28v" type="folio" xml:id="P28v-0278arb"/>
+<cb n="P28vC2-0278arb"/>تسمى كل اُبوه فى
+<lb/>السما والارض
+<lb/></ab>
+      <ab n="B10K3V16">ان يُعطيكم كيسار
+<lb/>مجده كى بالقوه
+<lb/>تتحققوا بروحه</ab>
+      <ab n="B10K3V17">ليسكن
+<lb/>المسيح فى انسانكم
+<lb/>الوالج بالايمان وفى افئدتكم
+<lb/>بالحب</ab>
+      <ab n="B10K3V18">اذ يكون وثيقا
+<lb/>اصلكم واُسكم لتقدروا
+<lb/>ان تدركوا مع جميع الاطهار
+<lb/>ما هو العلو والعمق والطول
+<lb/>والعرض</ab>
+      <ab n="B10K3V19">وتعرفوا جلاله
+<lb/>علم حُب المسيح لتكملوا
+<lb/>بجميع كمال
+<lb/><pb n="29r" type="folio" xml:id="P29r-0278arb"/>
+<cb n="P29rC2-0278arb"/>الله</ab>
+      <ab n="B10K3V20">ولذلكم المقتدر
+<lb/>بالقوه اكثر من كل
+<lb/>ان يصنع بنا اكثر مما
+<lb/>نسل ونهم<note type="editorial">i.e. ونفهم</note> كايده الذى
+<lb/>يفعل فينا</ab>
+      <ab n="B10K3V21">له التسبيح
+<lb/>فى بيعته بيسوع المسيح
+<lb/>فى جميع اجيال دهر
+<lb/>الدهور امين
+<lb/></ab>
+      <ab n="B10K4V1">فانا اذًا ارغب اليكم
+<lb/>انا الاسير فى ربنا
+<lb/>ان تسلكوا كما يجب
+<lb/>للدعوة التى دُعيتم</ab>
+      <ab n="B10K4V2">بجميع
+<lb/>تواضع الراى والسُكون
+<lb/>وطول الاناه وكونوا
+<lb/>يحتمل بعضكم بعضا بالموده
+<lb/></ab>
+      <ab n="B10K4V3"><pb n="29v" type="folio" xml:id="P29v-0278arb"/>
+<cb n="P29vC2-0278arb"/>وكونوا مجتهدين فى
+<lb/>حفظ الفه الروح
+<lb/>بشدايد السلم
+<lb/></ab>
+      <ab n="B10K4V4">لتكونوا بجسد واحد وبروح
+<lb/>واحده كما دُعيتم برجا
+<lb/>دعوتكم الواحد
+<lb/></ab>
+      <ab n="B10K4V5">لان الرب واحدٌ والايمان
+<lb/>واحدٌ والصبغهُ واحدةٌ
+<lb/></ab>
+      <ab n="B10K4V6">وواحدٌ هو الله ابو كلٍّ
+<lb/>وعلى كل وبكل وفى
+<lb/>كُلنا</ab>
+      <ab n="B10K4V7">غير ان
+<lb/>واحدا فواحد منا اوتى نعمهً
+<lb/>كمقدار عطيه المسيح
+<lb/></ab>
+      <ab n="B10K4V8">من اجل هذا قيل
+<lb/>انه صعد الى السما
+<lb/><gap/></ab>
+      <ab n="B10K4V30"><gap/>
+<lb/><pb n="31r" type="folio" xml:id="P31r-0278arb"/>
+<cb n="P31rC2-0278arb"/>ليوم الخلاص
+<lb/>
+<lb/></ab>
+      <ab n="B10K4V31">جميع المراره والحنق
+<lb/>والغضب والجلبه
+<lb/>والفريه ليُنزع من بينكم
+<lb/>مع كل الشرار
+<lb/></ab>
+      <ab n="B10K4V32">وكونوا تغفرون بعضكم لبعض
+<lb/>راثىين<note type="editorial">i.e. راثين</note> متحننين كما ان الله
+<lb/>غفر لنا بالمسيح
+<lb/></ab>
+      <ab n="B10K5V1">فكونوا اذن تتشبهون بالله
+<lb/>كالابنا الاحبه
+<lb/></ab>
+      <ab n="B10K5V2">واسلكوا بالحب كما
+<lb/>ان المسيح احبنا
+<lb/>وبذل نفسه دوننا
+<lb/>قربانًا وذبيحه لله
+<lb/><pb n="31v" type="folio" xml:id="P31v-0278arb"/>
+<cb n="P31vC2-0278arb"/>الرايحه الطيبه
+<lb/></ab>
+      <ab n="B10K5V3">فاما الزنا وكل النجاسه
+<lb/>والشره فلا
+<lb/>تسمين<note type="editorial">unclear</note> بينكم تسميه
+<lb/>كما يليق بالاطهار
+<lb/></ab>
+      <ab n="B10K5V4">ولا الشتيمات ولا كلام
+<lb/>الحُمق او الهزؤ او اللعب
+<lb/>هذه التى لا تنبغى
+<lb/>لكن بدل هذه شكر
+<lb/></ab>
+      <ab n="B10K5V5">وكونوا عارفين بهذا
+<lb/>ان كل انسان هو زان
+<lb/>او نجس او غاشم
+<lb/>او عابد الاوثان
+<lb/>فليس له مورث
+<lb/>ملكوت المسيح والله
+<lb/></ab>
+      <ab n="B10K5V6"><pb n="32r" type="folio" xml:id="P32r-0278arb"/>
+<cb n="P32rC2-0278arb"/>لعل انسانا يضلكم
+<lb/>بكلام الضلاله
+<lb/>فانه من اجل ذلك ياتى
+<lb/>غضب الله على ابنا
+<lb/>المعصيه
+<lb/></ab>
+      <ab n="B10K5V7">فلا اذا تكونوا لهم
+<lb/>شركا</ab>
+      <ab n="B10K5V8">وذلك انكم
+<lb/>انما كنتم من قبل ظلمه
+<lb/>فاما الان فانكم نور فى ربنا
+<lb/>فمثل ابنا النور اذن هكذا
+<lb/>اسلكوا</ab>
+      <ab n="B10K5V9">لان ثمار النور
+<lb/>هى فى جميع الخيوره
+<lb/>والبر والقسط
+<lb/></ab>
+      <ab n="B10K5V10">وكونوا تميزون ما
+<lb/>الاحسن امام ربنا
+<lb/></ab>
+      <ab n="B10K5V11">ولا تكونوا تشاركون
+<lb/><pb n="32v" type="folio" xml:id="P32v-0278arb"/>
+<cb n="P32vC2-0278arb"/>عند اعمال الظلمه
+<lb/>التى لا ثمار فيها
+<lb/>بل تكونوا تبكتونها
+<lb/></ab>
+      <ab n="B10K5V12">لان الشى الذى يعملونه فى
+<lb/>الخفى هو يذر ان ينطق به
+<lb/>ايضا</ab>
+      <ab n="B10K5V13">وذلك ان كل شى
+<lb/>يُبكت من النور ويظهر
+<lb/>وكل شى ظاهر فهو نور
+<lb/></ab>
+      <ab n="B10K5V14">من اجل هذا اُقيل
+<lb/>استيقظ يا ايه النايم
+<lb/>وقم من بين الاموات
+<lb/>وينير لك المسيح.
+<lb/></ab>
+      <ab n="B10K5V15">فانظروا اذن كيف
+<lb/>تسلكون بالبها
+<lb/>لا مثل الجهال بل مثل الحكما
+<pb n="33r" type="folio" xml:id="P33r-0278arb"/>
+<cb n="P33rC2-0278arb"/></ab>
+      <ab n="B10K5V16">الذين يشترون حربهم
+<lb/>من اجل ان الايام خبيثه
+<lb/>الذين يشترون حربهم من اجل ان الايام خبيثة.</ab>
+      <ab n="B10K5V17">من اجل هذا لا تكونوا
+<lb/>ناقصى الراى لكن
+<lb/>افهموا ما مسره الله
+<lb/></ab>
+      <ab n="B10K5V18">ولا تكونوا تسكرون بالخمر
+<lb/>التى فيها الشطاره
+<lb/>بل امتليوا بالروح
+<lb/></ab>
+      <ab n="B10K5V19">وشافهوا انفسكم
+<lb/>بالمزامير وبالتسابيح
+<lb/>وبترتيلات الروح
+<lb/>كونوا ترتلون فى
+<lb/>قلوبكم للرب
+<lb/></ab>
+      <ab n="B10K5V20">وكونوا تشكرون فى
+<lb/>كل حين عن كل
+<lb/><pb n="33v" type="folio" xml:id="P33v-0278arb"/>
+<cb n="P33vC2-0278arb"/>انسان بسم ربنا ايسوع
+<lb/>المسيح لله الاب.
+<lb/></ab>
+      <ab n="B10K5V21">وكونوا تخضعون بعضكم
+<lb/>لبعض بتقوى المسيح
+<lb/></ab>
+      <ab n="B10K5V22">يا ايه النسا كُن تخضعن
+<lb/>لازواجكن كالخضوع
+<lb/>لربنا</ab>
+      <ab n="B10K5V23">من اجل ان الرجل
+<lb/>هو راس المراه كما ان
+<lb/>المسيح راس البيعه
+<lb/>وهو
+<lb/>محيى الجسد
+<lb/></ab>
+      <ab n="B10K5V24">ولكن كما تخضع البيعه
+<lb/>للمسيح كذلك
+<lb/>النسا ايضا لبعولتهن فى
+<lb/>كل شىٍ
+<lb/></ab>
+      <ab n="B10K5V25">يا ايه الرجال احبوا
+<lb/><pb n="34r" type="folio" xml:id="P34r-0278arb"/>
+<cb n="P34rC2-0278arb"/>نساكم كما ان
+<lb/>المسيح احب
+<lb/>بيعته
+<lb/>وبذل نفسه دونها
+<lb/></ab>
+      <ab n="B10K5V26">ليُقدسها
+<lb/>وينقيها
+<lb/>بحميم الما وبالكلمه
+<lb/></ab>
+      <ab n="B10K5V27">ويقيمها بيعه لنفسه
+<lb/>اذ تسبح
+<lb/>وليس فيها دنس
+<lb/>ولا تشنج ولا شى يشبه
+<lb/>ذلك بل تكون طاهره
+<lb/>غير ذات عيب
+<lb/></ab>
+      <ab n="B10K5V28">هكذا ينبغى للرجال
+<lb/>ان يحبوا نساهم
+<lb/>كاجسادهم
+<lb/><pb n="34v" type="folio" xml:id="P34v-0278arb"/>
+<cb n="P34vC2-0278arb"/>لان من يحب امراته
+<lb/>فانما يحب نفسه
+<lb/></ab>
+      <ab n="B10K5V29">وذلكم انه ليس احد
+<lb/>يبغض جسده ابدا
+<lb/>لكنه يغذوه ويهتم به
+<lb/>كما ان المسيح يهتم ببيعته
+<lb/></ab>
+      <ab n="B10K5V30">لانا اعضا جسده
+<lb/>وانما نحن من لحمه
+<lb/>ومن عظامه
+<lb/></ab>
+      <ab n="B10K5V31">من اجل ذلك يذر
+<lb/>الرجل اباه وامه
+<lb/>ويلزم حليلته
+<lb/>ويكونان
+<lb/>كلاهما جسدٌ واحدٌ
+<lb/></ab>
+      <ab n="B10K5V32">ان هذا السر
+<lb/><pb n="35r" type="folio" xml:id="P35r-0278arb"/>
+<cb n="P35rC2-0278arb"/>لعظيم وانما اقول
+<lb/>انا على المسيح وعلى بيعته
+<lb/></ab>
+      <ab n="B10K5V33">ولكنكم انتم ايضا كل
+<lb/>واحد منكم هكذا
+<lb/>فليحىب<note type="editorial">i.e. فليحب</note> امراته
+<lb/>كحُبه لنفسه.
+<lb/>فاما المراه فلتكن تهاب
+<lb/>بعلها</ab>
+      <ab n="B10K6V1">يا ايه البنون
+<lb/>اطيعوا اباوكم فى
+<lb/>ربنا لان هذه
+<lb/>هي العادله</ab>
+      <ab n="B10K6V2">وهذه هى
+<lb/>الوصيه الاولى
+<lb/>الموعود بها أكرم اباك
+<lb/>وامك
+<lb/></ab>
+      <ab n="B10K6V3">لتكون لك الحسنى ويطول
+<lb/><pb n="35v" type="folio" xml:id="P35v-0278arb"/>
+<cb n="P35vC2-0278arb"/>عُمرك على الارض
+<lb/></ab>
+      <ab n="B10K6V4">يا ايه الابا
+<lb/>لا تغضبوا بنيكم
+<lb/>لكن ربوهم بالادب
+<lb/>وبمواعظ الرب
+<lb/></ab>
+      <ab n="B10K6V5">يا ايه العبيد اطيعوا
+<lb/>مواليكم الذين بالجسد
+<lb/>بالخوف وبالرعده
+<lb/>وبانبساط القلب
+<lb/>كما يُطاع المسيح
+<lb/></ab>
+      <ab n="B10K6V6">لا براى العين كانكم
+<lb/>انما ترضون الناس
+<lb/>بل كعبيد المسيح الذين
+<lb/>يعملون مسره الله
+<lb/></ab>
+      <ab n="B10K6V7">واخدموهم من اقصا انفسكم
+<lb/><pb n="36r" type="folio" xml:id="P36r-0278arb"/>
+<cb n="P36rC2-0278arb"/>بالحُب كالخدمه لربنا
+<lb/>لا كالخدمة للناس
+<lb/></ab>
+      <ab n="B10K6V8">اذ تعلمون ان ذلكم الذى
+<lb/>تعملونه حسنا ايا
+<lb/>ذلك يجزى من ربنا
+<lb/>عبدًا كان او حُرًا
+<lb/></ab>
+      <ab n="B10K6V9">وانتم ايضا يا ايه الموالى
+<lb/>هكذا فافعلوا بعبيدكم
+<lb/>كونوا تغفرون لهم الذنوب
+<lb/>من اجل انكم تعلمون ان ربكم
+<lb/>انتم ايضا هو فى السما
+<lb/>وليست عنده محاباه
+<lb/></ab>
+      <ab n="B10K6V10">والان يا اخوتى تقووا
+<lb/>بربنا وبمنعه
+<lb/>قوته
+<lb/></ab>
+      <ab n="B10K6V11"><pb n="36v" type="folio" xml:id="P36v-0278arb"/>
+<cb n="P36vC2-0278arb"/>وتدرعوا جميع سلاح
+<lb/>الله كيما تطيقوا
+<lb/>الثبات بازى
+<lb/>مكايد المحال
+<lb/></ab>
+      <ab n="B10K6V12">لان قتالكم ليس مع
+<lb/>لحم ودم بل مع الاركونين
+<lb/>ومع السلاطين
+<lb/>ومع الممسكين لظلمه
+<lb/>هذا العالم
+<lb/>ومع الارواح الخبيثه
+<lb/>التى تحت السموات
+<lb/></ab>
+      <ab n="B10K6V13">من اجل هذا البسوا
+<lb/>جميع سلاح الله
+<lb/>لتقدروا
+<lb/>ان تبارزوا الخبيث
+<lb/><pb n="37r" type="folio" xml:id="P37r-0278arb"/>
+<cb n="P37rC2-0278arb"/>واذ انتم متعبثون بكل
+<lb/>شى تقومون
+<lb/></ab>
+      <ab n="B10K6V14">فقوموا اذن وشدوا
+<lb/>ظهوركم بالقسط
+<lb/>والبسوا درع البر
+<lb/></ab>
+      <ab n="B10K6V15">والبسوا فى
+<lb/>ارجلكم استعداد
+<lb/>انجيل
+<lb/>السلم
+<lb/></ab>
+      <ab n="B10K6V16">ومع هذه خذوا
+<lb/>لكم ترس الايمان
+<lb/>الذى به تطيقون القوه
+<lb/>على تطفيه جميع سهام
+<lb/>الخبيث المضطرمه
+<lb/></ab>
+      <ab n="B10K6V17">وضعوا على
+<lb/><pb n="37v" type="folio" xml:id="P37v-0278arb"/>
+<cb n="P37vC2-0278arb"/>رؤوسكم بيضة الخلاص
+<lb/>واضبطوا سيف الروح
+<lb/>الذى هو كلمه الله
+<lb/></ab>
+      <ab n="B10K6V18">وبكل صلوه وبكل
+<lb/>طلبة صلوا فى كل
+<lb/>حين بالروح
+<lb/>وفى الصلاه كونوا
+<lb/>سُهرا فى كل وقت
+<lb/>اذ تصلون ديمه وتتضرعون
+<lb/>عن جميع الاطهار</ab>
+      <ab n="B10K6V19">وعنى ايضا
+<lb/>لتوهب لى كلمه فى
+<lb/>فتح فمى كى انادي
+<lb/>بسر البشاره
+<lb/>علانيه جهرًا
+<lb/></ab>
+      <ab n="B10K6V20">ذلك الذى انا رسوله
+<lb/><pb n="38r" type="folio" xml:id="P38r-0278arb"/>
+<cb n="P38rC2-0278arb"/>بسلاسل
+<lb/>كى انطق به بداله كما
+<lb/>ينبغى لى ان انطق به
+<lb/></ab>
+      <ab n="B10K6V21">واما لكى تعلموا ما قبلى
+<lb/>وما افعل فها هوذا يعلمكم
+<lb/>ذلك توشيقوس
+<lb/>وهو الاخ الحبيب الامين
+<lb/>فى خدمته فى ربنا
+<lb/></ab>
+      <ab n="B10K6V22">الذى اياه ارسلت فى هذا
+<lb/>بعينه لتعلموا ما عندى
+<lb/>ويعزى قلوبكم
+<lb/></ab>
+      <ab n="B10K6V23">السلام مع اخوتنا
+<lb/>والحُب مع
+<lb/>الايمان من الله الاب
+<lb/>ومن ربنا ايسوع المسيح
+<lb/></ab>
+      <ab n="B10K6V24"><pb n="38v" type="folio" xml:id="P38v-0278arb"/>
+<cb n="P38vC2-0278arb"/>النعمه مع جميع الذين
+<lb/>يحبون
+<lb/>ربنا ايسوع المسيح
+<lb/>بلا فساد
+<lb/></ab>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,627 @@
+# sent_id = Matt.13.46
+# text = وه كثير الثمن ذهب فباع شي له اشتراها
+# damaged_words = 2
+# transcription = __وه كثير الثمن ذهب فباع __ شي له _اشتراها.
+1	وه	وه	X	X---------	_	4	dep	_	Conf=form:0.60,lemma:0.50,upos:0.60,xpos:0.60,feats:0.85,head:0.40,deprel:0.40
+2	كثير	كَثِير	ADJ	A-----MS2I	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	amod	_	Conf=form:0.97,lemma:0.90,upos:0.85,xpos:0.70,feats:0.50,head:0.45,deprel:0.45
+3	الثمن	ثَمَن	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	Conf=form:0.92,lemma:0.90,upos:0.90,xpos:0.97,feats:0.90,head:0.60,deprel:0.60
+4	ذهب	ذَهَب	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+5-6	فباع	_	_	_	_	_	_	_	_
+5	ف	فَ	CCONJ	C---------	_	6	cc	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.90
+6	باع	بَاع	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	conj	_	Conf=form:0.80,lemma:0.80,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+7	شي	شي	X	U---------	_	6	obj	_	Conf=form:0.85,lemma:0.55,upos:0.60,xpos:0.85,feats:0.85,head:0.70,deprel:0.70
+8-9	له	_	_	_	_	_	_	_	_
+8	ل	لِ	ADP	P---------	AdpType=Prep	9	case	_	Conf=form:0.95,lemma:0.97,upos:0.95,xpos:0.97,feats:0.95,head:0.95,deprel:0.97
+9	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	Conf=form:0.80,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+10-11	اشتراها	_	_	_	_	_	_	_	_
+10	اشترا	اِشتَرَى	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	conj	_	Conf=form:0.92,lemma:0.85,upos:0.90,xpos:0.97,feats:0.90,head:0.60,deprel:0.60
+11	ها	هُوَ	PRON	SP---3FS4-	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	Conf=form:0.80,lemma:0.97,upos:0.97,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+
+# sent_id = Matt.13.47
+# text = ايضا يشبه السموات كه ت فى البحر كل ناس جمعت
+# damaged_words = 3
+# transcription = ايضا يشبه ___ السموات __كه ___ت فى البحر _______ كل __ناس جمعت
+1	ايضا	أَيضًا	ADV	D---------	_	2	advmod:emph	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+2	يشبه	أَشبَه	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.85,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+3	السموات	سَمَاء	NOUN	N------P1D	Case=Nom|Definite=Def|Number=Plur	2	nsubj	_	Conf=form:0.85,lemma:0.85,upos:0.95,xpos:0.80,feats:0.80,head:0.65,deprel:0.65
+4	كه	كه	X	X---------	_	2	obj	_	Conf=form:0.85,lemma:0.30,upos:0.50,xpos:0.50,feats:0.85,head:0.40,deprel:0.40
+5	ت	ت	X	Y---------	Abbr=Yes	4	dep	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.40,deprel:0.40
+6	فى	فِي	ADP	P---------	AdpType=Prep	7	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.97
+7	البحر	بَحر	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	5	obl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.40,deprel:0.40
+8	كل	كُلّ	NOUN	N------S4R	Case=Acc|Definite=Cons|Number=Sing	10	obj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.60,feats:0.60,head:0.50,deprel:0.50
+9	ناس	نَاس	NOUN	N------P2I	Case=Gen|Definite=Ind|Number=Plur	8	nmod	_	Conf=form:0.85,lemma:0.85,upos:0.90,xpos:0.75,feats:0.75,head:0.80,deprel:0.80
+10	جمعت	جَمَع	VERB	VP-A-3FS--	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act	4	acl	_	Conf=form:0.85,lemma:0.85,upos:0.90,xpos:0.97,feats:0.90,head:0.50,deprel:0.50
+
+# sent_id = Matt.13.48
+# text = ا امتلت صعدوها علي الشط جلسوا فاختاروا في انيه والاشرار برا طرحوا
+# damaged_words = 3
+# transcription = ___ا امتلت __صعدوها علي الشط. _جلسوا فاختاروا ___ في انيه والاشرار برا طرحوا
+1	ا	أَ	X	Y---------	Abbr=Yes	2	dep	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.40,deprel:0.40
+2	امتلت	اِمتَلَأ	VERB	VP-A-3FS--	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act	3	advcl	_	Conf=form:0.90,lemma:0.80,upos:0.95,xpos:0.97,feats:0.90,head:0.65,deprel:0.65
+3-4	صعدوها	_	_	_	_	_	_	_	_
+3	صعدوا	صَعِد	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+4	ها	هُوَ	PRON	SP---3FS4-	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+5	علي	عَلَى	ADP	P---------	AdpType=Prep	6	case	_	Conf=form:0.97,lemma:0.90,upos:0.90,xpos:0.97,feats:0.90,head:0.90,deprel:0.97
+6	الشط	شَطّ	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	3	obl	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.97,feats:0.90,head:0.90,deprel:0.90
+7	جلسوا	جَلَس	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	3	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+8-9	فاختاروا	_	_	_	_	_	_	_	_
+8	ف	فَ	CCONJ	C---------	_	9	cc	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.90
+9	اختاروا	اِختَار	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	3	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+10	في	فِي	ADP	P---------	AdpType=Prep	11	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.95,head:0.95,deprel:0.97
+11	انيه	إِنَاء	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	9	obl	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.97,feats:0.90,head:0.90,deprel:0.90
+12-13	والاشرار	_	_	_	_	_	_	_	_
+12	و	وَ	CCONJ	C---------	_	15	cc	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+13	الاشرار	شَرِير	ADJ	A-----MP4D	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	15	obj	_	Conf=form:0.93,lemma:0.85,upos:0.60,xpos:0.75,feats:0.85,head:0.55,deprel:0.55
+14	برا	بَرّ	ADV	D---------	_	15	advmod	_	Conf=form:0.90,lemma:0.60,upos:0.80,xpos:0.80,feats:0.90,head:0.75,deprel:0.75
+15	طرحوا	طَرَح	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	3	conj	_	Conf=form:0.80,lemma:0.80,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+
+# sent_id = Matt.13.49
+# text = هكذا يكون فى انقضا هذا العالم تخرج الملايكه فيفرزون الاشرار من بين الاصديقين
+# damaged_words = 0
+# transcription = هكذا يكون فى انقضا هذا العالم تخرج الملايكه فيفرزون الاشرار من بين الاصديقين
+1	هكذا	هٰكَذَا	DET	S---------	PronType=Dem	2	obl	_	Conf=form:0.95,lemma:0.95,upos:0.80,xpos:0.90,feats:0.85,head:0.60,deprel:0.60
+2	يكون	كَان	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.97,upos:0.60,xpos:0.60,feats:0.80,head:0.75,deprel:0.75
+3	فى	فِي	ADP	P---------	AdpType=Prep	4	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+4	انقضا	اِنقِضَاء	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	2	obl	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+5	هذا	هٰذَا	DET	SD----MS2-	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	Conf=form:0.97,lemma:0.90,upos:0.90,xpos:0.97,feats:0.90,head:0.90,deprel:0.90
+6	العالم	عَالَم	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	4	nmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.90,deprel:0.90
+7	تخرج	خَرَج	VERB	VIIA-3FS--	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	parataxis	_	Conf=form:0.97,lemma:0.90,upos:0.97,xpos:0.97,feats:0.90,head:0.50,deprel:0.50
+8	الملايكه	مَلأَك	NOUN	N------P1D	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	Conf=form:0.80,lemma:0.80,upos:0.80,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+9-10	فيفرزون	_	_	_	_	_	_	_	_
+9	ف	فَ	CCONJ	C---------	_	10	cc	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.90
+10	يفرزون	فَرَز	VERB	VIIA-3MP--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	conj	_	Conf=form:0.95,lemma:0.80,upos:0.97,xpos:0.97,feats:0.90,head:0.80,deprel:0.80
+11	الاشرار	شَرِير	ADJ	A-----MP4D	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	10	obj	_	Conf=form:0.95,lemma:0.85,upos:0.60,xpos:0.70,feats:0.90,head:0.75,deprel:0.75
+12	من	مِن	ADP	P---------	AdpType=Prep|ExtPos=ADP	14	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+13	بين	بَينَ	ADP	PI------2-	AdpType=Prep|Case=Gen	12	fixed	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+14	الاصديقين	صِدِّيق	ADJ	A-----MP2D	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	obl	_	Conf=form:0.95,lemma:0.75,upos:0.55,xpos:0.60,feats:0.85,head:0.75,deprel:0.75
+
+# sent_id = Matt.13.50
+# text = فيلقوهم فى قامين نار هناك يكون البكا وصرير الاسنان
+# damaged_words = 1
+# transcription = فيلقوهم فى قامين ___نار__ هناك يكون. البكا وصرير الاسنان.
+1-3	فيلقوهم	_	_	_	_	_	_	_	_
+1	ف	فَ	CCONJ	C---------	_	2	cc	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.90
+2	يلقوا	أَلقَى	VERB	VIJA-3MP--	Aspect=Imp|Gender=Masc|Mood=Jus|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.99
+3	هم	هُوَ	PRON	SP---3MP4-	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.90,deprel:0.90
+4	فى	فِي	ADP	P---------	AdpType=Prep	5	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+5	قامين	قامين	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	2	obl	_	Conf=form:0.90,lemma:0.55,upos:0.88,xpos:0.60,feats:0.80,head:0.80,deprel:0.80
+6	نار	نَار	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	5	nmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+7	هناك	هُنَاكَ	ADV	D---------	_	8	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+8	يكون	كَان	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	parataxis	_	Conf=form:0.97,lemma:0.97,upos:0.60,xpos:0.60,feats:0.80,head:0.70,deprel:0.70
+9	البكا	بُكَاء	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	8	nsubj	_	Conf=form:0.80,lemma:0.80,upos:0.80,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+10-11	وصرير	_	_	_	_	_	_	_	_
+10	و	وَ	CCONJ	C---------	_	11	cc	_	Conf=form:0.95,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+11	صرير	صَرِير	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	9	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+12	الاسنان	سِنّ	NOUN	N------P2D	Case=Gen|Definite=Def|Number=Plur	11	nmod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.13.51
+# text = فقال لهم يسوع فهمتم هذا كله فقالوا له نعم يا رب
+# damaged_words = 0
+# transcription = فقال لهم يسوع فهمتم هذا كله / فقالوا له نعم يا رب.
+1-2	فقال	_	_	_	_	_	_	_	_
+1	ف	فَ	CCONJ	C---------	_	2	cc	_	Conf=form:0.80,lemma:0.80,upos:0.80,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+2	قال	قَال	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.80,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+3-4	لهم	_	_	_	_	_	_	_	_
+3	ل	لِ	ADP	P---------	AdpType=Prep	4	case	_	Conf=form:0.80,lemma:0.97,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.97
+4	هم	هُوَ	PRON	SP---3MP2-	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl:arg	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+5	يسوع	يسوع	X	U---------	_	2	nsubj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+6	فهمتم	فَهِم	VERB	VP-A-2MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=2|Voice=Act	2	ccomp	_	Conf=form:0.95,lemma:0.80,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.80
+7	هذا	هٰذَا	DET	SD----MS4-	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	Conf=form:0.97,lemma:0.95,upos:0.90,xpos:0.80,feats:0.75,head:0.75,deprel:0.75
+8-9	كله	_	_	_	_	_	_	_	_
+8	كل	كُلّ	NOUN	N------S4R	Case=Acc|Definite=Cons|Number=Sing	7	nmod	_	Conf=form:0.95,lemma:0.97,upos:0.97,xpos:0.60,feats:0.75,head:0.70,deprel:0.70
+9	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+10-11	فقالوا	_	_	_	_	_	_	_	_
+10	ف	فَ	CCONJ	C---------	_	11	cc	_	Conf=form:0.80,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+11	قالوا	قَال	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	2	conj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+12-13	له	_	_	_	_	_	_	_	_
+12	ل	لِ	ADP	P---------	AdpType=Prep	13	case	_	Conf=form:0.80,lemma:0.97,upos:0.80,xpos:0.97,feats:0.80,head:0.80,deprel:0.97
+13	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl:arg	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+14	نعم	نَعَم	PART	F---------	_	11	ccomp	_	Conf=form:0.96,lemma:0.95,upos:0.80,xpos:0.90,feats:0.90,head:0.55,deprel:0.50
+15	يا	يَا	PART	F---------	_	16	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.70,deprel:0.70
+16	رب	رَبّ	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	11	dep	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.80,feats:0.60,head:0.50,deprel:0.50
+
+# sent_id = Matt.13.52
+# text = وهو قال لهم
+# damaged_words = 0
+# transcription = وهو قال لهم
+1-2	وهو	_	_	_	_	_	_	_	_
+1	و	وَ	CCONJ	C---------	_	2	cc	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+2	هو	هُوَ	PRON	SP---3MS1-	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+3	قال	قَال	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+4-5	لهم	_	_	_	_	_	_	_	_
+4	ل	لِ	ADP	P---------	AdpType=Prep	5	case	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.97,deprel:0.97
+5	هم	هُوَ	PRON	SP---3MP2-	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obl:arg	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+
+# sent_id = Matt.14.6
+# text = وسط هروذس
+# damaged_words = 1
+# transcription = _____وسط _____ هروذس.
+1	وسط	وَسطَ	ADP	PI------4-	AdpType=Prep|Case=Acc	2	case	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+2	هروذس	هروذس	PROPN	Z---------	Case=Gen|Definite=Def|Number=Sing	0	root	_	Conf=form:0.85,lemma:0.60,upos:0.90,xpos:0.85,feats:0.60,head:0.70,deprel:0.70
+
+# sent_id = Matt.14.7
+# text = حلف ها انه ها ما سالت
+# damaged_words = 2
+# transcription = _______حلف ___ها انه ها ما سالت.
+1	حلف	حَلَف	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.93,lemma:0.75,upos:0.90,xpos:0.97,feats:0.90,head:0.95,deprel:0.99
+2	ها	هُوَ	PRON	SP---3FS4-	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl:arg	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.80,head:0.50,deprel:0.40
+3-4	انه	_	_	_	_	_	_	_	_
+3	أن	أَنَّ	SCONJ	C---------	_	6	mark	_	Conf=form:0.93,lemma:0.90,upos:0.97,xpos:0.97,feats:0.80,head:0.50,deprel:0.60
+4	ه	هُوَ	PRON	SP---3MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	fixed	_	Conf=form:0.93,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.50,deprel:0.50
+5	ها	هُوَ	PRON	SP---3FS4-	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	orphan	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.70,feats:0.85,head:0.40,deprel:0.30
+6	ما	مَا	DET	S---------	PronType=Int	1	ccomp	_	Conf=form:0.97,lemma:0.97,upos:0.60,xpos:0.60,feats:0.80,head:0.50,deprel:0.40
+7	سالت	سَأَل	VERB	VP-A-3FS--	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act	6	acl	_	Conf=form:0.90,lemma:0.80,upos:0.90,xpos:0.97,feats:0.90,head:0.60,deprel:0.50
+
+# sent_id = Matt.14.8
+# text = لمت ها له اعطني هاهنا عه راس نا صبغ
+# damaged_words = 6
+# transcription = _______لمت ____ها _____له اعطني هاهنا ___عه راس __نا ___صبغ
+1	لمت	لمت	VERB	VP-A-3FS--	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.88,lemma:0.40,upos:0.80,xpos:0.60,feats:0.50,head:0.60,deprel:0.60
+2	ها	هُوَ	PRON	SP---3FS4-	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.80,feats:0.80,head:0.60,deprel:0.50
+3-4	له	_	_	_	_	_	_	_	_
+3	ل	لِ	ADP	C---------	AdpType=Prep	4	case	_	Conf=form:0.88,lemma:0.97,upos:0.85,xpos:0.85,feats:0.85,head:0.92,deprel:0.97
+4	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.60,deprel:0.60
+5	اعطني	أَعطَى	VERB	VCJ---MS--	Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin	1	ccomp	_	Conf=form:0.88,lemma:0.85,upos:0.90,xpos:0.60,feats:0.60,head:0.50,deprel:0.50
+6	هاهنا	هٰهُنَا	ADV	D---------	_	5	advmod	_	Conf=form:0.88,lemma:0.70,upos:0.90,xpos:0.85,feats:0.80,head:0.70,deprel:0.70
+7	عه	عه	X	X---------	_	5	obl	_	Conf=form:0.88,lemma:0.40,upos:0.50,xpos:0.60,feats:0.70,head:0.40,deprel:0.30
+8	راس	رَأس	NOUN	N------S4R	Case=Acc|Definite=Cons|Number=Sing	5	obj	_	Conf=form:0.88,lemma:0.90,upos:0.90,xpos:0.60,feats:0.70,head:0.70,deprel:0.70
+9	نا	هُوَ	PRON	SP---1MP2-	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	8	nmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.70,deprel:0.70
+10	صبغ	صبغ	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	9	nmod	_	Conf=form:0.88,lemma:0.40,upos:0.50,xpos:0.60,feats:0.50,head:0.40,deprel:0.40
+
+# sent_id = Matt.14.9
+# text = زن ا فمنجل مان وا كيين امر ان تعطا
+# damaged_words = 4
+# transcription = __زن ا____ فمنجل ___مان وا ___كيين امر ان تعطا.
+1	زن	زن	X	X---------	_	7	dep	_	Conf=form:0.85,lemma:0.50,upos:0.50,xpos:0.60,feats:0.70,head:0.30,deprel:0.30
+2	ا	أَ	X	Y---------	Abbr=Yes	7	dep	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.30,deprel:0.30
+3	فمنجل	فمنجل	X	X---------	_	7	dep	_	Conf=form:0.85,lemma:0.50,upos:0.50,xpos:0.60,feats:0.70,head:0.30,deprel:0.30
+4	مان	مان	X	X---------	_	3	nmod	_	Conf=form:0.85,lemma:0.50,upos:0.50,xpos:0.60,feats:0.70,head:0.40,deprel:0.40
+5	وا	وا	X	X---------	_	6	cc	_	Conf=form:0.85,lemma:0.50,upos:0.50,xpos:0.60,feats:0.70,head:0.50,deprel:0.40
+6	كيين	كيين	X	X---------	_	4	conj	_	Conf=form:0.85,lemma:0.50,upos:0.50,xpos:0.60,feats:0.70,head:0.40,deprel:0.40
+7	امر	أَمَر	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.97,lemma:0.80,upos:0.80,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+8	ان	أَن	SCONJ	C---------	_	9	mark	_	Conf=form:0.97,lemma:0.90,upos:0.90,xpos:0.90,feats:0.97,head:0.90,deprel:0.97
+9	تعطا	أَعطَى	VERB	VISA-3FS--	Aspect=Imp|Gender=Fem|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	7	ccomp	_	Conf=form:0.85,lemma:0.80,upos:0.90,xpos:0.70,feats:0.75,head:0.75,deprel:0.75
+
+# sent_id = Matt.14.10
+# text = وبعث فقطع راس يوحنا في الحبس
+# damaged_words = 0
+# transcription = وبعث فقطع راس يوحنا في الحبس
+1-2	وبعث	_	_	_	_	_	_	_	_
+1	و	وَ	CCONJ	C---------	_	2	cc	_	Conf=form:0.93,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+2	بعث	بَعَث	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.93,lemma:0.90,upos:0.90,xpos:0.97,feats:0.90,head:0.90,deprel:0.99
+3-4	فقطع	_	_	_	_	_	_	_	_
+3	ف	فَ	CCONJ	C---------	_	4	cc	_	Conf=form:0.95,lemma:0.95,upos:0.95,xpos:0.95,feats:0.95,head:0.95,deprel:0.95
+4	قطع	قَطَع	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	2	conj	_	Conf=form:0.95,lemma:0.90,upos:0.95,xpos:0.97,feats:0.95,head:0.90,deprel:0.90
+5	راس	رَأس	NOUN	N------S4R	Case=Acc|Definite=Cons|Number=Sing	4	obj	_	Conf=form:0.93,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+6	يوحنا	يوحنا	X	U---------	_	5	nmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+7	في	فِي	ADP	P---------	AdpType=Prep	8	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+8	الحبس	حَبس	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	4	obl	_	Conf=form:0.93,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.14.11
+# text = واتى براسه في القصعه ودفع الى الجاريه والجاريه جابته الى امها
+# damaged_words = 0
+# transcription = واتى براسه في القصعه ودفع الى الجاريه والجاريه جابته الى امها
+1-2	واتى	_	_	_	_	_	_	_	_
+1	و	وَ	CCONJ	C---------	_	2	cc	_	Conf=form:0.95,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+2	اتى	أَتَى	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.95,lemma:0.95,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.85
+3-5	براسه	_	_	_	_	_	_	_	_
+3	ب	بِ	ADP	P---------	AdpType=Prep	4	case	_	Conf=form:0.93,lemma:0.95,upos:0.95,xpos:0.97,feats:0.90,head:0.95,deprel:0.97
+4	راس	رَأس	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	2	obl	_	Conf=form:0.93,lemma:0.90,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.60
+5	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Conf=form:0.93,lemma:0.97,upos:0.97,xpos:0.97,feats:0.93,head:0.95,deprel:0.97
+6	في	فِي	ADP	P---------	AdpType=Prep	7	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.95,head:0.95,deprel:0.97
+7	القصعه	قَصعَة	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	2	obl	_	Conf=form:0.93,lemma:0.80,upos:0.93,xpos:0.97,feats:0.93,head:0.60,deprel:0.60
+8-9	ودفع	_	_	_	_	_	_	_	_
+8	و	وَ	CCONJ	C---------	_	9	cc	_	Conf=form:0.93,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+9	دفع	دَفَع	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	2	conj	_	Conf=form:0.93,lemma:0.90,upos:0.93,xpos:0.97,feats:0.90,head:0.90,deprel:0.90
+10	الى	إِلَى	ADP	P---------	AdpType=Prep	11	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.95,deprel:0.95
+11	الجاريه	جَارِيَة	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	9	obl:arg	_	Conf=form:0.93,lemma:0.85,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.60
+12-13	والجاريه	_	_	_	_	_	_	_	_
+12	و	وَ	CCONJ	C---------	_	14	cc	_	Conf=form:0.95,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+13	الجاريه	جَارِيَة	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	14	nsubj	_	Conf=form:0.95,lemma:0.85,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.85
+14-15	جابته	_	_	_	_	_	_	_	_
+14	جابت	جَاب	VERB	VP-A-3FS--	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act	2	conj	_	Conf=form:0.92,lemma:0.85,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.85
+15	ه	هُوَ	PRON	SP---3MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	Conf=form:0.92,lemma:0.97,upos:0.97,xpos:0.97,feats:0.93,head:0.90,deprel:0.90
+16	الى	إِلَى	ADP	P---------	AdpType=Prep	17	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.95,deprel:0.95
+17-18	امها	_	_	_	_	_	_	_	_
+17	ام	أُمّ	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	14	obl	_	Conf=form:0.95,lemma:0.90,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.60
+18	ها	هُوَ	PRON	SP---3FS2-	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nmod	_	Conf=form:0.95,lemma:0.97,upos:0.97,xpos:0.97,feats:0.93,head:0.95,deprel:0.95
+
+# sent_id = Matt.14.12
+# text = و تلاميذه فاخذوا الجثه ودفنوها وجاوا فاخبروا بيسوع
+# damaged_words = 1
+# transcription = ____و تلاميذه فاخذوا الجثه ودفنوها وجاوا فاخبروا بيسوع.
+1	و	وَ	CCONJ	C---------	_	3	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+2	تلاميذه	تِلمِيذ	NOUN	N------P1R	Case=Nom|Definite=Cons|Number=Plur	3	nsubj	_	Conf=form:0.92,lemma:0.90,upos:0.95,xpos:0.75,feats:0.85,head:0.75,deprel:0.75
+3	فاخذوا	أَخَذ	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	0	root	_	Conf=form:0.92,lemma:0.90,upos:0.95,xpos:0.97,feats:0.93,head:0.80,deprel:0.80
+4	الجثه	جُثَّة	NOUN	N------S4D	Case=Acc|Definite=Def|Number=Sing	3	obj	_	Conf=form:0.92,lemma:0.90,upos:0.95,xpos:0.97,feats:0.90,head:0.85,deprel:0.85
+5	ودفنوها	دَفَن	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	3	conj	_	Conf=form:0.92,lemma:0.90,upos:0.95,xpos:0.97,feats:0.93,head:0.80,deprel:0.80
+6	وجاوا	جَاء	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	3	conj	_	Conf=form:0.92,lemma:0.85,upos:0.95,xpos:0.97,feats:0.93,head:0.75,deprel:0.75
+7	فاخبروا	أَخبَر	VERB	VP-A-3MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|Voice=Act	3	conj	_	Conf=form:0.92,lemma:0.90,upos:0.95,xpos:0.97,feats:0.93,head:0.75,deprel:0.75
+8	بيسوع	يَسُوع	PROPN	Z---------	Case=Gen|Definite=Def|Number=Sing	7	obl:arg	_	Conf=form:0.92,lemma:0.50,upos:0.85,xpos:0.85,feats:0.60,head:0.60,deprel:0.60
+
+# sent_id = Matt.14.13
+# text = فلما سمع يسوع انصرف من هناك فى سفينه الى بريه
+# damaged_words = 0
+# transcription = فلما سمع يسوع انصرف من هناك فى سفينه الى بريه
+1	فلما	فَلَمَّا	CCONJ	C---------	_	2	mark	_	Conf=form:0.93,lemma:0.60,upos:0.70,xpos:0.60,feats:0.75,head:0.75,deprel:0.75
+2	سمع	سَمِع	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	advcl	_	Conf=form:0.93,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+3	يسوع	يسوع	X	U---------	_	2	nsubj	_	Conf=form:0.93,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+4	انصرف	اِنصَرَف	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.93,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+5	من	مِن	ADP	P---------	AdpType=Prep	6	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+6	هناك	هُنَاكَ	ADV	D---------	_	4	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+7	فى	فِي	ADP	P---------	AdpType=Prep	8	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+8	سفينه	سَفِينَة	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	4	obl	_	Conf=form:0.93,lemma:0.90,upos:0.95,xpos:0.97,feats:0.92,head:0.80,deprel:0.80
+9	الى	إِلَى	ADP	P---------	AdpType=Prep	10	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+10	بريه	بَرِّيَّة	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	4	obl	_	Conf=form:0.93,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.25.9
+# text = اجبن العاقلات فقلن لعله لا يكفينا واياكن ولكن اذهبن الى الذين يبيعون فاشترين لكن
+# damaged_words = 0
+# transcription = اجبن العاقلات فقلن لعله لا يكفينا واياكن ولكن اذهبن الى الذين يبيعون فاشترين لكن.
+1	اجبن	أَجَاب	VERB	VP-A-3FP--	Aspect=Perf|Gender=Fem|Number=Plur|Person=3|Voice=Act	0	root	_	Conf=form:0.94,lemma:0.85,upos:0.93,xpos:0.97,feats:0.90,head:0.85,deprel:0.85
+2	العاقلات	عَاقِل	ADJ	A-----FP1D	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	nsubj	_	Conf=form:0.94,lemma:0.80,upos:0.65,xpos:0.65,feats:0.85,head:0.85,deprel:0.80
+3-4	فقلن	_	_	_	_	_	_	_	_
+3	ف	فَ	CCONJ	_	_	4	cc	_	Conf=form:0.95,lemma:0.95,upos:0.95,feats:0.90,head:0.90,deprel:0.90
+4	قلن	قَال	VERB	VP-A-3FP--	Aspect=Perf|Gender=Fem|Number=Plur|Person=3|Voice=Act	1	conj	_	Conf=form:0.95,lemma:0.95,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.85
+5-6	لعله	_	_	_	_	_	_	_	_
+5	لعل	لَعَلَّ	SCONJ	C---------	_	8	mark	_	Conf=form:0.88,lemma:0.80,upos:0.70,feats:0.85,head:0.85,deprel:0.85
+6	ه	هُوَ	PRON	SP---3MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	fixed	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.70,deprel:0.70
+7	لا	لَا	PART	F---------	_	8	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.97
+8-9	يكفينا	_	_	_	_	_	_	_	_
+8	يكفي	كَفَى	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	ccomp	_	Conf=form:0.93,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+9	نا	هُوَ	PRON	SP---1MP4-	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	8	obj	_	Conf=form:0.93,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.85,deprel:0.85
+10-12	واياكن	_	_	_	_	_	_	_	_
+10	و	وَ	CCONJ	C---------	_	12	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+11	ايا	إِيَّا	PRON	SP---2MP4-	_	12	case	_	Conf=form:0.85,lemma:0.75,upos:0.50,xpos:0.40,feats:0.70,head:0.50,deprel:0.40
+12	كن	هُوَ	PRON	SP---2MP4-	Case=Acc|Gender=Fem|Number=Plur|Person=2|PronType=Prs	9	conj	_	Conf=form:0.85,lemma:0.75,upos:0.70,xpos:0.60,feats:0.85,head:0.70,deprel:0.65
+13-14	ولكن	_	_	_	_	_	_	_	_
+13	و	وَ	CCONJ	C---------	_	15	cc	_	Conf=form:0.94,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.97
+14	لٰكن	لٰكِن	CCONJ	C---------	_	15	cc	_	Conf=form:0.94,lemma:0.85,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.97
+15	اذهبن	ذَهَب	VERB	VCJ---FP--	Gender=Fem|Mood=Imp|Number=Plur|VerbForm=Fin	8	conj	_	Conf=form:0.94,lemma:0.90,upos:0.93,xpos:0.55,feats:0.85,head:0.60,deprel:0.60
+16	الى	إِلَى	ADP	P---------	AdpType=Prep	17	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.95,deprel:0.95
+17	الذين	اَلَّذِي	DET	SR----MP2-	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	15	obl	_	Conf=form:0.97,lemma:0.90,upos:0.85,xpos:0.75,feats:0.90,head:0.85,deprel:0.75
+18	يبيعون	بَاع	VERB	VIIA-3MP--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	17	acl	_	Conf=form:0.94,lemma:0.90,upos:0.95,xpos:0.97,feats:0.93,head:0.85,deprel:0.75
+19-20	فاشترين	_	_	_	_	_	_	_	_
+19	ف	فَ	CCONJ	_	_	20	cc	_	Conf=form:0.95,lemma:0.95,upos:0.95,feats:0.90,head:0.85,deprel:0.80
+20	اشترين	اِشتَرَى	VERB	VCJ---FP--	Gender=Fem|Mood=Imp|Number=Plur|VerbForm=Fin	8	conj	_	Conf=form:0.95,lemma:0.90,upos:0.95,feats:0.85,head:0.65,deprel:0.75
+21-22	لكن	_	_	_	_	_	_	_	_
+21	ل	لِ	ADP	P---------	AdpType=Prep	22	case	_	Conf=form:0.93,lemma:0.97,upos:0.95,xpos:0.97,feats:0.90,head:0.95,deprel:0.97
+22	كن	هُوَ	PRON	SP---2MP2-	Case=Gen|Gender=Fem|Number=Plur|Person=2|PronType=Prs	20	obl	_	Conf=form:0.93,lemma:0.90,upos:0.90,xpos:0.60,feats:0.85,head:0.85,deprel:0.70
+
+# sent_id = Matt.25.10
+# text = فبينما هن ذاهبات ليشترين اتا الختن والمتهيين دخلن معه الى العرس واغلق الباب
+# damaged_words = 0
+# transcription = فبينما هن ذاهبات ليشترين اتا الختن والمتهيين دخلن معه الى العرس واغلق الباب.
+1-2	فبينما	_	_	_	_	_	_	_	_
+1	ف	فَ	CCONJ	C---------	_	7	cc	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.60,deprel:0.60
+2	بينما	بَينَمَا	CCONJ	C---------	_	4	mark	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.60,deprel:0.60
+3	هن	هُوَ	PRON	SP---3FP1-	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+4	ذاهبات	ذَاهِب	ADJ	A-----FP1I	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	7	advcl	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.70,deprel:0.70
+5-6	ليشترين	_	_	_	_	_	_	_	_
+5	ل	لِ	CCONJ	C---------	_	6	mark	_	Conf=form:0.88,lemma:0.97,upos:0.88,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+6	يشترين	اِشتَرَى	VERB	VISA-3FP--	Aspect=Imp|Gender=Fem|Mood=Sub|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	advcl	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.65,deprel:0.65
+7	اتا	أَتَى	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.97,feats:0.88,head:0.88,deprel:0.88
+8	الختن	خَتَن	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+9-10	والمتهيين	_	_	_	_	_	_	_	_
+9	و	وَ	CCONJ	C---------	_	11	cc	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.88
+10	المتهيين	مُتَهَيِّئ	NOUN	N------P1D	Case=Nom|Definite=Def|Number=Plur	11	nsubj	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+11	دخلن	دَخَل	VERB	VP-A-3FP--	Aspect=Perf|Gender=Fem|Number=Plur|Person=3|Voice=Act	7	conj	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.97,feats:0.88,head:0.75,deprel:0.75
+12-13	معه	_	_	_	_	_	_	_	_
+12	مع	مَعَ	ADP	PI------4-	AdpType=Prep|Case=Acc	13	case	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.97
+13	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.88
+14	الى	إِلَى	ADP	P---------	AdpType=Prep	15	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.88
+15	العرس	عُرس	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	11	obl	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.97,feats:0.88,head:0.88,deprel:0.88
+16-17	واغلق	_	_	_	_	_	_	_	_
+16	و	وَ	CCONJ	C---------	_	17	cc	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.88
+17	اغلق	أَغلَق	VERB	VP-P-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass	7	conj	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.80,deprel:0.80
+18	الباب	بَاب	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	17	nsubj:pass	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+
+# sent_id = Matt.25.11
+# text = اخيرا اتين بقيه العذارى يقلن يا رب يا رب افتح لنا
+# damaged_words = 0
+# transcription = اخيرا اتين بقيه العذارى يقلن يا رب يا رب افتح لنا.
+1	اخيرا	أَخِير	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.70,deprel:0.70
+2	اتين	أَتَى	VERB	VP-A-3FP--	Aspect=Perf|Gender=Fem|Number=Plur|Person=3|Voice=Act	0	root	_	Conf=form:0.90,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+3	بقيه	بَقِيَّة	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	2	nsubj	_	Conf=form:0.90,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+4	العذارى	عَذرَاء	NOUN	N------P2D	Case=Gen|Definite=Def|Number=Plur	3	nmod	_	Conf=form:0.90,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+5	يقلن	قَال	VERB	VIIA-3FP--	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	2	advcl	_	Conf=form:0.90,lemma:0.85,upos:0.85,xpos:0.97,feats:0.90,head:0.60,deprel:0.50
+6	يا	يَا	PART	F---------	_	7	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.60,deprel:0.50
+7	رب	رَبّ	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	10	dep	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.55,deprel:0.45
+8	يا	يَا	PART	F---------	_	9	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.60,deprel:0.50
+9	رب	رَبّ	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	10	dep	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.55,deprel:0.45
+10	افتح	فَتَح	VERB	VCJ---MS--	Gender=Masc|Mood=Imp|Number=Sing|VerbForm=Fin	5	ccomp	_	Conf=form:0.90,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.75,deprel:0.75
+11-12	لنا	_	_	_	_	_	_	_	_
+11	ل	لِ	ADP	P---------	AdpType=Prep	12	case	_	Conf=form:0.90,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.96,deprel:0.97
+12	نا	هُوَ	PRON	SP---1MP2-	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	obl:arg	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+
+# sent_id = Matt.25.12
+# text = وانه اجاب فقال امين اقول لكم انى لست اعرفكم
+# damaged_words = 0
+# transcription = وانه اجاب فقال امين اقول لكم انى لست اعرفكم.
+1-3	وانه	_	_	_	_	_	_	_	_
+1	و	وَ	CCONJ	C---------	_	3	cc	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.88
+2	أن	أَنَّ	SCONJ	C---------	_	3	mark	_	Conf=form:0.88,lemma:0.88,upos:0.97,xpos:0.97,feats:0.88,head:0.88,deprel:0.88
+3	ه	هُوَ	PRON	SP---3MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.88
+4	اجاب	أَجَاب	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+5-6	فقال	_	_	_	_	_	_	_	_
+5	ف	فَ	CCONJ	C---------	_	6	cc	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+6	قال	قَال	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	conj	_	Conf=form:0.88,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.88,deprel:0.88
+7	امين	امين	X	U---------	_	8	advmod	_	Conf=form:0.97,lemma:0.80,upos:0.50,xpos:0.80,feats:0.70,head:0.50,deprel:0.45
+8	اقول	قَال	VERB	VIIA-1MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	6	ccomp	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.75,deprel:0.60
+9-10	لكم	_	_	_	_	_	_	_	_
+9	ل	لِ	ADP	P---------	AdpType=Prep	10	case	_	Conf=form:0.88,lemma:0.97,upos:0.88,xpos:0.97,feats:0.88,head:0.88,deprel:0.97
+10	كم	هُوَ	PRON	SP---2MP2-	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Int	8	obl:arg	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.70,head:0.88,deprel:0.88
+11	انى	إِنَّ	SCONJ	C---------	_	13	mark	_	Conf=form:0.88,lemma:0.88,upos:0.90,xpos:0.88,feats:0.88,head:0.88,deprel:0.88
+12	لست	لَيس	AUX	VP-A-1MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|Voice=Act	13	aux	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.88,head:0.75,deprel:0.75
+13-14	اعرفكم	_	_	_	_	_	_	_	_
+13	اعرف	عَرَف	VERB	VIIA-1MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	ccomp	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.97,feats:0.88,head:0.75,deprel:0.75
+14	كم	هُوَ	PRON	SP---2MP4-	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Int	13	obj	_	Conf=form:0.88,lemma:0.88,upos:0.88,xpos:0.88,feats:0.70,head:0.88,deprel:0.88
+
+# sent_id = Matt.25.13
+# text = اسهروا الان فانكم لن تعرفوا اليوم ولا الساعه
+# damaged_words = 0
+# transcription = اسهروا الان فانكم لن تعرفوا اليوم ولا الساعه.
+1	اسهروا	سَهِر	VERB	VCJ---MP--	Aspect=Imp|Gender=Masc|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.99
+2	الان	آن	NOUN	N------S4D	Case=Acc|Definite=Def|Number=Sing	1	obl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+3-5	فانكم	_	_	_	_	_	_	_	_
+3	ف	فَ	CCONJ	C---------	_	4	cc	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+4	إن	إِنَّ	PART	F---------	_	7	mark	_	Conf=form:0.85,lemma:0.97,upos:0.55,xpos:0.55,feats:0.97,head:0.85,deprel:0.85
+5	كم	هُوَ	PRON	SP---2MP4-	Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+6	لن	لَن	PART	F---------	_	7	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+7	تعرفوا	عَرَف	VERB	VISA-2MP--	Aspect=Imp|Gender=Masc|Mood=Sub|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.60,deprel:0.60
+8	اليوم	يَوم	NOUN	N------S4D	Case=Acc|Definite=Def|Number=Sing	7	obj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.75,deprel:0.75
+9-10	ولا	_	_	_	_	_	_	_	_
+9	و	وَ	CCONJ	C---------	_	11	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+10	لا	لَا	PART	F---------	_	11	advmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.85
+11	الساعه	سَاعَة	NOUN	N------S4D	Case=Acc|Definite=Def|Number=Sing	8	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.80,deprel:0.80
+
+# sent_id = Matt.25.14
+# text = كمثل انسان اراد يسافر فدعا عبيده واعطاهم ماله
+# damaged_words = 0
+# transcription = كمثل انسان اراد يسافر فدعا عبيده واعطاهم ماله
+1-2	كمثل	_	_	_	_	_	_	_	_
+1	ك	كَ	ADP	P---------	AdpType=Prep	2	case	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.90,deprel:0.90
+2	مثل	مِثل	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.65,xpos:0.50,feats:0.85,head:0.80,deprel:0.80
+3	انسان	إِنسَان	NOUN	N------S2I	Case=Gen|Definite=Ind|Number=Sing	2	nmod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+4	اراد	أَرَاد	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	3	acl	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.60,deprel:0.60
+5	يسافر	سَافَر	VERB	VISA-3MS--	Aspect=Imp|Gender=Masc|Mood=Sub|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	ccomp	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.70,deprel:0.70
+6-7	فدعا	_	_	_	_	_	_	_	_
+6	ف	فَ	CCONJ	C---------	_	7	cc	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+7	دعا	دَعَا	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	conj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.70,deprel:0.70
+8-9	عبيده	_	_	_	_	_	_	_	_
+8	عبيد	عَبد	NOUN	N------P4R	Case=Acc|Definite=Cons|Number=Plur	7	obj	_	Conf=form:0.85,lemma:0.80,upos:0.70,xpos:0.60,feats:0.80,head:0.85,deprel:0.85
+9	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+10-12	واعطاهم	_	_	_	_	_	_	_	_
+10	و	وَ	CCONJ	C---------	_	11	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+11	اعطا	أَعطَى	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+12	هم	هُوَ	PRON	SP---3MP4-	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	iobj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+13-14	ماله	_	_	_	_	_	_	_	_
+13	مال	مَال	NOUN	N------S4R	Case=Acc|Definite=Cons|Number=Sing	11	obj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+14	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.25.15
+# text = وانه اعطا لواحد خمس وزنات ولاخر اثنتين ولاخر واحده كل واحد على قدر قوته ثم سافر
+# damaged_words = 0
+# transcription = وانه اعطا لواحد خمس وزنات ولاخر اثنتين ولاخر واحده كل واحد على قدر قوته / ثم سافر.
+1-3	وانه	_	_	_	_	_	_	_	_
+1	و	وَ	CCONJ	C---------	_	3	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+2	أن	أَنَّ	SCONJ	C---------	_	3	mark	_	Conf=form:0.85,lemma:0.85,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+3	ه	هُوَ	PRON	SP---3MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+4	اعطا	أَعطَى	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+5-6	لواحد	_	_	_	_	_	_	_	_
+5	ل	لِ	ADP	P---------	AdpType=Prep	6	case	_	Conf=form:0.85,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+6	واحد	وَاحِد	NUM	QI----M-2I	Case=Gen|Definite=Ind|Gender=Masc|NumForm=Word|NumValue=1	4	obl:arg	_	Conf=form:0.85,lemma:0.85,upos:0.92,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+7	خمس	خَمسَة	NUM	QV----F-2R	Case=Gen|Definite=Cons|Gender=Fem|NumForm=Word|NumValue=3	4	obj	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+8	وزنات	وَزنَة	NOUN	N------P2I	Case=Gen|Definite=Ind|Number=Plur	7	nmod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+9-11	ولاخر	_	_	_	_	_	_	_	_
+9	و	وَ	CCONJ	C---------	_	11	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+10	ل	لِ	ADP	P---------	AdpType=Prep	11	case	_	Conf=form:0.85,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+11	اخر	آخَر	ADJ	A-----MS2I	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	Conf=form:0.85,lemma:0.85,upos:0.97,xpos:0.85,feats:0.85,head:0.70,deprel:0.70
+12	اثنتين	اِثنَان	NUM	QU----F-2I	Case=Gen|Definite=Ind|Gender=Fem|NumForm=Word	11	orphan	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.70,deprel:0.70
+13-15	ولاخر	_	_	_	_	_	_	_	_
+13	و	وَ	CCONJ	C---------	_	15	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+14	ل	لِ	ADP	P---------	AdpType=Prep	15	case	_	Conf=form:0.85,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+15	اخر	آخَر	ADJ	A-----MS2I	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	Conf=form:0.85,lemma:0.85,upos:0.97,xpos:0.85,feats:0.85,head:0.70,deprel:0.70
+16	واحده	وَاحِد	NUM	QI----F-2I	Case=Gen|Definite=Ind|Gender=Fem|NumForm=Word|NumValue=1	15	orphan	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.70,deprel:0.70
+17	كل	كُلّ	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	4	obl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.65,deprel:0.65
+18	واحد	وَاحِد	NUM	QI----M-2I	Case=Gen|Definite=Ind|Gender=Masc|NumForm=Word|NumValue=1	17	nmod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.60,deprel:0.55
+19	على	عَلَى	ADP	P---------	AdpType=Prep	20	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+20	قدر	قَدر	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	4	obl	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+21-22	قوته	_	_	_	_	_	_	_	_
+21	قوة	قُوَّة	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	20	nmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+22	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+23	ثم	ثُمَّ	CCONJ	C---------	_	24	cc	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.97,head:0.85,deprel:0.85
+24	سافر	سَافَر	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	4	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.80,deprel:0.80
+
+# sent_id = Matt.25.16
+# text = فذهب الذى اخذ الخمس وزنات فعمل بها وصنع
+# damaged_words = 0
+# transcription = فذهب الذى اخذ الخمس وزنات فعمل بها وصنع
+1-2	فذهب	_	_	_	_	_	_	_	_
+1	ف	فَ	CCONJ	C---------	_	2	cc	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+2	ذهب	ذَهَب	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+3	الذى	اَلَّذِي	DET	SR----MS1-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+4	اخذ	أَخَذ	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	2	csubj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.70,deprel:0.55
+5	الخمس	خَمسَة	NUM	QV----F-4D	Case=Acc|Definite=Def|Gender=Fem|NumForm=Word|NumValue=3	4	obj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.70,feats:0.80,head:0.85,deprel:0.85
+6	وزنات	وَزنَة	NOUN	N------P2I	Case=Gen|Definite=Ind|Number=Plur	5	nmod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+7-8	فعمل	_	_	_	_	_	_	_	_
+7	ف	فَ	CCONJ	C---------	_	8	cc	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+8	عمل	عَمِل	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	2	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.75,deprel:0.75
+9-10	بها	_	_	_	_	_	_	_	_
+9	ب	بِ	ADP	P---------	AdpType=Prep	10	case	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+10	ها	هُوَ	PRON	SP---3FS2-	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+11-12	وصنع	_	_	_	_	_	_	_	_
+11	و	وَ	CCONJ	C---------	_	12	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+12	صنع	صَنَع	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	2	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.75,deprel:0.75
+
+# sent_id = Matt.25.41
+# text = الى النار المُعده للشيطان وملايكته
+# damaged_words = 0
+# transcription = الى النار المُعده للشيطان وملايكته.
+1	الى	إِلَى	ADP	P---------	AdpType=Prep	2	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+2	النار	نَار	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	0	root	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+3	المُعده	مُعَدّ	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	amod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+4-5	للشيطان	_	_	_	_	_	_	_	_
+4	ل	لِ	ADP	P---------	AdpType=Prep	5	case	_	Conf=form:0.85,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+5	الشيطان	شَيطَان	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	3	obl	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.55,deprel:0.50
+6-8	وملايكته	_	_	_	_	_	_	_	_
+6	و	وَ	CCONJ	C---------	_	7	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+7	ملايكة	مَلأَك	NOUN	N------P2R	Case=Gen|Definite=Cons|Number=Plur	5	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.75,deprel:0.75
+8	ه	هُوَ	PRON	SP---3MS2-	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.25.42
+# text = لانى جُعت ولم تعطونى اكل عطشت ولم تسقونى
+# damaged_words = 0
+# transcription = لانى جُعت ولم تعطونى اكل. عطشت ولم تسقونى
+1-2	لانى	_	_	_	_	_	_	_	_
+1	لان	لِأَنَّ	CCONJ	C---------	_	3	mark	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+2	ى	أَنَا	PRON	SP---1MS4-	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.90
+3	جُعت	جَاع	VERB	VP-A-1MS--	Aspect=Perf|Number=Sing|Person=1|Voice=Act	0	root	_	Conf=form:0.90,lemma:0.80,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.99
+4-5	ولم	_	_	_	_	_	_	_	_
+4	و	وَ	CCONJ	C---------	_	6	cc	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.97
+5	لم	لَم	PART	F---------	_	6	advmod	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.97
+6-7	تعطونى	_	_	_	_	_	_	_	_
+6	تعطوا	أَعطَى	VERB	VIJA-2MP--	Aspect=Imp|Gender=Masc|Mood=Jus|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.80,head:0.75,deprel:0.75
+7	نى	أَنَا	PRON	SP---1MS4-	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.90
+8	اكل	أَكل	NOUN	N------S4I	Case=Acc|Definite=Ind|Number=Sing	6	obj	_	Conf=form:0.95,lemma:0.85,upos:0.90,xpos:0.97,feats:0.90,head:0.85,deprel:0.85
+9	عطشت	عَطِش	VERB	VP-A-1MS--	Aspect=Perf|Number=Sing|Person=1|Voice=Act	3	parataxis	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.65,deprel:0.65
+10-11	ولم	_	_	_	_	_	_	_	_
+10	و	وَ	CCONJ	C---------	_	12	cc	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.90
+11	لم	لَم	PART	F---------	_	12	advmod	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.90,deprel:0.97
+12-13	تسقونى	_	_	_	_	_	_	_	_
+12	تسقوا	سَقَى	VERB	VIJA-2MP--	Aspect=Imp|Gender=Masc|Mood=Jus|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	9	conj	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.80,head:0.90,deprel:0.90
+13	نى	أَنَا	PRON	SP---1MS4-	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	Conf=form:0.90,lemma:0.90,upos:0.90,xpos:0.90,feats:0.90,head:0.90,deprel:0.90
+
+# sent_id = Matt.25.43
+# text = غريبا كنت فلم تاوني عريان ولم تكسوني مريض وفى الحبس ولم تفتقدونى
+# damaged_words = 0
+# transcription = غريبا كنت فلم تاوني عريان ولم تكسوني مريض وفى الحبس ولم تفتقدونى.
+1	غريبا	غَرِيب	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+2	كنت	كَان	AUX	VP-A-1MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=1|Voice=Act	1	cop	_	Conf=form:0.97,lemma:0.80,upos:0.90,xpos:0.80,feats:0.80,head:0.80,deprel:0.80
+3-4	فلم	_	_	_	_	_	_	_	_
+3	ف	فَ	CCONJ	C---------	_	5	cc	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+4	لم	لَم	PART	F---------	_	5	advmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+5-6	تاوني	_	_	_	_	_	_	_	_
+5	تاو	تاو	VERB	U---------	_	1	conj	_	Conf=form:0.85,lemma:0.97,upos:0.80,xpos:0.97,feats:0.97,head:0.80,deprel:0.85
+6	ني	هُوَ	PRON	SP---1MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+7	عريان	عُريَان	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	Conf=form:0.95,lemma:0.85,upos:0.80,xpos:0.80,feats:0.88,head:0.70,deprel:0.70
+8-9	ولم	_	_	_	_	_	_	_	_
+8	و	وَ	CCONJ	C---------	_	10	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+9	لم	لَم	PART	F---------	_	10	advmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+10-11	تكسوني	_	_	_	_	_	_	_	_
+10	تكسو	كَسَا	VERB	VIJA-2MP--	Aspect=Imp|Gender=Masc|Mood=Jus|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+11	ني	هُوَ	PRON	SP---1MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	obj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+12	مريض	مَرِيض	NOUN	N------S4I	Case=Acc|Definite=Ind|Number=Sing	1	conj	_	Conf=form:0.95,lemma:0.90,upos:0.60,xpos:0.75,feats:0.88,head:0.70,deprel:0.70
+13-14	وفى	_	_	_	_	_	_	_	_
+13	و	وَ	CCONJ	C---------	_	15	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+14	في	فِي	ADP	P---------	AdpType=Prep	15	case	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+15	الحبس	حَبس	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	1	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.70,deprel:0.70
+16-17	ولم	_	_	_	_	_	_	_	_
+16	و	وَ	CCONJ	C---------	_	18	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+17	لم	لَم	PART	F---------	_	18	advmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+18-19	تفتقدونى	_	_	_	_	_	_	_	_
+18	تفتقدو	اِفتَقَد	VERB	VIIA-2MP--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.80,head:0.85,deprel:0.85
+19	نى	هُوَ	PRON	SP---1MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	18	obj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.25.44
+# text = حينيذ يجيبوه وهم قايلين يا رب متى رايناك جايعا او عطشانا او غريبا او عريانا او مريضا او فى الحبس ولم نخدمك
+# damaged_words = 0
+# transcription = حينيذ يجيبوه وهم قايلين يا رب متى رايناك جايعا او عطشانا او غريبا او عريانا او مريضا او فى الحبس ولم نخدمك.
+1	حينيذ	حِينَئِذٍ	ADV	D---------	_	2	advmod	_	Conf=form:0.95,lemma:0.90,upos:0.88,xpos:0.90,feats:0.90,head:0.80,deprel:0.80
+2-3	يجيبوه	_	_	_	_	_	_	_	_
+2	يجيبو	أَجَاب	VERB	VIIA-3MP--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.60,head:0.85,deprel:0.99
+3	ه	هُوَ	PRON	SP---3MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+4-5	وهم	_	_	_	_	_	_	_	_
+4	و	وَ	CCONJ	C---------	_	5	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+5	هم	هُوَ	PRON	SP---3MP1-	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+6	قايلين	قَائِل	ADJ	A-----MP4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	2	advcl:pred	_	Conf=form:0.95,lemma:0.85,upos:0.60,xpos:0.80,feats:0.85,head:0.75,deprel:0.75
+7	يا	يَا	PART	F---------	_	8	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.60,deprel:0.45
+8	رب	رَبّ	NOUN	N------S1R	Case=Nom|Definite=Cons|Number=Sing	10	dep	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.50,deprel:0.45
+9	متى	مَتَى	DET	S---------	PronType=Int	10	obl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.80,deprel:0.80
+10-11	رايناك	_	_	_	_	_	_	_	_
+10	راينا	رَأَى	VERB	VP-A-1MP--	Aspect=Perf|Number=Plur|Person=1|Voice=Act	6	ccomp	_	Conf=form:0.85,lemma:0.85,upos:0.95,xpos:0.85,feats:0.90,head:0.85,deprel:0.85
+11	ك	هُوَ	PRON	SP---2MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+12	جايعا	جَائِع	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	advcl:pred	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.70,deprel:0.70
+13	او	أَو	CCONJ	C---------	_	14	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+14	عطشانا	عَطشَان	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+15	او	أَو	CCONJ	C---------	_	16	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+16	غريبا	غَرِيب	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+17	او	أَو	CCONJ	C---------	_	18	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+18	عريانا	عُريَان	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+19	او	أَو	CCONJ	C---------	_	20	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+20	مريضا	مَرِيض	NOUN	N------S4I	Case=Acc|Definite=Ind|Number=Sing	12	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+21	او	أَو	CCONJ	C---------	_	23	cc	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+22	فى	فِي	ADP	P---------	AdpType=Prep	23	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.97
+23	الحبس	حَبس	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	12	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+24-25	ولم	_	_	_	_	_	_	_	_
+24	و	وَ	CCONJ	C---------	_	26	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+25	لم	لَم	PART	F---------	_	26	advmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+26-27	نخدمك	_	_	_	_	_	_	_	_
+26	نخدم	خَدَم	VERB	VIIA-1MP--	Aspect=Imp|Mood=Jus|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	10	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+27	ك	هُوَ	PRON	SP---2MS4-	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	26	obj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.25.45
+# text = حينيذ يجيىبهم الملك قايلا امين اقول لكم اذا لم تصنعوا لاحد هاولا الصغار ولا لى صنعتم
+# damaged_words = 0
+# transcription = حينيذ يجيىبهم الملك قايلا امين اقول لكم اذا لم تصنعوا لاحد هاولا الصغار ولا لى صنعتم.
+1	حينيذ	حِينَئِذٍ	ADV	D---------	_	2	advmod	_	Conf=form:0.95,lemma:0.80,upos:0.85,xpos:0.90,feats:0.90,head:0.80,deprel:0.80
+2-3	يجيىبهم	_	_	_	_	_	_	_	_
+2	يجيىب	أَجَاب	VERB	VIIA-3MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.90,head:0.85,deprel:0.85
+3	هم	هُوَ	PRON	SP---3MP4-	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+4	الملك	مَلِك	NOUN	N------S1D	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.90,head:0.85,deprel:0.85
+5	قايلا	قَائِل	ADJ	A-----MS4I	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	advcl:pred	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+6	امين	امين	X	U---------	_	7	advmod	_	Conf=form:0.97,lemma:0.60,upos:0.60,xpos:0.60,feats:0.80,head:0.50,deprel:0.50
+7	اقول	قَال	VERB	VIIA-1MS--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	5	obj	_	Conf=form:0.93,lemma:0.80,upos:0.70,xpos:0.70,feats:0.60,head:0.60,deprel:0.50
+8-9	لكم	_	_	_	_	_	_	_	_
+8	ل	لِ	ADP	P---------	AdpType=Prep	9	case	_	Conf=form:0.85,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+9	كم	هُوَ	PRON	SP---2MP2-	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Int	7	obl:arg	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+10	اذا	إِذَا	CCONJ	C---------	_	12	mark	_	Conf=form:0.97,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.85
+11	لم	لَم	PART	F---------	_	12	advmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+12	تصنعوا	صَنَع	VERB	VIJA-2MP--	Aspect=Imp|Gender=Masc|Mood=Jus|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	21	advcl	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+13-14	لاحد	_	_	_	_	_	_	_	_
+13	ل	لِ	ADP	P---------	AdpType=Prep	14	case	_	Conf=form:0.85,lemma:0.97,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.97
+14	أحد	أَحَد	NOUN	N------S2R	Case=Gen|Definite=Cons|Number=Sing	12	obl:arg	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+15	هاولا	هٰذَا	DET	SD----MP2-	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	16	det	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+16	الصغار	صَغِير	ADJ	A-----MP2D	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.75,deprel:0.75
+17-18	ولا	_	_	_	_	_	_	_	_
+17	و	وَ	CCONJ	C---------	_	21	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+18	لا	لَا	PART	F---------	_	21	advmod	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+19-20	لى	_	_	_	_	_	_	_	_
+19	ل	لِ	ADP	P---------	AdpType=Prep	20	case	_	Conf=form:0.90,lemma:0.97,upos:0.60,xpos:0.90,feats:0.85,head:0.90,deprel:0.90
+20	ى	هُوَ	X	X---------	Foreign=Yes	21	obl:arg	_	Conf=form:0.90,lemma:0.85,xpos:0.60,feats:0.85,head:0.70,deprel:0.70
+21	صنعتم	صَنَع	VERB	VP-A-2MP--	Aspect=Perf|Gender=Masc|Number=Plur|Person=2|Voice=Act	7	ccomp	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.75,deprel:0.75
+
+# sent_id = Matt.25.46
+# text = فيذهبون هاولا الى العذاب الداهر والصديقين الى الحياه الداهره
+# damaged_words = 0
+# transcription = فيذهبون هاولا الى العذاب الداهر. والصديقين الى الحياه الداهره.
+1-2	فيذهبون	_	_	_	_	_	_	_	_
+1	ف	فَ	CCONJ	C---------	_	2	cc	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+2	يذهبون	ذَهَب	VERB	VIIA-3MP--	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.97,feats:0.85,head:0.85,deprel:0.99
+3	هاولا	هٰذَا	DET	SD----MP1-	Case=Nom|Number=Plur|PronType=Dem	2	nsubj	_	Conf=form:0.93,lemma:0.85,upos:0.70,xpos:0.60,feats:0.70,head:0.80,deprel:0.80
+4	الى	إِلَى	ADP	P---------	AdpType=Prep	5	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+5	العذاب	عَذَاب	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	2	obl	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+6	الداهر	دَاهِر	ADJ	A-----MS2D	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	amod	_	Conf=form:0.95,lemma:0.60,upos:0.85,xpos:0.97,feats:0.85,head:0.95,deprel:0.95
+7-8	والصديقين	_	_	_	_	_	_	_	_
+7	و	وَ	CCONJ	C---------	_	8	cc	_	Conf=form:0.85,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+8	الصديقين	صِدِّيق	NOUN	N------P2D	Case=Gen|Definite=Def|Number=Plur	2	conj	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.75,deprel:0.75
+9	الى	إِلَى	ADP	P---------	AdpType=Prep	10	case	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+10	الحياه	حَيَاة	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	8	orphan	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.65,deprel:0.65
+11	الداهره	دَاهِر	ADJ	A-----FS2D	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	amod	_	Conf=form:0.85,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+
+# sent_id = Matt.26.1
+# text = فكان لما تم يسوع كل هذا الكلام
+# damaged_words = 0
+# transcription = فكان لما تم يسوع كل هذا الكلام
+1-2	فكان	_	_	_	_	_	_	_	_
+1	ف	فَ	CCONJ	C---------	_	0	root	_	Conf=form:0.90,lemma:0.95,upos:0.97,xpos:0.95,feats:0.90,head:0.85,deprel:0.85
+2	كان	كَان	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	1	parataxis	_	Conf=form:0.90,lemma:0.97,upos:0.85,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+3-4	لما	_	_	_	_	_	_	_	_
+3	ل	لِ	ADP	P---------	AdpType=Prep	5	mark	_	Conf=form:0.90,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+4	ما	مَا	DET	S---------	PronType=Int	3	fixed	_	Conf=form:0.90,lemma:0.97,upos:0.70,xpos:0.85,feats:0.85,head:0.80,deprel:0.80
+5	تم	تَمّ	VERB	VP-A-3MS--	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act	2	advcl	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.97,head:0.85,deprel:0.85
+6	يسوع	يسوع	X	U---------	_	5	nsubj	_	Conf=form:0.90,lemma:0.90,upos:0.85,xpos:0.80,feats:0.90,head:0.85,deprel:0.85
+7	كل	كُلّ	NOUN	N------S4R	Case=Acc|Definite=Cons|Number=Sing	5	obj	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.97,feats:0.90,head:0.70,deprel:0.70
+8	هذا	هٰذَا	DET	SD----MS2-	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	Conf=form:0.97,lemma:0.85,upos:0.85,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+9	الكلام	كَلَام	NOUN	N------S2D	Case=Gen|Definite=Def|Number=Sing	7	nmod	_	Conf=form:0.97,lemma:0.97,upos:0.97,xpos:0.85,feats:0.85,head:0.85,deprel:0.85
+

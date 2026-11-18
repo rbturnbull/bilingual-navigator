@@ -1,0 +1,780 @@
+<!DOCTYPE TEI><?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+		<fileDesc>
+            <titleStmt>
+                <title>A transcription of the Latin text of Ephesians in Gregory-Aland 460 (Venice, Biblioteca Nazionale Marciana, Gr. Z. 11)</title>
+                <title type="document" n="460lat">Venice, Biblioteca Nazionale Marciana, Gr. Z. 11</title>
+                <title type="collection" level="s" xml:lang="en">The New Testament</title>
+                <title type="collection" level="s" xml:lang="nl">Het Nieuwe Testament</title>
+                <title type="work" level="m" xml:lang="en" n="10">Ephesians</title>
+                <title type="work" level="m" xml:lang="nl" n="10">De brief aan de Efeziërs</title>
+                <title type="short" level="m" xml:lang="en" n="10">Ephesians</title>
+                <title type="short" level="m" xml:lang="nl" n="10">Efeziërs</title>
+                <editor role="encoder">Robert Turnbull</editor><respStmt>
+                    <resp xml:lang="en">Created by</resp>
+                    <resp xml:lang="nl">Gemaakt door</resp>
+                    <name type="org">The BICROSS Project</name>
+                </respStmt>
+                <respStmt>
+                    <resp xml:lang="en" when-iso="2026-07-05">Transcribed by</resp>
+                    <resp xml:lang="nl" when-iso="2026-07-05">Getranscribeerd door</resp>
+                    <name type="person">Joey McCollum</name>
+                </respStmt>
+                <respStmt>
+                    <resp xml:lang="en" when-iso="2024-03-14">Proofread by</resp>
+                    <resp xml:lang="nl" when-iso="2024-03-14">Proefgelezen door</resp>
+                    <name type="person"></name>
+                </respStmt>
+                <funder xml:lang="en">This transcription was produced by members of the BICROSS project, which received funding from the European Union’s Horizon Europe research and innovation programme (grant agreement no. 101043730 – BICROSS – ERC-2021-COG).</funder>
+                <funder xml:lang="nl">Deze transcriptie werd geproduceerd door leden van het BICROSS-project, dat financiering ontving van de Europese Onderzoeksraad (ERC) in het kader van het onderzoeks- en innovatieprogramma Horizon Europe van de Europese Unie (subsidieovereenkomst 101043730 – BICROSS – ERC-2021-COG).</funder>
+                <sponsor>
+                    <name type="org" xml:lang="en">Research Unit Biblical Studies, Faculty of Theology and Religious Studies, KU Leuven</name>
+                </sponsor>
+                <sponsor>
+                    <name type="org" xml:lang="nl">Onderzoekseenheid Bijbelwetenschap, Faculteit Theologie en Religiewetenschappen, KU Leuven</name>
+                </sponsor>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Leuven Multilingual Manuscript Research Centre</name>
+                    <name type="org">KU Leuven</name>
+                </publisher>
+                <date>27.1.2026</date>
+                <availability>
+                    <p xml:lang="en">Attribution 4.0 International (CC BY 4.0) Available for re-use under a creative commons license provided attribution is made to the original creators.</p>
+                    <p xml:lang="nl">Naamsvermelding 4.0 Internationaal (CC BY 4.0) Beschikbaar voor hergebruik onder een creative commons licentie op voorwaarde dat naamsvermelding gebeurt aan de oorspronkelijke makers.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Venice</settlement>
+						<repository>Biblioteca Nazionale Marciana</repository>
+						<idno>Gr. Z. 11</idno>
+                        <altIdentifier type="GA">
+                            <idno>460</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Liste">
+                            <idno>30460</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents><summary>Greek-Latin-Arabic trilingual of the Pauline epistles.</summary>
+                        <msItem>
+                            <title type="uniform" xml:lang="la">Epistula ad Ephesios</title>
+                            <title type="uniform" xml:lang="en">The Epistle to the Ephesians</title>
+                            <textLang mainLang="la">Latin</textLang>
+                        </msItem>
+                    </msContents>
+                <history><origin><origDate notBefore="1200" notAfter="1299">13th century</origDate></origin></history></msDesc>
+            </sourceDesc>
+        </fileDesc>
+		
+		<encodingDesc n="1.6">
+            <projectDesc>
+                <p xml:lang="en">This transcription was made by the BICROSS project.</p>
+                <p xml:lang="nl">Deze transcriptie is gemaakt door de het BICROSS project.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p xml:lang="en">This transcription was produced using the online transcription editor developed by the Center for Digital Humanities at the University of Trier as part of the Workspace for Collaborative Editing Project between 2010 and 2013 and made available for use by the Institute for Textual Scholarship and Electronic Editing and the University of Birmingham.</p>
+                <p xml:lang="nl">Deze transcriptie is gemaakt met behulp van de online transcriptie-editor die is ontwikkeld door het Center for Digital Humanities van de Universiteit van Trier als onderdeel van het Workspace for Collaborative Editing Project tussen 2010 en 2013 en die beschikbaar is gesteld voor gebruik door het Institute for Textual Scholarship and Electronic Editing en de Universiteit van Birmingham.</p>
+                <p xml:lang="en">
+                    The XML specifications used are version 1.6 of the IGNTP Guidelines available at
+                    <ptr target="https://epapers.bham.ac.uk/4301/"/>
+                </p>
+                <p xml:lang="nl">
+                    De gebruikte XML-specificaties zijn versie 1.6 van de IGNTP-richtlijnen, beschikbaar op
+                    <ptr target="https://epapers.bham.ac.uk/4301/"/>
+                </p>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+	<revisionDesc><change when="2026-11-19"><name>Robert Turnbull</name> added the manuscript's summary, date for the BICROSS Navigator.</change></revisionDesc></teiHeader><text xml:lang="lat"><body>
+<pb n="218r" type="folio" xml:id="P218r-460lat"/>
+<cb n="P218rC1-460lat"/>
+<lb n="P218rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P218rC2-460lat"/>
+<lb n="P218rC2L-460lat"/><div type="book" n="Eph"><div type="inscriptio"><ab n="Eph.inscriptio"><w>incipit</w><w>epistola</w>
+<lb n="P218rC2L-460lat"/><w>ad</w><w>ephesios</w>
+<lb n="P218rC2L-460lat"/></ab></div><div type="chapter" n="Eph.1"><ab n="Eph.1.1"><w><hi rend="cap" height="2">p</hi>aulus</w><w>apostolus</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>per</w>
+<lb n="P218rC2L-460lat"/><w>uoluntatem</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>sanctis</w>
+<lb n="P218rC2L-460lat"/><w>omnibus</w><w>qui</w><w>sunt</w><w>ephesi</w><w>et</w><w>fide
+<lb n="P218rC2L-460lat" break="no"/>libus</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></ab><ab n="Eph.1.2"><w>gratia</w><w>uobis</w>
+<lb n="P218rC2L-460lat"/><w>et</w><w>pax</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>patre</w><w>nostro</w><w>et</w>
+<lb n="P218rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w></ab><ab n="Eph.1.3"><w><hi rend="rubric">b</hi>enedic
+<lb n="P218rC2L-460lat" break="no"/>tus</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>et</w><w>pater</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P218rC2L-460lat"/><w>qui</w><w>benedixit</w><w>nos</w><w>in</w><w>omni</w>
+<lb n="P218rC2L-460lat"/><w>benedictione</w><w>spirituali</w><w>in</w>
+<lb n="P218rC2L-460lat"/><w>caelestibus</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></ab><ab n="Eph.1.4"><w>si
+<lb n="P218rC2L-460lat" break="no"/>cut</w><w>elegit</w><w>nos</w><w>in</w><w>ipso</w>
+<lb n="P218rC2L-460lat"/><w>ante</w><w>mundi</w><w>constitu
+<lb n="P218rC2L-460lat" break="no"/>tionem</w><w>ut</w><w>essemus</w><w>sancti</w>
+<lb n="P218rC2L-460lat"/><w>et</w><w>inmaculati</w><w>in</w><w>conspec
+<lb n="P218rC2L-460lat" break="no"/>tu</w><w>eius</w><w>in</w><w>caritate</w></ab><ab n="Eph.1.5"><w>qui</w><w>praede
+<lb n="P218rC2L-460lat" break="no"/>stinauit</w><w>nos</w>
+<cb n="P218rC3-460lat"/>
+<lb n="P218rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="218v" type="folio" xml:id="P218v-460lat"/>
+<cb n="P218vC1-460lat"/>
+<lb n="P218vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P218vC2-460lat"/>
+<lb n="P218vC2L-460lat"/><w>in</w><w>adoptionem</w><w>filiorum</w><w>per</w>
+<lb n="P218vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>in</w><w>ipsum</w><w>secundum</w><w>pro
+<lb n="P218vC2L-460lat" break="no"/>positum</w><w>uoluntatis</w><w>suae</w></ab><ab n="Eph.1.6"><w>in</w><w>lau
+<lb n="P218vC2L-460lat" break="no"/>dem</w><w>glorie</w><w>gratiae</w><w>sue</w><w>in</w><w>qua</w><w>gra
+<lb n="P218vC2L-460lat" break="no"/>tificauit</w><w>nos</w><w>in</w><w>di
+<lb n="P218vC2L-460lat" break="no"/>lecto</w></ab><ab n="Eph.1.7"><w>in</w><w>quo</w><w>habe
+<lb n="P218vC2L-460lat" break="no"/>mus</w><w>redemptionem</w><w>per</w>
+<lb n="P218vC2L-460lat"/><w>sanguinem</w><w>ipsius</w>
+<lb n="P218vC2L-460lat"/><w>remissionem</w><w>pecca
+<lb n="P218vC2L-460lat" break="no"/>torum</w><w>secundum</w><w>diuitias</w>
+<lb n="P218vC2L-460lat"/><w>gratiae</w><w>eius</w></ab><ab n="Eph.1.8"><w>que</w><w>super
+<lb n="P218vC2L-460lat" break="no"/>habundauit</w><w>in</w><w>nobis</w>
+<lb n="P218vC2L-460lat"/><w>in</w><w>omni</w><w>sapientia</w><w>et</w><w>pru
+<lb n="P218vC2L-460lat" break="no"/>dentia</w></ab><ab n="Eph.1.9"><w>ut</w><w>notum</w><w>faceret</w>
+<lb n="P218vC2L-460lat"/><w>nobis</w><w>sacramentum</w><w>uoluntatis</w>
+<lb n="P218vC2L-460lat"/><w>suae</w><w>secundum</w><w>bonum</w><w>placitum</w>
+<lb n="P218vC2L-460lat"/><w>eius</w><w>quod</w><w>proposuit</w><w>in</w><w>eo</w></ab><ab n="Eph.1.10"><w>in</w><w>dis
+<lb n="P218vC2L-460lat" break="no"/>pensatione</w><w>plenitudi
+<lb n="P218vC2L-460lat" break="no"/>nis</w><w>temporum</w><w>instaurare</w>
+<lb n="P218vC2L-460lat"/><w>omnia</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>quae</w><w>in</w>
+<lb n="P218vC2L-460lat"/><w>caelis</w><w>et</w><w>quae</w><w>in</w><w>terra</w>
+<lb n="P218vC2L-460lat"/><w>sunt</w><w>in</w><w>ipso</w></ab><ab n="Eph.1.11"><w>in</w>
+<lb n="P218vC2L-460lat"/><w>quo</w><w>etiam</w><w>sorte</w><w>uo
+<lb n="P218vC2L-460lat" break="no"/>cati</w><w>sumus</w><w>praedistina
+<lb n="P218vC2L-460lat" break="no"/>ti</w><w>secundum</w><w>propositum</w><w>eius</w><w>qui</w><w>omni
+<lb n="P218vC2L-460lat" break="no"/>a</w><w>operatur</w><w>secundum</w><w>consilium</w>
+<lb n="P218vC2L-460lat"/><w>uoluntatis</w><w>suae</w></ab><ab n="Eph.1.12"><w>ut</w><w>simus</w>
+<lb n="P218vC2L-460lat"/><w>in</w><w>laudem</w><w>glorie</w><w>eius</w>
+<cb n="P218vC3-460lat"/>
+<lb n="P218vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="219r" type="folio" xml:id="P219r-460lat"/>
+<cb n="P219rC1-460lat"/>
+<lb n="P219rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P219rC2-460lat"/>
+<lb n="P219rC2L-460lat"/><w>qui</w><w>ante</w><w>sperauimus</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w>
+<lb n="P219rC2L-460lat"/></ab><ab n="Eph.1.13"><w>in</w><w>quo</w><w>et</w><w>uos</w><w>cum</w><w>audissetis</w>
+<lb n="P219rC2L-460lat"/><w>uerbum</w><w>ueritatis</w><w>euangelium</w>
+<lb n="P219rC2L-460lat"/><w>salutis</w><w>uestrae</w><w>in</w><w>quo</w><w>et</w><w>cre
+<lb n="P219rC2L-460lat" break="no"/>dentes</w><w>signati</w><w>estis</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w>
+<lb n="P219rC2L-460lat"/><w>promissionis</w><w>sancto</w></ab><ab n="Eph.1.14"><w>qui</w><w>est</w><w>pi
+<lb n="P219rC2L-460lat" break="no"/>gnus</w><w>hereditatis</w><w>no
+<lb n="P219rC2L-460lat" break="no"/>stre</w><w>in</w><w>redemptionem</w>
+<lb n="P219rC2L-460lat"/><w>adquisitionis</w><w>in</w><w>laudem</w>
+<lb n="P219rC2L-460lat"/><w>gloriae</w><w>ipsius</w></ab><ab n="Eph.1.15"><w><hi rend="rubric">p</hi>ropterea</w><w>et</w>
+<lb n="P219rC2L-460lat"/><w>ego</w><app><rdg type="orig" hand="firsthand"><w>audens</w></rdg><rdg type="corr" hand="corrector"><w>audiens</w></rdg></app><w>fidem</w><w>uestram</w>
+<lb n="P219rC2L-460lat"/><w>quae</w><w>est</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xro</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>et</w><w>dilecti
+<lb n="P219rC2L-460lat" break="no"/>onem</w><w>in</w><w>omnes</w><w>sanctos</w></ab><ab n="Eph.1.16"><w>non</w>
+<lb n="P219rC2L-460lat"/><w>cesso</w><w>gracias</w><w>agens</w><w>pro</w><w>uo
+<lb n="P219rC2L-460lat" break="no"/>bis</w><w>memoriam</w><w>uestri</w><w>faci
+<lb n="P219rC2L-460lat" break="no"/>ens</w><w>in</w><w>orationibus</w><w>meis</w></ab><ab n="Eph.1.17"><w>ut</w>
+<lb n="P219rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>pater</w>
+<lb n="P219rC2L-460lat"/><w>gloriae</w><w>det</w><w>uobis</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w>
+<lb n="P219rC2L-460lat"/><w>sapientiae</w><w>et</w><w>reuelatio
+<lb n="P219rC2L-460lat" break="no"/>nis</w><w>in</w><w>agnitionem</w><w>eius</w></ab><ab n="Eph.1.18"><w>illu
+<lb n="P219rC2L-460lat" break="no"/>minatos</w><w>oculos</w><w>cor
+<lb n="P219rC2L-460lat" break="no"/>dis</w><w>uestri</w><w>ut</w><w>sciatis</w><w>quae</w>
+<lb n="P219rC2L-460lat"/><w>sit</w><w>spes</w><w>uocationis</w><w>eius</w><w>quae</w><w>diui
+<lb n="P219rC2L-460lat" break="no"/>cie</w><w>gloriae</w><w>hereditatis</w><w>eius</w><w>in</w><w>sanctis</w>
+<lb n="P219rC2L-460lat"/></ab><ab n="Eph.1.19"><w>et</w><w>quae</w><w>sit</w><w>supereminens</w><w>ma
+<lb n="P219rC2L-460lat" break="no"/>gnitudo</w><w>uirtutis</w><w>eius</w><w>in</w>
+<lb n="P219rC2L-460lat"/><w>nos</w><w>qui</w><w>credidimus</w><w>secundum</w>
+<lb n="P219rC2L-460lat"/><w>operationem</w><w>potentiae</w>
+<cb n="P219rC3-460lat"/>
+<lb n="P219rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="219v" type="folio" xml:id="P219v-460lat"/>
+<cb n="P219vC1-460lat"/>
+<lb n="P219vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P219vC2-460lat"/>
+<lb n="P219vC2L-460lat"/><w>uirtutis</w><w>eius</w></ab><ab n="Eph.1.20"><w>quam</w><w>operatus</w>
+<lb n="P219vC2L-460lat"/><w>est</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>sussitans</w><w>illum</w>
+<lb n="P219vC2L-460lat"/><w>a</w><w>mortuis</w><w>et</w><w>constituens</w><w>ad</w>
+<lb n="P219vC2L-460lat"/><w>dexteram</w><w>suam</w><w>in</w><w>selestibus</w></ab><ab n="Eph.1.21"><w>su
+<lb n="P219vC2L-460lat" break="no"/>pra</w><w>omnem</w><w>principatum</w><w>et</w><w>po
+<lb n="P219vC2L-460lat" break="no"/>testatem</w><w>et</w><w>uirtutem</w><w>et</w><w>domina
+<lb n="P219vC2L-460lat" break="no"/>tionem</w><w>et</w><w>omne</w><w>nomen</w><w>quod</w>
+<lb n="P219vC2L-460lat"/><w>nominatur</w><w>non</w><w>solum</w>
+<lb n="P219vC2L-460lat"/><w>in</w><w>hoc</w><w>saeculo</w><w>sed</w><w>etiam</w><w>in</w>
+<lb n="P219vC2L-460lat"/><w>futuro</w></ab><ab n="Eph.1.22"><w>et</w><w>omnia</w><w>sub
+<lb n="P219vC2L-460lat" break="no"/>iecit</w><w>sub</w><w>pedibus</w><w>eius</w>
+<lb n="P219vC2L-460lat"/><w>et</w><w>ipsum</w><w>dedit</w><w>caput</w>
+<lb n="P219vC2L-460lat"/><w>supra</w><w>omnem</w><w>aecclesiam</w>
+<lb n="P219vC2L-460lat"/></ab><ab n="Eph.1.23"><w>que</w><w>est</w><w>corpus</w><w>ipsius</w>
+<lb n="P219vC2L-460lat"/><w>plenitudo</w><w>eius</w><w>qui</w><w>omni
+<lb n="P219vC2L-460lat" break="no"/>a</w><w>in</w><w>omnibus</w><w>adimpletur</w>
+<lb n="P219vC2L-460lat"/></ab></div><div type="chapter" n="Eph.2"><ab n="Eph.2.1"><w>et</w><w>uos</w><w>cum</w><w>essetis</w><w>mor
+<lb n="P219vC2L-460lat" break="no"/>tui</w><w>in</w><w>dilectis</w><w>et</w><w>peccatis</w>
+<lb n="P219vC2L-460lat"/><w>uestris</w></ab><ab n="Eph.2.2"><w>in</w><w>quibus</w><w>aliquando</w>
+<lb n="P219vC2L-460lat"/><w>ambulastis</w><w>secundum</w><w>saeculum</w>
+<lb n="P219vC2L-460lat"/><w>mundi</w><w>huis</w><w>secundum</w>
+<lb n="P219vC2L-460lat"/><w>principem</w><w>potestatis</w>
+<lb n="P219vC2L-460lat"/><w>aeris</w><w>huis</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w>qui</w>
+<lb n="P219vC2L-460lat"/><w>nunc</w><w>operatur</w><w>in</w><w>filios</w><w>di
+<lb n="P219vC2L-460lat" break="no"/>ffidentiae</w></ab><ab n="Eph.2.3"><w>in</w><w>quibus</w><w>et</w>
+<lb n="P219vC2L-460lat"/><w>nos</w><w>omnes</w><w>aliquando</w><w>conuer
+<lb n="P219vC2L-460lat" break="no"/>sati</w><w>sumus</w><w>in</w><w>desideriis</w><w>car
+<lb n="P219vC2L-460lat" break="no"/>nis</w><w>nostrae</w><w>facientes</w>
+<cb n="P219vC3-460lat"/>
+<lb n="P219vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="220r" type="folio" xml:id="P220r-460lat"/>
+<cb n="P220rC1-460lat"/>
+<lb n="P220rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P220rC2-460lat"/>
+<lb n="P220rC2L-460lat"/><w>uoluntatem</w><w>carnis</w><w>et</w><w>co
+<lb n="P220rC2L-460lat" break="no"/>gitationum</w><w>et</w><w>eramus</w>
+<lb n="P220rC2L-460lat"/><w>natura</w><w>filii</w><w>irae</w><w>sicut</w><w>et</w><w>ceteri</w>
+<lb n="P220rC2L-460lat"/></ab><ab n="Eph.2.4"><w><abbr type="nomSac"><hi rend="overline"><hi rend="rubric">d</hi>s</hi></abbr></w><w>autem</w><w>qui</w><w>diues</w><w>est</w>
+<lb n="P220rC2L-460lat"/><w>in</w><w>misericordia</w><w>propter</w><w>nimiam</w>
+<lb n="P220rC2L-460lat"/><w>caritatem</w><w>suam</w><w>qua</w><w>dilexit</w>
+<lb n="P220rC2L-460lat"/><w>nos</w></ab><ab n="Eph.2.5"><w>cum</w><w>essemus</w><w>mortui</w>
+<lb n="P220rC2L-460lat"/><w>peccatis</w><w>conuiuificauit</w>
+<lb n="P220rC2L-460lat"/><w>nos</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>cuius</w><w>gratia</w>
+<lb n="P220rC2L-460lat"/><w>estis</w><w>saluati</w></ab><ab n="Eph.2.6"><w>et</w><w>conre
+<lb n="P220rC2L-460lat" break="no"/>sussitauit</w><w>et</w><w>consedere</w><w>fecit</w>
+<lb n="P220rC2L-460lat"/><w>in</w><w>celestibus</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></ab><ab n="Eph.2.7"><w>ut</w>
+<lb n="P220rC2L-460lat"/><w>ostenderet</w><w>in</w><w>saeculis</w><w>super
+<lb n="P220rC2L-460lat" break="no"/>uenientibus</w><w>abundantes</w>
+<lb n="P220rC2L-460lat"/><w>diuitias</w><w>gratiae</w><w>sue</w><w>in</w><w>bo
+<lb n="P220rC2L-460lat" break="no"/>nitate</w><w>super</w><w>nos</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w>
+<lb n="P220rC2L-460lat"/></ab><ab n="Eph.2.8"><w><hi rend="rubric">g</hi>ratia</w><w>enim</w><w>estis</w><w>salua
+<lb n="P220rC2L-460lat" break="no"/>ti</w><w>per</w><w>fidem</w><w>et</w><w>hoc</w><w>non</w>
+<lb n="P220rC2L-460lat"/><w>ex</w><w>uobis</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>enim</w><w>donum</w><w>est</w>
+<lb n="P220rC2L-460lat"/></ab><ab n="Eph.2.9"><w>non</w><w>ex</w><w>operibus</w><w>ne</w><w>quis</w>
+<lb n="P220rC2L-460lat"/><w>glorietur</w></ab><ab n="Eph.2.10"><w>ipsius</w><w>enim</w><w>sumus</w>
+<lb n="P220rC2L-460lat"/><w>factura</w><w>creati</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w>
+<lb n="P220rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>in</w><w>operibus</w><w>bonis</w>
+<lb n="P220rC2L-460lat"/><w>que</w><w>praeparauit</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>ut</w>
+<lb n="P220rC2L-460lat"/><w>in</w><w>illis</w><w>ambulemus</w>
+<lb n="P220rC2L-460lat"/></ab><ab n="Eph.2.11"><w><hi rend="rubric">p</hi>ropter</w><w>quod</w><w>memo
+<lb n="P220rC2L-460lat" break="no"/>res</w><w>estote</w><w>quod</w><w>aliquando</w><w>uos</w><w>era
+<lb n="P220rC2L-460lat" break="no"/>tis</w><w>gentes</w><w>in</w><w>carne</w><w>qui</w><w>dicimini</w>
+<lb n="P220rC2L-460lat"/><w>praeputium</w>
+<cb n="P220rC3-460lat"/>
+<lb n="P220rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="220v" type="folio" xml:id="P220v-460lat"/>
+<cb n="P220vC1-460lat"/>
+<lb n="P220vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P220vC2-460lat"/>
+<lb n="P220vC2L-460lat"/><w>ab</w><w>ea</w><w>quae</w><w>dicitur</w><w>circumcisio</w><note type="local">Is this correctly transcribed "circumcisio", or should be transcribed "circumsio"?</note>
+<lb n="P220vC2L-460lat"/><w>in</w><w>carne</w><w>manufacta</w>
+<lb n="P220vC2L-460lat"/></ab><ab n="Eph.2.12"><w>quia</w><w>eratis</w><w>illo</w><w>in</w><w>tempore</w>
+<lb n="P220vC2L-460lat"/><w>sine</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>alienati</w><w>a</w><w>con
+<lb n="P220vC2L-460lat" break="no"/>uersatione</w><w><abbr type="nomSac"><hi rend="overline">isrl</hi></abbr></w>
+<lb n="P220vC2L-460lat"/><w>et</w><app><rdg type="orig" hand="firsthand"><w>ospites</w></rdg><rdg type="corr" hand="corrector"><w>hospites</w></rdg></app><w>testamentorum</w>
+<lb n="P220vC2L-460lat"/><w>promissionis</w><w>spem</w><w>non</w><w>ha
+<lb n="P220vC2L-460lat" break="no"/>bentes</w><w>et</w><w>sine<abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>in</w><w>hoc</w>
+<lb n="P220vC2L-460lat"/><w>mundo</w></ab><ab n="Eph.2.13"><w><hi rend="rubric">n</hi>unc</w><w>autem</w>
+<lb n="P220vC2L-460lat"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>uos</w><w>qui</w><w>aliquando</w><w>era
+<lb n="P220vC2L-460lat" break="no"/>tis</w><w>longe</w><w>facti</w><w>estis</w><w>prope</w><w>in</w>
+<lb n="P220vC2L-460lat"/><w>sanguine</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="Eph.2.14"><w>ipse</w><w>est</w><w>enim</w><w>pax</w>
+<lb n="P220vC2L-460lat"/><w>nostra</w><w>qui</w><w>fecit</w><w>utraque</w><w>u
+<lb n="P220vC2L-460lat" break="no"/>num</w><w>medium</w><w>parietem</w><w>ma
+<lb n="P220vC2L-460lat" break="no"/>ceriae</w><w>soluens</w><w>inimicici
+<lb n="P220vC2L-460lat" break="no"/>as</w><w>in</w><w>carne</w><w>sua</w></ab><ab n="Eph.2.15"><w>legem</w>
+<lb n="P220vC2L-460lat"/><w>mandatorum</w><w>decretis</w>
+<lb n="P220vC2L-460lat"/><w>euacuans</w><w>ut</w><w>duos</w>
+<lb n="P220vC2L-460lat"/><w>condat</w><w>in</w><w>semet</w><w>ipso</w><w>in</w><w>u
+<lb n="P220vC2L-460lat" break="no"/>num</w><w>nouum</w><w>hominem</w><w>faciens</w>
+<lb n="P220vC2L-460lat"/><w>pacem</w></ab><ab n="Eph.2.16"><w>ut</w><w>reconciliet</w><w>ambos</w>
+<lb n="P220vC2L-460lat"/><w>in</w><w>uno</w><w>corpore</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w>
+<lb n="P220vC2L-460lat"/><w>per</w><w>crucem</w><w>interficiens</w><w>ini
+<lb n="P220vC2L-460lat" break="no"/>micicias</w><w>in</w><w>semet</w><w>ipso</w>
+<lb n="P220vC2L-460lat"/></ab><ab n="Eph.2.17"><w>et</w><w>ueniens</w><w>euangelizauit</w><w>pa
+<lb n="P220vC2L-460lat" break="no"/>cem</w><w>uobis</w><w>qui</w><w>longe</w><w>fuistis</w><w>et</w>
+<lb n="P220vC2L-460lat"/><w>pacem</w><w>his</w><w>qui</w><w>prope</w></ab><ab n="Eph.2.18"><w>quoniam</w><w>per</w><w>ipsum</w><w>ha
+<lb n="P220vC2L-460lat" break="no"/>bemus</w><w>accessum</w><w>ambo</w>
+<cb n="P220vC3-460lat"/>
+<lb n="P220vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="221r" type="folio" xml:id="P221r-460lat"/>
+<cb n="P221rC1-460lat"/>
+<lb n="P221rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P221rC2-460lat"/>
+<lb n="P221rC2L-460lat"/><w>in</w><w>uno</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>ad</w><w>patrem</w>
+<lb n="P221rC2L-460lat"/></ab><ab n="Eph.2.19"><w><hi rend="rubric">e</hi>rgo</w><w>iam</w><w>non</w><w>estis</w><w>hospites</w><w>et</w>
+<lb n="P221rC2L-460lat"/><w>aduene</w><w>sed</w><w>estis</w><w>ciues</w><w>sanctorum</w>
+<lb n="P221rC2L-460lat"/><w>et</w><w>domestici</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w></ab><ab n="Eph.2.20"><w>superaedi
+<lb n="P221rC2L-460lat" break="no"/>ficati</w><w>super</w><w>fundamentum</w>
+<lb n="P221rC2L-460lat"/><w>apostolorum</w><w>et</w><w>prophetarum</w><w>ipso</w>
+<lb n="P221rC2L-460lat"/><w>summo</w><w>angulari</w><w>lapi
+<lb n="P221rC2L-460lat" break="no"/>de</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></ab><ab n="Eph.2.21"><w>in</w><w>quo</w><w>omnis</w>
+<lb n="P221rC2L-460lat"/><w>aedificatio</w><w>constructa</w>
+<lb n="P221rC2L-460lat"/><w>crescit</w><w>in</w><w>templum</w><w>sanctum</w>
+<lb n="P221rC2L-460lat"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w></ab><ab n="Eph.2.22"><w>in</w><w>quo</w><w>et</w><w>uos</w>
+<lb n="P221rC2L-460lat"/><w>coaedificamini</w><w>in</w><w>habita
+<lb n="P221rC2L-460lat" break="no"/>culum</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>in</w><w>spiritu</w><w>sancto</w>
+<lb n="P221rC2L-460lat"/></ab></div><div type="chapter" n="Eph.3"><ab n="Eph.3.1"><w><hi rend="rubric">h</hi>uius</w><w>ergo</w><w>gratia</w><w>ego</w><w>paulus</w><w>uin
+<lb n="P221rC2L-460lat" break="no"/>ctus</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>pro</w><w>uobis</w>
+<lb n="P221rC2L-460lat"/><w>gentibus</w></ab><ab n="Eph.3.2"><w>si</w><w>tamen</w><w>audistis</w>
+<lb n="P221rC2L-460lat"/><w>dispensationem</w><w>gratiae</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w>
+<lb n="P221rC2L-460lat"/><w>quae</w><w>data</w><w>est</w><w>mihi</w><w>in</w><w>uobis</w>
+<lb n="P221rC2L-460lat"/></ab><ab n="Eph.3.3"><w>quoniam</w><w>secundum</w><w>reuelationem</w>
+<lb n="P221rC2L-460lat"/><w>notum</w><w>mihi</w><w>factum</w><w>est</w><w>sacramen
+<lb n="P221rC2L-460lat" break="no"/>tum</w><w>sicut</w><w>supra</w><w>scripsi</w><w>in</w>
+<lb n="P221rC2L-460lat"/><w>breui</w></ab><ab n="Eph.3.4"><w>prout</w><w>potestis</w><w>le
+<lb n="P221rC2L-460lat" break="no"/>gentes</w><w>intelligere</w><w>pru
+<lb n="P221rC2L-460lat" break="no"/>dentiam</w><w>meam</w><w>in</w><w>mysterio</w>
+<lb n="P221rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="Eph.3.5"><w>quod</w><w>aliis</w><w>generationibus</w>
+<lb n="P221rC2L-460lat"/><w>non</w><w>est</w><w>agnitum</w><w>filiis</w><w>hominum</w><w>si
+<lb n="P221rC2L-460lat" break="no"/>cuti</w><w>nunc</w><w>reuelatum</w><w>est</w><w>sanctis</w><w>apostolis</w>
+<lb n="P221rC2L-460lat"/><w>eius</w><w>et</w><w>prophetis</w><w>in</w>
+<cb n="P221rC3-460lat"/>
+<lb n="P221rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="221v" type="folio" xml:id="P221v-460lat"/>
+<cb n="P221vC1-460lat"/>
+<lb n="P221vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P221vC2-460lat"/>
+<lb n="P221vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w></ab><ab n="Eph.3.6"><w>esse</w><w>gentes</w><w>coheredes</w>
+<lb n="P221vC2L-460lat"/><w>et</w><w>concorporales</w><w>et</w><w>con
+<lb n="P221vC2L-460lat" break="no"/>participes</w><w>promissionis</w>
+<lb n="P221vC2L-460lat"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>per</w><w>euan
+<lb n="P221vC2L-460lat" break="no"/>gelium</w></ab><ab n="Eph.3.7"><w>cuius</w><w>factus</w><w>sum</w>
+<lb n="P221vC2L-460lat"/><w>ego</w><w>minister</w><w>secundum</w><w>donum</w>
+<lb n="P221vC2L-460lat"/><w>gratiae</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>quae</w><w>data</w><w>est</w><w>mihi</w>
+<lb n="P221vC2L-460lat"/><w>secundum</w><w>operationem</w><w>uir
+<lb n="P221vC2L-460lat" break="no"/>tutis</w><w>eius</w></ab><ab n="Eph.3.8"><w>michi</w>
+<lb n="P221vC2L-460lat"/><w>omnium</w><w>santorum</w>
+<lb n="P221vC2L-460lat"/><w>minimo</w><w>data</w><w>est</w><w>gratia</w>
+<lb n="P221vC2L-460lat"/><w>hec</w><w>in</w><w>gentibus</w>
+<lb n="P221vC2L-460lat"/><w>euangelizare</w><w>inue
+<lb n="P221vC2L-460lat" break="no"/>stigabiles</w><app><rdg type="orig" hand="firsthand"><w>diuicias</w></rdg><rdg type="corr" hand="corrector"><w>diuitias</w></rdg></app>
+<lb n="P221vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="Eph.3.9"><w>et</w><w>illuminare</w>
+<lb n="P221vC2L-460lat"/><w>omnes</w><w>quae</w><w>sit</w><w>dispensa
+<lb n="P221vC2L-460lat" break="no"/>tio</w><w>sacramenti</w><w>abscondi
+<lb n="P221vC2L-460lat" break="no"/>ti</w><w>a</w><w>saeculis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>qui</w><w>o
+<lb n="P221vC2L-460lat" break="no"/>mnia</w><w>creauit</w><w>per</w>
+<lb n="P221vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">ihum</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xrm</hi></abbr></w></ab><ab n="Eph.3.10"><w>ut</w><w>inno
+<lb n="P221vC2L-460lat" break="no"/>tescat</w><w>principibus</w><w>et</w>
+<lb n="P221vC2L-460lat"/><w>potestatibus</w><w>in</w><w>celesti
+<lb n="P221vC2L-460lat" break="no"/>bus</w><w>per</w><w>aecclesiam</w><w>mul
+<lb n="P221vC2L-460lat" break="no"/>tiformis</w><w>sapientiae</w>
+<lb n="P221vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w></ab><ab n="Eph.3.11"><w>secundum</w><w>praefini
+<lb n="P221vC2L-460lat" break="no"/>tionem</w><w>saeculorum</w><w>quam</w><w>fecit</w>
+<lb n="P221vC2L-460lat"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>nostro</w>
+<lb n="P221vC2L-460lat"/></ab><ab n="Eph.3.12"><w>in</w><w>quo</w><w>habemus</w>
+<cb n="P221vC3-460lat"/>
+<lb n="P221vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="222r" type="folio" xml:id="P222r-460lat"/>
+<cb n="P222rC1-460lat"/>
+<lb n="P222rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P222rC2-460lat"/>
+<lb n="P222rC2L-460lat"/><w>fiduciam</w><w>et</w><w>accessum</w>
+<lb n="P222rC2L-460lat"/><w>in</w><w>confidentia</w><w>per</w><w>fi
+<lb n="P222rC2L-460lat" break="no"/>dem</w><w>eius</w></ab><ab n="Eph.3.13"><w><hi rend="rubric">p</hi>ropter</w><w>quod</w>
+<lb n="P222rC2L-460lat"/><w>peto</w><w>ne</w><w>deficiatis</w><w>in</w><w>tri
+<lb n="P222rC2L-460lat" break="no"/>bulationibus</w><w>meis</w><w>pro</w><w>uo
+<lb n="P222rC2L-460lat" break="no"/>bis</w><w>quae</w><w>est</w><w>gloria</w><w>uestra</w>
+<lb n="P222rC2L-460lat"/></ab><ab n="Eph.3.14"><w><hi rend="rubric">h</hi>uius</w><w>rei</w><w>gratia</w><w>flecto</w><w>genua</w>
+<lb n="P222rC2L-460lat"/><w>mea</w><w>ad</w><w>patrem</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w>
+<lb n="P222rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="Eph.3.15"><w>ex</w><w>quo</w><w>omnis</w><w>paterni
+<lb n="P222rC2L-460lat" break="no"/>tas</w><w>in</w><w>caelis</w><w>et</w><w>in</w><w>terra</w><w>no
+<lb n="P222rC2L-460lat" break="no"/>minatur</w></ab><ab n="Eph.3.16"><w>ut</w><w>det</w><w>uo
+<lb n="P222rC2L-460lat" break="no"/>bis</w><w>secundum</w><w>diuitias</w><w>gloriae</w><w>su
+<lb n="P222rC2L-460lat" break="no"/>ae</w><w>uirtutem</w><w>corrobora
+<lb n="P222rC2L-460lat" break="no"/>ri</w><w>per</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w>eius</w><w>in</w><w>interiori</w><w>homine</w>
+<lb n="P222rC2L-460lat"/></ab><ab n="Eph.3.17"><w>habitare</w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>per</w><w>fidem</w><w>in</w>
+<lb n="P222rC2L-460lat"/><w>cordibus</w><w>uestris</w><w>in</w><w>ca
+<lb n="P222rC2L-460lat" break="no"/>ritate</w><w>radicati</w><w>et</w><w>fun
+<lb n="P222rC2L-460lat" break="no"/>dati</w></ab><ab n="Eph.3.18"><w>ut</w><w>conprehen
+<lb n="P222rC2L-460lat" break="no"/>dere</w><w>possitis</w><w>cum</w><w>omni
+<lb n="P222rC2L-460lat" break="no"/>bus</w><w>sanctis</w><w>que</w><w>sit</w><w>lati
+<lb n="P222rC2L-460lat" break="no"/>tudo</w><w>longitudo</w><w>sub
+<lb n="P222rC2L-460lat" break="no"/>limitas</w><w>et</w><w>profundum</w></ab><ab n="Eph.3.19"><w>sci
+<lb n="P222rC2L-460lat" break="no"/>re</w><w>etiam</w><w>supereminentem</w>
+<lb n="P222rC2L-460lat"/><w>scientiae</w><w>caritatem</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P222rC2L-460lat"/><w>ut</w><w>impleamini</w><w>in</w><w>omnem</w>
+<lb n="P222rC2L-460lat"/><w>plenitudinem</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w></ab><ab n="Eph.3.20"><w><hi rend="rubric">e</hi>i</w>
+<lb n="P222rC2L-460lat"/><w>autem</w><w>qui</w><w>potens</w><w>est</w><w>omnia</w><w>face
+<lb n="P222rC2L-460lat" break="no"/>re</w><w>superabundanter</w><w>quam</w><w>petimus</w>
+<cb n="P222rC3-460lat"/>
+<lb n="P222rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="222v" type="folio" xml:id="P222v-460lat"/>
+<cb n="P222vC1-460lat"/>
+<lb n="P222vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P222vC2-460lat"/>
+<lb n="P222vC2L-460lat"/><w>aut</w><w>intelligimus</w><w>secundum</w><w>uir
+<lb n="P222vC2L-460lat" break="no"/>tutem</w><w>quae</w><w>operatur</w><w>in</w><w>nobis</w>
+<lb n="P222vC2L-460lat"/></ab><ab n="Eph.3.21"><w>ipsi</w><w>gloria</w><w>in</w><w>ecclesia</w><w>et</w><w>in</w>
+<lb n="P222vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>in</w><w>omnes</w><w>generationes</w>
+<lb n="P222vC2L-460lat"/><w>saeculi</w><w>saeculorum</w><w>amen</w>
+<lb n="P222vC2L-460lat"/></ab></div><div type="chapter" n="Eph.4"><ab n="Eph.4.1"><w><hi rend="rubric">o</hi>bsecro</w><w>itaque</w><w>uos</w><w>ego</w>
+<lb n="P222vC2L-460lat"/><w>uinctus</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>ut</w><w>digne</w>
+<lb n="P222vC2L-460lat"/><w>ambuletis</w><w>uocatione</w><w>qua</w>
+<lb n="P222vC2L-460lat"/><w>uocati</w><w>estis</w></ab><ab n="Eph.4.2"><w>cum</w><w>omni</w><w>humi
+<lb n="P222vC2L-460lat" break="no"/>litate</w><w>et</w><w>mansuetudine</w><w>cum</w>
+<lb n="P222vC2L-460lat"/><w>pacientia</w><w>supportantes</w>
+<lb n="P222vC2L-460lat"/><w>inuicem</w><w>in</w><w>caritate</w></ab><ab n="Eph.4.3"><w>solli
+<lb n="P222vC2L-460lat" break="no"/>citi</w><w>seruare</w><w>unitatem</w>
+<lb n="P222vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>in</w><w>uinculo</w><w>pacis</w>
+<lb n="P222vC2L-460lat"/></ab><ab n="Eph.4.4"><w>unum</w><w>corpus</w><w>et</w><w>unus</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w>
+<lb n="P222vC2L-460lat"/><w>sicut</w><w>uocati</w><w>estis</w><w>in</w><w>una</w>
+<lb n="P222vC2L-460lat"/><w>spe</w><w>uocationis</w><app><rdg type="orig" hand="firsthand"><w>uestre</w></rdg><rdg type="corr" hand="corrector"><w>uestrae</w></rdg></app><note type="local">It appears that the hand responsible for rubrication corrected the final "e" to "ae".</note>
+<lb n="P222vC2L-460lat"/></ab><ab n="Eph.4.5"><w><hi rend="rubric">u</hi>nus</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>una</w><w>fides</w><w>u
+<lb n="P222vC2L-460lat" break="no"/>num</w><w>baptisma</w></ab><ab n="Eph.4.6"><w>unus</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>et</w>
+<lb n="P222vC2L-460lat"/><w>pater</w><w>omnium</w><w>qui</w><w>super</w><w>omnes</w>
+<lb n="P222vC2L-460lat"/><w>et</w><w>per</w><w>omnia</w><w>et</w><w>in</w><w>omnibus</w><w>nobis</w>
+<lb n="P222vC2L-460lat"/></ab><ab n="Eph.4.7"><w><hi rend="rubric">u</hi>nicuique</w><w>autem</w><w>nostrum</w>
+<lb n="P222vC2L-460lat"/><w>data</w><w>est</w><w>gratia</w><w>secundum</w><w>mensuram</w>
+<lb n="P222vC2L-460lat"/><w>donationis</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="Eph.4.8"><w>propter</w><w>quod</w><w>dicit</w>
+<lb n="P222vC2L-460lat"/><w>ascendens</w><w>in</w><w>altum</w><w>captiuam</w>
+<lb n="P222vC2L-460lat"/><w>duxit</w><w>captiuitatem</w><w>dedit</w>
+<lb n="P222vC2L-460lat"/><w>dona</w><w>hominibus</w></ab><ab n="Eph.4.9"><w>quod</w><w>autem</w><w>ascen
+<lb n="P222vC2L-460lat" break="no"/>dit</w><w>quid</w><w>est</w><w>nisi</w><w>quia</w><w>et</w><w>descen
+<lb n="P222vC2L-460lat" break="no"/>dit</w><w>primum</w><w>in</w><w>in
+<cb n="P222vC3-460lat" break="no"/>
+<lb n="P222vC3L-460lat"/></w><note type="local">Arabic text</note>
+<pb n="223r" type="folio" xml:id="P223r-460lat"/>
+<cb n="P223rC1-460lat"/>
+<lb n="P223rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P223rC2-460lat"/>
+<lb n="P223rC2L-460lat"/><w>feri</w><w>partes</w><w>terrae</w>
+<lb n="P223rC2L-460lat"/></ab><ab n="Eph.4.10"><w>qui</w><w>descendit</w><w>ipse</w><w>est</w>
+<lb n="P223rC2L-460lat"/><w>et</w><w>qui</w><w>ascendit</w><w>super</w><w>omnes</w>
+<lb n="P223rC2L-460lat"/><w>caelos</w><w>ut</w><w>adimpleret</w>
+<lb n="P223rC2L-460lat"/><w>omnia</w></ab><ab n="Eph.4.11"><w>et</w><w>ipse</w><w>dedit</w>
+<lb n="P223rC2L-460lat"/><w>quosdam</w><w>quidem</w><w>apostolos</w><w>quosdam</w>
+<lb n="P223rC2L-460lat"/><w>autem</w><w>prophetas</w><w>alios</w><w>uero</w><w>aeu
+<lb n="P223rC2L-460lat" break="no"/>angelistas</w><w>alios</w><w>autem</w><w>pasto
+<lb n="P223rC2L-460lat" break="no"/>res</w><w>et</w><w>doctores</w></ab><ab n="Eph.4.12"><w>ad</w><w>consumm
+<lb n="P223rC2L-460lat" break="no"/>ationem</w><w>sanctorum</w><w>in</w><w>opus</w><w>ministe
+<lb n="P223rC2L-460lat" break="no"/>rii</w><w>in</w><w>aedificationem</w><w>corpo
+<lb n="P223rC2L-460lat" break="no"/>ris</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="Eph.4.13"><w>donec</w><app><rdg type="orig" hand="firsthand"><w>ocurra​
+<lb n="P223rC2L-460lat" break="no"/>mus</w></rdg><rdg type="corr" hand="corrector"><w>occurra​
+<lb n="P223rC2L-460lat" break="no"/>mus</w></rdg></app><w>omnes</w><w>in</w><w>unitatem</w><w>fi
+<lb n="P223rC2L-460lat" break="no"/>dei</w><w>et</w><w>agnitionis</w>
+<lb n="P223rC2L-460lat"/><w>filii</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>in</w><w>uirum</w><w>per
+<lb n="P223rC2L-460lat" break="no"/>fectum</w><w>in</w><w>mensuram</w>
+<lb n="P223rC2L-460lat"/><w>aetatis</w><w>plenitudinis</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P223rC2L-460lat"/></ab><ab n="Eph.4.14"><w><hi rend="rubric">u</hi>t</w><w>iam</w><w>non</w><w>simus</w><w>par
+<lb n="P223rC2L-460lat" break="no"/>uuli</w><w>fluctuantes</w><w>et</w><w>cir
+<lb n="P223rC2L-460lat" break="no"/>cumferamur</w><w>omni</w><w>uento</w><w>doc
+<lb n="P223rC2L-460lat" break="no"/>trinae</w><w>in</w><w>nequicia</w>
+<lb n="P223rC2L-460lat"/><w>hominum</w><w>in</w><w>angustia</w>
+<lb n="P223rC2L-460lat"/><w>ad</w><w>circumuentionem</w>
+<lb n="P223rC2L-460lat"/><w>erroris</w></ab><ab n="Eph.4.15"><w>ueritatem</w><w>autem</w>
+<lb n="P223rC2L-460lat"/><w>facientes</w><w>in</w><w>caritate</w><w>cre
+<lb n="P223rC2L-460lat" break="no"/>scamus</w><w>in</w><w>illo</w><w>per</w><w>omnia</w><w>qui</w><w>est</w>
+<lb n="P223rC2L-460lat"/><w>caput</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w></ab><ab n="Eph.4.16"><w>ex</w><w>quo</w><w>to
+<lb n="P223rC2L-460lat" break="no"/>tum</w><w>corpus</w><w>conpactum</w>
+<cb n="P223rC3-460lat"/>
+<lb n="P223rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="223v" type="folio" xml:id="P223v-460lat"/>
+<cb n="P223vC1-460lat"/><note type="local">Greek text</note>
+<cb n="P223vC2-460lat"/>
+<lb n="P223vC2L-460lat"/><w>et</w><w>conexum</w><w>per</w><w>omnem</w>
+<lb n="P223vC2L-460lat"/><w>iuncturam</w><w>subministra
+<lb n="P223vC2L-460lat" break="no"/>tionis</w><w>secundum</w><w>operationem</w><w>in</w>
+<lb n="P223vC2L-460lat"/><w>mensuram</w><w>uniuscuiusque</w><w>membri</w>
+<lb n="P223vC2L-460lat"/><w>augmentum</w><w>corporis</w><w>facit</w>
+<lb n="P223vC2L-460lat"/><w>in</w><w>aedificationem</w><w>sui</w><w>in</w><w>cari
+<lb n="P223vC2L-460lat" break="no"/>tate</w></ab><ab n="Eph.4.17"><w><hi rend="rubric">h</hi>oc</w><w>igitur</w><w>dico</w>
+<lb n="P223vC2L-460lat"/><w>et</w><w>testificor</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>ut</w>
+<lb n="P223vC2L-460lat"/><w>iam</w><w>non</w><w>ambuletis</w><w>sicut</w><w>et</w>
+<lb n="P223vC2L-460lat"/><w>gentes</w><w>ambulant</w><w>in</w><w>uani
+<lb n="P223vC2L-460lat" break="no"/>tate</w><w>sensus</w><w>sui</w></ab><ab n="Eph.4.18"><w>te
+<lb n="P223vC2L-460lat" break="no"/>nebris</w><w>obscuratum</w>
+<lb n="P223vC2L-460lat"/><w>habentes</w><w>intellectum</w>
+<lb n="P223vC2L-460lat"/><w>alienati</w><w>a</w><w>uita</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>per</w><w>igno
+<lb n="P223vC2L-460lat" break="no"/>rantiam</w><w>quae</w><w>est</w><w>in</w><w>illis</w>
+<lb n="P223vC2L-460lat"/><w>propter</w><w>cecitatem</w><w>cordis</w>
+<lb n="P223vC2L-460lat"/><w>ipsorum</w></ab><ab n="Eph.4.19"><w>qui</w><w>desperan</w>
+<lb n="P223vC2L-460lat"/><w>semet</w><w>ipsos</w><w>tradi
+<lb n="P223vC2L-460lat" break="no"/>derunt</w><w>impudiciciae</w>
+<lb n="P223vC2L-460lat"/><w>in</w><w>operationem</w><w>inmundiciae</w>
+<lb n="P223vC2L-460lat"/><w>omnis</w><w>in</w><w>auaricia</w>
+<lb n="P223vC2L-460lat"/></ab><ab n="Eph.4.20"><w><hi rend="rubric">u</hi>os</w><w>autem</w><w>non</w><w>ita</w><w>didicistis</w>
+<lb n="P223vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w></ab><ab n="Eph.4.21"><w>sed</w><note type="local">The tachygraphy employed in the text typically represents "sed"; does it ever abbreviate "si"?</note><w>tamen</w><w>illum</w><w>audistis</w>
+<lb n="P223vC2L-460lat"/><w>et</w><w>in</w><w>ipso</w><w>edocti</w><w>estis</w>
+<lb n="P223vC2L-460lat"/><w>sicut</w><w>est</w><w>ueritas</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></ab><ab n="Eph.4.22"><w>depo
+<lb n="P223vC2L-460lat" break="no"/>nite</w><w>ergo</w><w>uos</w><w>secundum</w><w>pristinam</w>
+<lb n="P223vC2L-460lat"/><w>conuersationem</w><w>ueterem</w>
+<lb n="P223vC2L-460lat"/><w>hominem</w><w>qui</w><w>corrumpitur</w>
+<cb n="P223vC3-460lat"/>
+<lb n="P223vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="224r" type="folio" xml:id="P224r-460lat"/>
+<cb n="P224rC1-460lat"/>
+<lb n="P224rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P224rC2-460lat"/>
+<lb n="P224rC2L-460lat"/><w>secundum</w><w>desideria</w><w>erroris</w>
+<lb n="P224rC2L-460lat"/></ab><ab n="Eph.4.23"><w>renouamini</w><w>autem</w>
+<lb n="P224rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>mentis</w><w>uestrae</w></ab><ab n="Eph.4.24"><w>et</w><w>indu
+<lb n="P224rC2L-460lat" break="no"/>ite</w><w>nouum</w><w>hominem</w><w>qui</w>
+<lb n="P224rC2L-460lat"/><w>secundum</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w><w>creatus</w><w>est</w><w>in</w><w>iu
+<lb n="P224rC2L-460lat" break="no"/>sticia</w><w>et</w><w>sanctitate</w><w>uerita
+<lb n="P224rC2L-460lat" break="no"/>tis</w></ab><ab n="Eph.4.25"><w>propter</w><w>quod</w><w>deponen
+<lb n="P224rC2L-460lat" break="no"/>tes</w><w>mendatium</w><w>loquimini</w>
+<lb n="P224rC2L-460lat"/><w>ueritatem</w><w>unusquisque</w><w>cum</w><w>pro
+<lb n="P224rC2L-460lat" break="no"/>ximo</w><w>suo</w><w>quoniam</w><w>sumus</w><w>inuicem</w>
+<lb n="P224rC2L-460lat"/><w>membra</w></ab><ab n="Eph.4.26"><w><hi rend="rubric">i</hi>rascimini</w>
+<lb n="P224rC2L-460lat"/><w>et</w><w>nolite</w><w>peccare</w><w>sol</w><w>non</w>
+<lb n="P224rC2L-460lat"/><w>occidat</w><w>super</w><w>iracundiam</w>
+<lb n="P224rC2L-460lat"/><w>uestram</w></ab><ab n="Eph.4.27"><w>nolite</w><w>locum</w><w>dare</w>
+<lb n="P224rC2L-460lat"/><w>diabolo</w></ab><ab n="Eph.4.28"><w>qui</w><w>furabatur</w>
+<lb n="P224rC2L-460lat"/><w>iam</w><w>non</w><w>furetur</w><w>magis</w>
+<lb n="P224rC2L-460lat"/><w>autem</w><w>laboret</w><w>operando</w><w>ma
+<lb n="P224rC2L-460lat" break="no"/>nibus</w><w>suis</w><w>quod</w><w>bonum</w><w>est</w>
+<lb n="P224rC2L-460lat"/><w>ut</w><w>habeat</w><w>unde</w><w>tribuat</w>
+<lb n="P224rC2L-460lat"/><w>neccessitatem</w><w>patienti</w>
+<lb n="P224rC2L-460lat"/></ab><ab n="Eph.4.29"><w><hi rend="rubric">o</hi>mnis</w><w>sermo</w><w>malus</w><w>ex</w><w>ore</w><w>uestro</w>
+<lb n="P224rC2L-460lat"/><w>non</w><w>procedat</w><w>sed</w><w>si</w><w>quis</w><w>bonus</w><w>est</w><w>ad</w><w>ae
+<lb n="P224rC2L-460lat" break="no"/>dificationem</w><w>fidei</w><w>ut</w><w>det</w>
+<lb n="P224rC2L-460lat"/><w>gratiam</w><w>audientibus</w></ab><ab n="Eph.4.30"><w>et</w>
+<lb n="P224rC2L-460lat"/><w>nolite</w><w>contristare</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w>
+<lb n="P224rC2L-460lat"/><w>sanctum</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>in</w><w>quo</w><w>signati</w><w>estis</w>
+<lb n="P224rC2L-460lat"/><w>in</w><w>die</w><w>redemptionis</w>
+<lb n="P224rC2L-460lat"/></ab><ab n="Eph.4.31"><w>omnis</w><w>amaritudo</w><w>et</w><w>ira</w>
+<cb n="P224rC3-460lat"/>
+<lb n="P224rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="224v" type="folio" xml:id="P224v-460lat"/>
+<cb n="P224vC1-460lat"/>
+<lb n="P224vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P224vC2-460lat"/>
+<lb n="P224vC2L-460lat"/><w>et</w><w>indignatio</w><w>et</w><w>cla
+<lb n="P224vC2L-460lat" break="no"/>mor</w><w>et</w><w>blasphemia</w>
+<lb n="P224vC2L-460lat"/><w>tollatur</w><w>a</w><w>uobis</w><w>cum</w><w>omni</w><w>ma
+<lb n="P224vC2L-460lat" break="no"/>licia</w></ab><ab n="Eph.4.32"><w>estote</w><w>autem</w><w>inuicem</w>
+<lb n="P224vC2L-460lat"/><w>benigni</w><w>misericordes</w>
+<lb n="P224vC2L-460lat"/><w>donantes</w><w>inuicem</w><w>sicut</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w>
+<lb n="P224vC2L-460lat"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>donauit</w><w>uobis</w></ab></div><div type="chapter" n="Eph.5"><ab n="Eph.5.1"><w><hi rend="rubric">e</hi>sto
+<lb n="P224vC2L-460lat" break="no"/>te</w><w>ergo</w><w>imitatores</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>sicut</w><w>filii</w>
+<lb n="P224vC2L-460lat"/><w>karissimi</w></ab><ab n="Eph.5.2"><w>et</w><w>ambulate</w><w>in</w><w>dilecti
+<lb n="P224vC2L-460lat" break="no"/>one</w><w>sicut</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>dilexit</w><w>nos</w><w>et</w>
+<lb n="P224vC2L-460lat"/><w>tradidit</w><w>semet</w><w>ipsum</w><w>pro</w><w>nobis</w>
+<lb n="P224vC2L-460lat"/><w>oblationem</w><w>et</w><w>ostiam</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>in</w>
+<lb n="P224vC2L-460lat"/><w>odorem</w><w>suauitatis</w>
+<lb n="P224vC2L-460lat"/></ab><ab n="Eph.5.3"><w><hi rend="rubric">f</hi>ornicatio</w><w>autem</w><w>et</w><w>omnis</w>
+<lb n="P224vC2L-460lat"/><w>immundicia</w><w>aut</w><w>auaricia</w>
+<lb n="P224vC2L-460lat"/><w>nec</w><w>nominetur</w><w>in</w><w>uobis</w><w>sicut</w>
+<lb n="P224vC2L-460lat"/><w>decet</w><w>sanctos</w></ab><ab n="Eph.5.4"><w>aut</w><w>turpitu
+<lb n="P224vC2L-460lat" break="no"/>do</w><w>aut</w><w>stultiloquium</w><w>aut</w>
+<lb n="P224vC2L-460lat"/><w>scurilitas</w><w>quae</w><w>ad</w><w>rem</w><w>non</w><w>perti
+<lb n="P224vC2L-460lat" break="no"/>net</w><w>sed</w><w>magis</w><w>gratiarum</w><w>acci
+<lb n="P224vC2L-460lat" break="no"/>o</w></ab><ab n="Eph.5.5"><w>hoc</w><w>enim</w><w>scitote</w><w>intelli
+<lb n="P224vC2L-460lat" break="no"/>gentes</w><w>quod</w><w>omnis</w><w>fornica
+<lb n="P224vC2L-460lat" break="no"/>tor</w><w>aut</w><w>inmundus</w><w>aut</w><w>a
+<lb n="P224vC2L-460lat" break="no"/>uarus</w><w>quod</w><w>est</w><w>ydolorum</w><w>serui
+<lb n="P224vC2L-460lat" break="no"/>tus</w><w>non</w><w>habet</w><w>hereditatem</w>
+<lb n="P224vC2L-460lat"/><w>in</w><w>regno</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>et</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w>
+<lb n="P224vC2L-460lat"/></ab><ab n="Eph.5.6"><w><hi rend="rubric">n</hi>emo</w><w>uos</w><w>seducat</w><w>inanibus</w>
+<lb n="P224vC2L-460lat"/><w>uerbis</w><w>propter</w><w>haec</w><w>enim</w><w>uenit</w><w>ira</w>
+<lb n="P224vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>in</w><w>filios</w>
+<cb n="P224vC3-460lat"/>
+<lb n="P224vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="225r" type="folio" xml:id="P225r-460lat"/>
+<cb n="P225rC1-460lat"/>
+<lb n="P225rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P225rC2-460lat"/>
+<lb n="P225rC2L-460lat"/><w>diffidentiae</w></ab><ab n="Eph.5.7"><w>nolite</w><w>ergo</w><w>effi
+<lb n="P225rC2L-460lat" break="no"/>ci</w><w>participes</w><w>eorum</w></ab><ab n="Eph.5.8"><w>eratis</w><w>enim</w>
+<lb n="P225rC2L-460lat"/><w>aliquando</w><w>tenebrae</w><w>nunc</w><w>autem</w>
+<lb n="P225rC2L-460lat"/><w>lux</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>ut</w><w>filii</w><w>lucis</w><w>am
+<lb n="P225rC2L-460lat" break="no"/>bulate</w></ab><ab n="Eph.5.9"><w>fructus</w><w>enim</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w>
+<lb n="P225rC2L-460lat"/><w>est</w><w>in</w><w>omni</w><w>bonitate</w><w>et</w>
+<lb n="P225rC2L-460lat"/><w>iusticia</w><w>et</w><w>ueritate</w>
+<lb n="P225rC2L-460lat"/></ab><ab n="Eph.5.10"><w>probantes</w><w>quid</w><w>sit</w><w>be
+<lb n="P225rC2L-460lat" break="no"/>neplacitum</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w></ab><ab n="Eph.5.11"><w>et</w><w>no
+<lb n="P225rC2L-460lat" break="no"/>lite</w><app><rdg type="orig" hand="firsthand"><w>conminicare</w></rdg><rdg type="corr" hand="corrector"><w>conmunicare</w></rdg></app><w>operibus</w>
+<lb n="P225rC2L-460lat"/><w>infructuosis</w><w>tenebrarum</w>
+<lb n="P225rC2L-460lat"/><w>magis</w><w>autem</w><w>et</w><w>redarguite</w>
+<lb n="P225rC2L-460lat"/></ab><ab n="Eph.5.12"><w>quae</w><w>enim</w><w>in</w><w>occulto</w><w>fiunt</w>
+<lb n="P225rC2L-460lat"/><w>ab</w><w>ipsis</w><w>turpe</w><w>est</w><w>eciam</w><w>dice
+<lb n="P225rC2L-460lat" break="no"/>re</w></ab><ab n="Eph.5.13"><w>omnia</w><w>autem</w><w>quae</w><w>arguun
+<lb n="P225rC2L-460lat" break="no"/>tur</w><w>a</w><w>lumine</w><w>manifestan
+<lb n="P225rC2L-460lat" break="no"/>tur</w><w>omne</w><w>enim</w><w>quod</w><w>manifestatur</w><w>lumen</w>
+<lb n="P225rC2L-460lat"/><w>est</w></ab><ab n="Eph.5.14"><w>propter</w><w>quod</w><w>dicit</w><w>surge</w><w>qui</w><w>dor
+<lb n="P225rC2L-460lat" break="no"/>mis</w><w>et</w><w>exurge</w><w>a</w><w>mortuis</w>
+<lb n="P225rC2L-460lat"/><w>et</w><w>illuminabit</w><w>tibi</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w>
+<lb n="P225rC2L-460lat"/></ab><ab n="Eph.5.15"><w><hi rend="rubric">u</hi>idete</w><w>itaque</w><w>fratres</w><w>quomodo</w><w>caute</w>
+<lb n="P225rC2L-460lat"/><w>ambuletis</w><w>non</w><w>quasi</w><w>insipien
+<lb n="P225rC2L-460lat" break="no"/>tes</w></ab><ab n="Eph.5.16"><w>redementes</w><w>tempus</w>
+<lb n="P225rC2L-460lat"/><w>quoniam</w><w>dies</w><w>mali</w><w>sunt</w></ab><ab n="Eph.5.17"><w>pro
+<lb n="P225rC2L-460lat" break="no"/>pterea</w><w>nolite</w><w>fieri</w><w>im
+<lb n="P225rC2L-460lat" break="no"/>prudentes</w><w>sed</w><w>intelligentes</w>
+<lb n="P225rC2L-460lat"/><w>quae</w><w>sit</w><w>uoluntas</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w></ab><ab n="Eph.5.18"><w>et</w><w>no
+<lb n="P225rC2L-460lat" break="no"/>lite</w><w>inebriari</w><w>uino</w><w>in</w><w>quo</w><w>est</w>
+<lb n="P225rC2L-460lat"/><w>luxuria</w>
+<cb n="P225rC3-460lat"/>
+<lb n="P225rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="225v" type="folio" xml:id="P225v-460lat"/>
+<cb n="P225vC1-460lat"/>
+<lb n="P225vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P225vC2-460lat"/>
+<lb n="P225vC2L-460lat"/><w>sed</w><w>implemini</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w></ab><ab n="Eph.5.19"><w>loquen
+<lb n="P225vC2L-460lat" break="no"/>tes</w><w>uobismet</w><w>ipsis</w><w>in</w><w>psal
+<lb n="P225vC2L-460lat" break="no"/>mis</w><w>et</w><w>ymnis</w><w>et</w><w>canticis</w>
+<lb n="P225vC2L-460lat"/><w>spiritualibus</w><w>cantantes</w><w>et</w>
+<lb n="P225vC2L-460lat"/><w>psallentes</w><w>in</w><w>cordibus</w><w>uestris</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<lb n="P225vC2L-460lat"/></ab><ab n="Eph.5.20"><w>gratias</w><w>agentes</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>semper</w>
+<lb n="P225vC2L-460lat"/><w>per</w><w>omnibus</w><w>in</w><w>nomine</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w>
+<lb n="P225vC2L-460lat"/><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>et</w><w>patri</w>
+<lb n="P225vC2L-460lat"/></ab><ab n="Eph.5.21"><w>subicti</w><w>inuicem</w><w>in</w><w>timore</w>
+<lb n="P225vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w></ab><ab n="Eph.5.22"><w><hi rend="rubric">m</hi>ulieres</w><w>ui
+<lb n="P225vC2L-460lat" break="no"/>ris</w><w>suis</w><w>subdite</w><w>sint</w><w>si
+<lb n="P225vC2L-460lat" break="no"/>cut</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w></ab><ab n="Eph.5.23"><w>quoniam</w><w>uir</w><w>ca
+<lb n="P225vC2L-460lat" break="no"/>put</w><w>est</w><w>mulieris</w><w>sicut</w>
+<lb n="P225vC2L-460lat"/><w>et</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>caput</w><w>est</w><w>aecclesiae</w>
+<lb n="P225vC2L-460lat"/><w>et</w><w>ipse</w><w>saluator</w><w>cor
+<lb n="P225vC2L-460lat" break="no"/>poris</w></ab><ab n="Eph.5.24"><w>sed</w><w>sicut</w><app><rdg type="orig" hand="firsthand"><w>aecclesiae</w></rdg><rdg type="corr" hand="corrector"><w>aecclesia</w></rdg></app>
+<lb n="P225vC2L-460lat"/><w>subiecta</w><w>est</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>ita</w>
+<lb n="P225vC2L-460lat"/><w>et</w><w>mulieres</w><w>uiris</w><w>su
+<lb n="P225vC2L-460lat" break="no"/>is</w><w>in</w><w>omnibus</w>
+<lb n="P225vC2L-460lat"/></ab><ab n="Eph.5.25"><w><hi rend="rubric">u</hi>iri</w><w>diligite</w><w>uxores</w>
+<lb n="P225vC2L-460lat"/><w>uestras</w><w>sicut</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w>
+<lb n="P225vC2L-460lat"/><w>dilexit</w><w>ecclesiam</w><w>et</w>
+<lb n="P225vC2L-460lat"/><w>se</w><w>ipsum</w><w>tradidit</w><w>pro</w>
+<lb n="P225vC2L-460lat"/><w>ea</w></ab><ab n="Eph.5.26"><w>ut</w><w>illam</w><w>sanctifica
+<lb n="P225vC2L-460lat" break="no"/>ret</w><w>mundans</w><w>eam</w>
+<lb n="P225vC2L-460lat"/><w>lauacro</w><w>aquae</w><w>in</w><w>uer
+<lb n="P225vC2L-460lat" break="no"/>bo</w></ab><ab n="Eph.5.27"><w>ut</w><app><rdg type="orig" hand="firsthand"><w>exiberet</w></rdg><rdg type="corr" hand="corrector"><w>exhiberet</w></rdg></app>
+<lb n="P225vC2L-460lat"/><w>ipse</w><w>sibi</w><w>gloriosam</w>
+<cb n="P225vC3-460lat"/>
+<lb n="P225vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="226r" type="folio" xml:id="P226r-460lat"/>
+<cb n="P226rC1-460lat"/>
+<lb n="P226rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P226rC2-460lat"/>
+<lb n="P226rC2L-460lat"/><w>aecclesiam</w><w>non</w><w>haben
+<lb n="P226rC2L-460lat" break="no"/>tem</w><w>maculam</w><w>aut</w><w>rugam</w>
+<lb n="P226rC2L-460lat"/><w>aut</w><w>aliquid</w><w>eiusmodi</w><w>sed</w><w>ut</w>
+<lb n="P226rC2L-460lat"/><w>sit</w><w>sancta</w><w>et</w><w>immaculata</w>
+<lb n="P226rC2L-460lat"/></ab><ab n="Eph.5.28"><w>ita</w><w>et</w><w>uiri</w><w>debent</w><w>dilige
+<lb n="P226rC2L-460lat" break="no"/>re</w><w>uxores</w><w>suas</w><w>ut</w>
+<lb n="P226rC2L-460lat"/><w>corpora</w><w>sua</w><w>qui</w>
+<lb n="P226rC2L-460lat"/><w>suam</w><w>uxorem</w><w>diligit</w>
+<lb n="P226rC2L-460lat"/><w>se</w><w>ipsum</w><w>diligit</w></ab><ab n="Eph.5.29"><w>nemo</w>
+<lb n="P226rC2L-460lat"/><w>enim</w><w>unquam</w><w>carnem</w><w>suam</w><w>o
+<lb n="P226rC2L-460lat" break="no"/>dio</w><w>habuit</w><w>sed</w><w>nutrit</w>
+<lb n="P226rC2L-460lat"/><w>et</w><w>fouet</w><w>eam</w><w>sicut</w><w>et</w>
+<lb n="P226rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>aecclesiam</w></ab><ab n="Eph.5.30"><w>quia</w>
+<lb n="P226rC2L-460lat"/><w>sumus</w><w>membra</w><w>corporis</w>
+<lb n="P226rC2L-460lat"/><w>eius</w><w>de</w><w>carne</w><w>eius</w><w>et</w>
+<lb n="P226rC2L-460lat"/><w>de</w><w>ossibus</w><w>eius</w></ab><ab n="Eph.5.31"><w>pro
+<lb n="P226rC2L-460lat" break="no"/>pter</w><w>hoc</w><w>relinquet</w><w>homo</w>
+<lb n="P226rC2L-460lat"/><w>patrem</w><w>et</w><w>matrem</w><w>suam</w>
+<lb n="P226rC2L-460lat"/><w>et</w><w>adherebit</w><w>uxori</w>
+<lb n="P226rC2L-460lat"/><w>suae</w><w>et</w><w>erunt</w><note type="local">There is a small diagonal stroke below the "e" that could indicate that the scribe was writing "aerunt", but this spelling is unattested in the other Latin manuscripts I have transcribed in Ephesians.</note><w>duo</w><w>in</w>
+<lb n="P226rC2L-460lat"/><w>carne</w><w>una</w></ab><ab n="Eph.5.32"><w>sacra
+<lb n="P226rC2L-460lat" break="no"/>mentum</w><w>hoc</w><w>magnum</w><w>est</w>
+<lb n="P226rC2L-460lat"/><w>ego</w><w>autem</w><w>dico</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>et</w>
+<lb n="P226rC2L-460lat"/><w>in</w><w>aecclesia</w></ab><ab n="Eph.5.33"><w>uerumtamen</w>
+<lb n="P226rC2L-460lat"/><w>et</w><w>uos</w><w>singuli</w><w>unusquis
+<lb n="P226rC2L-460lat" break="no"/>que</w><w>suam</w><w>uxorem</w><w>sicut</w><w>se</w><w>i
+<lb n="P226rC2L-460lat" break="no"/>psum</w><w>diligat</w><w>uxor</w>
+<lb n="P226rC2L-460lat"/><w>autem</w><w>timeat</w><w>uirum</w>
+<cb n="P226rC3-460lat"/>
+<lb n="P226rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="226v" type="folio" xml:id="P226v-460lat"/>
+<cb n="P226vC1-460lat"/>
+<lb n="P226vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P226vC2-460lat"/>
+<lb n="P226vC2L-460lat"/><w>suum</w></ab></div><div type="chapter" n="Eph.6"><ab n="Eph.6.1"><w><hi rend="rubric">f</hi>ilii</w><w>obe
+<lb n="P226vC2L-460lat" break="no"/>dite</w><w>parentibus</w><w>uestris</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<lb n="P226vC2L-460lat"/><w>hoc</w><w>enim</w><w>iustum</w><w>est</w></ab><ab n="Eph.6.2"><w>honora</w>
+<lb n="P226vC2L-460lat"/><w>patrem</w><w>tuum</w><w>et</w><w>matrem</w><w>quod</w>
+<lb n="P226vC2L-460lat"/><w>est</w><w>mandatum</w><w>primum</w><w>in</w><w>repro
+<lb n="P226vC2L-460lat" break="no"/>missione</w></ab><ab n="Eph.6.3"><w>ut</w><w>bene</w><w>sit</w><w>tibi</w>
+<lb n="P226vC2L-460lat"/><w>et</w><w>sis</w><w>longeuus</w><w>super</w><w>terram</w>
+<lb n="P226vC2L-460lat"/></ab><ab n="Eph.6.4"><w><hi rend="rubric">e</hi>t</w><w>patres</w><w>nolite</w>
+<lb n="P226vC2L-460lat"/><w>ad</w><w>iracundiam</w><w>prouocare</w><w>filios</w>
+<lb n="P226vC2L-460lat"/><w>uestros</w><w>sed</w><w>educate</w><w>illos</w><w>in</w><w>di
+<lb n="P226vC2L-460lat" break="no"/>ssiplina</w><w>et</w><w>correptione</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w>
+<lb n="P226vC2L-460lat"/></ab><ab n="Eph.6.5"><w><hi rend="rubric">s</hi>erui</w><w>obedite</w>
+<lb n="P226vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">dnis</hi></abbr></w><w>uestris</w><w>carnalibus</w><w>cum</w><w>timore</w>
+<lb n="P226vC2L-460lat"/><w>et</w><w>tremore</w><w>in</w><w>simplicitate</w>
+<lb n="P226vC2L-460lat"/><w>cordis</w><w>uestri</w><w>sicut</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w></ab><ab n="Eph.6.6"><w>non</w>
+<lb n="P226vC2L-460lat"/><w>ad</w><w>oculum</w><w>seruientes</w><w>qua
+<lb n="P226vC2L-460lat" break="no"/>si</w><w>hominibus</w><w>placentes</w><w>sed</w><w>ut</w>
+<lb n="P226vC2L-460lat"/><w>serui</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>facientes</w><w>uolun
+<lb n="P226vC2L-460lat" break="no"/>tatem</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>ex</w><w>animo</w></ab><ab n="Eph.6.7"><w>cum</w>
+<lb n="P226vC2L-460lat"/><w>bona</w><w>uoluntate</w><w>seruien
+<lb n="P226vC2L-460lat" break="no"/>tes</w><w>sicut</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>et</w><w>non</w><w>hominibus</w></ab><ab n="Eph.6.8"><w>sci
+<lb n="P226vC2L-460lat" break="no"/>entes</w><w>quoniam</w><w>unusquisque</w><w>quod
+<lb n="P226vC2L-460lat" break="no"/>cumque</w><w>fecerit</w><w>bonum</w><w>hoc</w>
+<lb n="P226vC2L-460lat"/><w>recipiet</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>siue</w><w>seruus</w>
+<lb n="P226vC2L-460lat"/><w>siue</w><w>liber</w></ab><ab n="Eph.6.9"><w><hi rend="rubric">e</hi>t</w><w>uos</w>
+<lb n="P226vC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>eadem</w><w>facite</w><w>illis</w><w>remit
+<lb n="P226vC2L-460lat" break="no"/>tentes</w><w>minas</w><w>scien
+<lb n="P226vC2L-460lat" break="no"/>tes</w><w>quia</w><w>et</w><w>illorum</w>
+<cb n="P226vC3-460lat"/>
+<lb n="P226vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="227r" type="folio" xml:id="P227r-460lat"/>
+<cb n="P227rC1-460lat"/>
+<lb n="P227rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P227rC2-460lat"/>
+<lb n="P227rC2L-460lat"/><w>et</w><w>uester</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>est</w><w>in</w><w>caelis</w>
+<lb n="P227rC2L-460lat"/><w>et</w><w>personarum</w><w>acceptio</w><w>non</w>
+<lb n="P227rC2L-460lat"/><w>est</w><w>apud</w><w>eum</w></ab><ab n="Eph.6.10"><w><hi rend="rubric">d</hi>e</w><w>ce
+<lb n="P227rC2L-460lat" break="no"/>tero</w><w>fratres</w><w>conforta
+<lb n="P227rC2L-460lat" break="no"/>mini</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>et</w><w>in</w><w>poten
+<lb n="P227rC2L-460lat" break="no"/>tia</w><w>uirtutis</w><w>eius</w></ab><ab n="Eph.6.11"><w>indi
+<lb n="P227rC2L-460lat" break="no"/>uite</w><w>uos</w><w>armatura</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w>
+<lb n="P227rC2L-460lat"/><w>ut</w><w>possitis</w><w>stare</w><w>aduer
+<lb n="P227rC2L-460lat" break="no"/>sus</w><w>insidias</w><w>diaboli</w>
+<lb n="P227rC2L-460lat"/></ab><ab n="Eph.6.12"><w>quia</w><w>non</w><w>est</w><w>nobis</w><w>co
+<lb n="P227rC2L-460lat" break="no"/>lluctatio</w><w>aduersus</w><w>carnem</w>
+<lb n="P227rC2L-460lat"/><w>et</w><w>sanguinem</w><w>sed</w><w>aduersus</w>
+<lb n="P227rC2L-460lat"/><w>principes</w><w>et</w><w>potestates</w><w>ad
+<lb n="P227rC2L-460lat" break="no"/>uersus</w><w>mundi</w><w>rectores</w>
+<lb n="P227rC2L-460lat"/><w>tenebrarum</w><w>harum</w><w>contra</w>
+<lb n="P227rC2L-460lat"/><w>spiritualia</w><w>nequiciae</w><w>in</w>
+<lb n="P227rC2L-460lat"/><w>caelestibus</w></ab><ab n="Eph.6.13"><w>propter
+<lb n="P227rC2L-460lat" break="no"/>ea</w><w>accipite</w><w>armatu
+<lb n="P227rC2L-460lat" break="no"/>ram</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>ut</w><w>possitis</w>
+<lb n="P227rC2L-460lat"/><w>resistere</w><w>in</w><w>die</w><w>malo</w>
+<lb n="P227rC2L-460lat"/><w>et</w><w>omnibus</w><w>per
+<lb n="P227rC2L-460lat" break="no"/>fecti</w><w>stare</w></ab><ab n="Eph.6.14"><w>state</w><w>er
+<lb n="P227rC2L-460lat" break="no"/>go</w><w>succincti</w><w>lumbos</w>
+<lb n="P227rC2L-460lat"/><w>uestros</w><w>in</w><w>ueritate</w>
+<lb n="P227rC2L-460lat"/><w>induti</w><w>loricam</w>
+<lb n="P227rC2L-460lat"/><w>iusticiae</w></ab><ab n="Eph.6.15"><w>et</w><w>calcia
+<lb n="P227rC2L-460lat" break="no"/>ti</w><w>pedes</w><w>in</w><w>pre
+<lb n="P227rC2L-460lat" break="no"/>paratione</w>
+<cb n="P227rC3-460lat"/>
+<lb n="P227rC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="227v" type="folio" xml:id="P227v-460lat"/>
+<cb n="P227vC1-460lat"/>
+<lb n="P227vC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P227vC2-460lat"/>
+<lb n="P227vC2L-460lat"/><w>euangelii</w><w>pacis</w></ab><ab n="Eph.6.16"><w>in</w><w>omnibus</w>
+<lb n="P227vC2L-460lat"/><w>sumentis</w><w>scutum</w><w>fi
+<lb n="P227vC2L-460lat" break="no"/>dei</w><w>in</w><w>quo</w><w>possitis</w>
+<lb n="P227vC2L-460lat"/><w>omnia</w><w>tela</w><w>nequissi
+<lb n="P227vC2L-460lat" break="no"/>mi</w><w>igne</w><w>extinguere</w>
+<lb n="P227vC2L-460lat"/></ab><ab n="Eph.6.17"><w>et</w><w>galeam</w><w>salutis</w>
+<lb n="P227vC2L-460lat"/><w>assumite</w><w>et</w><w>gladi
+<lb n="P227vC2L-460lat" break="no"/>um</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>quod</w><w>est</w><w>uer
+<lb n="P227vC2L-460lat" break="no"/>bum</w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w></ab><ab n="Eph.6.18"><w>per</w><w>omnem</w>
+<lb n="P227vC2L-460lat"/><w>orationem</w><w>et</w><w>obsecrati
+<lb n="P227vC2L-460lat" break="no"/>onem</w><w>orantes</w><w>omni</w><w>tempore</w>
+<lb n="P227vC2L-460lat"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>et</w><w>in</w><w>ipso</w><w>uigi
+<lb n="P227vC2L-460lat" break="no"/>lantes</w><w>in</w><w>omni</w><w>instan
+<lb n="P227vC2L-460lat" break="no"/>tia</w><w>et</w><w>obsecratione</w>
+<lb n="P227vC2L-460lat"/><w>pro</w><w>omnibus</w><w>sanctis</w></ab><ab n="Eph.6.19"><w>et</w>
+<lb n="P227vC2L-460lat"/><w>pro</w><w>me</w><w>ut</w><w>detur</w><w>mihi</w>
+<lb n="P227vC2L-460lat"/><w>sermo</w><w>in</w><w>apertione</w><w>oris</w><w>mei</w>
+<lb n="P227vC2L-460lat"/><w>cum</w><w>fiducia</w><w>notum</w><w>facere</w>
+<lb n="P227vC2L-460lat"/><w>mysterium</w><w>aeuangelii</w></ab><ab n="Eph.6.20"><w>pro</w><w>quo</w>
+<lb n="P227vC2L-460lat"/><w>legatione</w><w>fungor</w><w>in</w><w>ca
+<lb n="P227vC2L-460lat" break="no"/>thena</w><w>ita</w><w>ut</w><w>in</w><w>ipso</w><w>audeam</w>
+<lb n="P227vC2L-460lat"/><w>prout</w><w>oportet</w><w>me</w><w>loqui</w>
+<lb n="P227vC2L-460lat"/></ab><ab n="Eph.6.21"><w><hi rend="rubric">u</hi>t</w><w>autem</w><w>et</w><w>uos</w><w>sciatis</w><w>quae</w><w>circa</w><w>me</w>
+<lb n="P227vC2L-460lat"/><w>sunt</w><w>quid</w><w>agam</w><w>omnia</w><w>uobis</w><w>nota</w>
+<lb n="P227vC2L-460lat"/><w>faciet</w><w>tychicus</w><w>karissimus</w><w>frater</w>
+<lb n="P227vC2L-460lat"/><w>et</w><w>fidelis</w><w>minister</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<lb n="P227vC2L-460lat"/></ab><ab n="Eph.6.22"><w>quem</w><w>misi</w><w>ad</w><w>uos</w><w>in</w><w>hoc</w><w>ip
+<lb n="P227vC2L-460lat" break="no"/>sum</w><w>ut</w><w>cognoscatis</w><w>quae</w>
+<cb n="P227vC3-460lat"/>
+<lb n="P227vC3L-460lat"/><note type="local">Arabic text</note>
+<pb n="228r" type="folio" xml:id="P228r-460lat"/>
+<cb n="P228rC1-460lat"/>
+<lb n="P228rC1L-460lat"/><note type="local">Greek text</note>
+<cb n="P228rC2-460lat"/>
+<lb n="P228rC2L-460lat"/><w>circa</w><w>nos</w><w>sunt</w><w>et</w><w>console
+<lb n="P228rC2L-460lat" break="no"/>tur</w><w>corda</w><w>uestra</w>
+<lb n="P228rC2L-460lat"/></ab><ab n="Eph.6.23"><w>pax</w><w>fratribus</w><w>et</w><w>cari
+<lb n="P228rC2L-460lat" break="no"/>tas</w><w>cum</w><w>fide</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w>
+<lb n="P228rC2L-460lat"/><w>patre</w><w>nostro</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w>
+<lb n="P228rC2L-460lat"/></ab><ab n="Eph.6.24"><w>gratia</w><w>cum</w><w>omnibus</w><w>qui</w><w>diligunt</w>
+<lb n="P228rC2L-460lat"/><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w><w>nostrum</w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>in</w>
+<lb n="P228rC2L-460lat"/><w>incorrupcione</w><w>amen</w>
+<lb n="P228rC2L-460lat"/></ab></div><div type="subscriptio"><ab n="Eph.subscriptio"><w>explicit</w><w>epistula</w><w>ad</w><w>ephe
+<lb n="P228rC2L-460lat" break="no"/>sios</w></ab></div></div></body></text></TEI>

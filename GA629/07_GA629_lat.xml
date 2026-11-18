@@ -1,0 +1,1764 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE TEI [
+]>
+<?xml-stylesheet type="text/xsl" href="COMPAUL.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>A transcription of the Latin text of 1 Corinthians in the bilingual codex Gregory-Aland 629 (Vatican, BAV, Ottob. gr. 298)</title>
+				<title type="document" n="Ott298">Vatican, BAV, Ottob. gr. 298</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="nl">Het Nieuwe Testament</title>
+				<title type="work" level="m" xml:lang="en" n="07">1 Corinthians</title>
+				<title type="work" level="m" xml:lang="nl" n="07">De eerste brief aan de Korintiërs</title>
+				<title type="short" level="m" xml:lang="en" n="07">1 Corinthians</title>
+				<title type="short" level="m" xml:lang="nl" n="07">1 Korintiërs</title>
+				<editor role="encoder">Robert Turnbull</editor><respStmt>
+					<resp xml:lang="en">Created by</resp>
+					<resp xml:lang="nl">Gemaakt door</resp>
+					<name type="org">The BICROSS Project</name>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="en">Created by</resp>
+					<resp xml:lang="nl">Gemaakt door</resp>
+					<name type="org">The 1COR Project</name>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="en" when-iso="2021-06-12">Transcribed by</resp>
+					<resp xml:lang="nl" when-iso="2021-06-12">Getranscribeerd door</resp>
+					<name type="person">Martina Vercesi</name>
+				</respStmt>
+				<respStmt>
+					<resp xml:lang="en" when-iso="2024-03-14">Proofread by</resp>
+					<resp xml:lang="nl" when-iso="2024-03-14">Proefgelezen door</resp>
+					<name type="person">Anna Persig</name>
+				</respStmt>
+				<funder xml:lang="en">This transcription was produced jointly by members of the BICROSS project, which received funding from the European Union’s Horizon Europe research and innovation programme (grant agreement no. 101043730 – BICROSS – ERC-2021-COG), and members of the 1COR project funded by the Flanders Research Foundation (FWO) under the Odysseus (Type I) scheme (project number G0E9821N). It is published online by ITSEE, the Institute for Textual Schoarship and Electronic Editing, at the University of Birmingham (UK).</funder>
+				<funder xml:lang="nl">Deze transcriptie werd gezamenlijk geproduceerd door leden van het BICROSS-project, dat financiering ontving van de Europese Onderzoeksraad (ERC) in het kader van het onderzoeks- en innovatieprogramma Horizon Europe van de Europese Unie (subsidieovereenkomst 101043730 – BICROSS – ERC-2021-COG), en leden van het 1COR-project dat gefinancierd werd door het Fonds Wetenschappelijk Onderzoek (FWO) in het kader van het Odysseus (Type I)-programma (projectnummer G0E9821N). Het is online gepubliceerd door ITSEE, de Institute for Textual Schoarship and Electronic Editing aan de Universiteit van Birmingham (UK).</funder>
+				<sponsor>
+					<name type="org" xml:lang="en">The Institute for Textual Scholarship and Electronic Editing</name>
+				</sponsor>
+				<sponsor>
+					<name type="org" xml:lang="en">Research Unit Biblical Studies, Faculty of Theology and Religious Studies, KU Leuven</name>
+				</sponsor>
+				<sponsor>
+					<name type="org" xml:lang="nl">Onderzoekseenheid Bijbelwetenschap, Faculteit Theologie en Religiewetenschappen, KU Leuven</name>
+				</sponsor>
+			</titleStmt>
+			
+			<publicationStmt>
+				<publisher>
+					<name type="org">Leuven Multilingual Manuscript Research Centre</name> 
+					<name type="org">KU Leuven</name>
+					<name type="org">Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>27.1.2026</date>
+				<availability>
+					<p xml:lang="en">Attribution 4.0 International (CC BY 4.0) Available for re-use under a creative commons license provided attribution is made to the original creators.</p>
+					<p xml:lang="nl">Naamsvermelding 4.0 Internationaal (CC BY 4.0) Beschikbaar voor hergebruik onder een creative commons licentie op voorwaarde dat naamsvermelding gebeurt aan de oorspronkelijke makers.</p>
+				</availability>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Città del Vaticano</settlement>
+						<repository>Biblioteca Apostolica Vaticana</repository>
+						<idno>Ottob. gr. 298</idno>
+						<altIdentifier type="GA">
+							<idno>629</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste">
+							<idno>30629</idno>
+						</altIdentifier>
+						<altIdentifier type="Trismegistos">
+							<idno>999746</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents><summary>Greek-Latin bilingual of the Pauline epistles.</summary>
+						<msItem>
+							<title type="uniform" xml:lang="la">Epistula Ad Corinthios I</title>
+							<title type="uniform" xml:lang="en">The First Epistle to the Corinthians</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+					</msContents>
+				<history><origin><origDate notBefore="1300" notAfter="1399">14th century</origDate></origin></history></msDesc>
+			</sourceDesc>
+		</fileDesc>
+		
+		<encodingDesc n="1.4">
+			<projectDesc>
+				<p>This transcription was made for the BICROSS and 1COR projects.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p xml:lang="en">This transcription was produced using the online transcription editor developed by the Center for Digital Humanities at the University of Trier as part of the Workspace for Collaborative Editing Project between 2010 and 2013 and made available for use by the Institute for Textual Scholarship and Electronic Editing and the University of Birmingham.</p>
+				<p xml:lang="nl">Deze transcriptie is gemaakt met behulp van de online transcriptie-editor die is ontwikkeld door het Center for Digital Humanities van de Universiteit van Trier als onderdeel van het Workspace for Collaborative Editing Project tussen 2010 en 2013 en die beschikbaar is gesteld voor gebruik door het Institute for Textual Scholarship and Electronic Editing en de Universiteit van Birmingham.</p>
+				<p xml:lang="en">
+					The XML specifications used are version 1.6 of the IGNTP Guidelines available at 
+					<ptr target="https://epapers.bham.ac.uk/4301/"/>
+				</p>
+				<p xml:lang="nl">
+					De gebruikte XML-specificaties zijn versie 1.6 van de IGNTP-richtlijnen, beschikbaar op 
+					<ptr target="https://epapers.bham.ac.uk/4301/"/>
+				</p>
+			</editorialDecl>
+		</encodingDesc>
+	<revisionDesc><change when="2026-11-19"><name>Robert Turnbull</name> added the manuscript's summary, date for the BICROSS Navigator.</change></revisionDesc></teiHeader><text xml:lang="lat"><body>
+<pb n="139r" type="folio" xml:id="P139r-vgs5"/>
+<cb n="P139rC1-vgs5"/>
+<lb n="P139rC1L-vgs5"/><div type="book" n="1Cor"><div type="inscriptio"><ab n="1Cor.inscriptio"><w>incipit</w><w>epistola</w><w>ad</w><w>chorinthios</w><w>prima</w>
+<lb n="P139rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.1"><ab n="1Cor.1.1"><w>paulus</w><w>uocatus</w><w>aposto
+<lb n="P139rC1L-vgs5" break="no"/>lus</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>per</w><w>uolunta
+<lb n="P139rC1L-vgs5" break="no"/>tem</w><w>dei</w><w>et</w><w>sosthenes</w><w>frater</w>
+<lb n="P139rC1L-vgs5"/></ab><ab n="1Cor.1.2"><w>ecclesie</w><w>dei</w><w>que</w><w>est</w><w>corinthi</w><w>sancti
+<lb n="P139rC1L-vgs5" break="no"/>ficatis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>et</w><w>uo
+<lb n="P139rC1L-vgs5" break="no"/>catis</w><w>sanctis</w><w>cum</w><w>omnibus</w><w>qui</w>
+<lb n="P139rC1L-vgs5"/><w>inuocant</w><w>nomen</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w>
+<lb n="P139rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>in</w><w>omni</w><w>loco</w><w>ipsorum</w><w>et</w><w>nostro</w>
+<lb n="P139rC1L-vgs5"/></ab><ab n="1Cor.1.3"><w>gratia</w><w>uobis</w><w>et</w><w>pax</w><w>a</w><w>deo</w><w>patre</w>
+<lb n="P139rC1L-vgs5"/><w>nostro</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xo</hi></abbr></w></ab><ab n="1Cor.1.4"><w>gratias</w>
+<lb n="P139rC1L-vgs5"/><w>ago</w><w>deo</w><w>meo</w><w>semper</w><w>pro</w><w>uobis</w>
+<lb n="P139rC1L-vgs5"/><w>in</w><w>gratia</w><w>dei</w><w>que</w><w>data</w><w>est</w><w>uobis</w>
+<lb n="P139rC1L-vgs5"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></ab><ab n="1Cor.1.5"><w>quia</w><w>in</w><w>omnibus</w><w>diuites</w>
+<lb n="P139rC1L-vgs5"/><w>facti</w><w>estis</w><w>in</w><w>illo</w><w>in</w><w>omni</w><w>uerbo</w>
+<lb n="P139rC1L-vgs5"/><w>et</w><w>in</w><w>omni</w><w>scientia</w></ab><ab n="1Cor.1.6"><w>sicut</w><w>testi
+<lb n="P139rC1L-vgs5" break="no"/>monium</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>confirmatum</w>
+<lb n="P139rC1L-vgs5"/><w>est</w><w>in</w><w>uobis</w></ab><ab n="1Cor.1.7"><w>ita</w><w>ut</w><w>nichil</w><w>uo
+<lb n="P139rC1L-vgs5" break="no"/>bis</w><w>desit</w><w>in</w><w>illa</w><w>gratia</w><w>ex
+<pb n="139v" type="folio" xml:id="P139v-vgs5" break="no"/>
+<cb n="P139vC1-vgs5"/>
+<lb n="P139vC1L-vgs5"/>spectantibus</w><w>reuelationem</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w>
+<lb n="P139vC1L-vgs5"/><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="1Cor.1.8"><w>qui</w><w>et</w><w>confirma
+<lb n="P139vC1L-vgs5" break="no"/>bit</w><w>uos</w><w>usque</w><w>in</w><w>finem</w><w>sine</w>
+<lb n="P139vC1L-vgs5"/><w>crimine</w><w>in</w><w>diem</w><w>aduentus</w>
+<lb n="P139vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w></ab><ab n="1Cor.1.9"><w>fidelis</w><w>deus</w>
+<lb n="P139vC1L-vgs5"/><w>per</w><w>quem</w><w>uocati</w><w>estis</w><w>in</w><w>socie
+<lb n="P139vC1L-vgs5" break="no"/>tatem</w><w>filii</w><w>eius</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w>
+<lb n="P139vC1L-vgs5"/><w>nostri</w></ab><ab n="1Cor.1.10"><w>obsecro</w><w>autem</w><w>uos</w>
+<lb n="P139vC1L-vgs5"/><w>fratres</w><w>per</w><w>nomen</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w>
+<lb n="P139vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>ut</w><w>ipsum</w><w>dicatis</w>
+<lb n="P139vC1L-vgs5"/><w>omnes</w><w>et</w><w>non</w><w>sint</w><w>in</w><w>uobis</w><w>scis
+<lb n="P139vC1L-vgs5" break="no"/>mata</w><w>sitis</w><w>autem</w><w>perfecti</w><w>in</w>
+<lb n="P139vC1L-vgs5"/><w>eodem</w><w>sensu</w><w>et</w><w>in</w><w>eadem</w>
+<lb n="P139vC1L-vgs5"/><w>scientia</w></ab><ab n="1Cor.1.11"><w>significatum</w><w>est</w><w>enim</w>
+<lb n="P139vC1L-vgs5"/><w>mihi</w><w>de</w><w>uobis</w><w>fratres</w><w>mei</w><w>ab</w>
+<lb n="P139vC1L-vgs5"/><w>his</w><w>qui</w><w>sunt</w><w>cloes</w><w>quia</w>
+<lb n="P139vC1L-vgs5"/><w>contentiones</w><w>sunt</w><w>inter</w><w>uos</w>
+<lb n="P139vC1L-vgs5"/></ab><ab n="1Cor.1.12"><w>hoc</w><w>autem</w><w>dico</w><w>quod</w><w>unusquis
+<lb n="P139vC1L-vgs5" break="no"/>que</w><w>uestrum</w><w>dicit</w><w>ego</w><w>qui
+<lb n="P139vC1L-vgs5" break="no"/>dem</w><w>sum</w><w>pauli</w><w>ego</w><w>autem</w>
+<lb n="P139vC1L-vgs5"/><w>appollo</w><w>ego</w><w>uero</w><w>cephae</w>
+<lb n="P139vC1L-vgs5"/><w>ego</w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="1Cor.1.13"><w>diuisus</w>
+<lb n="P139vC1L-vgs5"/><w>est</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>numquid</w><w>paulus</w>
+<lb n="P139vC1L-vgs5"/><w>crucifixus</w><w>est</w><w>pro</w><w><unclear reason="damage to page">uobis</unclear></w>
+<lb n="P139vC1L-vgs5"/><w>aut</w><w>in</w><w>nomine</w><w>pauli</w><w>bap
+<lb n="P139vC1L-vgs5" break="no"/>tizati</w><w>estis</w></ab><ab n="1Cor.1.14"><w>gratias</w><w>ago</w>
+<lb n="P139vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w><w>in</w><w>eo</w><w>quod</w><w>neminem</w><w>uestrum</w>
+<pb n="140r" type="folio" xml:id="P140r-vgs5"/>
+<cb n="P140rC1-vgs5"/>
+<lb n="P140rC1L-vgs5"/><w>baptiçaui</w><w>nisi</w><w>crispum</w><w>et</w>
+<lb n="P140rC1L-vgs5"/><w>gaium</w></ab><ab n="1Cor.1.15"><w>ne</w><w>quis</w><w>dicat</w><w>quod</w>
+<lb n="P140rC1L-vgs5"/><w>in</w><w>nomine</w><w>meo</w><w>baptiça
+<lb n="P140rC1L-vgs5" break="no"/>ti</w><w>estis</w></ab><ab n="1Cor.1.16"><w>baptiçaui</w>
+<lb n="P140rC1L-vgs5"/><w>autem</w><w>et</w><w>stephane</w><w>domum</w>
+<lb n="P140rC1L-vgs5"/><w>ceterum</w><w>nescio</w><w>si</w><w>quem</w>
+<lb n="P140rC1L-vgs5"/><w>alium</w><w>baptiçauerim</w></ab><ab n="1Cor.1.17"><w>non</w>
+<lb n="P140rC1L-vgs5"/><w>enim</w><w>misit</w><w>me</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>bap
+<lb n="P140rC1L-vgs5" break="no"/>tiçare</w><w>sed</w><w>euangeliçare</w>
+<lb n="P140rC1L-vgs5"/><w>non</w><w>in</w><w>sapientia</w><w>uerbi</w><w>ut</w><w>non</w>
+<lb n="P140rC1L-vgs5"/><w>euacuetur</w><w>crux</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P140rC1L-vgs5"/></ab><ab n="1Cor.1.18"><w>uerbum</w><w>enim</w><w>crucis</w><w>pereuntibus</w>
+<lb n="P140rC1L-vgs5"/><w>quidem</w><w>stultitia</w><w>est</w><w>his</w>
+<lb n="P140rC1L-vgs5"/><w>autem</w><w>qui</w><w>salui</w><w>fiunt</w>
+<lb n="P140rC1L-vgs5"/><w>id</w><w>est</w><w>nobis</w><w>uirtus</w><w>dei</w><w>est</w>
+<lb n="P140rC1L-vgs5"/></ab><ab n="1Cor.1.19"><w>scriptum</w><w>est</w><w>enim</w><w>perdam</w><w>sapientiam</w>
+<lb n="P140rC1L-vgs5"/><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>sapiencium</w></rdg></app><w>et</w><w>prudentiam</w><w>pruden
+<lb n="P140rC1L-vgs5" break="no"/>tium</w><w>reprobabo</w></ab><ab n="1Cor.1.20"><w>ubi</w><w>sa
+<lb n="P140rC1L-vgs5" break="no"/>piens</w><w>ubi</w><w>scriba</w><w>ubi</w>
+<lb n="P140rC1L-vgs5"/><w>conquisitor</w><w>huius</w><w>seculi</w><w>nonne</w>
+<lb n="P140rC1L-vgs5"/><w>stultam</w><w>facit</w><w>deus</w><w>sapi
+<lb n="P140rC1L-vgs5" break="no"/>entiam</w><w>huius</w><w>mundi</w><note type="local">abbreviated form moi</note></ab><ab n="1Cor.1.21"><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>nam</w></rdg></app><w>quia</w><w>in</w><w>dei</w><w>sa
+<lb n="P140rC1L-vgs5" break="no"/>pientia</w><w>non</w><w>cognouit</w><w>mun
+<lb n="P140rC1L-vgs5" break="no"/>dus</w><w>per</w><w>sapientiam</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w>
+<lb n="P140rC1L-vgs5"/><w>placuit</w><w>deo</w><w>per</w><w>stulti
+<lb n="P140rC1L-vgs5" break="no"/>tiam</w><w>predicationis</w><w>sal
+<lb n="P140rC1L-vgs5" break="no"/>uos</w><w>facere</w><w>credentes</w></ab><ab n="1Cor.1.22"><w>quoniam</w>
+<pb n="140v" type="folio" xml:id="P140v-vgs5"/>
+<cb n="P140vC1-vgs5"/>
+<lb n="P140vC1L-vgs5"/><w>et</w><w>iudei</w><w>signa</w><w>petunt</w>
+<lb n="P140vC1L-vgs5"/><w>et</w><w>greci</w><w>sapientiam</w><w>querunt</w>
+<lb n="P140vC1L-vgs5"/></ab><ab n="1Cor.1.23"><w>nos</w><w>autem</w><w>predicamus</w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w>
+<lb n="P140vC1L-vgs5"/><w>crucifixum</w><w>iudeis</w><w>quidem</w>
+<lb n="P140vC1L-vgs5"/><w>scandalum</w><w>gentibus</w><w>autem</w>
+<lb n="P140vC1L-vgs5"/><w>stultitiam</w></ab><ab n="1Cor.1.24"><w>ipsis</w><w>autem</w>
+<lb n="P140vC1L-vgs5"/><w>uocatis</w><w>iudeis</w><w>atque</w><w>grecis</w><abbr type="nomSac">
+<lb n="P140vC1L-vgs5"/></abbr><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>dei</w><w>uirtutem</w><w>et</w><w>dei</w>
+<lb n="P140vC1L-vgs5"/><w>sapientiam</w></ab><ab n="1Cor.1.25"><w>quia</w><w>quod</w><w>stul
+<lb n="P140vC1L-vgs5" break="no"/>tum</w><w>est</w><w>dei</w><w>sapientius</w><w>est</w>
+<lb n="P140vC1L-vgs5"/><w>hominibus</w><w>et</w><w>quod</w><w>infirmum</w>
+<lb n="P140vC1L-vgs5"/><w>est</w><w>dei</w><w>fortius</w><w>est</w><w>hominibus</w>
+<lb n="P140vC1L-vgs5"/></ab><ab n="1Cor.1.26"><w>uidete</w><w>enim</w><w>uocationem</w>
+<lb n="P140vC1L-vgs5"/><w>uestram</w><w>fratres</w><w>quia</w><w>non</w><w>multi</w>
+<lb n="P140vC1L-vgs5"/><w>sapientes</w><w>secundum</w><w>car
+<lb n="P140vC1L-vgs5" break="no"/>nem</w><w>non</w><w>multi</w><w>potentes</w>
+<lb n="P140vC1L-vgs5"/><w>non</w><w>multi</w><w>nobiles</w></ab><ab n="1Cor.1.27"><w>set</w>
+<lb n="P140vC1L-vgs5"/><w>que</w><app><rdg type="orig" hand="firsthand"><w>est</w></rdg><rdg type="corr" hand="corrector" rend="other"><w>est</w></rdg></app><w>stulta</w><w>sunt</w><w>mundi</w>
+<lb n="P140vC1L-vgs5"/><w>elegit</w><w>deus</w><w>ut</w><w>confundat</w>
+<lb n="P140vC1L-vgs5"/><w>sapientes</w><w>et</w><w>infirma</w><w>mun
+<lb n="P140vC1L-vgs5" break="no"/>di</w><w>elegit</w><w>deus</w><w>ut</w><w>con
+<lb n="P140vC1L-vgs5" break="no"/>fundat</w><w>fortia</w></ab><ab n="1Cor.1.28"><w>et</w><w>ignobi
+<lb n="P140vC1L-vgs5" break="no"/>lia</w><w>mundi</w><w>et</w><w>contempti
+<lb n="P140vC1L-vgs5" break="no"/>bilia</w><w>elegit</w><w>deus</w><w>et</w><w>ea</w>
+<lb n="P140vC1L-vgs5"/><w>que</w><w>non</w><w>sunt</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>ut</w><w>ea</w><w>que</w><w>sunt</w></rdg></app><w>destrueret</w></ab><ab n="1Cor.1.29"><w>ut</w><w>non</w>
+<lb n="P140vC1L-vgs5"/><w>glorietur</w><w>omnis</w><w>caro</w><w>in</w><w>con
+<lb n="P140vC1L-vgs5" break="no"/>spectu</w><w>eius</w></ab><ab n="1Cor.1.30"><w>ex</w><w>ipso</w><w>autem</w><w>uos</w>
+<pb n="141r" type="folio" xml:id="P141r-vgs5"/>
+<cb n="P141rC1-vgs5"/>
+<lb n="P141rC1L-vgs5"/><w>estis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>qui</w><w>factus</w>
+<lb n="P141rC1L-vgs5"/><w>est</w><w>sapientia</w><w>nobis</w><w>a</w><w>deo</w><w>et</w>
+<lb n="P141rC1L-vgs5"/><w>iustitia</w><w>et</w><w>sanctificatio</w><w>et</w>
+<lb n="P141rC1L-vgs5"/><w>redemptio</w></ab><ab n="1Cor.1.31"><w>ut</w><w>quemadmo
+<lb n="P141rC1L-vgs5" break="no"/>dum</w><w>scriptum</w><w>est</w><w>qui</w><w>glo
+<lb n="P141rC1L-vgs5" break="no"/>riatur</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>glorietur</w>
+<lb n="P141rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.2"><ab n="1Cor.2.1"><w>et</w><w>ego</w><w>cum</w><w>uenissem</w>
+<lb n="P141rC1L-vgs5"/><w>ad</w><w>uos</w><w>fratres</w><w>ueni</w><w>non</w>
+<lb n="P141rC1L-vgs5"/><w>in</w><w>sublimitatem</w><w>sermonis</w>
+<lb n="P141rC1L-vgs5"/><w>aut</w><w>sapientie</w><w>annuntians</w>
+<lb n="P141rC1L-vgs5"/><w>uobis</w><w>testimonium</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P141rC1L-vgs5" break="no"/></ab><ab n="1Cor.2.2"><w>non</w><w>enim</w><w>iudicaui</w><w>scire</w>
+<lb n="P141rC1L-vgs5"/><w>me</w><w>aliquid</w><w>inter</w><w>uos</w><w>nisi</w>
+<lb n="P141rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>et</w><w>hunc</w><w>crucifixum</w>
+<lb n="P141rC1L-vgs5"/></ab><ab n="1Cor.2.3"><w>et</w><w>ego</w><w>in</w><w>infirmitate</w><w>et</w>
+<lb n="P141rC1L-vgs5"/><w>timore</w><w>et</w><w>tremore</w><w>mul
+<lb n="P141rC1L-vgs5" break="no"/>to</w><w>fui</w><w>apud</w><w>uos</w></ab><ab n="1Cor.2.4"><w>et</w><w>sermo</w>
+<lb n="P141rC1L-vgs5"/><w>meus</w><w>et</w><w>predicatio</w><w>mea</w>
+<lb n="P141rC1L-vgs5"/><w>non</w><w>in</w><w>persuasibilibus</w><w>hu
+<lb n="P141rC1L-vgs5" break="no"/>mane</w><w>sapientie</w><w>uerbis</w><w>sed</w><w>in</w>
+<lb n="P141rC1L-vgs5"/><w>hostensione</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>et</w><w>uirtutis</w>
+<lb n="P141rC1L-vgs5"/></ab><ab n="1Cor.2.5"><w>ut</w><w>fides</w><w>uestra</w><w>non</w><w>sit</w>
+<lb n="P141rC1L-vgs5"/><w>in</w><w>sapientia</w><w>hominum</w><w>sed</w><w>in</w><w>uirtu
+<lb n="P141rC1L-vgs5" break="no"/>te</w><w>dei</w></ab><ab n="1Cor.2.6"><w>sapientiam</w><w>autem</w><w>lo
+<lb n="P141rC1L-vgs5" break="no"/>quimur</w><w>inter</w><w>perfectos</w><w>sa
+<lb n="P141rC1L-vgs5" break="no"/>pientiam</w><w>uero</w><w>non</w><w>huius</w><w>seculi</w><w>neque</w>
+<lb n="P141rC1L-vgs5"/><w>principum</w><w>huius</w><w>seculi</w><w>qui</w><w>de</w>
+<pb n="141v" type="folio" xml:id="P141v-vgs5"/>
+<cb n="P141vC1-vgs5"/>
+<lb n="P141vC1L-vgs5"/><w>struuntur</w></ab><ab n="1Cor.2.7"><w>sed</w><w>loquimur</w><w>dei</w><w>sa
+<lb n="P141vC1L-vgs5" break="no"/>pientiam</w><w>in</w><w>misterio</w><w>que</w><w>abscon
+<lb n="P141vC1L-vgs5" break="no"/>dita</w><w>est</w><w>quam</w><w>predestinauit</w>
+<lb n="P141vC1L-vgs5"/><w>deus</w><w>ante</w><w>secula</w><w>in</w><w>gloriam</w><w>nostram</w>
+<lb n="P141vC1L-vgs5"/></ab><ab n="1Cor.2.8"><w>quam</w><w>nemo</w><w>principum</w><w>huius</w><w>seculi</w>
+<lb n="P141vC1L-vgs5"/><w>cognouit</w><w>si</w><w>enim</w><w>cognouissent</w>
+<lb n="P141vC1L-vgs5"/><w>numquam</w><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w><w>glorie</w><w>crucifi
+<lb n="P141vC1L-vgs5" break="no"/>xissent</w></ab><ab n="1Cor.2.9"><w>sed</w><w>sicut</w><w>scriptum</w><w>est</w><w>quod</w>
+<lb n="P141vC1L-vgs5"/><w><unclear reason="damage to page">ocu</unclear>lus</w><w>non</w><w>uidit</w><w>nec</w><w>au
+<lb n="P141vC1L-vgs5" break="no"/>ris</w><w>audiuit</w><w>nec</w><w>in</w><w>cor</w><w>ho
+<lb n="P141vC1L-vgs5" break="no"/>minis</w><w>ascendit</w><w>que</w><w>preparauit</w>
+<lb n="P141vC1L-vgs5"/><w>deus</w><w>his</w><w>qui</w><w>diligunt</w>
+<lb n="P141vC1L-vgs5"/><w>illum</w></ab><ab n="1Cor.2.10"><w>nobis</w><w>autem</w><w>reuelauit</w>
+<lb n="P141vC1L-vgs5"/><w>deus</w><w>per</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w>suum</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>enim</w>
+<lb n="P141vC1L-vgs5"/><w>omnia</w><w>scrutatur</w><w>etiam</w><w>profunda</w>
+<lb n="P141vC1L-vgs5"/><w>dei</w></ab><ab n="1Cor.2.11"><w>quis</w><w>et</w><w>que</w><w>scit</w><w>hominum</w>
+<lb n="P141vC1L-vgs5"/><w>que</w><w>sunt</w><w>hominis</w><w>nisi</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>hominis</w>
+<lb n="P141vC1L-vgs5"/><w>qui</w><w>in</w><w>ipso</w><w>est</w><w>ita</w><w>et</w><w>que</w><w>dei</w>
+<lb n="P141vC1L-vgs5"/><w>sunt</w><w>nemo</w><w>cognouit</w><w>nisi</w>
+<lb n="P141vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>dei</w></ab><ab n="1Cor.2.12"><w>nos</w><w>autem</w><w>non</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w>
+<lb n="P141vC1L-vgs5"/><w>mundi</w><w>accepimus</w><w>sed</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w>
+<lb n="P141vC1L-vgs5"/><w>qui</w><w>ex</w><w>deo</w><w>est</w><w>ut</w><w>sciamus</w>
+<lb n="P141vC1L-vgs5"/><w>que</w><w>a</w><w>deo</w><w>donata</w><w>sunt</w>
+<lb n="P141vC1L-vgs5"/><w>nobis</w></ab><ab n="1Cor.2.13"><w>que</w><w>et</w><w>loquimur</w><w>non</w>
+<lb n="P141vC1L-vgs5"/><w>in</w><w>doctis</w><w>humane</w><w>sapientie</w>
+<lb n="P141vC1L-vgs5"/><w>uerbis</w><w>sed</w><w>in</w><w>doctrina</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>spiritalibus</w>
+<lb n="P141vC1L-vgs5"/><w>spiritalia</w><w>conparantes</w></ab><ab n="1Cor.2.14"><w>animalis</w>
+<pb n="142r" type="folio" xml:id="P142r-vgs5"/>
+<cb n="P142rC1-vgs5"/>
+<lb n="P142rC1L-vgs5"/><w>autem</w><w>homo</w><w>non</w><w>percipit</w><w>ea</w><w>que</w>
+<lb n="P142rC1L-vgs5"/><w>sunt</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>dei</w><w>stultitia</w><w>est</w>
+<lb n="P142rC1L-vgs5"/><w>enim</w><w>illi</w><w>et</w><w>non</w><w>potest</w><w>intellegere</w>
+<lb n="P142rC1L-vgs5"/><w>ea</w><w>quia</w><w>spiritaliter</w><w>examinatur</w>
+<lb n="P142rC1L-vgs5"/></ab><ab n="1Cor.2.15"><w>spiritalis</w><w>autem</w><w>iudicat</w><w>omnia</w>
+<lb n="P142rC1L-vgs5"/><w>et</w><w>ipse</w><w>a</w><w>nemine</w><w>iudicatur</w>
+<lb n="P142rC1L-vgs5"/></ab><ab n="1Cor.2.16"><w>quis</w><w>enim</w><w>cognouit</w><w>sensum</w><w>do
+<lb n="P142rC1L-vgs5" break="no"/>mini</w><w>nisi</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>domini</w><w>qui</w><w>in
+<lb n="P142rC1L-vgs5" break="no"/>struit</w><w>eum</w><w>nos</w><w>autem</w><w>sen
+<lb n="P142rC1L-vgs5" break="no"/>sum</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>habemus</w>
+<lb n="P142rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.3"><ab n="1Cor.3.1"><w>et</w><w>ego</w><w>fratres</w><w>non</w><w>potui</w>
+<lb n="P142rC1L-vgs5"/><w>uobis</w><w>loqui</w><w>quasi</w><w>spirita
+<lb n="P142rC1L-vgs5" break="no"/>libus</w><w>sed</w><w>quasi</w><w>carnalibus</w>
+<lb n="P142rC1L-vgs5"/><w>tamquam</w><w>paruulis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w></ab><ab n="1Cor.3.2"><w>lac</w>
+<lb n="P142rC1L-vgs5"/><w>uobis</w><w>potum</w><w>dedi</w><w>non</w><w>escam</w>
+<lb n="P142rC1L-vgs5"/><w>nondum</w><w>enim</w><w>poteratis</w><w>set</w>
+<lb n="P142rC1L-vgs5"/><w>nunc</w><w>quidem</w><w>potestis</w><w>adhuc</w>
+<lb n="P142rC1L-vgs5"/><w>enim</w><w>estis</w><w>carnales</w></ab><ab n="1Cor.3.3"><w>cum</w><w>enim</w>
+<lb n="P142rC1L-vgs5"/><w>sit</w><w>inter</w><w>uos</w><w>zelus</w><w>et</w><w>con
+<lb n="P142rC1L-vgs5" break="no"/>temptio</w><w>nonne</w><w>carnales</w>
+<lb n="P142rC1L-vgs5"/><w>estis</w><w>et</w><w>secundum</w><w>hominem</w><w>ambu
+<lb n="P142rC1L-vgs5" break="no"/>latis</w></ab><ab n="1Cor.3.4"><w>cum</w><w>enim</w><w>quis</w><w>dicit</w>
+<lb n="P142rC1L-vgs5"/><w>ego</w><w>quidem</w><w>sum</w><w>pauli</w>
+<lb n="P142rC1L-vgs5"/><w>alius</w><w>autem</w><w>ego</w><w>apollo</w>
+<lb n="P142rC1L-vgs5"/><w>nonne</w><w>homines</w><w>estis</w></ab><ab n="1Cor.3.5"><w>quid</w>
+<lb n="P142rC1L-vgs5"/><w>igitur</w><w>est</w><app><rdg type="orig" hand="firsthand"><w>appollo</w></rdg><rdg type="corr" hand="corrector"><w>apollo</w></rdg></app><w>quid</w><w>uero</w>
+<lb n="P142rC1L-vgs5"/><w>paulus</w><w>ministri</w><w>eius</w>
+<pb n="142v" type="folio" xml:id="P142v-vgs5"/>
+<cb n="P142vC1-vgs5"/>
+<lb n="P142vC1L-vgs5"/><w>cui</w><w>credidistis</w><w>et</w><w>unicuique</w>
+<lb n="P142vC1L-vgs5"/><w>sicut</w><w>dominus</w><w>dedit</w></ab><ab n="1Cor.3.6"><w>ego</w><w>plan
+<lb n="P142vC1L-vgs5" break="no"/>taui</w><w>apollo</w><w>rigauit</w><w>sed</w>
+<lb n="P142vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>incrementum</w><w>dedit</w></ab><ab n="1Cor.3.7"><w>itaque</w>
+<lb n="P142vC1L-vgs5"/><w>neque</w><w>qui</w><w>plantat</w><w>est</w>
+<lb n="P142vC1L-vgs5"/><w>aliquid</w><w>neque</w><w>qui</w><w>rigat</w><w>set</w>
+<lb n="P142vC1L-vgs5"/><w>qui</w><w>incrementum</w><w>dat</w><w>deus</w></ab><ab n="1Cor.3.8"><w>qui</w>
+<lb n="P142vC1L-vgs5"/><w>plantat</w><w>autem</w><w>et</w><w>qui</w><w>rigat</w>
+<lb n="P142vC1L-vgs5"/><w>u<unclear reason="damage to page">num</unclear></w><w>sunt</w><w>unusquisque</w><w>autem</w><w>pro
+<lb n="P142vC1L-vgs5" break="no"/>priam</w><w>mercedem</w><w>accipiet</w><w>secundum</w>
+<lb n="P142vC1L-vgs5"/><w>suum</w><w>laborem</w></ab><ab n="1Cor.3.9"><w>dei</w><w>enim</w><w>sumus</w>
+<lb n="P142vC1L-vgs5"/><w>adiutores</w><w>dei</w><w>agricultura</w>
+<lb n="P142vC1L-vgs5"/><w>estis</w><w>dei</w><w>hedificatio</w><w>es
+<lb n="P142vC1L-vgs5" break="no"/>tis</w></ab><ab n="1Cor.3.10"><w>secundum</w><w>gratiam</w><w>dei</w><w>que</w><w>data</w><w>est</w>
+<lb n="P142vC1L-vgs5"/><w>mihi</w><w>ut</w><w>sapiens</w><w>architectus</w>
+<lb n="P142vC1L-vgs5"/><w>fundamentum</w><w>posui</w><w>alius</w><w>autem</w>
+<lb n="P142vC1L-vgs5"/><w>superhedificat</w><w>unusquisque</w>
+<lb n="P142vC1L-vgs5"/><w>autem</w><w>uideat</w><w>quomodo</w><w>hedi
+<lb n="P142vC1L-vgs5" break="no"/>ficet</w></ab><ab n="1Cor.3.11"><w>super</w><w>fundamentum</w><w>enim</w><w>ali
+<lb n="P142vC1L-vgs5" break="no"/>ud</w><w>nemo</w><w>potest</w><w>ponere</w><w>preter</w>
+<lb n="P142vC1L-vgs5"/><w>id</w><w>quod</w><w>positum</w><w>est</w><w>quidem</w><w>est</w>
+<lb n="P142vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w></ab><ab n="1Cor.3.12"><w>si</w><w>quis</w><w>autem</w><w>super
+<lb n="P142vC1L-vgs5" break="no"/>edificat</w><w>supra</w><w>fundamentum</w>
+<lb n="P142vC1L-vgs5"/><w>hoc</w><w>aurum</w><w>et</w><w>argentum</w><w>la
+<lb n="P142vC1L-vgs5" break="no"/>pides</w><w>pretiosos</w><w>ligna</w><w>fe
+<lb n="P142vC1L-vgs5" break="no"/>num</w><w>stipulam</w></ab><ab n="1Cor.3.13"><w>uniuscuiusque</w><w>opus</w>
+<lb n="P142vC1L-vgs5"/><w>manifestum</w><w>erit</w><w>dies</w><w>autem</w>
+<pb n="143r" type="folio" xml:id="P143r-vgs5"/>
+<cb n="P143rC1-vgs5"/>
+<lb n="P143rC1L-vgs5"/><w>donum</w><w>declarauit</w><w>quia</w><w>in</w><w>igne</w>
+<lb n="P143rC1L-vgs5"/><w>reuelabitur</w><w>et</w><w>uniuscuiusque</w><w>o
+<lb n="P143rC1L-vgs5" break="no"/>pus</w><w>quale</w><w>sit</w><w>ignis</w><w>proba
+<lb n="P143rC1L-vgs5" break="no"/>bit</w></ab><ab n="1Cor.3.14"><w>sicut</w><w>uis</w><w>opus</w><w>man
+<lb n="P143rC1L-vgs5" break="no"/>serit</w><w>quod</w><w>superedificauit</w>
+<lb n="P143rC1L-vgs5"/><w>mercedem</w><w>accipiet</w></ab><ab n="1Cor.3.15"><w>si</w><w>cuius</w>
+<lb n="P143rC1L-vgs5"/><w>opus</w><w>arserit</w><w>detrimentum</w><w>paci
+<lb n="P143rC1L-vgs5" break="no"/>etur</w><w>ipse</w><w>autem</w><w>saluus</w><app><rdg type="orig" hand="firsthand"><w>e</w></rdg><rdg type="corr" hand="corrector" rend="underdot"/></app>
+<lb n="P143rC1L-vgs5"/><w>erit</w><w>sic</w><w>tamen</w><w>quasi</w><w>per</w><w>ignem
+<lb n="P143rC1L-vgs5" break="no"/></w></ab><ab n="1Cor.3.16"><w>nescitis</w><w>quia</w><w>templum</w><w>dei</w><w>e
+<lb n="P143rC1L-vgs5" break="no"/>stis</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>dei</w><w>habitat</w>
+<lb n="P143rC1L-vgs5"/><w>in</w><w>uobis</w></ab><ab n="1Cor.3.17"><w>si</w><w>quis</w><w>autem</w><w>templum</w>
+<lb n="P143rC1L-vgs5"/><w>dei</w><w>uiolauerit</w><w>disperdet</w>
+<lb n="P143rC1L-vgs5"/><w>illum</w><w>deus</w><w>templum</w><w>enim</w><w>dei</w>
+<lb n="P143rC1L-vgs5"/><w>sanctum</w><w>est</w><w>quod</w><w>estis</w><w>uos</w>
+<lb n="P143rC1L-vgs5"/></ab><ab n="1Cor.3.18"><w>nemo</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>se</w></rdg></app><w>seducat</w><w>si</w><w>quis</w>
+<lb n="P143rC1L-vgs5"/><w>inter</w><w>uos</w><w>uidetur</w><w>sapiens</w><w>esse</w>
+<lb n="P143rC1L-vgs5"/><w>in</w><w>hoc</w><w>seculo</w><w>stultus</w><w>fiat</w>
+<lb n="P143rC1L-vgs5"/><w>ut</w><w>sit</w><w>sapiens</w></ab><ab n="1Cor.3.19"><w>sapientia</w>
+<lb n="P143rC1L-vgs5"/><w>enim</w><w>huius</w><w>mundi</w><w>stultitia</w><w>est</w>
+<lb n="P143rC1L-vgs5"/><w>apud</w><w>deum</w><w>scriptum</w><w>est</w><w>enim</w><w>con
+<lb n="P143rC1L-vgs5" break="no"/>prehendam</w><w>sapientes</w><w>in</w><w>astu
+<lb n="P143rC1L-vgs5" break="no"/>tia</w><w>eorum</w></ab><ab n="1Cor.3.20"><w>et</w><w>iterum</w><w>dominus</w>
+<lb n="P143rC1L-vgs5"/><w>nouit</w><w>cogitationes</w><w>sapi
+<lb n="P143rC1L-vgs5" break="no"/>entium</w><w>quoniam</w><w>uane</w><w>sunt</w>
+<lb n="P143rC1L-vgs5"/></ab><ab n="1Cor.3.21"><w>itaque</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>nemo</w></rdg></app><w>glorietur</w><w>in</w><w>hominibus</w>
+<lb n="P143rC1L-vgs5"/><w>omnia</w><w>enim</w><w>uestra</w><w>sunt</w></ab><ab n="1Cor.3.22"><w>siue</w><w>paulus</w>
+<pb n="143v" type="folio" xml:id="P143v-vgs5"/>
+<cb n="P143vC1-vgs5"/>
+<lb n="P143vC1L-vgs5"/><w>siue</w><w>apollo</w><w>siue</w><w>cephas</w>
+<lb n="P143vC1L-vgs5"/><w>siue</w><w>mundus</w><w>siue</w><w>uita</w>
+<lb n="P143vC1L-vgs5"/><w>siue</w><w>mors</w><w>siue</w><w>presentia</w>
+<lb n="P143vC1L-vgs5"/><w>siue</w><w>futura</w><w>omnia</w><w>uestra</w>
+<lb n="P143vC1L-vgs5"/><w>sunt</w></ab><ab n="1Cor.3.23"><w>uos</w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpc</hi></abbr></w>
+<lb n="P143vC1L-vgs5"/><w>autem</w><w>dei</w></ab></div><div type="chapter" n="1Cor.4"><ab n="1Cor.4.1"><w>sic</w><w>nos</w><w>existi
+<lb n="P143vC1L-vgs5" break="no"/>met</w><w>homo</w><w>ut</w><w>ministros</w><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w>
+<lb n="P143vC1L-vgs5"/><w>et</w><w>dispensatores</w><w>ministe
+<lb n="P143vC1L-vgs5" break="no"/>riorum</w><w>dei</w></ab><ab n="1Cor.4.2"><w>hic</w><w>iam</w><w>queritur</w><w>inter</w><w>dis
+<lb n="P143vC1L-vgs5" break="no"/>pensatores</w><w>ut</w><w>fidelis</w><w>quis</w><w>in
+<lb n="P143vC1L-vgs5" break="no"/>ueniatur</w></ab><ab n="1Cor.4.3"><w>michi</w><w>autem</w><w>pro</w>
+<lb n="P143vC1L-vgs5"/><w>minimo</w><w>est</w><w>ut</w><w>a</w><w>uobis</w>
+<lb n="P143vC1L-vgs5"/><w>iudicet</w><w>aut</w><w>ab</w><w>humano</w>
+<lb n="P143vC1L-vgs5"/><w>die</w><w>sed</w><w>neque</w><w>me</w><w>ipsum</w><w>iu
+<lb n="P143vC1L-vgs5" break="no"/>dico</w></ab><ab n="1Cor.4.4"><w>nichil</w><w>enim</w><w>est</w><w>mihi</w><w>con
+<lb n="P143vC1L-vgs5" break="no"/>scius</w><w>sum</w><w>sed</w><w>non</w><w>in</w><w>hoc</w><w>iustifi
+<lb n="P143vC1L-vgs5" break="no"/>catus</w><w>sum</w><w>qui</w><w>autem</w><w>iudi
+<lb n="P143vC1L-vgs5" break="no"/>cat</w><w>me</w><w>dominus</w><w>est</w></ab><ab n="1Cor.4.5"><w>itaque</w>
+<lb n="P143vC1L-vgs5"/><w>nolite</w><w>ante</w><w>tempus</w><w>iudicare</w>
+<lb n="P143vC1L-vgs5"/><w>quoadusque</w><w>ueniat</w><w>do
+<lb n="P143vC1L-vgs5" break="no"/>minus</w><w>qui</w><w>et</w><w>illuminabit</w>
+<lb n="P143vC1L-vgs5"/><w>abscondita</w><w>tenebrarum</w><w>et</w>
+<lb n="P143vC1L-vgs5"/><w>manifestabit</w><w>consilia</w>
+<lb n="P143vC1L-vgs5"/><w>cordium</w><w>et</w><w>tunc</w><w>laus</w><w>erit</w>
+<lb n="P143vC1L-vgs5"/><w>unicuique</w><w>a</w><w>deo</w>
+<lb n="P143vC1L-vgs5"/></ab><ab n="1Cor.4.6"><w>nec</w><w>autem</w><w>fratres</w><w>transfigura
+<lb n="P143vC1L-vgs5" break="no"/>ui</w><w>in</w><w>me</w><w>et</w><w>apollo</w><w>propter</w>
+<pb n="144r" type="folio" xml:id="P144r-vgs5"/>
+<cb n="P144rC1-vgs5"/>
+<lb n="P144rC1L-vgs5"/><w>uos</w><w>ut</w><w>in</w><w>nobis</w><w>discatis</w>
+<lb n="P144rC1L-vgs5"/><w>ne</w><w>supra</w><w>quam</w><w>scriptum</w><w>est</w><w>unus</w>
+<lb n="P144rC1L-vgs5"/><w>aduersus</w><w>alterum</w><w>infletur</w>
+<lb n="P144rC1L-vgs5"/><w>pro</w><w>alio</w></ab><ab n="1Cor.4.7"><w>quis</w><w>enim</w><w>te</w><w>discer
+<lb n="P144rC1L-vgs5" break="no"/>nit</w><w>quid</w><w>autem</w><w>habes</w><w>quod</w>
+<lb n="P144rC1L-vgs5"/><w>non</w><w>accepisti</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>si</w><w>autem</w><w>ac​​​​​​​​​​​​​​​​​
+<lb n="P144rC1L-vgs5" break="no"/>cepisti</w></rdg></app><w>quid</w><w>glo
+<lb n="P144rC1L-vgs5" break="no"/>riaris</w><w>quasi</w><w>non</w><w>acceperis</w>
+<lb n="P144rC1L-vgs5"/></ab><ab n="1Cor.4.8"><w>iam</w><w>saturati</w><w>estis</w><w>iam</w><w>di
+<lb n="P144rC1L-vgs5" break="no"/>uites</w><w>facti</w><w>estis</w><w>sine</w><w>nobis</w>
+<lb n="P144rC1L-vgs5"/><w>regnatis</w><w>et</w><w>utinam</w><app><rdg type="orig" hand="firsthand"><w>re​​​​​​​​​​​​
+<lb n="P144rC1L-vgs5" break="no"/>gn<unclear reason="the letter was cancelled by the corrector">a</unclear>tis</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P144rC1L-vgs5"><w>re​​​​​​​​​​​​
+<lb break="no"/>gnaretis</w></seg></rdg></app><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>ut</w><w>et</w><w>nos​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w>
+<lb n="P144rC1L-vgs5"/><w>​</w><w>uobiscum​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w><w>​</w>
+<lb n="P144rC1L-vgs5"/><w>​</w><w>regnare​​​​​​​​​​​​​​​​​
+<lb n="P144rC1L-vgs5" break="no"/>mus</w></rdg></app></ab><ab n="1Cor.4.9"><w>puto</w><app><rdg type="orig" hand="firsthand"><w>enim</w><w>deus</w><w>quod</w></rdg><rdg type="corr" hand="corrector" rend="transposition_marks"><w>enim</w><w>quod</w><w>deus</w></rdg></app>
+<lb n="P144rC1L-vgs5"/><w>nos</w><w>apostolos</w><w>nouissimos</w><w>osten
+<lb n="P144rC1L-vgs5" break="no"/>dit</w><w>tamquam</w><w>morti</w><w>destinatos</w>
+<lb n="P144rC1L-vgs5"/><w>quia</w><w>expectaculum</w><w>facti</w><w>su
+<lb n="P144rC1L-vgs5" break="no"/>mus</w><w>mundo</w><w>et</w><w>angelis</w>
+<lb n="P144rC1L-vgs5"/><w>et</w><w>hominibus</w></ab><ab n="1Cor.4.10"><w>nos</w><w>stulti</w><w>propter</w>
+<lb n="P144rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>uos</w><w>autem</w><w>prudentes</w>
+<lb n="P144rC1L-vgs5"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>nos</w><w>infirmi</w><w>uos</w><w>autem</w>
+<lb n="P144rC1L-vgs5"/><w>fortes</w><w>uos</w><w>nobiles</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>nos</w><w>autem</w><w>ino​​​​​​​​​​​​​​​​​
+<lb n="P144rC1L-vgs5" break="no"/>biles</w></rdg></app></ab><ab n="1Cor.4.11"><w>usque</w>
+<lb n="P144rC1L-vgs5"/><w>in</w><w>hanc</w><w>horam</w><w>et</w><w>esurimus</w><w>et</w>
+<lb n="P144rC1L-vgs5"/><w>sitimus</w><w>et</w><w>nudi</w><w>sumus</w><w>et</w>
+<lb n="P144rC1L-vgs5"/><w>colaphys</w><w>caedimur</w><w>et</w><w>in
+<lb n="P144rC1L-vgs5" break="no"/>stabiles</w><w>sumus</w></ab><ab n="1Cor.4.12"><w>et</w><w>labora
+<lb n="P144rC1L-vgs5" break="no"/>mus</w><w>operantes</w><w>manibus</w><w>nostris</w>
+<lb n="P144rC1L-vgs5"/><w>maledicimur</w><w>et</w><w>benedicimus</w>
+<lb n="P144rC1L-vgs5"/><w>persecutionem</w><w>patimur</w><w>et</w><w>susti
+<lb n="P144rC1L-vgs5" break="no"/>nemus</w></ab><ab n="1Cor.4.13"><w>blasphemamur</w><w>et</w>
+<pb n="144v" type="folio" xml:id="P144v-vgs5"/>
+<cb n="P144vC1-vgs5"/>
+<lb n="P144vC1L-vgs5"/><w>obsecramus</w><w>tamquam</w><w>purgamen
+<lb n="P144vC1L-vgs5" break="no"/>ta</w><w>huius</w><w>mundi</w><w>facti</w><w>sumus</w><w>omni
+<lb n="P144vC1L-vgs5" break="no"/>um</w><app><rdg type="orig" hand="firsthand"><w>perissim</w></rdg><rdg type="corr" hand="firsthand"><seg type="line" subtype="above" n="@P144vC1L-vgs5"><w>perissima</w></seg></rdg></app><w>usque</w><w>adhuc</w>
+<lb n="P144vC1L-vgs5"/></ab><ab n="1Cor.4.14"><w>non</w><w>ut</w><w>confundam</w><w>uos</w><w>hec</w><w>scribo</w>
+<lb n="P144vC1L-vgs5"/><w>sed</w><w>ut</w><w>filios</w><w>meos</w><w>carissimos</w>
+<lb n="P144vC1L-vgs5"/><w>moneo</w></ab><ab n="1Cor.4.15"><w>nam</w><w>si</w><w>decem</w><w>milia</w>
+<lb n="P144vC1L-vgs5"/><w>pedagogorum</w><w>habeatis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w>
+<lb n="P144vC1L-vgs5"/><w>sed</w><w>non</w><w>multos</w><w>patres</w><w>nam</w>
+<lb n="P144vC1L-vgs5"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>per</w><w>euangelium</w><w>ego</w>
+<lb n="P144vC1L-vgs5"/><w>uos</w><w>genui</w></ab><ab n="1Cor.4.16"><w>rogo</w><w>ergo</w><w>uos</w>
+<lb n="P144vC1L-vgs5"/><w>imitatores</w><w>mei</w><w>estote</w><w>sicut</w>
+<lb n="P144vC1L-vgs5"/><w>et</w><w>ego</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w></ab><ab n="1Cor.4.17"><w>ideo</w><w>misi</w><w>ad</w>
+<lb n="P144vC1L-vgs5"/><w>uos</w><w>tymotheum</w><w>qui</w><w>est</w>
+<lb n="P144vC1L-vgs5"/><w>filius</w><w>meus</w><w>carissimus</w><w>et</w><w>fide
+<lb n="P144vC1L-vgs5" break="no"/>lis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>qui</w><w>uos</w><w>commonefa
+<lb n="P144vC1L-vgs5" break="no"/>ciat</w><w>uias</w><w>meas</w><w>que</w><w>sunt</w>
+<lb n="P144vC1L-vgs5"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>sicut</w><w>ubique</w><w>in</w><w>omni</w>
+<lb n="P144vC1L-vgs5"/><w>ecclesia</w><w>doceo</w>
+<lb n="P144vC1L-vgs5"/></ab><ab n="1Cor.4.18"><w>tamquam</w><w>non</w><w>uenturus</w><w>sum</w><w>ad</w>
+<lb n="P144vC1L-vgs5"/><w>uos</w><w>sic</w><w>inflati</w><w>sunt</w><w>quidam</w>
+<lb n="P144vC1L-vgs5"/></ab><ab n="1Cor.4.19"><w>ueniam</w><w>cito</w><w>ad</w><w>uos</w><w>si</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w>
+<lb n="P144vC1L-vgs5"/><w>uoluerit</w><w>et</w><w>cognoscam</w><w>non</w>
+<lb n="P144vC1L-vgs5"/><w>sermonem</w><w>eorum</w><w>qui</w><w>inflati</w><w>sunt</w>
+<lb n="P144vC1L-vgs5"/><w>sed</w><w>uirtutem</w></ab><ab n="1Cor.4.20"><w>non</w><w>enim</w><w>in</w><w>sermone</w><w>est</w>
+<lb n="P144vC1L-vgs5"/><w>regnum</w><w>dei</w><w>sed</w><w>in</w><w>uirtute</w></ab><ab n="1Cor.4.21"><w>quid</w>
+<lb n="P144vC1L-vgs5"/><app><rdg type="orig" hand="firsthand"><w>multis</w></rdg><rdg type="corr" hand="corrector" rend="erased"><w>uultis</w></rdg></app><w>in</w><w>uirga</w><w>ueniam</w>
+<lb n="P144vC1L-vgs5"/><w>ad</w><w>uos</w><w>an</w><w>in</w><w>caritate</w><w>et</w>
+<pb n="145r" type="folio" xml:id="P145r-vgs5"/>
+<cb n="P145rC1-vgs5"/>
+<lb n="P145rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>mansuetudinis</w></ab></div><div type="chapter" n="1Cor.5"><ab n="1Cor.5.1"><w><unclear reason="faded ink">omnino</unclear></w>
+<lb n="P145rC1L-vgs5"/><w>auditur</w><w>inter</w><w>uos</w><w>fornicatio</w>
+<lb n="P145rC1L-vgs5"/><w>et</w><w>talis</w><w>fornicatio</w><w>qualis</w><w><unclear reason="faded ink">nec</unclear></w>
+<lb n="P145rC1L-vgs5"/><w>inter</w><w>gentes</w><w>ita</w><w>ut</w><w>uxorem</w>
+<lb n="P145rC1L-vgs5"/><w>patris</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>sui</w></rdg></app><w>aliquis</w><w>habeat</w></ab><ab n="1Cor.5.2"><w>et</w><w>uos</w><w>infla
+<lb n="P145rC1L-vgs5" break="no"/>ti</w><w>estis</w><w>et</w><w>non</w><w>magis</w><w>luctum</w>
+<lb n="P145rC1L-vgs5"/><w>habuissetis</w><w>ut</w><w>tollatur</w>
+<lb n="P145rC1L-vgs5"/><w>de</w><w>medio</w><w>uestrum</w><w>qui</w><w>hoc</w><w>opus</w>
+<lb n="P145rC1L-vgs5"/><w>fecit</w></ab><ab n="1Cor.5.3"><w>ego</w><w>quidem</w><w>absens</w>
+<lb n="P145rC1L-vgs5"/><w>corpore</w><w>presens</w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w>
+<lb n="P145rC1L-vgs5"/><w>iam</w><w>iudicaui</w><w>ut</w><w>presens</w><w>eum</w>
+<lb n="P145rC1L-vgs5"/><w>qui</w><w>sic</w><w>operatus</w><w>est</w></ab><ab n="1Cor.5.4"><w>in</w><w>no
+<lb n="P145rC1L-vgs5" break="no"/>mine</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>christi</w><w>congre
+<lb n="P145rC1L-vgs5" break="no"/>gatis</w><w>uobis</w><w>et</w><w>meo</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w>
+<lb n="P145rC1L-vgs5"/><w>cum</w><w>uirtute</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w></ab><ab n="1Cor.5.5"><w>tradere</w>
+<lb n="P145rC1L-vgs5"/><w>huiusmodi</w><w>sathane</w><w>in</w><w>interitum</w>
+<lb n="P145rC1L-vgs5"/><w>carnis</w><w>ut</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>saluus</w><w>sit</w>
+<lb n="P145rC1L-vgs5"/><w>in</w><w>die</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>christi</w></ab><ab n="1Cor.5.6"><w>non</w>
+<lb n="P145rC1L-vgs5"/><w>bona</w><w>gloriatio</w><w>uestra</w><w>nesci
+<lb n="P145rC1L-vgs5" break="no"/>tis</w><w>quia</w><w>modicum</w><w>fermentum</w>
+<lb n="P145rC1L-vgs5"/><w>totam</w><w>massam</w><w>corrumpit</w>
+<lb n="P145rC1L-vgs5"/></ab><ab n="1Cor.5.7"><w>expurgate</w><w>uetus</w><w>fermen
+<lb n="P145rC1L-vgs5" break="no"/>tum</w><w>ut</w><w>sitis</w><w>noua</w><w>conspar
+<lb n="P145rC1L-vgs5" break="no"/>sio</w><w>sicut</w><w>estis</w><w>azimi</w><w>etenim</w>
+<lb n="P145rC1L-vgs5"/><w>pascha</w><w>nostrum</w><w>immolatus</w>
+<lb n="P145rC1L-vgs5"/><w>est</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w></ab><ab n="1Cor.5.8"><w>itaque</w><w>epulemur</w>
+<lb n="P145rC1L-vgs5"/><w>non</w><w>in</w><w>fermento</w><w>ueteri</w><w>neque</w>
+<pb n="145v" type="folio" xml:id="P145v-vgs5"/>
+<cb n="P145vC1-vgs5"/>
+<lb n="P145vC1L-vgs5"/><app><rdg type="orig" hand="firsthand"><w>neque</w></rdg><rdg type="corr" hand="corrector" rend="other"/></app><w>in</w><w>fermento</w><w>malitie</w><w>et</w><w>ne
+<lb n="P145vC1L-vgs5" break="no"/>quitie</w><w>sed</w><w>in</w><w>açimis</w><w>sinceri
+<lb n="P145vC1L-vgs5" break="no"/>tatis</w><w>et</w><w>ueritatis</w>
+<lb n="P145vC1L-vgs5"/></ab><ab n="1Cor.5.9"><w>scripsi</w><w>uobis</w><w>in</w><w>epistola</w><w>ne</w><w>com
+<lb n="P145vC1L-vgs5" break="no"/>misceamini</w><w>fornicariis</w></ab><ab n="1Cor.5.10"><w>non</w>
+<lb n="P145vC1L-vgs5"/><w>utique</w><w>fornicariis</w><w>huius</w><w>mondi</w><w>aut</w>
+<lb n="P145vC1L-vgs5"/><w>auaris</w><w>aut</w><w>rapacibus</w><w>aut</w>
+<lb n="P145vC1L-vgs5"/><w>ydolis</w><w>seruientibus</w><w>alioquin</w><w>de
+<lb n="P145vC1L-vgs5" break="no"/>bueratis</w><w>de</w><w>hoc</w><w>mundo</w><w>ex
+<lb n="P145vC1L-vgs5" break="no"/>isse</w></ab><ab n="1Cor.5.11"><w>nunc</w><w>autem</w><w>scripsi</w><w>uobis</w><w>non</w>
+<lb n="P145vC1L-vgs5"/><w>commisceri</w><w>si</w><w>is</w><w>qui</w><w>frater</w><w>no
+<lb n="P145vC1L-vgs5" break="no"/>minatur</w><w>est</w><w>fornicator</w><w>aut</w>
+<lb n="P145vC1L-vgs5"/><w>auarus</w><w>aut</w><w>ydolis</w><w>seruiens</w>
+<lb n="P145vC1L-vgs5"/><w>aut</w><w>maledicus</w><w>aut</w><w>ebrio
+<lb n="P145vC1L-vgs5" break="no"/>sus</w><w>aut</w><w>rapax</w><w>cum</w><w>eiusmodi</w>
+<lb n="P145vC1L-vgs5"/><w>nec</w><w>cibum</w><w>sumere</w></ab><ab n="1Cor.5.12"><w>quid</w><w>enim</w>
+<lb n="P145vC1L-vgs5"/><w>est</w><w>mihi</w><w>de</w><w>his</w><w>qui</w><w>foris</w><w>sunt</w>
+<lb n="P145vC1L-vgs5"/><w>iudicare</w><w>nonne</w><w>de</w><w>his</w><w>qui</w>
+<lb n="P145vC1L-vgs5"/><w>intus</w><w>sunt</w><w>uos</w><w>iudicatis</w>
+<lb n="P145vC1L-vgs5"/></ab><ab n="1Cor.5.13"><w>nam</w><w>eos</w><w>qui</w><w>foris</w><w>sunt</w>
+<lb n="P145vC1L-vgs5"/><w>deus</w><w>iudicabit</w><w>auferte</w>
+<lb n="P145vC1L-vgs5"/><w>malum</w><w>ex</w><w>uobis</w><w>ipsis</w></ab></div><div type="chapter" n="1Cor.6"><ab n="1Cor.6.1"><w>au
+<lb n="P145vC1L-vgs5" break="no"/>det</w><w>aliquis</w><w>uestrum</w><w>habens</w><w>ne
+<lb n="P145vC1L-vgs5" break="no"/>gotium</w><w>aduersus</w><w>alterum</w>
+<lb n="P145vC1L-vgs5"/><w>iudicari</w><w>apud</w><w>iniquos</w><w>et</w>
+<lb n="P145vC1L-vgs5"/><w>non</w><w>apud</w><w>sanctos</w></ab><ab n="1Cor.6.2"><w>an</w><w>nescitis</w>
+<lb n="P145vC1L-vgs5"/><w>quoniam</w><w>sancti</w><w>de</w><w>hoc</w><w>mundo</w><w>iudi
+<pb n="146r" type="folio" xml:id="P146r-vgs5" break="no"/>
+<cb n="P146rC1-vgs5"/>
+<lb n="P146rC1L-vgs5"/>cabunt</w><w>et</w><w>si</w><w>in</w><w>uobis</w><w>iu
+<lb n="P146rC1L-vgs5" break="no"/>dicabitur</w><w>mundus</w><w>in
+<lb n="P146rC1L-vgs5" break="no"/>digni</w><w>estis</w><w>qui</w><w>de</w><w>mi
+<lb n="P146rC1L-vgs5" break="no"/>nimis</w><w>iudicetis</w></ab><ab n="1Cor.6.3"><w>ne
+<lb n="P146rC1L-vgs5" break="no"/>scitis</w><w>quoniam</w><w>angelos</w>
+<lb n="P146rC1L-vgs5"/><w>iudicabimus</w><w>quanto</w><w>magis</w>
+<lb n="P146rC1L-vgs5"/><w>secularia</w></ab><ab n="1Cor.6.4"><w>secularia</w><w>igitur</w><w>iu
+<lb n="P146rC1L-vgs5" break="no"/>dicia</w><w>si</w><w>habueritis</w><w>con
+<lb n="P146rC1L-vgs5" break="no"/>temptibiles</w><w>qui</w><w>sunt</w>
+<lb n="P146rC1L-vgs5"/><w>in</w><w>ecclesia</w><w>illos</w><w>constituite</w><w>ad</w>
+<lb n="P146rC1L-vgs5"/><w>iudicandum</w></ab><ab n="1Cor.6.5"><w>ad</w><w>uerecun
+<lb n="P146rC1L-vgs5" break="no"/>diam</w><w>uestram</w><w>dico</w><w>sic</w><w>non</w>
+<lb n="P146rC1L-vgs5"/><w>est</w><w>inter</w><w>uos</w><w>sapiens</w><w>quisquam</w>
+<lb n="P146rC1L-vgs5"/><w>qui</w><w>possit</w><w>iudicare</w><w>inter</w>
+<lb n="P146rC1L-vgs5"/><w>fratrem</w><w>suum</w></ab><ab n="1Cor.6.6"><w>sed</w><w>frater</w><w>cum</w><w>fratre</w><w>in</w>
+<lb n="P146rC1L-vgs5"/><w>iudicio</w><w>contempdit</w><w>et</w><w>hoc</w>
+<lb n="P146rC1L-vgs5"/><w>apud</w><w>infideles</w></ab><ab n="1Cor.6.7"><w>iam</w><w>quidem</w>
+<lb n="P146rC1L-vgs5"/><w>omnino</w><w>delictum</w><w>est</w><w>in</w><w>uobis</w><w>quod</w>
+<lb n="P146rC1L-vgs5"/><w>iudicia</w><w>habetis</w><w>inter</w><w>uos</w>
+<lb n="P146rC1L-vgs5"/><w>quare</w><w>non</w><w>magis</w><w>frau
+<lb n="P146rC1L-vgs5" break="no"/>dem</w><w>patimini</w></ab><ab n="1Cor.6.8"><w>sed</w><w>uos</w><w>iniuriam</w>
+<lb n="P146rC1L-vgs5"/><w>facitis</w><w>et</w><w>fraudatis</w><w>et</w>
+<lb n="P146rC1L-vgs5"/><w>hoc</w><w>fratribus</w></ab><ab n="1Cor.6.9"><w>an</w><w>nescitis</w><w>quia</w>
+<lb n="P146rC1L-vgs5"/><w>iniqui</w><w>regnum</w><w>dei</w><w>non</w><w>pos
+<lb n="P146rC1L-vgs5" break="no"/>sidebunt</w><w>nolite</w><w>errare</w>
+<lb n="P146rC1L-vgs5"/><w>neque</w><w>fornicarii</w><w>neque</w><w>ydo
+<lb n="P146rC1L-vgs5" break="no"/>lis</w><w>seruientes</w><w>neque</w><w>adul
+<pb n="146v" type="folio" xml:id="P146v-vgs5" break="no"/>
+<cb n="P146vC1-vgs5"/>
+<lb n="P146vC1L-vgs5"/>teri</w><w>neque</w><w>molestes</w><w>neque</w>
+<lb n="P146vC1L-vgs5"/><w>masculorum</w><w>concubitores</w>
+<lb n="P146vC1L-vgs5"/></ab><ab n="1Cor.6.10"><w>neque</w><w>fures</w><w>neque</w><w>auari</w><w>neque</w>
+<lb n="P146vC1L-vgs5"/><w>ebriosi</w><w>neque</w><w>maledici</w>
+<lb n="P146vC1L-vgs5"/><w>neque</w><w>rapaces</w><w>regnum</w><w>dei</w>
+<lb n="P146vC1L-vgs5"/><w>possidebunt</w></ab><ab n="1Cor.6.11"><w>et</w><w>hoc</w><w>quidem</w>
+<lb n="P146vC1L-vgs5"/><w>fuistis</w><w>sed</w><w>abluti</w><w>estis</w><w>sed</w>
+<lb n="P146vC1L-vgs5"/><w>sanctificati</w><w>estis</w><w>sed</w><w>iustifica
+<lb n="P146vC1L-vgs5" break="no"/>ti</w><w>estis</w><w>in</w><w>nomine</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w>
+<lb n="P146vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w><w>et</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>dei</w><w>nostri</w>
+<lb n="P146vC1L-vgs5"/></ab><ab n="1Cor.6.12"><w>omnia</w><w>michi</w><w>licent</w><w>sed</w>
+<lb n="P146vC1L-vgs5"/><w>non</w><w>omnia</w><w>expediunt</w><w>omnia</w>
+<lb n="P146vC1L-vgs5"/><w>michi</w><w>licent</w><w>sed</w><w>ego</w><w>sub</w>
+<lb n="P146vC1L-vgs5"/><w>nullius</w><w>redigar</w><w>potestate</w>
+<lb n="P146vC1L-vgs5"/></ab><ab n="1Cor.6.13"><w><unclear reason="faded ink">esca</unclear></w><w>uentri</w><w>et</w><w>uenter</w><w>escis</w>
+<lb n="P146vC1L-vgs5"/><w>deus</w><w>autem</w><w>et</w><w>hunc</w><w>et</w><w>has</w>
+<lb n="P146vC1L-vgs5"/><w>destruet</w><w>corpus</w><w>autem</w><w>non</w>
+<lb n="P146vC1L-vgs5"/><w>fornicationi</w><w>sed</w><w>domino</w>
+<lb n="P146vC1L-vgs5"/><w>et</w><w>dominus</w><w>corpori</w></ab><ab n="1Cor.6.14"><w>de
+<lb n="P146vC1L-vgs5" break="no"/>us</w><w>uero</w><w>et</w><w>dominum</w><w>susci
+<lb n="P146vC1L-vgs5" break="no"/>tauit</w><w>et</w><w>nos</w><w>suscitabit</w>
+<lb n="P146vC1L-vgs5"/><w><unclear reason="faded ink">per</unclear></w><w>uirtutem</w><w>suam</w></ab><ab n="1Cor.6.15"><w>nescitis</w><w>quoniam</w>
+<lb n="P146vC1L-vgs5"/><w>corpora</w><w>uestra</w><w>membra</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P146vC1L-vgs5"/><w>sunt</w><w>tollens</w><note type="local">two letters cancelled between n and s</note><w>ergo</w><w>mem
+<lb n="P146vC1L-vgs5" break="no"/>bra</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>faciam</w><w>membra</w>
+<lb n="P146vC1L-vgs5"/><w>meretricis</w><w>absit</w></ab><ab n="1Cor.6.16"><w>an</w>
+<lb n="P146vC1L-vgs5"/><w>nescitis</w><w>quoniam</w><w>qui</w><w>ad
+<pb n="147r" type="folio" xml:id="P147r-vgs5" break="no"/>
+<cb n="P147rC1-vgs5"/>
+<lb n="P147rC1L-vgs5"/>heret</w><w>meretrici</w><w>unum</w><w>cor
+<lb n="P147rC1L-vgs5" break="no"/>pus</w><w>efficitur</w><w>erunt</w><w>enim</w><w>in
+<lb n="P147rC1L-vgs5" break="no"/>quid</w><w>duo</w><w>in</w><w>carne</w>
+<lb n="P147rC1L-vgs5"/><w>una</w></ab><ab n="1Cor.6.17"><w>qui</w><w>autem</w><w>adhe
+<lb n="P147rC1L-vgs5" break="no"/>ret</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>unus</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>est</w></ab><ab n="1Cor.6.18"><w>fu
+<lb n="P147rC1L-vgs5" break="no"/>gite</w><w>fornicationem</w><w>omne</w>
+<lb n="P147rC1L-vgs5"/><w>enim</w><w>peccatum</w><w>quodcumque</w><w>fecerit</w>
+<lb n="P147rC1L-vgs5"/><w>homo</w><w>extra</w><w>corpus</w><w>est</w>
+<lb n="P147rC1L-vgs5"/><w>qui</w><w>autem</w><w>fornicatur</w><w>in</w>
+<lb n="P147rC1L-vgs5"/><w>corpus</w><w>suum</w><w>peccat</w>
+<lb n="P147rC1L-vgs5"/></ab><ab n="1Cor.6.19"><w>an</w><w>nescitis</w><w>quoniam</w><w>mem
+<lb n="P147rC1L-vgs5" break="no"/>bra</w><w>uestra</w><w>templum</w><w>est</w>
+<lb n="P147rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>sancti</w><w>qui</w><w>in</w><w>nobis</w><w>est</w>
+<lb n="P147rC1L-vgs5"/><w>quem</w><w>habetis</w><w>a</w><w>deo</w><w>et</w><w>non</w>
+<lb n="P147rC1L-vgs5"/><w>estis</w><w>nostri</w></ab><ab n="1Cor.6.20"><w>empti</w><w>enim</w>
+<lb n="P147rC1L-vgs5"/><w>estis</w><w>pretio</w><w>magno</w>
+<lb n="P147rC1L-vgs5"/><w>glorificate</w><w>et</w><w>portate</w>
+<lb n="P147rC1L-vgs5"/><w>deum</w><w>in</w><w>corpore</w><w>uestro</w>
+<lb n="P147rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.7"><ab n="1Cor.7.1"><w>de</w><w>quibus</w><w>autem</w><w>scripsistis</w>
+<lb n="P147rC1L-vgs5"/><w>mihi</w><w>bonum</w><w>est</w><w>homini</w><w>mu
+<lb n="P147rC1L-vgs5" break="no"/>lierem</w><w>non</w><w>tangire</w></ab><ab n="1Cor.7.2"><w>propter</w>
+<lb n="P147rC1L-vgs5"/><w>fornicationes</w><w>autem</w><w>unus
+<lb n="P147rC1L-vgs5" break="no"/>quisque</w><w>suam</w><w>uxorem</w>
+<lb n="P147rC1L-vgs5"/><w>habeat</w><w>et</w><w>unaqueque</w><w>suum</w>
+<lb n="P147rC1L-vgs5"/><w>uirum</w><w>habeat</w></ab><ab n="1Cor.7.3"><w>uxori</w><w>uir</w>
+<lb n="P147rC1L-vgs5"/><w>debitum</w><w>similiter</w><w>et</w><w>uxor</w>
+<lb n="P147rC1L-vgs5"/><w>uiro</w></ab><ab n="1Cor.7.4"><w>mulier</w><w>sui</w><w>corpo
+<pb n="147v" type="folio" xml:id="P147v-vgs5" break="no"/>
+<cb n="P147vC1-vgs5"/>
+<lb n="P147vC1L-vgs5"/>ris</w><w>potestatem</w><w>non</w><w>habet</w><w>set</w>
+<lb n="P147vC1L-vgs5"/><w>uir</w><w>similiter</w><w>autem</w><w>et</w><w>uir</w><w>sui</w>
+<lb n="P147vC1L-vgs5"/><w>corporis</w><w>potestatem</w><w>non</w><w>habet</w>
+<lb n="P147vC1L-vgs5"/><w>sed</w><w>mulier</w></ab><ab n="1Cor.7.5"><w>nolite</w><w>frau
+<lb n="P147vC1L-vgs5" break="no"/>dare</w><w>inuicem</w><w>nisi</w><w>forte</w><w>ex</w>
+<lb n="P147vC1L-vgs5"/><w>consensu</w><w>ad</w><w>tempus</w><w>ut</w><w>ua
+<lb n="P147vC1L-vgs5" break="no"/>cetis</w><w>orationi</w><w>et</w><w>iterum</w>
+<lb n="P147vC1L-vgs5"/><w>reuertimini</w><w>in</w><w>id</w><w>ipsum</w><w>ne</w>
+<lb n="P147vC1L-vgs5"/><w>teptet</w><w>uos</w><w>sathanas</w>
+<lb n="P147vC1L-vgs5"/><w>propter</w><w>incontinentiam</w><w>uestram</w>
+<lb n="P147vC1L-vgs5"/></ab><ab n="1Cor.7.6"><w>hoc</w><w>autem</w><w>dico</w><w>secundum</w><w>in
+<lb n="P147vC1L-vgs5" break="no"/>dulgentiam</w><w>non</w><w>secundum</w><w>im
+<lb n="P147vC1L-vgs5" break="no"/>perium</w></ab><ab n="1Cor.7.7"><w>uolo</w><w>autem</w><w>omnes</w>
+<lb n="P147vC1L-vgs5"/><w>homines</w><w>esse</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P147vC1L-vgs5"><w>sicut</w><w>me</w></seg></rdg></app><w>ipsum</w><w>sed</w><w>unus
+<lb n="P147vC1L-vgs5" break="no"/>quisque</w><w>proprium</w><w>habet</w><w>donum</w>
+<lb n="P147vC1L-vgs5"/><w>ex</w><w>deo</w><w>alius</w><w>quidem</w><w>sic</w>
+<lb n="P147vC1L-vgs5"/><w>alius</w><w>uero</w><w>sic</w></ab><ab n="1Cor.7.8"><w>dico</w><w>autem</w>
+<lb n="P147vC1L-vgs5"/><w>non</w><w>nuptis</w><w>et</w><w>uiduis</w>
+<lb n="P147vC1L-vgs5"/><w>bonum</w><w>est</w><w>illis</w><w>si</w><w>sic</w><w>per
+<lb n="P147vC1L-vgs5" break="no"/>maneant</w><w>sicut</w><w>et</w><w>ego</w>
+<lb n="P147vC1L-vgs5"/></ab><ab n="1Cor.7.9"><w>quod</w><w>si</w><w>non</w><w>se</w><w>continent</w><w>nu
+<lb n="P147vC1L-vgs5" break="no"/>bant</w><w>melius</w><w>est</w><w>enim</w><w>nubere</w><w>quam</w>
+<lb n="P147vC1L-vgs5"/><w>uri</w></ab><ab n="1Cor.7.10"><w>hiis</w><w>autem</w><w>qui</w><w>matrimonio</w>
+<lb n="P147vC1L-vgs5"/><w>iuncti</w><w>sunt</w><w>precipio</w><w>non</w>
+<lb n="P147vC1L-vgs5"/><w>ego</w><w>sed</w><w>dominus</w><w>uxorem</w>
+<lb n="P147vC1L-vgs5"/><w>a</w><w>uiro</w><w>non</w><w>discedere</w>
+<lb n="P147vC1L-vgs5"/></ab><ab n="1Cor.7.11"><w>quod</w><w>si</w><w>discesserit</w><w>manere</w>
+<pb n="148r" type="folio" xml:id="P148r-vgs5"/>
+<cb n="P148rC1-vgs5"/>
+<lb n="P148rC1L-vgs5"/><w>innuptam</w><w>aut</w><w>uiro</w>
+<lb n="P148rC1L-vgs5"/><w>suo</w><w>reconciliari</w><w>et</w><w>uir</w><w>ne</w><note type="local">possibly added aby the corrector</note>
+<lb n="P148rC1L-vgs5"/><w>uxorem</w><w>dimittat</w></ab><ab n="1Cor.7.12"><w>nam</w>
+<lb n="P148rC1L-vgs5"/><w>ceteris</w><w>ego</w><w>dico</w><w>non</w><w>do
+<lb n="P148rC1L-vgs5" break="no"/>minus</w><w>si</w><w>quis</w><w>frater</w>
+<lb n="P148rC1L-vgs5"/><w>uxorem</w><w>habet</w><w>infidelem</w><w>et</w>
+<lb n="P148rC1L-vgs5"/><w>hec</w><w>consentit</w><w>habitare</w>
+<lb n="P148rC1L-vgs5"/><w>cum</w><w>illo</w><w>non</w><w>dimittat</w>
+<lb n="P148rC1L-vgs5"/><w>illam</w></ab><ab n="1Cor.7.13"><w>et</w><w>si</w><w>qua</w><w>mulier</w>
+<lb n="P148rC1L-vgs5"/><w>habet</w><w>uirum</w><w>infidelem</w><w>et</w>
+<lb n="P148rC1L-vgs5"/><w>hic</w><w>consentit</w><w>habitare</w>
+<lb n="P148rC1L-vgs5"/><w>cum</w><w>illa</w><w>non</w><w>dimittat</w>
+<lb n="P148rC1L-vgs5"/><w>uirum</w></ab><ab n="1Cor.7.14"><w>sanctificatus</w><w>est</w>
+<lb n="P148rC1L-vgs5"/><w>enim</w><w>uir</w><w>infidelis</w><w>per</w><w>mulierem</w>
+<lb n="P148rC1L-vgs5"/><w>fidelem</w><w>et</w><w>sanctificata</w><w>est</w>
+<lb n="P148rC1L-vgs5"/><w>mulier</w><w>infidelis</w><w>per</w><w>uirum</w>
+<lb n="P148rC1L-vgs5"/><w>fidelem</w><w>alioquin</w><w>filii</w>
+<lb n="P148rC1L-vgs5"/><w>uestri</w><w>inmundi</w><w>essent</w><w>nunc</w>
+<lb n="P148rC1L-vgs5"/><w>autem</w><w>sancti</w><w>sunt</w></ab><ab n="1Cor.7.15"><w>quod</w><w>si</w><w>infi
+<lb n="P148rC1L-vgs5" break="no"/>delis</w><w>discedit</w><w>disce
+<lb n="P148rC1L-vgs5" break="no"/>dat</w><w>non</w><w>est</w><w>enim</w><w>seruituti</w><w>sub
+<lb n="P148rC1L-vgs5" break="no"/>iectus</w><w>frater</w><w>aut</w><w>soror</w>
+<lb n="P148rC1L-vgs5"/><w>in</w><w>eiusmodi</w><w>in</w><w>pace</w><w>autem</w>
+<lb n="P148rC1L-vgs5"/><w>uocauit</w><w>nos</w><w>deus</w>
+<lb n="P148rC1L-vgs5"/></ab><ab n="1Cor.7.16"><w>unde</w><w>enim</w><w>scis</w><w>mulier</w><w>si</w>
+<lb n="P148rC1L-vgs5"/><w>uirum</w><w>saluum</w><w>facies</w>
+<lb n="P148rC1L-vgs5"/><w>aut</w><w>unde</w><w>scis</w><w>uir</w><w>si</w>
+<pb n="148v" type="folio" xml:id="P148v-vgs5"/>
+<cb n="P148vC1-vgs5"/>
+<lb n="P148vC1L-vgs5"/><w>mulierem</w><w>saluam</w><w>facies</w>
+<lb n="P148vC1L-vgs5"/></ab><ab n="1Cor.7.17"><w>nisi</w><w>unicuique</w><w>sicut</w><w>diuisit</w>
+<lb n="P148vC1L-vgs5"/><w>dominus</w><w>et</w><w>unumquemque</w>
+<lb n="P148vC1L-vgs5"/><w>sicut</w><w>uocauit</w><w>deus</w><w>ita</w>
+<lb n="P148vC1L-vgs5"/><w>ambulet</w><w>et</w><w>sicut</w><w>in</w><w>omnibus</w>
+<lb n="P148vC1L-vgs5"/><w>ecclesiis</w><w>doceo</w></ab><ab n="1Cor.7.18"><w>circumcisus</w>
+<lb n="P148vC1L-vgs5"/><w>aliquis</w><w>uocatus</w><w>est</w><w>non</w><w>ad
+<lb n="P148vC1L-vgs5" break="no"/>ducat</w><w>preputium</w><w>in</w><w>preputio</w>
+<lb n="P148vC1L-vgs5"/><w>aliquis</w><w>uocatus</w><w>est</w><w>non</w>
+<lb n="P148vC1L-vgs5"/><w>circumcidatur</w></ab><ab n="1Cor.7.19"><w>circumcisio</w>
+<lb n="P148vC1L-vgs5"/><w>enim</w><w>nichil</w><w>est</w><w>et</w><w>preputi
+<lb n="P148vC1L-vgs5" break="no"/>um</w><w>nichil</w><w>est</w><w>sed</w><w>obser
+<lb n="P148vC1L-vgs5" break="no"/>uatio</w><w>mandatorum</w><w>dei</w>
+<lb n="P148vC1L-vgs5"/></ab><ab n="1Cor.7.20"><w>unusquisque</w><w>in</w><w>qua</w><w>uoca
+<lb n="P148vC1L-vgs5" break="no"/>tione</w><w>uocatus</w><w>est</w><w>in</w><w>ea</w><w>per
+<lb n="P148vC1L-vgs5" break="no"/>maneat</w></ab><ab n="1Cor.7.21"><w>seruus</w><w>uocatus</w>
+<lb n="P148vC1L-vgs5"/><w>es</w><w>non</w><w>sit</w><w>tibi</w><w>cure</w><w>sed</w>
+<lb n="P148vC1L-vgs5"/><w>et</w><w>si</w><w>potes</w><w>liber</w><w>fieri</w><w>magis</w>
+<lb n="P148vC1L-vgs5"/><w>utere</w></ab><ab n="1Cor.7.22"><w>qui</w><w>enim</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>uo
+<lb n="P148vC1L-vgs5" break="no"/>catus</w><w>est</w><w>seruus</w><w>libertus</w>
+<lb n="P148vC1L-vgs5"/><w>est</w><w>domini</w><w>similiter</w><w>et</w><w>qui</w>
+<lb n="P148vC1L-vgs5"/><w>liber</w><w>uocatus</w><w>est</w><w>seruus</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P148vC1L-vgs5"/><w>est</w></ab><ab n="1Cor.7.23"><w>pretio</w><w>empti</w><w>e
+<lb n="P148vC1L-vgs5" break="no"/>stis</w><w>nolite</w><w>fieri</w><w>serui</w><w>ho
+<lb n="P148vC1L-vgs5" break="no"/>minum</w></ab><ab n="1Cor.7.24"><w>unusquisque</w><w>in</w>
+<lb n="P148vC1L-vgs5"/><w>quo</w><w>uocatus</w><w>est</w><w><unclear reason="faded ink">fratres</unclear></w>
+<lb n="P148vC1L-vgs5"/><w>in</w><w>hoc</w><w>maneat</w><w>apud</w><w>deum</w>
+<pb n="149r" type="folio" xml:id="P149r-vgs5"/>
+<cb n="P149rC1-vgs5"/>
+<lb n="P149rC1L-vgs5"/></ab><ab n="1Cor.7.25"><w>de</w><w>uirginibus</w><w>autem</w><w>precep
+<lb n="P149rC1L-vgs5" break="no"/>tum</w><w>domini</w><w>non</w><w>habeo</w><w>con
+<lb n="P149rC1L-vgs5" break="no"/>silium</w><w>autem</w><w>do</w><w>tamquam</w><w>miseri
+<lb n="P149rC1L-vgs5" break="no"/>cordiam</w><w>consecutus</w><w>a</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<lb n="P149rC1L-vgs5"/><w>ut</w><w>sim</w><w>fidelis</w></ab><ab n="1Cor.7.26"><w>existimo</w>
+<lb n="P149rC1L-vgs5"/><w>ergo</w><w>hoc</w><w>bonum</w><w>esse</w><w>propter</w><w>in
+<lb n="P149rC1L-vgs5" break="no"/>stantem</w><w>necessitatem</w><w>quoniam</w>
+<lb n="P149rC1L-vgs5"/><w>bonum</w><w>est</w><w>homini</w><w>sic</w><w>esse</w>
+<lb n="P149rC1L-vgs5"/></ab><ab n="1Cor.7.27"><w>alligatus</w><w>es</w><w>uxori</w><w>no
+<lb n="P149rC1L-vgs5" break="no"/>li</w><w>querere</w><w>solutionem</w><note type="local">a final letter (possibly s) deleted</note><w>solu
+<lb n="P149rC1L-vgs5" break="no"/>tus</w><w>es</w><w>ab</w><w>uxore</w><w>no
+<lb n="P149rC1L-vgs5" break="no"/>li</w><w>querere</w><w>uxorem</w></ab><ab n="1Cor.7.28"><w>si</w><w>autem</w>
+<lb n="P149rC1L-vgs5"/><w>acceperis</w><w>uxorem</w><w>non</w><w>pec
+<lb n="P149rC1L-vgs5" break="no"/>casti</w><w>et</w><w>si</w><w>numpserit</w><w>uirgo</w>
+<lb n="P149rC1L-vgs5"/><w>non</w><w>peccauit</w><w>tribu
+<lb n="P149rC1L-vgs5" break="no"/>lationem</w><w>carnis</w><w>habebunt</w>
+<lb n="P149rC1L-vgs5"/><w>huiusmodi</w><w>ego</w><w>autem</w><w>uobis</w>
+<lb n="P149rC1L-vgs5"/><w>parco</w></ab><ab n="1Cor.7.29"><w>hoc</w><w>itaque</w><w>dico</w>
+<lb n="P149rC1L-vgs5"/><w>fratres</w><w>tempus</w><w>breue</w>
+<lb n="P149rC1L-vgs5"/><w>est</w><w>reliquum</w><w>est</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>ut</w></rdg></app><w>qui</w><w>ha
+<lb n="P149rC1L-vgs5" break="no"/>bent</w><w>uxores</w><w>tamquam</w><w>non</w>
+<lb n="P149rC1L-vgs5"/><w>habentes</w><w>sint</w></ab><ab n="1Cor.7.30"><w>et</w><w>qui</w><w>flent</w>
+<lb n="P149rC1L-vgs5"/><w>tamquam</w><w>non</w><w>flentes</w><w>et</w><w>qui</w>
+<lb n="P149rC1L-vgs5"/><w>gaudent</w><w>tamquam</w><w>non</w><w>gau
+<lb n="P149rC1L-vgs5" break="no"/>dentes</w><w>et</w><w>qui</w><w>emunt</w>
+<lb n="P149rC1L-vgs5"/><w>tamquam</w><w>non</w><w>possidentes</w>
+<lb n="P149rC1L-vgs5"/></ab><ab n="1Cor.7.31"><w>et</w><w>qui</w><w>utuntur</w><w>hoc</w><w>mun
+<pb n="149v" type="folio" xml:id="P149v-vgs5" break="no"/>
+<cb n="P149vC1-vgs5"/>
+<lb n="P149vC1L-vgs5"/>do</w><w>tamquam</w><w>non</w><w>utantur</w><w>pre
+<lb n="P149vC1L-vgs5" break="no"/>terit</w><w>enim</w><w>figura</w><w>huius</w><w>mun
+<lb n="P149vC1L-vgs5" break="no"/>di</w></ab><ab n="1Cor.7.32"><w>uolo</w><w>autem</w><w>uos</w><w>sine</w><w>sol
+<lb n="P149vC1L-vgs5" break="no"/>licitudine</w><w>esse</w><w>qui</w><w>sine</w>
+<lb n="P149vC1L-vgs5"/><w>uxore</w><w>est</w><w>sollicitus</w><w>est</w><w>que</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w>
+<lb n="P149vC1L-vgs5"/><w>sunt</w><w>quomodo</w><w>placeat</w><w><abbr type="nomSac"><hi rend="overline">do</hi></abbr></w></ab><ab n="1Cor.7.33"><w>qui</w>
+<lb n="P149vC1L-vgs5"/><w>autem</w><w>cum</w><w>uxore</w><w>est</w><w>sollicitus</w>
+<lb n="P149vC1L-vgs5"/><w>est</w><w>que</w><w>sunt</w><w>mundi</w><w>quomodo</w><w>pla
+<lb n="P149vC1L-vgs5" break="no"/>ceat</w><w>uxori</w></ab><ab n="1Cor.7.34"><w>et</w><w>diuisus</w><w>est</w>
+<lb n="P149vC1L-vgs5"/><w>et</w><w>mulier</w><w>innupta</w><w>et</w><w>uirgo</w>
+<lb n="P149vC1L-vgs5"/><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P149vC1L-vgs5"><w>uirgo</w></seg></rdg></app><w>cogitat</w><w>que</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>sunt</w><w>ut</w><w>sit</w>
+<lb n="P149vC1L-vgs5"/><app><rdg type="orig" hand="firsthand"><w>ca</w></rdg><rdg type="corr" hand="corrector" rend="underdot"/></app><w>corpore</w><w>sancta</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>que</w>
+<lb n="P149vC1L-vgs5"/><w>autem</w><w>numpta</w><w>est</w><w>cogitat</w><w>que</w>
+<lb n="P149vC1L-vgs5"/><w>sunt</w><w>mundi</w><w>quomodo</w><w>place
+<lb n="P149vC1L-vgs5" break="no"/>at</w><w>uiro</w></ab><ab n="1Cor.7.35"><w>porro</w><w>hoc</w><w>ad</w><w>utili
+<lb n="P149vC1L-vgs5" break="no"/>tatem</w><w>uestram</w><w>dico</w><w>non</w><w>ut</w><w>la
+<lb n="P149vC1L-vgs5" break="no"/>quum</w><w>uobis</w><w>iniciam</w><w>sed</w><w>ad</w><w>id</w>
+<lb n="P149vC1L-vgs5"/><w>quod</w><w>honestum</w><w>est</w><w>et</w><w>quod</w><w>facul
+<lb n="P149vC1L-vgs5" break="no"/>tatem</w><w>prebeat</w><w>sine</w><w>inpedimento</w>
+<lb n="P149vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>obseruandi</w></ab><ab n="1Cor.7.36"><w>si</w><w>quis</w><w>autem</w>
+<lb n="P149vC1L-vgs5"/><w>turpem</w><w>se</w><w>uideri</w><w>existimat</w><w>super</w>
+<lb n="P149vC1L-vgs5"/><w>uirgine</w><w>sua</w><w>quod</w><w>sit</w><w>superadul
+<lb n="P149vC1L-vgs5" break="no"/>ta</w><w>et</w><w>ita</w><w>oportet</w><w>fieri</w><w>quod</w><w>uult</w>
+<lb n="P149vC1L-vgs5"/><w>faciat</w><w>non</w><w>peccat</w><w>si</w><w>nubat</w>
+<lb n="P149vC1L-vgs5"/></ab><ab n="1Cor.7.37"><w>nam</w><w>qui</w><w>statuit</w><w>in</w><w>corde</w><w>suo</w>
+<lb n="P149vC1L-vgs5"/><w>firmus</w><w>non</w><w>habens</w><w>necessitatem</w><w>po
+<lb n="P149vC1L-vgs5" break="no"/>testatem</w><w>autem</w><w>habens</w><w>sue</w><w>uolun
+<pb n="150r" type="folio" xml:id="P150r-vgs5" break="no"/>
+<cb n="P150rC1-vgs5"/>
+<lb n="P150rC1L-vgs5"/>tatis</w><w>et</w><w>hoc</w><w>iudicauit</w><w>in</w>
+<lb n="P150rC1L-vgs5"/><w>corde</w><w>suo</w><w>seruare</w><w>uirginem</w><w>suam</w>
+<lb n="P150rC1L-vgs5"/><w>bene</w><w>facit</w></ab><ab n="1Cor.7.38"><w>igitur</w><w>et</w><w>qui</w><w>matrimonio</w>
+<lb n="P150rC1L-vgs5"/><w>iunguit</w><w>uirginem</w><w>suam</w><w>bene</w><w>fa
+<lb n="P150rC1L-vgs5" break="no"/>cit</w><w>et</w><w>qui</w><w>non</w><w>iunguit</w><w>me
+<lb n="P150rC1L-vgs5" break="no"/>lius</w><w>facit</w></ab><ab n="1Cor.7.39"><w>mulier</w><w>alligata</w><w>est</w>
+<lb n="P150rC1L-vgs5"/><w>legi</w><w>quanto</w><w>tempore</w><w>uir</w><w>eius</w><w>uiuit</w>
+<lb n="P150rC1L-vgs5"/><w>quod</w><w>si</w><w>dormierit</w><w>uir</w><w>eius</w><w>libe
+<lb n="P150rC1L-vgs5" break="no"/>rata</w><w>est</w><w>cui</w><w>uult</w><w>nubat</w>
+<lb n="P150rC1L-vgs5"/><w>tantum</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w></ab><ab n="1Cor.7.40"><w>beatior</w><w>autem</w>
+<lb n="P150rC1L-vgs5"/><w>erit</w><w>si</w><w>sic</w><w>permanserit</w><w>secundum</w><w>consilium</w>
+<lb n="P150rC1L-vgs5"/><w>meum</w><w>puto</w><w>autem</w><w>quod</w><w>et</w><w>ego</w>
+<lb n="P150rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">di</hi></abbr></w><w>habeam</w>
+<lb n="P150rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.8"><ab n="1Cor.8.1"><w>de</w><w>his</w><w>autem</w><w>quae</w><w>ydolis</w><w>sacri
+<lb n="P150rC1L-vgs5" break="no"/>ficantur</w><w>scimus</w><w>quoniam</w><w>omnes</w>
+<lb n="P150rC1L-vgs5"/><w>scientiam</w><w>habemus</w><w>scientia</w><w>inflat</w>
+<lb n="P150rC1L-vgs5"/><w>caritas</w><w>uero</w><w>hedificat</w></ab><ab n="1Cor.8.2"><w>si</w>
+<lb n="P150rC1L-vgs5"/><w>quis</w><w>autem</w><w>se</w><w>existimat</w>
+<lb n="P150rC1L-vgs5"/><w>scire</w><w>aliquid</w><w>nondum</w><w>con
+<lb n="P150rC1L-vgs5" break="no"/>gnouit</w><w>quemadmodum</w>
+<lb n="P150rC1L-vgs5"/><w>oporteat</w><w>eum</w><w>scire</w></ab><ab n="1Cor.8.3"><w>si</w><w>quis</w>
+<lb n="P150rC1L-vgs5"/><w>autem</w><w>diligit</w><w>deum</w><w>hic</w><w>cognitus</w>
+<lb n="P150rC1L-vgs5"/><w>est</w><w>ab</w><w>eo</w></ab><ab n="1Cor.8.4"><w>de</w><w>escis</w><w>autem</w><w>que</w>
+<lb n="P150rC1L-vgs5"/><w>ydolis</w><w>immolantur</w><w>scimus</w>
+<lb n="P150rC1L-vgs5"/><w>quia</w><w>nichil</w><w>est</w><w>ydolum</w><w>in</w><w>mundo</w>
+<lb n="P150rC1L-vgs5"/><w>et</w><w>quod</w><w>nullus</w><w>deus</w><w>nisi</w><w>unus</w>
+<lb n="P150rC1L-vgs5"/></ab><ab n="1Cor.8.5"><w>nam</w><w>et</w><w>si</w><w>sunt</w><w>qui</w><w>dicantur</w>
+<pb n="150v" type="folio" xml:id="P150v-vgs5"/>
+<cb n="P150vC1-vgs5"/>
+<lb n="P150vC1L-vgs5"/><w>dii</w><w>siue</w><w>in</w><w>celo</w><w>siue</w><w>in</w><w>terra</w><w>si
+<lb n="P150vC1L-vgs5" break="no"/>quidem</w><w>sunt</w><w>dii</w><w>multi</w><w>et</w><w>do
+<lb n="P150vC1L-vgs5" break="no"/>mini</w><w>multi</w></ab><ab n="1Cor.8.6"><w>nobis</w><w>tamen</w><w>unus</w><app><rdg type="orig" hand="firsthand"><w>dolus</w></rdg><rdg type="corr" hand="correctorV"><w>deus</w></rdg></app>
+<lb n="P150vC1L-vgs5"/><w>pater</w><w>ex</w><w>quo</w><w>omnia</w><w>et</w><w>nos</w>
+<lb n="P150vC1L-vgs5"/><w>in</w><w>illo</w><w>et</w><w>unus<abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihus</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w>
+<lb n="P150vC1L-vgs5"/><w>per</w><w>quem</w><w>omnia</w><w>et</w><w>nos</w><w>per</w><w>ipsum</w>
+<lb n="P150vC1L-vgs5"/></ab><ab n="1Cor.8.7"><w>sed</w><w>non</w><w>in</w><w>omnibus</w><w>est</w><w>scientia</w><w>qui
+<lb n="P150vC1L-vgs5" break="no"/>dam</w><w>autem</w><w>cum</w><w>conscientia</w><w>usque</w>
+<lb n="P150vC1L-vgs5"/><w>nunc</w><w>ydoli</w><w>quasi</w><app><rdg type="orig" hand="firsthand"><w>ydolotytum</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P150vC1L-vgs5"><w>ydolothytum</w></seg></rdg></app>
+<lb n="P150vC1L-vgs5"/><w>manducant</w><w>et</w><w>conscientia</w><w>ipsorum</w>
+<lb n="P150vC1L-vgs5"/><w>cum</w><w>sit</w><w>infirma</w><w>polluitur</w></ab><ab n="1Cor.8.8"><w>es
+<lb n="P150vC1L-vgs5" break="no"/>ca</w><w>autem</w><w>nos</w><w>non</w><w>commendat</w>
+<lb n="P150vC1L-vgs5"/><w>deo</w><w>neque</w><w>enim</w><w>si</w><w>non</w><w>mandu
+<lb n="P150vC1L-vgs5" break="no"/>camus</w><w>deficiemus</w><w>neque</w><w>si</w><w>man
+<lb n="P150vC1L-vgs5" break="no"/>ducauerimus</w><w>habundabimus</w>
+<lb n="P150vC1L-vgs5"/></ab><ab n="1Cor.8.9"><w>uidete</w><w>autem</w><w>ne</w><w>forte</w><w>hec</w>
+<lb n="P150vC1L-vgs5"/><w>licentia</w><w>uestra</w><w>offendiculum</w>
+<lb n="P150vC1L-vgs5"/><w>fiat</w><w>infirmis</w></ab><ab n="1Cor.8.10"><w>si</w><w>enim</w><w>quis</w><w>ui
+<lb n="P150vC1L-vgs5" break="no"/>derit</w><w>eum</w><w>qui</w><w>habet</w><w>scientiam</w>
+<lb n="P150vC1L-vgs5"/><w>in</w><w>ydolio</w><w>recumbentem</w><w>nonne</w>
+<lb n="P150vC1L-vgs5"/><w>conscientia</w><w>eius</w><w>cum</w><w>sit</w><w>infirma</w><w>he
+<lb n="P150vC1L-vgs5" break="no"/>dificabitur</w><w>ad</w><w>manducan
+<lb n="P150vC1L-vgs5" break="no"/>dum</w><w>ydolothyta</w></ab><ab n="1Cor.8.11"><w>et</w><w>peribit</w>
+<lb n="P150vC1L-vgs5"/><w>infirmus</w><w>in</w><w>tua</w><w>scientia</w><w>frater</w><w>propter</w><w>quem</w>
+<lb n="P150vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xpc</hi></abbr></w><w>mortuus</w><w>est</w></ab><ab n="1Cor.8.12"><w>sic</w><w>autem</w>
+<lb n="P150vC1L-vgs5"/><w>estis</w><w>peccantes</w><w>in</w><w>fratres</w><w>et</w>
+<lb n="P150vC1L-vgs5"/><w>percutientes</w><w>conscientiam</w><w>eorum</w>
+<pb n="151r" type="folio" xml:id="P151r-vgs5"/>
+<cb n="P151rC1-vgs5"/>
+<lb n="P151rC1L-vgs5"/><w>infirmam</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>peccatis</w></ab><ab n="1Cor.8.13"><w>qua
+<lb n="P151rC1L-vgs5" break="no"/>propter</w><w>si</w><w>esca</w><w>scandaliçat</w><w>fratrem</w>
+<lb n="P151rC1L-vgs5"/><w>meum</w><w>non</w><w>manducabo</w><w>car
+<lb n="P151rC1L-vgs5" break="no"/>nem</w><w>in</w><w>eternum</w><w>ne</w><w>fratrem</w><w>meum</w>
+<lb n="P151rC1L-vgs5"/><w>scandaliçem</w></ab></div><div type="chapter" n="1Cor.9"><ab n="1Cor.9.1"><w>non</w><w>sum</w><w>liber</w><w>non</w>
+<lb n="P151rC1L-vgs5"/><w>sum</w><w>apostolus</w><w>nonne</w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w>
+<lb n="P151rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>nostrum</w><w>uidi</w><w>none</w><w>opus</w>
+<lb n="P151rC1L-vgs5"/><w>meum</w><w>uos</w><w>estis</w><w>in</w><w>domino</w>
+<lb n="P151rC1L-vgs5"/><w>et</w></ab><ab n="1Cor.9.2"><w>si</w><w>aliis</w><w>non</w><w>sum</w><w>apostolus</w><w>set</w>
+<lb n="P151rC1L-vgs5"/><w>tamen</w><w>uobis</w><w>sum</w><w>nam</w><w>signaculum</w>
+<lb n="P151rC1L-vgs5"/><w>apostolatus</w><w>mei</w><w>uos</w><w>estis</w>
+<lb n="P151rC1L-vgs5"/><w>in</w><w>domino</w></ab><ab n="1Cor.9.3"><w>mea</w><w>defensio</w><w>apud</w>
+<lb n="P151rC1L-vgs5"/><w>eos</w><w>qui</w><w>me</w><w>interrogant</w><w>hec</w><w>est</w>
+<lb n="P151rC1L-vgs5"/></ab><ab n="1Cor.9.4"><w>numquid</w><w>non</w><w>habemus</w><w>potestatem</w>
+<lb n="P151rC1L-vgs5"/><w>manducandi</w><w>et</w><w>bibendi</w></ab><ab n="1Cor.9.5"><w>num
+<lb n="P151rC1L-vgs5" break="no"/>quid</w><w>non</w><w>habemus</w><w>potestatem</w>
+<lb n="P151rC1L-vgs5"/><w>sororem</w><w>mulierem</w><w>circumducendi</w>
+<lb n="P151rC1L-vgs5"/><w>sicut</w><w>et</w><w>ceteri</w><w>apostoli</w><w>et</w><w>fratres</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w>
+<lb n="P151rC1L-vgs5"/><w>et</w><w>cephas</w></ab><ab n="1Cor.9.6"><w>aut</w><w>solus</w><w>ego</w><w>et</w>
+<lb n="P151rC1L-vgs5"/><w>barnabas</w><w>non</w><w>habemus</w>
+<lb n="P151rC1L-vgs5"/><w>potestatem</w><w>hoc</w><w>operandi</w></ab><ab n="1Cor.9.7"><w>quis</w>
+<lb n="P151rC1L-vgs5"/><w>militat</w><w>suis</w><w>stipendiis</w>
+<lb n="P151rC1L-vgs5"/><w>umquam</w><w>quis</w><w>plantauit</w>
+<lb n="P151rC1L-vgs5"/><w>uineam</w><w>et</w><w>de</w><w>fructu</w><w>ei<unclear reason="damage to page">us</unclear></w>
+<lb n="P151rC1L-vgs5"/><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P151rC1L-vgs5"><w>non</w></seg></rdg></app><w>edit</w><w>quis</w><w>pascit</w><w>gregem</w>
+<lb n="P151rC1L-vgs5"/><w>et</w><w>de</w><w>lacte</w><w>gregis</w><w>non</w>
+<lb n="P151rC1L-vgs5"/><w>manducat</w></ab><ab n="1Cor.9.8"><w>numquid</w><w>secundum</w><w>hominem</w>
+<pb n="151v" type="folio" xml:id="P151v-vgs5"/>
+<cb n="P151vC1-vgs5"/>
+<lb n="P151vC1L-vgs5"/><w>hec</w><w>dico</w><w>an</w><w>lex</w><w><unclear reason="damage to page">hec</unclear></w><w>non</w><w>di<unclear reason="faded ink">cit</unclear></w>
+<lb n="P151vC1L-vgs5"/></ab><ab n="1Cor.9.9"><w>scriptum</w><w>est</w><w>enim</w><w>in</w><w>lege</w><w>moysi</w>
+<lb n="P151vC1L-vgs5"/><w>non</w><w>alligabis</w><w>os</w><w>boui</w><w>tri
+<lb n="P151vC1L-vgs5" break="no"/>turanti</w><w>numquid</w><w>de</w><w>bobus</w>
+<lb n="P151vC1L-vgs5"/><w>cura</w><w>est</w><w>deo</w></ab><ab n="1Cor.9.10"><w>an</w><w>propter</w><w>nos</w>
+<lb n="P151vC1L-vgs5"/><w>utique</w><w>hec</w><w>dicit</w><w>nam</w><w>propter</w>
+<lb n="P151vC1L-vgs5"/><w>nos</w><w>scripta</w><w>sunt</w><w>quoniam</w>
+<lb n="P151vC1L-vgs5"/><w>debet</w><w>in</w><w>spe</w><w>qui</w><w>arat</w><w>a
+<lb n="P151vC1L-vgs5" break="no"/>rare</w><w>et</w><w>qui</w><w>tritur<unclear reason="damage to page">at</unclear></w><w>in</w><w>spe</w><w>f<unclear>ruc</unclear>
+<lb n="P151vC1L-vgs5" break="no"/>tus</w><w>percipiendi</w></ab><ab n="1Cor.9.11"><w>si</w><w>nos</w><w>uo
+<lb n="P151vC1L-vgs5" break="no"/>bis</w><app><rdg type="orig" hand="firsthand"><w>spiritalia</w></rdg><rdg type="corr" hand="corrector"><w>spiritualia</w></rdg></app><w>seminaui
+<lb n="P151vC1L-vgs5" break="no"/>mus</w><w>magnum</w><w>est</w><w>si</w><w>nos</w>
+<lb n="P151vC1L-vgs5"/><w>carnalia</w><w>uestra</w><w>metamus</w>
+<lb n="P151vC1L-vgs5"/></ab><ab n="1Cor.9.12"><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>si</w><w>alii</w><w>potesta​​​​​​​​​​​​​​​
+<lb n="P151vC1L-vgs5" break="no"/>tis</w></rdg></app><w>uestrae</w><w>participes</w><w>sunt</w><w>non</w>
+<lb n="P151vC1L-vgs5"/><w>potius</w><w>nos</w><w>sed</w><w>non</w><w>usi</w><w>su
+<lb n="P151vC1L-vgs5" break="no"/>mus</w><w><unclear reason="damage to page">hac</unclear></w><w><unclear reason="damage to page">potestate</unclear></w><w><unclear reason="damage to page">sed</unclear></w>
+<lb n="P151vC1L-vgs5"/><w>omnia</w><w><unclear reason="faded ink">sustinemus</unclear></w><w>ne</w><w>quod</w><w><unclear reason="damage to page">of</unclear>
+<lb n="P151vC1L-vgs5" break="no"/>fendiculum</w><w>demus</w><w>euang<unclear reason="damage to page">elio</unclear></w>
+<lb n="P151vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w>
+<lb n="P151vC1L-vgs5"/></ab><ab n="1Cor.9.13"><w>nescitis</w><w>quoniam</w><w>qui</w><w>in</w><w>sacra
+<lb n="P151vC1L-vgs5" break="no"/>rio</w><w>operantur</w><w>que</w><w>de</w><w>sacrario</w>
+<lb n="P151vC1L-vgs5"/><w>sunt</w><w>edunt</w><w>et</w><w>qui</w><w>altario</w>
+<lb n="P151vC1L-vgs5"/><w>deseruiunt</w><w>cum</w><w>alta<unclear reason="damage to page">rio</unclear></w><w>partici
+<lb n="P151vC1L-vgs5" break="no"/>pantur</w></ab><ab n="1Cor.9.14"><w>ita</w><w>et</w><w>dominus</w><w>or
+<lb n="P151vC1L-vgs5" break="no"/>dinauit</w><w>his</w><w>qui</w><w>euan
+<lb n="P151vC1L-vgs5" break="no"/>gelium</w><w>annuntiant</w><w>de</w><w>euan
+<lb n="P151vC1L-vgs5" break="no"/>gelio</w><w>uiuere</w></ab><ab n="1Cor.9.15"><w>ego</w><w>autem</w>
+<pb n="152r" type="folio" xml:id="P152r-vgs5"/>
+<cb n="P152rC1-vgs5"/>
+<lb n="P152rC1L-vgs5"/><w>nullo</w><w>horum</w><w>usus</w><w>sum</w><w>non</w>
+<lb n="P152rC1L-vgs5"/><w>scripsi</w><w>autem</w><w>hec</w><w>ut</w><w>ita</w><w>in</w>
+<lb n="P152rC1L-vgs5"/><w>me</w><w>fiant</w><w>bonum</w><w>est</w><w>enim</w><w>mihi</w>
+<lb n="P152rC1L-vgs5"/><w>magis</w><w>mori</w><w>quam</w><w>ut</w><w>gloriam</w>
+<lb n="P152rC1L-vgs5"/><w>meam</w><w>quis</w><w>euacuet</w>
+<lb n="P152rC1L-vgs5"/></ab><ab n="1Cor.9.16"><w>nam</w><w>si</w><w>euangeliçauero</w>
+<lb n="P152rC1L-vgs5"/><w>non</w><w>est</w><w>mihi</w><w>gloria</w><w>necessitas</w>
+<lb n="P152rC1L-vgs5"/><w>enim</w><w>mihi</w><w>incumbit</w><w>ue</w><w>enim</w><w>mihi</w><w>est</w>
+<lb n="P152rC1L-vgs5"/><w>si</w><w>non</w><w>euangeliçauero</w>
+<lb n="P152rC1L-vgs5"/></ab><ab n="1Cor.9.17"><w>si</w><w>enim</w><w>uolens</w><w>hoc</w><w>ago</w><w>mer
+<lb n="P152rC1L-vgs5" break="no"/>cedem</w><w>habeo</w><w>si</w><w>autem</w><w>in
+<lb n="P152rC1L-vgs5" break="no"/>uitus</w><w>dispensatio</w><w>mihi</w><w>cre
+<lb n="P152rC1L-vgs5" break="no"/>dita</w><w>est</w></ab><ab n="1Cor.9.18"><w>que</w><w>est</w><w>ergo</w><w>mer
+<lb n="P152rC1L-vgs5" break="no"/>ces</w><w>mea</w><w>ut</w><w>euangelium</w>
+<lb n="P152rC1L-vgs5"/><w>predicans</w><w>sine</w><w>sumptu</w><w>ponam</w>
+<lb n="P152rC1L-vgs5"/><w>euangelium</w><w>ut</w><w>non</w><w>abu
+<lb n="P152rC1L-vgs5" break="no"/>tar</w><w>potestate</w><w>mea</w><w>in</w><w>euangelio</w>
+<lb n="P152rC1L-vgs5"/></ab><ab n="1Cor.9.19"><w>nam</w><w>cum</w><w>liber</w><w>essem</w><w>ex</w><w>omnibus</w><w>omnium</w>
+<lb n="P152rC1L-vgs5"/><w>me</w><w>seruum</w><w>feci</w><w>ut</w><w>plures</w><w>lu
+<lb n="P152rC1L-vgs5" break="no"/>cri</w><w>facerem</w></ab><ab n="1Cor.9.20"><w>et</w><w>factus</w><w>sum</w><w>iude<unclear reason="faded ink">is</unclear></w>
+<lb n="P152rC1L-vgs5"/><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>tamquam</w></rdg></app><w><unclear reason="faded ink">iudaeus</unclear></w><w>ut</w><w>iudeos</w><w>lucrarer</w><w>his</w>
+<lb n="P152rC1L-vgs5"/><w>qui</w><w>sub</w><w>lege</w><w>sunt</w><w>quasi</w><w>sub</w>
+<lb n="P152rC1L-vgs5"/><w>lege</w><w>essem</w><w>cum</w><w>ipse</w><w>non</w><w>esse<unclear reason="faded ink">m</unclear></w>
+<lb n="P152rC1L-vgs5"/><w>sub</w><w>lege</w><w>ut</w><w>eos</w><w>qui</w><w>sub</w>
+<lb n="P152rC1L-vgs5"/><w>lege</w><w>erant</w><w>lucri</w><w>facerem</w></ab><ab n="1Cor.9.21"><w>his</w>
+<lb n="P152rC1L-vgs5"/><w>qui</w><w>sine</w><w>lege</w><w>erant</w><w>tamquam</w>
+<lb n="P152rC1L-vgs5"/><w>sine</w><w>lege</w><w>essem</w><w>cum</w><w>sine</w><w>lege</w>
+<pb n="152v" type="folio" xml:id="P152v-vgs5"/>
+<cb n="P152vC1-vgs5"/>
+<lb n="P152vC1L-vgs5"/><w>dei</w><w>non</w><w>essem</w><w>sed</w><w>in</w><w>lege</w><w>essem</w>
+<lb n="P152vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>ut</w><w>lucri</w><w>facerem</w><w>eos</w><w>qui</w>
+<lb n="P152vC1L-vgs5"/><w>sine</w><w>lege</w><w>erant</w></ab><ab n="1Cor.9.22"><w>factus</w><w>sum</w>
+<lb n="P152vC1L-vgs5"/><w>infirmus</w><w>infirmus</w><w>ut</w><w>infirmos</w><w>lu
+<lb n="P152vC1L-vgs5" break="no"/>cri</w><w>facerem</w><w>omnibus</w><w>omnia</w><w>factus</w>
+<lb n="P152vC1L-vgs5"/><w>sum</w><w>ut</w><w>omnes</w><w>facerem</w><w>saluos</w>
+<lb n="P152vC1L-vgs5"/><app><rdg type="orig" hand="firsthand"><w>o</w></rdg><rdg type="corr" hand="corrector" rend="overdot"><w>o</w></rdg></app></ab><ab n="1Cor.9.23"><w>omnia</w><w>autem</w><w>facio</w><w>propter</w>
+<lb n="P152vC1L-vgs5"/><w>euangelium</w><w>ut</w><w>particeps</w>
+<lb n="P152vC1L-vgs5"/><w>eius</w><w>efficiar</w></ab><ab n="1Cor.9.24"><w>nescitis</w><w>quod</w>
+<lb n="P152vC1L-vgs5"/><w>hii</w><w>qui</w><w>in</w><w>stadio</w><w>currunt</w><w>omnes</w>
+<lb n="P152vC1L-vgs5"/><w>quidem</w><w>currunt</w><w>sed</w><w>unus</w><w>accipit</w>
+<lb n="P152vC1L-vgs5"/><w>brauium</w><w>sic</w><w>currite</w><w>ut</w><w>con
+<lb n="P152vC1L-vgs5" break="no"/>prehendatis</w></ab><ab n="1Cor.9.25"><w>omnis</w><w>autem</w><w>qui</w>
+<lb n="P152vC1L-vgs5"/><w>in</w><w>agone</w><w>contendit</w><w>ab</w>
+<lb n="P152vC1L-vgs5"/><w>omnibus</w><w>se</w><w>abstinet</w><w>et</w>
+<lb n="P152vC1L-vgs5"/><w>illi</w><w>quidem</w><w>ut</w><w>corruptibi
+<lb n="P152vC1L-vgs5" break="no"/>lem</w><w>coronam</w><w>accipiant</w><w>nos</w>
+<lb n="P152vC1L-vgs5"/><w>autem</w><w>incorruptam</w></ab><ab n="1Cor.9.26"><w>ego</w><w>enim</w><w>sic</w>
+<lb n="P152vC1L-vgs5"/><w>curro</w><w>non</w><w>quasi</w><w>in</w><w>incertum</w><w>sic</w><w>pugno</w>
+<lb n="P152vC1L-vgs5"/><w>non</w><w>quasi</w><w>aerem</w><w>uerberans</w></ab><ab n="1Cor.9.27"><w>sed</w>
+<lb n="P152vC1L-vgs5"/><w>castigo</w><w>corpus</w><w>meum</w><w>et</w><w>in</w><w>serui
+<lb n="P152vC1L-vgs5" break="no"/>tute</w><w>redigo</w><w>ne</w><w>forte</w><w>cum</w>
+<lb n="P152vC1L-vgs5"/><w>aliis</w><w>predicauerim</w><w>ipse</w><w>reprobus</w>
+<lb n="P152vC1L-vgs5"/><w>efficiar</w>
+<lb n="P152vC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.10"><ab n="1Cor.10.1"><w>nolo</w><w>enim</w><w>uos</w><w>ignorare</w><w>fratres</w>
+<lb n="P152vC1L-vgs5"/><w>quoniam</w><w>patres</w><w>nostri</w><w>omnes</w>
+<lb n="P152vC1L-vgs5"/><w>sub</w><w>nube</w><w>fuerunt</w><w>et</w><w>omnes</w>
+<pb n="153r" type="folio" xml:id="P153r-vgs5"/>
+<cb n="P153rC1-vgs5"/>
+<lb n="P153rC1L-vgs5"/><w>mare</w><w>transierunt</w></ab><ab n="1Cor.10.2"><w>et</w>
+<lb n="P153rC1L-vgs5"/><w>omnes</w><w>in</w><w>moyse</w><w>baptiça
+<lb n="P153rC1L-vgs5" break="no"/>ti</w><w>sunt</w><w>in</w><w>nube</w><w>et</w><w>in</w><w>mari</w>
+<lb n="P153rC1L-vgs5"/></ab><ab n="1Cor.10.3"><w>et</w><w>omnes</w><w>eandem</w><w>escam</w><w>spi
+<lb n="P153rC1L-vgs5" break="no"/>ritualem</w><w>manducauerunt</w>
+<lb n="P153rC1L-vgs5"/></ab><ab n="1Cor.10.4"><w>et</w><w>omnes</w><w>eundem</w><w>potum</w><w>spiritualem</w>
+<lb n="P153rC1L-vgs5"/><w>biberunt</w><w>bibebant</w><w>autem</w>
+<lb n="P153rC1L-vgs5"/><w>de</w><w>spiritali</w><w>consequenti</w><w>eos</w>
+<lb n="P153rC1L-vgs5"/><w>petra</w><w>petra</w><w>autem</w><w>erat</w>
+<lb n="P153rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w></ab><ab n="1Cor.10.5"><w>sed</w><w>non</w><w>in</w><w>pluribus</w>
+<lb n="P153rC1L-vgs5"/><w>eorum</w><w>beneplacitum</w><w>est</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<lb n="P153rC1L-vgs5"/><w>nam</w><w>prostrati</w><w>sunt</w><w>in</w><w>deser
+<lb n="P153rC1L-vgs5" break="no"/>to</w></ab><ab n="1Cor.10.6"><w>in</w><w>figuram</w><w>haec</w><w>autem</w><w>facta</w>
+<lb n="P153rC1L-vgs5"/><w>sunt</w><w>nostri</w><w>ut</w><w>non</w><app><rdg type="orig" hand="firsthand"><w>sumus</w></rdg><rdg type="corr" hand="corrector"><w>simus</w></rdg></app>
+<lb n="P153rC1L-vgs5"/><w>concupiscentes</w><w>malorum</w>
+<lb n="P153rC1L-vgs5"/><w>sicut</w><w>et</w><w>illi</w><w>concupierunt</w></ab><ab n="1Cor.10.7"><w>neque</w>
+<lb n="P153rC1L-vgs5"/><w>ydolatre</w><w>efficiamini</w>
+<lb n="P153rC1L-vgs5"/><w>sicut</w><w>quidam</w><w>ex</w><w>ipsis</w><w>quem
+<lb n="P153rC1L-vgs5" break="no"/>admodum</w><w>scriptum</w><w>est</w>
+<lb n="P153rC1L-vgs5"/><w>sedit</w><w>populus</w><w>mandu
+<lb n="P153rC1L-vgs5" break="no"/>care</w><w>et</w><w>bibere</w><w>et</w><w>surre
+<lb n="P153rC1L-vgs5" break="no"/>xerunt</w><w>ludere</w></ab><ab n="1Cor.10.8"><w>neque</w><w>forni
+<lb n="P153rC1L-vgs5" break="no"/>cemur</w><w>sicut</w><w>quidam</w><w>ex</w>
+<lb n="P153rC1L-vgs5"/><w>ipsis</w><w>fornicati</w><w>sunt</w><w>et</w><w>ce
+<lb n="P153rC1L-vgs5" break="no"/>ciderunt</w><w>una</w><w>die</w><w>uiginti</w>
+<lb n="P153rC1L-vgs5"/><w>tria</w><w>milia</w></ab><ab n="1Cor.10.9"><w>neque</w><w>tem
+<lb n="P153rC1L-vgs5" break="no"/>ptemus</w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>sicut</w><w>qui
+<pb n="153v" type="folio" xml:id="P153v-vgs5" break="no"/>
+<cb n="P153vC1-vgs5"/>
+<lb n="P153vC1L-vgs5"/>dam</w><w>eorum</w><w>et</w><w>a</w><w>serpentibus</w><w>pe
+<lb n="P153vC1L-vgs5" break="no"/>rierunt</w></ab><ab n="1Cor.10.10"><w>neque</w><w>murmu
+<lb n="P153vC1L-vgs5" break="no"/>rantes</w><w>sicut</w><w>quidam</w><w>eorum</w>
+<lb n="P153vC1L-vgs5"/><w>murmurauerunt</w><w>et</w><w>peri
+<lb n="P153vC1L-vgs5" break="no"/>erunt</w><w>ab</w><w>exterminatore</w>
+<lb n="P153vC1L-vgs5"/></ab><ab n="1Cor.10.11"><w>nec</w><w>autem</w><w>omnia</w><w>in</w><w>figura</w><w>fac
+<lb n="P153vC1L-vgs5" break="no"/>ta</w><w>sunt</w><w>nostri</w><w>contingne
+<lb n="P153vC1L-vgs5" break="no"/>bant</w><w>illis</w><w>scripta</w><w>sunt</w>
+<lb n="P153vC1L-vgs5"/><w>autem</w><w>ad</w><w>correptionem</w><w>no
+<lb n="P153vC1L-vgs5" break="no"/>stram</w><w>in</w><w>quos</w><w>fines</w><w>secu
+<lb n="P153vC1L-vgs5" break="no"/>lorum</w><w>deuenerunt</w></ab><ab n="1Cor.10.12"><w>itaque</w>
+<lb n="P153vC1L-vgs5"/><w>qui</w><w>se</w><w>existimat</w><w>stare</w>
+<lb n="P153vC1L-vgs5"/><w>uideat</w><w>ne</w><w>cadat</w></ab><ab n="1Cor.10.13"><w>temp
+<lb n="P153vC1L-vgs5" break="no"/>tatio</w><w>uos</w><w>non</w><app><rdg type="orig" hand="firsthand"><w>apprehen</w></rdg><rdg type="corr" hand="corrector"><w>apprehendat</w></rdg></app>
+<lb n="P153vC1L-vgs5"/><w>nisi</w><w>humana</w><w>fidelis</w>
+<lb n="P153vC1L-vgs5"/><w>autem</w><w>deus</w><w>est</w><w>qui</w><w>non</w><w>patie
+<lb n="P153vC1L-vgs5" break="no"/>tur</w><w>uos</w><w>temptari</w><w>super</w><w>id</w>
+<lb n="P153vC1L-vgs5"/><w>quod</w><w>potestis</w><w>sed</w><w>faciet</w><w>cum</w>
+<lb n="P153vC1L-vgs5"/><w>temptatione</w><w>etiam</w><w>prouen<unclear>t</unclear>uum</w>
+<lb n="P153vC1L-vgs5"/><w>ut</w><w>possitis</w><w>sustinere</w>
+<lb n="P153vC1L-vgs5"/></ab><ab n="1Cor.10.14"><w>propter</w><w>quod</w><w>karissimi</w><w>mihi</w>
+<lb n="P153vC1L-vgs5"/><w>fugite</w><w>ab</w><w>ydolorum</w><w>cultu
+<lb n="P153vC1L-vgs5" break="no"/>ra</w></ab><ab n="1Cor.10.15"><w>ut</w><w>prudentibus</w><w>loquor</w>
+<lb n="P153vC1L-vgs5"/><w>uos</w><w>ipsi</w><w>iudicate</w><w>quod</w>
+<lb n="P153vC1L-vgs5"/><w>dico</w></ab><ab n="1Cor.10.16"><w>calix</w><w>benedictio
+<lb n="P153vC1L-vgs5" break="no"/>nis</w><w>cui</w><w>benedicimus</w><w>nonne</w>
+<lb n="P153vC1L-vgs5"/><w>communicatio</w><w>sanguinis</w><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w><w>est</w>
+<pb n="154r" type="folio" xml:id="P154r-vgs5"/>
+<cb n="P154rC1-vgs5"/>
+<lb n="P154rC1L-vgs5"/><w>et</w><w>panis</w><w>quem</w><w>frangimus</w>
+<lb n="P154rC1L-vgs5"/><w>nonne</w><w>participatio</w><w>corpo
+<lb n="P154rC1L-vgs5" break="no"/>ris</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>est</w></ab><ab n="1Cor.10.17"><w>quoniam</w><w>unus</w><w>panis</w>
+<lb n="P154rC1L-vgs5"/><w>unum</w><w>corpus</w><w>multi</w><w>sumus</w><w>omnes</w>
+<lb n="P154rC1L-vgs5"/><w>qui</w><w>de</w><w>uno</w><w>pane</w><w>et</w><w>uno</w>
+<lb n="P154rC1L-vgs5"/><w>calice</w><w>participamur</w>
+<lb n="P154rC1L-vgs5"/></ab><ab n="1Cor.10.18"><w>uidete</w><w>israhel</w><w>secundum</w><w>carnem</w>
+<lb n="P154rC1L-vgs5"/><w>nonne</w><w>qui</w><w>edunt</w><w>hostias</w>
+<lb n="P154rC1L-vgs5"/><w>participes</w><w>sunt</w><w>altaris</w>
+<lb n="P154rC1L-vgs5"/></ab><ab n="1Cor.10.19"><w>quid</w><w>ergo</w><w>dico</w><w>quod</w><w>ydolis</w>
+<lb n="P154rC1L-vgs5"/><w>sit</w><w>aliquid</w><w>immolatum</w><w>aut</w>
+<lb n="P154rC1L-vgs5"/><w>quod</w><w>ydolum</w><w>sit</w><w>aliquid</w></ab><ab n="1Cor.10.20"><w>sed</w><w>et</w><w>que</w>
+<lb n="P154rC1L-vgs5"/><w>immolant</w><w>gentes</w><w>demoni
+<lb n="P154rC1L-vgs5" break="no"/>is</w><w>immolant</w><w>et</w><w>non</w><w>deo</w>
+<lb n="P154rC1L-vgs5"/><w>nolo</w><w>autem</w><w>uos</w><w>socios</w><w>fieri</w>
+<lb n="P154rC1L-vgs5"/><w>demoniorum</w><w>non</w><w>potestis</w>
+<lb n="P154rC1L-vgs5"/><w>calicem</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>bibere</w><w>et</w><w>cali
+<lb n="P154rC1L-vgs5" break="no"/>cem</w><w>demoniorum</w></ab><ab n="1Cor.10.21"><w>non</w><w>potestis</w>
+<lb n="P154rC1L-vgs5"/><w>mense</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>participes</w><w>esse</w>
+<lb n="P154rC1L-vgs5"/><w>et</w><w>mense</w><w>demoniorum</w></ab><ab n="1Cor.10.22"><w>an</w><w>e
+<lb n="P154rC1L-vgs5" break="no"/>mulamur</w><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w><w>numquid</w>
+<lb n="P154rC1L-vgs5"/><w>illo</w><w>fortiores</w><w>sumus</w><w>omnia</w>
+<lb n="P154rC1L-vgs5"/><w>mihi</w><w>licent</w><w>sed</w><w>non</w><w>omnia</w><w>expe
+<lb n="P154rC1L-vgs5" break="no"/>diunt</w></ab><ab n="1Cor.10.23"><w>omnia</w><w>mihi</w><w>licent</w><w>sed</w><w>non</w>
+<lb n="P154rC1L-vgs5"/><w>omnia</w><w>hedificant</w></ab><ab n="1Cor.10.24"><w>nemo</w><w>quod</w>
+<lb n="P154rC1L-vgs5"/><w>suum</w><w>est</w><w>querat</w><w>set</w><w>que</w>
+<lb n="P154rC1L-vgs5"/><w>alterius</w>
+<pb n="154v" type="folio" xml:id="P154v-vgs5"/>
+<cb n="P154vC1-vgs5"/>
+<lb n="P154vC1L-vgs5"/></ab><ab n="1Cor.10.25"><w>omne</w><w>quod</w><w>in</w><w>macello</w><w>uenit</w>
+<lb n="P154vC1L-vgs5"/><w>manducate</w><w>nichil</w><w>interro
+<lb n="P154vC1L-vgs5" break="no"/>gantes</w><w>propter</w><w>conscientiam</w>
+<lb n="P154vC1L-vgs5"/></ab><ab n="1Cor.10.26"><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>est</w><w>terra</w><w>et</w><w>plenitudo</w><w>eius</w>
+<lb n="P154vC1L-vgs5"/></ab><ab n="1Cor.10.27"><w>si</w><w>quis</w><w>uocat</w><w>nos</w><w>in
+<lb n="P154vC1L-vgs5" break="no"/>fidelium</w><w>et</w><w>uultis</w><w>ire</w><w>cum</w>
+<lb n="P154vC1L-vgs5"/><w>eo</w><w>omne</w><w>quod</w><w>uobis</w><w>apponitur</w><w>man
+<lb n="P154vC1L-vgs5" break="no"/>ducate</w><w>nichil</w><w>interrogan
+<lb n="P154vC1L-vgs5" break="no"/>tes</w><w>propter</w><w>consientiam</w></ab><ab n="1Cor.10.28"><w>si</w><w>quis</w>
+<lb n="P154vC1L-vgs5"/><w>autem</w><w>dixerit</w><w>hoc</w><w>immola
+<lb n="P154vC1L-vgs5" break="no"/>tum</w><w>est</w><w>ydolis</w><w>nolite</w><w>man
+<lb n="P154vC1L-vgs5" break="no"/>ducare</w><w>propter</w><w>illum</w><w>qui</w><w>in
+<lb n="P154vC1L-vgs5" break="no"/>dicauit</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>et</w></rdg></app><w>propter</w><w>conscientiam</w>
+<lb n="P154vC1L-vgs5"/></ab><ab n="1Cor.10.29"><w>conscientiam</w><w>autem</w><w>dico</w>
+<lb n="P154vC1L-vgs5"/><w>non</w><w>tuam</w><w>sed</w><w>alterius</w><w>ut</w><w>quid</w>
+<lb n="P154vC1L-vgs5"/><w>enim</w><w>libertas</w><w>mea</w><w>iudi
+<lb n="P154vC1L-vgs5" break="no"/>catur</w><w>ab</w><w>aliena</w><w>consci
+<lb n="P154vC1L-vgs5" break="no"/>entia</w></ab><ab n="1Cor.10.30"><w>si</w><w>ego</w><w>cum</w><w>gratia</w>
+<lb n="P154vC1L-vgs5"/><w>participo</w><w>quid</w><w>blasphe
+<lb n="P154vC1L-vgs5" break="no"/>mor</w><w>pro</w><w>eo</w><w>quod</w><w>gratias</w>
+<lb n="P154vC1L-vgs5"/><w>ago</w></ab><ab n="1Cor.10.31"><w>siue</w><w>ergo</w><w>man
+<lb n="P154vC1L-vgs5" break="no"/>ducatis</w><w>siue</w><w>bibitis</w>
+<lb n="P154vC1L-vgs5"/><w>siue</w><w>aliquid</w><w>facitis</w><w>omnia</w>
+<lb n="P154vC1L-vgs5"/><w>in</w><w>gloriam</w><w>dei</w><w>facite</w></ab><ab n="1Cor.10.32"><w>si
+<lb n="P154vC1L-vgs5" break="no"/>ne</w><w>offensione</w><w>estote</w>
+<lb n="P154vC1L-vgs5"/><w>iudeis</w><w>et</w><w>gentilibus</w><w>et</w><w>ecclesie</w>
+<lb n="P154vC1L-vgs5"/><w>dei</w></ab><ab n="1Cor.10.33"><w>sicut</w><w>et</w><w>ego</w><w>per</w><w>omnia</w><w>omnibus</w>
+<lb n="P154vC1L-vgs5"/><w>placeo</w><w>non</w><w>querens</w><w>quod</w>
+<pb n="155r" type="folio" xml:id="P155r-vgs5"/>
+<cb n="P155rC1-vgs5"/>
+<lb n="P155rC1L-vgs5"/><w>michi</w><w>utile</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>est</w></rdg></app><w>sed</w><w>quod</w><w>multis</w>
+<lb n="P155rC1L-vgs5"/><w>ut</w><w>salui</w><w>fiant</w>
+<lb n="P155rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.11"><ab n="1Cor.11.1"><w>imitatores</w><w>mei</w><w>estote</w>
+<lb n="P155rC1L-vgs5"/><w>sicut</w><w>et</w><w>ego</w><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w></ab><ab n="1Cor.11.2"><w>laudo</w><w>autem</w>
+<lb n="P155rC1L-vgs5"/><w>uos</w><w>fratres</w><w>quod</w><w>per</w><w>omnia</w>
+<lb n="P155rC1L-vgs5"/><w>mei</w><w>memores</w><w>estis</w><w>sicut</w>
+<lb n="P155rC1L-vgs5"/><w>tradidi</w><w>uobis</w><w>precepta</w><w>mea</w>
+<lb n="P155rC1L-vgs5"/><w>tenetis</w></ab><ab n="1Cor.11.3"><w>nolo</w><w>autem</w><w>uos</w>
+<lb n="P155rC1L-vgs5"/><w>scire</w><w>quod</w><w>omni</w><w>uiro</w><w>capud</w>
+<lb n="P155rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>est</w><w>capud</w><w>autem</w><w>mu
+<lb n="P155rC1L-vgs5" break="no"/>lieris</w><w>uir</w><w>caput</w><w>autem</w>
+<lb n="P155rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w><w>deus</w></ab><ab n="1Cor.11.4"><w>omnis</w><w>uir</w><w>orans</w>
+<lb n="P155rC1L-vgs5"/><w>aut</w><w>prophetans</w><w>uelato</w>
+<lb n="P155rC1L-vgs5"/><w>capite</w><w>deturpat</w><w>caput</w>
+<lb n="P155rC1L-vgs5"/><w>suum</w></ab><ab n="1Cor.11.5"><w>omnis</w><w>autem</w><w>mulier</w>
+<lb n="P155rC1L-vgs5"/><w>orans</w><w>aut</w><w>prophetans</w><w>non</w><w>ue
+<lb n="P155rC1L-vgs5" break="no"/>lato</w><w>capite</w><w>deturpat</w>
+<lb n="P155rC1L-vgs5"/><w>caput</w><w>suum</w><w>unum</w><w>est</w><w>enim</w>
+<lb n="P155rC1L-vgs5"/><w>ac</w><w>si</w><w>decaluetur</w></ab><ab n="1Cor.11.6"><w>nam</w>
+<lb n="P155rC1L-vgs5"/><w>si</w><w>non</w><w>uelatur</w><w>mulier</w>
+<lb n="P155rC1L-vgs5"/><w>et</w><w>tondeatur</w><w>si</w><w>uero</w><w>turpe</w>
+<lb n="P155rC1L-vgs5"/><w>est</w><w>mulieri</w><w>tonderi</w><w>aut</w>
+<lb n="P155rC1L-vgs5"/><app><rdg type="orig" hand="firsthand"><w>aut</w></rdg><rdg type="corr" hand="corrector" rend="other"><w>aut</w></rdg></app><w>decaluari</w><w>uelut</w>
+<lb n="P155rC1L-vgs5"/><w>caput</w><w>suum</w></ab><ab n="1Cor.11.7"><w>uir</w><w>qui
+<lb n="P155rC1L-vgs5" break="no"/>dem</w><w>orans</w><w>non</w><w>debet</w><w>ue
+<lb n="P155rC1L-vgs5" break="no"/>lare</w><w>caput</w><w>quoniam</w><w>yma
+<lb n="P155rC1L-vgs5" break="no"/>go</w><w>et</w><w>gloria</w><w>dei</w><w>est</w><w>mulier</w>
+<lb n="P155rC1L-vgs5"/><w>autem</w><w>gloria</w><w>uiri</w><w>est</w></ab><ab n="1Cor.11.8"><w>non</w><w>enim</w>
+<pb n="155v" type="folio" xml:id="P155v-vgs5"/>
+<cb n="P155vC1-vgs5"/>
+<lb n="P155vC1L-vgs5"/></ab><ab n="1Cor.11.9"><w>est</w><w>creatus</w><w>uir</w><w>propter</w><app><rdg type="orig" hand="firsthand"><w>mule​​​​​​​​​​​​​​
+<lb n="P155vC1L-vgs5" break="no"/>rem</w></rdg><rdg type="corr" hand="corrector"><w>mulie​​​​​​​​​​​​​​
+<lb n="P155vC1L-vgs5" break="no"/>rem</w></rdg></app><w>sed</w><w>mulier</w><w>propter</w><w>ui
+<lb n="P155vC1L-vgs5" break="no"/>rum</w></ab><ab n="1Cor.11.10"><w>ideo</w><w>debet</w><w>mulier</w>
+<lb n="P155vC1L-vgs5"/><w>uelamen</w><w>habere</w><w>super</w><w>caput</w>
+<lb n="P155vC1L-vgs5"/><w>suum</w><w>et</w><w>propter</w><w>angelos</w></ab><ab n="1Cor.11.11"><w>ue
+<lb n="P155vC1L-vgs5" break="no"/>rumtamen</w><w>neque</w><w>uir</w><w>sine</w>
+<lb n="P155vC1L-vgs5"/><w>muliere</w><w>neque</w><w>mulier</w>
+<lb n="P155vC1L-vgs5"/><w>sine</w><w>uiro</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w></ab><ab n="1Cor.11.12"><w>nam</w>
+<lb n="P155vC1L-vgs5"/><w>sicut</w><w>mulier</w><w>de</w><w>uiro</w>
+<lb n="P155vC1L-vgs5"/><w>ita</w><w>uir</w><w>per</w><w>mulierem</w>
+<lb n="P155vC1L-vgs5"/><w>omnia</w><w>autem</w><w>ex</w><w>deo</w></ab><ab n="1Cor.11.13"><w>uos</w>
+<lb n="P155vC1L-vgs5"/><w>ipsi</w><w>iudicate</w><w>decet</w><w>mu
+<lb n="P155vC1L-vgs5" break="no"/>lierem</w><w>non</w><w>uelatam</w><w>ora
+<lb n="P155vC1L-vgs5" break="no"/>re</w><w>deum</w></ab><ab n="1Cor.11.14"><w>nec</w><w>ipsa</w><w>natura</w>
+<lb n="P155vC1L-vgs5"/><w>docet</w><w>uos</w><w>quod</w><w>uir</w><w>quidem</w>
+<lb n="P155vC1L-vgs5"/><w>si</w><w>comam</w><w>nutriat</w><w>igno
+<lb n="P155vC1L-vgs5" break="no"/>minia</w><w>est</w><w>illi</w></ab><ab n="1Cor.11.15"><w>mulier</w>
+<lb n="P155vC1L-vgs5"/><w>uero</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>si</w></rdg></app><w>comam</w><w>nutriat</w><w>gloria</w>
+<lb n="P155vC1L-vgs5"/><w>est</w><w>illi</w><w>quoniam</w><w>capilli</w><w>pro</w>
+<lb n="P155vC1L-vgs5"/><w>uelamine</w><w>ei</w><w>dati</w><w>sunt</w>
+<lb n="P155vC1L-vgs5"/></ab><ab n="1Cor.11.16"><w>si</w><w>quis</w><w>autem</w><w>uidetur</w><w>contemp
+<lb n="P155vC1L-vgs5" break="no"/>tiosus</w><w>esse</w><w>nos</w><w>talem</w>
+<lb n="P155vC1L-vgs5"/><w>consuetudinem</w><w>non</w><w>habe
+<lb n="P155vC1L-vgs5" break="no"/>mus</w><w>neque</w><w>ecclesia</w><w>dei</w>
+<lb n="P155vC1L-vgs5"/></ab><ab n="1Cor.11.17"><w>hoc</w><w>autem</w><w>precipio</w><w>non</w>
+<lb n="P155vC1L-vgs5"/><w>laudans</w><w>quod</w><w>non</w><w>in</w><w>melius</w>
+<lb n="P155vC1L-vgs5"/><w>sed</w><w>in</w><w>deterius</w><w>conuenitis</w>
+<lb n="P155vC1L-vgs5"/></ab><ab n="1Cor.11.18"><w>primum</w><w>quidem</w><w>conueni
+<pb n="156r" type="folio" xml:id="P156r-vgs5" break="no"/>
+<cb n="P156rC1-vgs5"/>
+<lb n="P156rC1L-vgs5"/>entibus</w><w>uobis</w><w>in</w><w>ecclesia</w>
+<lb n="P156rC1L-vgs5"/><w>audio</w><w>scissuras</w><w>esse</w>
+<lb n="P156rC1L-vgs5"/><w>et</w><w>ex</w><w>parte</w><w>credo</w></ab><ab n="1Cor.11.19"><w>nam</w>
+<lb n="P156rC1L-vgs5"/><w>oportet</w><w>hereses</w><w>esse</w>
+<lb n="P156rC1L-vgs5"/><w>ut</w><w>qui</w><w>probati</w><w>sunt</w><w>ma
+<lb n="P156rC1L-vgs5" break="no"/>nifesti</w><w>fiant</w><w>in</w><w>uobis</w>
+<lb n="P156rC1L-vgs5"/></ab><ab n="1Cor.11.20"><w>conuenientibus</w><w>uobis</w><w>in</w>
+<lb n="P156rC1L-vgs5"/><w>unum</w><w>iam</w><w>non</w><w>est</w><w>domini
+<lb n="P156rC1L-vgs5" break="no"/>cam</w><w>cenam</w><w>manducare</w>
+<lb n="P156rC1L-vgs5"/></ab><ab n="1Cor.11.21"><w>unusquisque</w><w>autem</w><w>suam</w>
+<lb n="P156rC1L-vgs5"/><w>cenam</w><w>presumat</w><w>ad</w><w>man
+<lb n="P156rC1L-vgs5" break="no"/>ducandum</w><w>et</w><w>alius</w><w>quidem</w>
+<lb n="P156rC1L-vgs5"/><w>esurit</w><w>alius</w><w>autem</w><w>ebrius</w>
+<lb n="P156rC1L-vgs5"/><w>est</w></ab><ab n="1Cor.11.22"><w>numquid</w><w>domos</w><w>non</w>
+<lb n="P156rC1L-vgs5"/><w>habetis</w><w>ad</w><w>manducan
+<lb n="P156rC1L-vgs5" break="no"/>dum</w><w>et</w><w>bibendum</w><w>aut</w><w>ec
+<lb n="P156rC1L-vgs5" break="no"/>clesiam</w><w>dei</w><w>contempditis</w>
+<lb n="P156rC1L-vgs5"/><w>et</w><w>confunditis</w><w>eos</w><w>qui</w>
+<lb n="P156rC1L-vgs5"/><w>non</w><w>habent</w><w>quid</w><w>dicam</w>
+<lb n="P156rC1L-vgs5"/><w>uobis</w><w>laudo</w><w>uos</w><w>in</w><w>hoc</w>
+<lb n="P156rC1L-vgs5"/><w>non</w><w>laudo</w></ab><ab n="1Cor.11.23"><w>ego</w><w>enim</w>
+<lb n="P156rC1L-vgs5"/><w>a</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>accepi</w><w>quod</w><w>et</w><w>tra
+<lb n="P156rC1L-vgs5" break="no"/>didi</w><w>uobis</w><w>quoniam</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihs</hi></abbr></w>
+<lb n="P156rC1L-vgs5"/><w>in</w><w>qua</w><w>nocte</w><w>trade
+<lb n="P156rC1L-vgs5" break="no"/>batur</w><w>accepit</w><w>panem</w>
+<lb n="P156rC1L-vgs5"/></ab><ab n="1Cor.11.24"><w>et</w><w>gratias</w><w>agens</w><w>fregit</w>
+<lb n="P156rC1L-vgs5"/><w>et</w><w>dixit</w><w>accipite</w><w>et</w><w>co
+<lb n="P156rC1L-vgs5" break="no"/>medite</w><w>hoc</w><w>est</w><w>corpus</w>
+<pb n="156v" type="folio" xml:id="P156v-vgs5"/>
+<cb n="P156vC1-vgs5"/>
+<lb n="P156vC1L-vgs5"/><w>meum</w><w>quod</w><w>pro</w><w>uobis</w><w>tradetur</w><w>hoc</w>
+<lb n="P156vC1L-vgs5"/><w>facite</w><w>in</w><w>meam</w><w>commemora
+<lb n="P156vC1L-vgs5" break="no"/>tionem</w></ab><ab n="1Cor.11.25"><w>similiter</w><w>et</w><w>calicem</w>
+<lb n="P156vC1L-vgs5"/><w>postquam</w><w>cenauit</w><w>dicens</w><w>hic</w>
+<lb n="P156vC1L-vgs5"/><w>calix</w><w>nouum</w><w>testamentum</w>
+<lb n="P156vC1L-vgs5"/><w>est</w><w>in</w><w>meo</w><w>sanguine</w><w>hoc</w>
+<lb n="P156vC1L-vgs5"/><w>facite</w><w>quotienscumque</w><w>bi
+<lb n="P156vC1L-vgs5" break="no"/>bitis</w><w>in</w><w>meam</w><w>commemoratio
+<lb n="P156vC1L-vgs5" break="no"/>nem</w></ab><ab n="1Cor.11.26"><w>quotienscumque</w><w>enim</w>
+<lb n="P156vC1L-vgs5"/><w>manducabitis</w><app><rdg type="orig" hand="firsthand"><w>panis</w></rdg><rdg type="corr" hand="corrector"><w>panem</w></rdg></app>
+<lb n="P156vC1L-vgs5"/><w>hunc</w><w>et</w><w>calicem</w><w>bibetis</w>
+<lb n="P156vC1L-vgs5"/><w>mortem</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>annuntia
+<lb n="P156vC1L-vgs5" break="no"/>bitis</w><w>donec</w><w>ueniat</w></ab><ab n="1Cor.11.27"><w>ita
+<lb n="P156vC1L-vgs5" break="no"/>que</w><w>quicumque</w><w>manducauerit</w>
+<lb n="P156vC1L-vgs5"/><w>panem</w><w>hunc</w><w>et</w><w>biberit</w><w>ca
+<lb n="P156vC1L-vgs5" break="no"/>licem</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>indigne</w><w>re
+<lb n="P156vC1L-vgs5" break="no"/>us</w><w>erit</w><w>corporis</w><w>et</w><w>san
+<lb n="P156vC1L-vgs5" break="no"/>guinis</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w></ab><ab n="1Cor.11.28"><w>probet</w>
+<lb n="P156vC1L-vgs5"/><w>autem</w><w>se</w><w>ipsum</w><w>homo</w><w>et</w><w>sic</w><w>de</w>
+<lb n="P156vC1L-vgs5"/><w>pane</w><w>illo</w><w>edat</w><w>et</w><w>de</w><w>ca
+<lb n="P156vC1L-vgs5" break="no"/>lice</w><w>bibat</w></ab><ab n="1Cor.11.29"><w>qui</w><w>enim</w><w>man
+<lb n="P156vC1L-vgs5" break="no"/>ducat</w><w>et</w><w>bibit</w><w>indigne</w>
+<lb n="P156vC1L-vgs5"/><w>iudicium</w><w>sibi</w><w>manducat</w>
+<lb n="P156vC1L-vgs5"/><w>et</w><w>bibit</w><w>non</w><w>diiudicans</w>
+<lb n="P156vC1L-vgs5"/><w>corpus</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w></ab><ab n="1Cor.11.30"><w>ideo</w><w>inter</w><w>uos</w>
+<lb n="P156vC1L-vgs5"/><w>multi</w><w>infirmi</w><w>et</w><w>inbec
+<lb n="P156vC1L-vgs5" break="no"/>cilles</w><w>et</w><w>dormiunt</w><w>multi</w>
+<pb n="157r" type="folio" xml:id="P157r-vgs5"/>
+<cb n="P157rC1-vgs5"/>
+<lb n="P157rC1L-vgs5"/></ab><ab n="1Cor.11.31"><w>quod</w><w>si</w><w>nosmet</w><w>ipsos</w>
+<lb n="P157rC1L-vgs5"/><w>diiudicaremur</w><w>non</w><w>utique</w>
+<lb n="P157rC1L-vgs5"/><w>iudicaremur</w></ab><ab n="1Cor.11.32"><w>dum</w><w>iudica
+<lb n="P157rC1L-vgs5" break="no"/>mur</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P157rC1L-vgs5"><w>autem</w></seg></rdg></app><w>a</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>corripimur</w><w>ut</w>
+<lb n="P157rC1L-vgs5"/><w>non</w><w>cum</w><w>hoc</w><w>mundo</w><w>damp
+<lb n="P157rC1L-vgs5" break="no"/>nemur</w>
+<lb n="P157rC1L-vgs5"/></ab><ab n="1Cor.11.33"><w>itaque</w><w>fratres</w><w>mei</w><w>cum</w><w>conueni
+<lb n="P157rC1L-vgs5" break="no"/>tis</w><w>ad</w><w>manducandum</w>
+<lb n="P157rC1L-vgs5"/><w>inuicem</w><w>expectate</w></ab><ab n="1Cor.11.34"><w>si</w><w>quid</w>
+<lb n="P157rC1L-vgs5"/><w>esurit</w><w>domi</w><w>mandu
+<lb n="P157rC1L-vgs5" break="no"/>cet</w><w>ut</w><w>non</w><w>in</w><w>iudicium</w>
+<lb n="P157rC1L-vgs5"/><w>conueniatis</w><w>cetera</w><w>autem</w>
+<lb n="P157rC1L-vgs5"/><w>cum</w><w>uenero</w><w>disponam</w>
+<lb n="P157rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.12"><ab n="1Cor.12.1"><w>de</w><w>spiritalibus</w><w>autem</w><w>nolo</w>
+<lb n="P157rC1L-vgs5"/><w>uos</w><w>ignorare</w><w>fratres</w>
+<lb n="P157rC1L-vgs5"/></ab><ab n="1Cor.12.2"><w>scitis</w><w>quoniam</w><w>cum</w><w>gentes</w><w>essetis</w>
+<lb n="P157rC1L-vgs5"/><w>ad</w><w>symulacra</w><w>muta</w>
+<lb n="P157rC1L-vgs5"/><w>quo</w><w>ut</w><w>ducebamini</w>
+<lb n="P157rC1L-vgs5"/><w>euntes</w></ab><ab n="1Cor.12.3"><w>ideo</w><w>notum</w>
+<lb n="P157rC1L-vgs5"/><w>uobis</w><w>facio</w><w>quod</w><w>nemo</w><w>in</w>
+<lb n="P157rC1L-vgs5"/><w>spiritu</w><w>dei</w><w>loquens</w><w>dicit</w>
+<lb n="P157rC1L-vgs5"/><w>anathema</w><w>iesu</w><w>et</w>
+<lb n="P157rC1L-vgs5"/><w>nemo</w><w>potest</w><w>dicere</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w>
+<lb n="P157rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">ihus</hi></abbr></w><w>nisi</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>sancto</w>
+<lb n="P157rC1L-vgs5"/></ab><ab n="1Cor.12.4"><w>diuisiones</w><w>uero</w><w>gratiarum</w>
+<lb n="P157rC1L-vgs5"/><w>sunt</w><w>idem</w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w></ab><ab n="1Cor.12.5"><w>et</w>
+<lb n="P157rC1L-vgs5"/><w>diuisiones</w><w>ministra
+<pb n="157v" type="folio" xml:id="P157v-vgs5" break="no"/>
+<cb n="P157vC1-vgs5"/>
+<lb n="P157vC1L-vgs5"/>tionum</w><w>sunt</w><w>idem</w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w>
+<lb n="P157vC1L-vgs5"/></ab><ab n="1Cor.12.6"><w>et</w><w>diuisiones</w><w>operationum</w>
+<lb n="P157vC1L-vgs5"/><w>sunt</w><w>idem</w><w>uero</w><w>deus</w><w>qui</w><w>opera
+<lb n="P157vC1L-vgs5" break="no"/>tur</w><w>omnia</w><w>in</w><w>omnibus</w></ab><ab n="1Cor.12.7"><w>unicui
+<lb n="P157vC1L-vgs5" break="no"/>que</w><w>autem</w><w>datur</w><w>manifestatio</w>
+<lb n="P157vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>ad</w><app><rdg type="orig" hand="firsthand"><w>hutilitatem</w></rdg><rdg type="corr" hand="corrector" rend="erased"><w>utilitatem</w></rdg></app></ab><ab n="1Cor.12.8"><w>alii</w>
+<lb n="P157vC1L-vgs5"/><w>quidem</w><w>datur</w><w>per</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w>sermo</w><w>sa
+<lb n="P157vC1L-vgs5" break="no"/>pientie</w><w>alii</w><w>sermo</w><w>scientie</w>
+<lb n="P157vC1L-vgs5"/><w>secundum</w><w>eundem</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w></ab><ab n="1Cor.12.9"><w>alii</w><w>fides</w>
+<lb n="P157vC1L-vgs5"/><w>in</w><w>eodem</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>alii</w><w>gratia</w><w>sa
+<lb n="P157vC1L-vgs5" break="no"/>nitatum</w><w>in</w><w>uno</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w></ab><ab n="1Cor.12.10"><w>alii</w>
+<lb n="P157vC1L-vgs5"/><w>operatio</w><w>uirtutum</w><w>alii</w><w>pro
+<lb n="P157vC1L-vgs5" break="no"/>phetia</w><w>alii</w><w>discretio</w><w><abbr type="nomSac"><hi rend="overline">spuum</hi></abbr></w>
+<lb n="P157vC1L-vgs5"/><w>alii</w><w>interpretatio</w><w>sermonum</w>
+<lb n="P157vC1L-vgs5"/><w>alii</w><w>genera</w><w>linguarum</w></ab><ab n="1Cor.12.11"><w>hec</w>
+<lb n="P157vC1L-vgs5"/><w>autem</w><w>omnia</w><w>operatur</w><w>unus</w><w>atque</w>
+<lb n="P157vC1L-vgs5"/><w>idem</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>diuidens</w><w>singulis</w>
+<lb n="P157vC1L-vgs5"/><w>prout</w><w>uult</w>
+<lb n="P157vC1L-vgs5"/></ab><ab n="1Cor.12.12"><w>sicut</w><w>enim</w><w>corpus</w><w>unum</w><w>est</w><w>et</w><w>mem
+<lb n="P157vC1L-vgs5" break="no"/>bra</w><w>habet</w><w>multa</w><w>omnia</w><w>autem</w>
+<lb n="P157vC1L-vgs5"/><w>membra</w><w>corporis</w><w>cum</w><w>sint</w><w>multa</w>
+<lb n="P157vC1L-vgs5"/><w>unum</w><w>corpus</w><w>sunt</w><w>ita</w><w>et</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w>
+<lb n="P157vC1L-vgs5"/></ab><ab n="1Cor.12.13"><w>etenim</w><w>in</w><w>uno</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>omnes</w><w>nos</w>
+<lb n="P157vC1L-vgs5"/><w>in</w><w>unum</w><w>corpus</w><w>baptiçati</w><w>su
+<lb n="P157vC1L-vgs5" break="no"/>mus</w><w>siue</w><w>iudei</w><w>siue</w><w>gentiles</w>
+<lb n="P157vC1L-vgs5"/><w>siue</w><w>serui</w><w>siue</w><w>liberi</w><w>et</w><w>omnes</w>
+<lb n="P157vC1L-vgs5"/><w>uno</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>potati</w><w>sumus</w>
+<lb n="P157vC1L-vgs5"/></ab><ab n="1Cor.12.14"><w>nam</w><w>et</w><w>corpus</w><w>non</w><w>est</w><w>unum</w><w>memb
+<pb n="158r" type="folio" xml:id="P158r-vgs5" break="no"/>
+<cb n="P158rC1-vgs5"/>
+<lb n="P158rC1L-vgs5"/>rum</w><w>sed</w><w>multa</w></ab><ab n="1Cor.12.15"><w>si</w><w>dixerit</w>
+<lb n="P158rC1L-vgs5"/><w>pes</w><w>quoniam</w><w>non</w><w>sum</w><w>manus</w>
+<lb n="P158rC1L-vgs5"/><w>non</w><w>sum</w><w>de</w><w>corpore</w><w>non</w><w>ideo</w>
+<lb n="P158rC1L-vgs5"/><w>non</w><w>est</w><w>de</w><w>corpore</w></ab><ab n="1Cor.12.16"><w>et</w><w>si</w><w>dixerit</w><w>au
+<lb n="P158rC1L-vgs5" break="no"/>ris</w><w>quia</w><w>non</w><w>sum</w><w>oculus</w><w>non</w>
+<lb n="P158rC1L-vgs5"/><w>sum</w><w>de</w><w>corpore</w><w>non</w><w>ideo</w><w>non</w><w>est</w><w>de</w>
+<lb n="P158rC1L-vgs5"/><w>corpore</w></ab><ab n="1Cor.12.17"><w>si</w><w>totum</w><w>corpus</w><w>oculus</w>
+<lb n="P158rC1L-vgs5"/><w>ubi</w><w>auditus</w><w>si</w><w>totum</w>
+<lb n="P158rC1L-vgs5"/><w>auditus</w><w>ubi</w><w>adoratus</w>
+<lb n="P158rC1L-vgs5"/></ab><ab n="1Cor.12.18"><w>nunc</w><w>autem</w><w>posuit</w><w>deus</w>
+<lb n="P158rC1L-vgs5"/><w>membra</w><w>unumquodque</w><w>eorum</w><w>in</w><w>corpore</w>
+<lb n="P158rC1L-vgs5"/><w>sicut</w><w>uoluit</w></ab><ab n="1Cor.12.19"><w>quod</w><w>si</w><w>esse
+<lb n="P158rC1L-vgs5" break="no"/>nt</w><w>omnia</w><w>unum</w><w>membrum</w><w>ubi</w>
+<lb n="P158rC1L-vgs5"/><w>corpus</w></ab><ab n="1Cor.12.20"><w>nunc</w><w>autem</w><w>quidem</w><w>mul
+<lb n="P158rC1L-vgs5" break="no"/>ta</w><w>membra</w><w>unum</w><w>corpus</w><w>sumus</w>
+<lb n="P158rC1L-vgs5"/></ab><ab n="1Cor.12.21"><w>non</w><w>potest</w><w>autem</w><w>dicere</w><w>oculus</w>
+<lb n="P158rC1L-vgs5"/><w>manui</w><w>opera</w><w>tua</w><w>non</w><w>in
+<lb n="P158rC1L-vgs5" break="no"/>digeo</w><w>aut</w><w>iterum</w><w>caput</w>
+<lb n="P158rC1L-vgs5"/><w>pedibus</w><w>non</w><w>estis</w><w>mihi</w><w>ne
+<lb n="P158rC1L-vgs5" break="no"/>cessarii</w></ab><ab n="1Cor.12.22"><w>sed</w><w>multo</w><w>ma
+<lb n="P158rC1L-vgs5" break="no"/>gis</w><w>que</w><w>uidentur</w><w>membra</w>
+<lb n="P158rC1L-vgs5"/><w>corporis</w><w>infirmiora</w>
+<lb n="P158rC1L-vgs5"/><w>esse</w><w>necessariora</w><w>sunt</w></ab><ab n="1Cor.12.23"><w>et</w><w>que</w>
+<lb n="P158rC1L-vgs5"/><w>putamus</w><w>ignobiliora</w><w>esse</w>
+<lb n="P158rC1L-vgs5"/><w>his</w><w>abundantiorem</w><w>honorem</w>
+<lb n="P158rC1L-vgs5"/><w>circumdamus</w><w>et</w><w>que</w><w>inhonesta</w>
+<lb n="P158rC1L-vgs5"/><w>sunt</w><w>nostra</w><w>habundatiorem</w>
+<lb n="P158rC1L-vgs5"/><w>honestatem</w><w>habent</w></ab><ab n="1Cor.12.24"><w>hone
+<pb n="158v" type="folio" xml:id="P158v-vgs5" break="no"/>
+<cb n="P158vC1-vgs5"/>
+<lb n="P158vC1L-vgs5"/>sta</w><w>autem</w><w>nostra</w><w>nullius</w><w>egent</w>
+<lb n="P158vC1L-vgs5"/><w>set</w><w>deus</w><w>temptauit</w><w>corpus</w>
+<lb n="P158vC1L-vgs5"/><w>ei</w><w>cui</w><w>deerat</w><w>habundan
+<lb n="P158vC1L-vgs5" break="no"/>tiorem</w><w>tribuendo</w><w>honorem</w>
+<lb n="P158vC1L-vgs5"/></ab><ab n="1Cor.12.25"><w>ut</w><w>non</w><w>sit</w><w>scisma</w><w>in</w><w>corpore</w>
+<lb n="P158vC1L-vgs5"/><w>sed</w><w>in</w><w>id</w><w>ipsum</w><w>pro</w><w>inuicem</w><w>solli
+<lb n="P158vC1L-vgs5" break="no"/>cita</w><w>sint</w><w>membra</w>
+<lb n="P158vC1L-vgs5"/></ab><ab n="1Cor.12.26"><w>ut</w><w>si</w><w>quid</w><w>patitur</w><w>unum</w><w>membrum</w>
+<lb n="P158vC1L-vgs5"/><w>conpatiuntur</w><w>omnia</w><w>membra</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="pagebottom" n="@P158v-vgs5"><w>siue</w><w>gloriatur</w><w>unum</w><w>membrum</w><w>con​​​​​​​​​​​​​​​
+<lb break="no"/>gaudetur</w><w>omnia</w><w>membra</w></seg></rdg></app>
+<lb n="P158vC1L-vgs5"/></ab><ab n="1Cor.12.27"><w>uos</w><w>autem</w><w>estis</w><w>corpus</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>et</w><w>mem
+<lb n="P158vC1L-vgs5" break="no"/>bra</w><w>de</w><w>membro</w></ab><ab n="1Cor.12.28"><w>et</w><w>quosdam</w>
+<lb n="P158vC1L-vgs5"/><w>quidem</w><w>posuit</w><w>deus</w><w>in</w><w>ecclesia</w>
+<lb n="P158vC1L-vgs5"/><w>primum</w><w>apostolos</w><w>secundo</w><w>prophetas</w>
+<lb n="P158vC1L-vgs5"/><w>tertio</w><w>doctores</w><w>deinde</w><w>uirtu
+<lb n="P158vC1L-vgs5" break="no"/>tes</w><w>exinde</w><w>gratias</w><w>cu
+<lb n="P158vC1L-vgs5" break="no"/>rationum</w><w>opitulationes</w>
+<lb n="P158vC1L-vgs5"/><w>gubernationes</w><w>genera</w><w>lingua
+<lb n="P158vC1L-vgs5" break="no"/>rum</w></ab><ab n="1Cor.12.29"><w>numquid</w><w>omnes</w><w>apostoli</w><w>num
+<lb n="P158vC1L-vgs5" break="no"/>quid</w><w>omnes</w><w>doctores</w><w>numquid</w>
+<lb n="P158vC1L-vgs5"/><w>omnes</w><w>uirtutes</w></ab><ab n="1Cor.12.30"><w>numquid</w><w>omnes</w>
+<lb n="P158vC1L-vgs5"/><w>gratias</w><w>habent</w><w>curationum</w><w>num
+<lb n="P158vC1L-vgs5" break="no"/>quid</w><w>omnes</w><w>linguis</w><w>loqun
+<lb n="P158vC1L-vgs5" break="no"/>tur</w><w>numquid</w><w>omnes</w><w>interpretan
+<lb n="P158vC1L-vgs5" break="no"/>tur</w></ab><ab n="1Cor.12.31"><w>emulamini</w><w>autem</w><w>cha
+<lb n="P158vC1L-vgs5" break="no"/>rismata</w><w>meliora</w><w>et</w><w>adhuc</w>
+<lb n="P158vC1L-vgs5"/><w>excellentiorem</w><w>uiam</w><w>uobis</w><w>de
+<lb n="P158vC1L-vgs5" break="no"/>monstro</w>
+<lb n="P158vC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.13"><ab n="1Cor.13.1"><w>si</w><w>linguis</w><w>hominum</w><w>loquar</w>
+<pb n="159r" type="folio" xml:id="P159r-vgs5"/>
+<cb n="P159rC1-vgs5"/>
+<lb n="P159rC1L-vgs5"/><w>et</w><w>angelorum</w><w>caritatem</w>
+<lb n="P159rC1L-vgs5"/><w>autem</w><w>non</w><w>habeam</w><w>factus</w>
+<lb n="P159rC1L-vgs5"/><w>sum</w><w>uelud</w><w>es</w><w>sonans</w>
+<lb n="P159rC1L-vgs5"/><w>aut</w><w>cymbalum</w><w>tinniens</w>
+<lb n="P159rC1L-vgs5"/></ab><ab n="1Cor.13.2"><app><rdg type="orig" hand="firsthand"><w>et</w><w>si</w><w>distribuero</w><w>in</w><w>cibos</w></rdg><rdg type="corr" hand="corrector" rend="underdot"><w>et</w><w>si</w><w>distribuero</w><w>in</w><w>cibos</w></rdg></app>
+<lb n="P159rC1L-vgs5"/><w>et</w><w>si</w><w>habuero</w><w>prophetiam</w><w>et</w>
+<lb n="P159rC1L-vgs5"/><w>nouerim</w><w>misteria</w><w>omnia</w><w>et</w>
+<lb n="P159rC1L-vgs5"/><w>omnem</w><w>scientiam</w><w>et</w><w>si</w><w>habuero</w>
+<lb n="P159rC1L-vgs5"/><w>fidem</w><w>omnem</w><w>ita</w><w>ut</w><w>montes</w>
+<lb n="P159rC1L-vgs5"/><w>transferam</w><w>caritatem</w><w>autem</w>
+<lb n="P159rC1L-vgs5"/><w>non</w><w>habuero</w><w>nichil</w><w>sum</w>
+<lb n="P159rC1L-vgs5"/></ab><ab n="1Cor.13.3"><w>et</w><w>si</w><w>distribuero</w><w>in</w><w>cibos</w>
+<lb n="P159rC1L-vgs5"/><w>pauperum</w><w>omnes</w><w>faculta
+<lb n="P159rC1L-vgs5" break="no"/>tes</w><w>meas</w><w>et</w><w>si</w><w>tradide
+<lb n="P159rC1L-vgs5" break="no"/>ro</w><w>corpus</w><w>meum</w><w>ita</w><w>ut</w><w>ar
+<lb n="P159rC1L-vgs5" break="no"/>deam</w><w>caritatem</w><w>autem</w><w>non</w>
+<lb n="P159rC1L-vgs5"/><w>habuero</w><w>nichil</w><w>michi</w>
+<lb n="P159rC1L-vgs5"/><w>prodest</w></ab><ab n="1Cor.13.4"><w>karitas</w><w>patiens</w><w>est</w>
+<lb n="P159rC1L-vgs5"/><w>benigna</w><w>est</w><w>karitas</w><w>non</w>
+<lb n="P159rC1L-vgs5"/><w>emulatur</w><w>non</w><w>agit</w><w>perpe
+<lb n="P159rC1L-vgs5" break="no"/>ram</w><w>non</w><w>inflatur</w></ab><ab n="1Cor.13.5"><w>non</w><w>est</w>
+<lb n="P159rC1L-vgs5"/><w>anmitiosa</w><w>non</w><w>querit</w>
+<lb n="P159rC1L-vgs5"/><w>que</w><w>sua</w><w>sunt</w><w>non</w><w>irrita
+<lb n="P159rC1L-vgs5" break="no"/>tur</w><w>non</w><w>cogitat</w><w>malum</w>
+<lb n="P159rC1L-vgs5"/></ab><ab n="1Cor.13.6"><w>non</w><w>gaudet</w><w>super</w><w>iniquita
+<lb n="P159rC1L-vgs5" break="no"/>tem</w><w>congaudet</w><w>autem</w><w>ueri
+<lb n="P159rC1L-vgs5" break="no"/>tati</w></ab><ab n="1Cor.13.7"><w>omnia</w><w>suffert</w><w>omnia</w>
+<lb n="P159rC1L-vgs5"/><w>credit</w><w>omnia</w><w>sperat</w><w>omnia</w>
+<pb n="159v" type="folio" xml:id="P159v-vgs5"/>
+<cb n="P159vC1-vgs5"/>
+<lb n="P159vC1L-vgs5"/><w>sustinet</w></ab><ab n="1Cor.13.8"><w>caritas</w><w>numquam</w>
+<lb n="P159vC1L-vgs5"/><w>excidit</w><w>siue</w><w>prophetie</w><w>eua
+<lb n="P159vC1L-vgs5" break="no"/>cuabuntur</w><w>siue</w><w>lingue</w>
+<lb n="P159vC1L-vgs5"/><w>cessabunt</w><w>siue</w><w>scientia</w><w>de
+<lb n="P159vC1L-vgs5" break="no"/>struetur</w></ab><ab n="1Cor.13.9"><w>ex</w><w>parte</w><w>enim</w><w>cogno
+<lb n="P159vC1L-vgs5" break="no"/>scimus</w><w>et</w><w>ex</w><w>parte</w><w>prophetamus</w>
+<lb n="P159vC1L-vgs5"/></ab><ab n="1Cor.13.10"><w>cum</w><w>autem</w><w>uenerit</w><w>quod</w><w>perfectum</w>
+<lb n="P159vC1L-vgs5"/><w>est</w><w>euacuabitur</w><w>quod</w><w>ex</w><w>parte</w>
+<lb n="P159vC1L-vgs5"/><w>est</w></ab><ab n="1Cor.13.11"><w>cum</w><w>essem</w><w>paruulus</w><w>lo
+<lb n="P159vC1L-vgs5" break="no"/>quebar</w><w>ut</w><w>paruulus</w><w>sa
+<lb n="P159vC1L-vgs5" break="no"/>piebam</w><w>ut</w><w>paruulus</w><w>co
+<lb n="P159vC1L-vgs5" break="no"/>gitabam</w><w>ut</w><w>paruulus</w><w>quando</w>
+<lb n="P159vC1L-vgs5"/><w>autem</w><w>factus</w><w>sum</w><w>uir</w><w>eua
+<lb n="P159vC1L-vgs5" break="no"/>cuaui</w><w>que</w><w>erant</w><w>paruuli</w>
+<lb n="P159vC1L-vgs5"/></ab><ab n="1Cor.13.12"><w>uidemus</w><w>nunc</w><w>per</w><w>speculum</w>
+<lb n="P159vC1L-vgs5"/><w>in</w><w>enigmate</w><w>tunc</w><w>autem</w><w>fa
+<lb n="P159vC1L-vgs5" break="no"/>cie</w><w>ad</w><w>faciem</w><w>nunc</w><w>cognosco</w>
+<lb n="P159vC1L-vgs5"/><w>ex</w><w>parte</w><w>tunc</w><w>autem</w><w>cogno
+<lb n="P159vC1L-vgs5" break="no"/>scam</w><w>sicut</w><w>et</w><w>cognitus</w><w>sum</w>
+<lb n="P159vC1L-vgs5"/></ab><ab n="1Cor.13.13"><w>nunc</w><w>autem</w><w>manent</w><w>fides</w>
+<lb n="P159vC1L-vgs5"/><w>spes</w><w>caritas</w><w>tria</w><w>hec</w>
+<lb n="P159vC1L-vgs5"/><w>maior</w><w>autem</w><w>hiis</w><w>est</w><w>kari
+<lb n="P159vC1L-vgs5" break="no"/>tas</w>
+<lb n="P159vC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.14"><ab n="1Cor.14.1"><w>sectamini</w><w>karitatem</w><w>e
+<lb n="P159vC1L-vgs5" break="no"/>mulamini</w><w>spiritualia</w><w>ma
+<lb n="P159vC1L-vgs5" break="no"/>gis</w><w>autem</w><w>ut</w><app><rdg type="orig" hand="firsthand"><w>prophetis</w></rdg><rdg type="corr" hand="corrector"><w>prophetetis</w></rdg></app></ab><ab n="1Cor.14.2"><w>qui</w>
+<lb n="P159vC1L-vgs5"/><w>enim</w><w>loquitur</w><w>lingua</w><w>non</w><w>homi
+<pb n="160r" type="folio" xml:id="P160r-vgs5" break="no"/>
+<cb n="P160rC1-vgs5"/>
+<lb n="P160rC1L-vgs5"/>nibus</w><w>loquitur</w><w>sed</w><w>eo</w><w>nemo</w>
+<lb n="P160rC1L-vgs5"/><w>enim</w><w>audit</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>autem</w>
+<lb n="P160rC1L-vgs5"/><w>loquitur</w><w>misteria</w></ab><ab n="1Cor.14.3"><w>nam</w><w>qui</w>
+<lb n="P160rC1L-vgs5"/><w>prophetat</w><w>hominibus</w><w>loquitur</w>
+<lb n="P160rC1L-vgs5"/><w>ad</w><w>hedificationem</w><w>et</w><w>ex
+<lb n="P160rC1L-vgs5" break="no"/>ortationem</w><w>et</w><w>consolationem</w>
+<lb n="P160rC1L-vgs5"/></ab><ab n="1Cor.14.4"><w>qui</w><w>loquitur</w><w>lingua</w>
+<lb n="P160rC1L-vgs5"/><w>semet</w><w>ipsum</w><w>hedificat</w>
+<lb n="P160rC1L-vgs5"/><w>qui</w><w>autem</w><w>prophetat</w><w>ecclesi
+<lb n="P160rC1L-vgs5" break="no"/>am</w><w>hedificat</w></ab><ab n="1Cor.14.5"><w>uolo</w><w>autem</w>
+<lb n="P160rC1L-vgs5"/><w>uos</w><w>omnes</w><w>linguis</w><w>loqui</w>
+<lb n="P160rC1L-vgs5"/><w>magis</w><w>autem</w><w>prophetare</w>
+<lb n="P160rC1L-vgs5"/><w>nam</w><w>maior</w><w>est</w><w>qui</w><w>prophe
+<lb n="P160rC1L-vgs5" break="no"/>tat</w><w>quam</w><w>qui</w><w>loquitur</w>
+<lb n="P160rC1L-vgs5"/><w>linguis</w><w>nisi</w><w>forte</w><w>in
+<lb n="P160rC1L-vgs5" break="no"/>terpretetur</w><w>ut</w><w>ecclesiam</w><w>he
+<lb n="P160rC1L-vgs5" break="no"/>dificationem</w><w>accipiat</w>
+<lb n="P160rC1L-vgs5"/></ab><ab n="1Cor.14.6"><w>nunc</w><w>autem</w><w>fratres</w><w>si</w><w>uero</w>
+<lb n="P160rC1L-vgs5"/><w>ad</w><w>uos</w><w>linguis</w><w>loquens</w>
+<lb n="P160rC1L-vgs5"/><w>quid</w><w>uobis</w><w>prodero</w><w>nisi</w><w>uobis</w>
+<lb n="P160rC1L-vgs5"/><w>loquar</w><w>aut</w><w>in</w><w>reuela
+<lb n="P160rC1L-vgs5" break="no"/>tione</w><w>aut</w><w>in</w><w>scientia</w><w>aut</w>
+<lb n="P160rC1L-vgs5"/><w>in</w><w>prophetia</w><w>aut</w><w>in</w><w>doc
+<lb n="P160rC1L-vgs5" break="no"/>trina</w></ab><ab n="1Cor.14.7"><w>tamen</w><w>et</w><w>si</w><w>que</w><w>sine</w>
+<lb n="P160rC1L-vgs5"/><w>anima</w><w>sunt</w><w>uoce</w><w>dantia</w>
+<lb n="P160rC1L-vgs5"/><w>siue</w><w>tybia</w><w>siue</w><w>cytha
+<lb n="P160rC1L-vgs5" break="no"/>ra</w><w>nisi</w><w>distinctionem</w>
+<pb n="160v" type="folio" xml:id="P160v-vgs5"/>
+<cb n="P160vC1-vgs5"/>
+<lb n="P160vC1L-vgs5"/><w>sonituum</w><w>dederint</w><w>quomodo</w><app><rdg type="orig" hand="firsthand"><w>scitur</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P160vC1L-vgs5"><w>scietur</w></seg></rdg></app>
+<lb n="P160vC1L-vgs5"/><w>id</w><w>quod</w><w>canitur</w><w>aut</w><w>quod</w><w>cithari
+<lb n="P160vC1L-vgs5" break="no"/>çatur</w></ab><ab n="1Cor.14.8"><w>etenim</w><w>si</w><w>incertam</w><w>uo
+<lb n="P160vC1L-vgs5" break="no"/>cem</w><w>det</w><w>tuba</w><w>quis</w><w>papa
+<lb n="P160vC1L-vgs5" break="no"/>bit</w><w>se</w><w>ad</w><w>bellum</w></ab><ab n="1Cor.14.9"><w>ita</w><w>et</w><w>uos</w>
+<lb n="P160vC1L-vgs5"/><w>per</w><w>linguam</w><w>nisi</w><w>manifestum</w>
+<lb n="P160vC1L-vgs5"/><w>sermonem</w><w>dederitis</w><w>quomodo</w>
+<lb n="P160vC1L-vgs5"/><w>scietur</w><w>id</w><w>quod</w><w>dicitur</w><w>eritis</w>
+<lb n="P160vC1L-vgs5"/><w>enim</w><w>in</w><w>area</w><w>loquentes</w></ab><ab n="1Cor.14.10"><w>tam</w>
+<lb n="P160vC1L-vgs5"/><w>multa</w><w>ut</w><w>puta</w><w>genera</w><w>lin
+<lb n="P160vC1L-vgs5" break="no"/>guarum</w><w>sunt</w><w>in</w><w>hoc</w><w>mundo</w>
+<lb n="P160vC1L-vgs5"/><w>et</w><w>nichil</w><w>sine</w><w>uoce</w><w>est</w></ab><ab n="1Cor.14.11"><w>si</w><w>ergo</w>
+<lb n="P160vC1L-vgs5"/><w>nesciero</w><w>uirtutem</w><w>uocis</w>
+<lb n="P160vC1L-vgs5"/><w>ero</w><w>cui</w><w>loquor</w><w>barbarus</w>
+<lb n="P160vC1L-vgs5"/><w>et</w><w>qui</w><w>loquitur</w><w>michi</w><w>barba
+<lb n="P160vC1L-vgs5" break="no"/>rus</w></ab><ab n="1Cor.14.12"><w>sic</w><w>et</w><w>uos</w><w>quoniam</w><w>emu
+<lb n="P160vC1L-vgs5" break="no"/>latores</w><w>estis</w><w><abbr type="nomSac"><hi rend="overline">spuum</hi></abbr></w><w>ad</w><w>he
+<lb n="P160vC1L-vgs5" break="no"/>dificationem</w><w>ecclesie</w><w>que
+<lb n="P160vC1L-vgs5" break="no"/>rite</w><w>ut</w><w>habundetis</w></ab><ab n="1Cor.14.13"><w>et</w>
+<lb n="P160vC1L-vgs5"/><w>ideo</w><w>qui</w><w>loquitur</w><w>lingua</w>
+<lb n="P160vC1L-vgs5"/><w>oret</w><w>ut</w><w>interpretetur</w></ab><ab n="1Cor.14.14"><w>nam</w><w>si</w>
+<lb n="P160vC1L-vgs5"/><w>orem</w><w>lingua</w><app><rdg type="orig" hand="firsthand"><w>ore</w><w>ut</w><w>interpre​​​​​​​​​​​​​​
+<lb n="P160vC1L-vgs5" break="no"/>tetur</w></rdg><rdg type="corr" hand="corrector" rend="other"/></app><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>meus</w><w>orat</w><w>mens</w>
+<lb n="P160vC1L-vgs5"/><w>autem</w><w>mea</w><w>sine</w><w>fructu</w><w>est</w>
+<lb n="P160vC1L-vgs5"/></ab><ab n="1Cor.14.15"><w>quid</w><w>ergo</w><w>est</w><w>orabo</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w>
+<lb n="P160vC1L-vgs5"/><w>orabo</w><w>et</w><w>mente</w><w>psallam</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w>
+<lb n="P160vC1L-vgs5"/><w>psallam</w><w>et</w><w>mente</w></ab><ab n="1Cor.14.16"><w>ceterum</w><w>si</w><w>be
+<lb n="P160vC1L-vgs5" break="no"/>nedixeris</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>quis</w><w>supplet</w>
+<pb n="161r" type="folio" xml:id="P161r-vgs5"/>
+<cb n="P161rC1-vgs5"/>
+<lb n="P161rC1L-vgs5"/><w>locum</w><w>ydiote</w><w>quomodo</w>
+<lb n="P161rC1L-vgs5"/><w>dicit</w><w>amen</w><w>super</w><w>tuam</w><w>beni
+<lb n="P161rC1L-vgs5" break="no"/>dictionem</w><w>quoniam</w><w>quid</w><w>dicas</w>
+<lb n="P161rC1L-vgs5"/><w>nescit</w></ab><ab n="1Cor.14.17"><w>nam</w><w>tu</w><w>quidem</w><w>bene</w>
+<lb n="P161rC1L-vgs5"/><w>gratias</w><w>agis</w><w>sed</w><w>alter</w><w>non</w>
+<lb n="P161rC1L-vgs5"/><w>hedificatur</w></ab><ab n="1Cor.14.18"><w>gratias</w><w>ago</w>
+<lb n="P161rC1L-vgs5"/><w>deo</w><w>meo</w><w>quod</w><w>omnium</w><w>uestrum</w>
+<lb n="P161rC1L-vgs5"/><w>lingua</w><w>loquor</w></ab><ab n="1Cor.14.19"><w>sed</w><w>in</w><w>ecclesia</w>
+<lb n="P161rC1L-vgs5"/><w>uolo</w><w>quinque</w><w>uerba</w><w>sensu</w><w>meo</w>
+<lb n="P161rC1L-vgs5"/><w>loqui</w><w>ut</w><w>alios</w><w>instru
+<lb n="P161rC1L-vgs5" break="no"/>am</w><w>quam</w><w>decem</w><w>milia</w><w>uerborum</w>
+<lb n="P161rC1L-vgs5"/><w>in</w><w>lingua</w>
+<lb n="P161rC1L-vgs5"/></ab><ab n="1Cor.14.20"><w>fratres</w><w>nolite</w><w>pueri</w><w>effici</w>
+<lb n="P161rC1L-vgs5"/><w>sensibus</w><w>sed</w><w>malitia</w><w>par
+<lb n="P161rC1L-vgs5" break="no"/>uuli</w><w>estote</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>sensibus</w><w>autem</w><w>perfecti</w><w>estote</w></rdg></app></ab><ab n="1Cor.14.21"><w>in</w><w>lege</w><w>enim</w>
+<lb n="P161rC1L-vgs5"/><w>scriptum</w><w>est</w><w>quoniam</w><w>in</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>aliis</w></rdg></app><w>linguis</w>
+<lb n="P161rC1L-vgs5"/><w>et</w><w>aliis</w><w>labiis</w><w>loquar</w>
+<lb n="P161rC1L-vgs5"/><w>populo</w><w>huic</w><w>et</w><w>nec</w><w>sic</w><w>exau
+<lb n="P161rC1L-vgs5" break="no"/>dient</w><w>me</w><w>dicit</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w>
+<lb n="P161rC1L-vgs5"/></ab><ab n="1Cor.14.22"><w>itaque</w><w>lingue</w><w>in</w><w>signum</w>
+<lb n="P161rC1L-vgs5"/><w>sunt</w><w>non</w><w>fidelibus</w><w>set</w><w>infide
+<lb n="P161rC1L-vgs5" break="no"/>libus</w><w>prophetie</w><w>autem</w><w>non</w>
+<lb n="P161rC1L-vgs5"/><w>infidelibus</w><w>sed</w><w>fidelibus</w>
+<lb n="P161rC1L-vgs5"/></ab><ab n="1Cor.14.23"><w>si</w><w>ergo</w><w>conueniat</w><w>uniuer
+<lb n="P161rC1L-vgs5" break="no"/>sa</w><w>ecclesia</w><w>in</w><w>unum</w><w>et</w><w>omnibus</w>
+<lb n="P161rC1L-vgs5"/><w>linguis</w><w>loquantur</w><w>in
+<lb n="P161rC1L-vgs5" break="no"/>trent</w><w>autem</w><w>ydiote</w><w>aut</w>
+<lb n="P161rC1L-vgs5"/><w>infideles</w><w>nonne</w><w>dicent</w>
+<pb n="161v" type="folio" xml:id="P161v-vgs5"/>
+<cb n="P161vC1-vgs5"/>
+<lb n="P161vC1L-vgs5"/><w>quod</w><w>insanitis</w></ab><ab n="1Cor.14.24"><w>si</w><w>autem</w><w>omnes</w>
+<lb n="P161vC1L-vgs5"/><w>prophetent</w><w>intret</w><w>autem</w>
+<lb n="P161vC1L-vgs5"/><w>quis</w><w>infidelis</w><w>uel</w><w>ydio
+<lb n="P161vC1L-vgs5" break="no"/>ta</w><w>conuincitur</w><w>ab</w><w>omnibus</w><w>diiu
+<lb n="P161vC1L-vgs5" break="no"/>dicatur</w><w>ab</w><w>omnibus</w></ab><ab n="1Cor.14.25"><w>occulta</w><w>cor
+<lb n="P161vC1L-vgs5" break="no"/>dis</w><w>eius</w><w>manifesta</w><w>fuerint</w>
+<lb n="P161vC1L-vgs5"/><w>et</w><w>ita</w><w>cadens</w><w>in</w><w>faciem</w>
+<lb n="P161vC1L-vgs5"/><w>adorabit</w><w><abbr type="nomSac"><hi rend="overline">dm</hi></abbr></w><w>pronuntians</w>
+<lb n="P161vC1L-vgs5"/><w>quod</w><w>deus</w><w>in</w><w>uobis</w><w>sit</w></ab><ab n="1Cor.14.26"><w>quid</w>
+<lb n="P161vC1L-vgs5"/><w>ergo</w><w>est</w><w>fratres</w><w>cum</w><w>conuenitis</w>
+<lb n="P161vC1L-vgs5"/><w>unusquisque</w><w>uestrum</w><w>psalmum</w>
+<lb n="P161vC1L-vgs5"/><w>habet</w><w>doctrinam</w><w>habet</w><w>apo
+<lb n="P161vC1L-vgs5" break="no"/>calipsym</w><w>habet</w><w>linguam</w>
+<lb n="P161vC1L-vgs5"/><w>habet</w><w>interpretationem</w><w>habet</w>
+<lb n="P161vC1L-vgs5"/><w>omnia</w><w>ad</w><w>hedificationem</w>
+<lb n="P161vC1L-vgs5"/><w>fiant</w></ab><ab n="1Cor.14.27"><w>siue</w><w>lingua</w><w>quis</w>
+<lb n="P161vC1L-vgs5"/><w>loquitur</w><w>secundum</w><w>duos</w><w>aut</w>
+<lb n="P161vC1L-vgs5"/><w>tres</w><w>aut</w><w>per</w><w>partes</w><w>et</w><w>unus</w>
+<lb n="P161vC1L-vgs5"/><w>interpretetur</w></ab><ab n="1Cor.14.28"><w>si</w><w>autem</w><w>non</w><w>fue
+<lb n="P161vC1L-vgs5" break="no"/>rit</w><w>interpres</w><w>taceat</w><w>in</w>
+<lb n="P161vC1L-vgs5"/><w>ecclesia</w><w>sibi</w><w>autem</w><w>loquatur</w>
+<lb n="P161vC1L-vgs5"/><w>et</w><w>deo</w></ab><ab n="1Cor.14.29"><w>prophete</w><w>duo</w><w>aut</w>
+<lb n="P161vC1L-vgs5"/><w>tres</w><w>dicant</w><w>et</w><w>ceteri</w><w>uero</w>
+<lb n="P161vC1L-vgs5"/><w>diiudicent</w></ab><ab n="1Cor.14.30"><w>quod</w><w>si</w><w>alii</w>
+<lb n="P161vC1L-vgs5"/><w>reuelatum</w><w>fuerit</w><w>sedenti</w>
+<lb n="P161vC1L-vgs5"/><w>prior</w><w>taceat</w></ab><ab n="1Cor.14.31"><w>potestis</w>
+<lb n="P161vC1L-vgs5"/><w>enim</w><w>omnes</w><w>per</w><w>singulos</w><w>pro
+<lb n="P161vC1L-vgs5" break="no"/>phetare</w><w>ut</w><w>omnes</w><w>discant</w>
+<lb n="P161vC1L-vgs5"/><w>et</w><w>omnes</w><app><rdg type="orig" hand="firsthand"><w>prophete</w></rdg><rdg type="corr" hand="corrector"/></app><w>exortentur</w>
+<pb n="162r" type="folio" xml:id="P162r-vgs5"/>
+<cb n="P162rC1-vgs5"/>
+<lb n="P162rC1L-vgs5"/></ab><ab n="1Cor.14.32"><w>et</w><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>prophetarum</w><w>prophetis</w>
+<lb n="P162rC1L-vgs5"/><w>subiectus</w><w>est</w></ab><ab n="1Cor.14.33"><w>non</w><w>enim</w>
+<lb n="P162rC1L-vgs5"/><w>discenssionis</w><w>est</w><w>deus</w><w>sed</w><w>pa
+<lb n="P162rC1L-vgs5" break="no"/>cis</w><w>sicut</w><w>in</w><w>omnibus</w><w>ecclesiis</w>
+<lb n="P162rC1L-vgs5"/><w>sanctorum</w><w>doceo</w>
+<lb n="P162rC1L-vgs5"/></ab><ab n="1Cor.14.34"><w>mulieres</w><w>in</w><w>ecclesiis</w><w>taceant</w>
+<lb n="P162rC1L-vgs5"/><w>non</w><w>enim</w><w>permittitur</w><w>eis</w><w>loqui</w>
+<lb n="P162rC1L-vgs5"/><w>set</w><w>subditas</w><w>esse</w><w>sicut</w><w>lex</w>
+<lb n="P162rC1L-vgs5"/><w>dicit</w></ab><ab n="1Cor.14.35"><w>si</w><w>quid</w><w>autem</w><w>uolunt</w>
+<lb n="P162rC1L-vgs5"/><w>discere</w><w>domi</w><w>uiros</w><w>suos</w>
+<lb n="P162rC1L-vgs5"/><w>interrogent</w><w>turpe</w><w>est</w><w>enim</w>
+<lb n="P162rC1L-vgs5"/><w>mulieri</w><w>in</w><w>ecclesia</w><w>loqui</w>
+<lb n="P162rC1L-vgs5"/></ab><ab n="1Cor.14.36"><w>ante</w><w>a</w><w>uobis</w><w>uerbum</w><w>dei</w><w>processit</w>
+<lb n="P162rC1L-vgs5"/><w>aut</w><w>in</w><w>uos</w><w>solos</w><w>peruenit</w>
+<lb n="P162rC1L-vgs5"/></ab><ab n="1Cor.14.37"><w>si</w><w>quis</w><w>uidetur</w><w>propheta</w><w>esse</w><w>aut</w>
+<lb n="P162rC1L-vgs5"/><w>spiritalis</w><w>cognoscat</w><w>que</w>
+<lb n="P162rC1L-vgs5"/><w>scribo</w><w>uobis</w><w>quia</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>sunt</w><w>man
+<lb n="P162rC1L-vgs5" break="no"/>data</w></ab><ab n="1Cor.14.38"><w>si</w><w>quis</w><w>autem</w><w>igno
+<lb n="P162rC1L-vgs5" break="no"/>rat</w><w>ignorabitur</w></ab><ab n="1Cor.14.39"><w>itaque</w>
+<lb n="P162rC1L-vgs5"/><w>fratres</w><w>emulamini</w><w>prophetare</w>
+<lb n="P162rC1L-vgs5"/><w>et</w><w>loqui</w><w>linguis</w><w>nolite</w>
+<lb n="P162rC1L-vgs5"/><w>prohibere</w></ab><ab n="1Cor.14.40"><w>omnia</w><w>honeste</w>
+<lb n="P162rC1L-vgs5"/><w>et</w><w>secundum</w><w>ordinem</w><w>fiant</w>
+<lb n="P162rC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.15"><ab n="1Cor.15.1"><w>notum</w><w>autem</w><w>uobis</w><w>facio</w><w>fratres</w>
+<lb n="P162rC1L-vgs5"/><w>euangelium</w><w>quod</w><w>predicaui</w>
+<lb n="P162rC1L-vgs5"/><w>uobis</w><w>quod</w><w>et</w><w>accepistis</w><w>in</w><w>quo</w>
+<lb n="P162rC1L-vgs5"/><w>et</w><w>statis</w></ab><ab n="1Cor.15.2"><w>per</w><w>quod</w><w>et</w><w>salua
+<lb n="P162rC1L-vgs5" break="no"/>mini</w><w>qua</w><w><unclear reason="faded ink">rati</unclear>one</w><w>predica
+<lb n="P162rC1L-vgs5" break="no"/>uerim</w><w>uobis</w><w>si</w><w>tenetis</w>
+<pb n="162v" type="folio" xml:id="P162v-vgs5"/>
+<cb n="P162vC1-vgs5"/>
+<lb n="P162vC1L-vgs5"/><w>nisi</w><w>frustra</w><w>credidistis</w></ab><ab n="1Cor.15.3"><w>tra
+<lb n="P162vC1L-vgs5" break="no"/>didi</w><w>enim</w><w>uobis</w><w>in</w><w>primis</w><w>quod</w><w>et</w>
+<lb n="P162vC1L-vgs5"/><w>accepi</w><w>quoniam</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w>
+<lb n="P162vC1L-vgs5"/><w>mortuus</w><w>est</w><w>pro</w><w>peccatis</w>
+<lb n="P162vC1L-vgs5"/><w>nostris</w><w>secundum</w><w>scripturas</w>
+<lb n="P162vC1L-vgs5"/></ab><ab n="1Cor.15.4"><w>et</w><w>quia</w><w>seppultus</w><w>est</w><w>et</w><w>quia</w>
+<lb n="P162vC1L-vgs5"/><w>resurrexit</w><w>tertia</w><w>die</w><w>a</w><w>mor
+<lb n="P162vC1L-vgs5" break="no"/>tuis</w><w>secundum</w><w>scripturas</w>
+<lb n="P162vC1L-vgs5"/></ab><ab n="1Cor.15.5"><w>et</w><w>quia</w><w>uisus</w><w>est</w><w>cephe</w><w>et</w><w>post</w>
+<lb n="P162vC1L-vgs5"/><w>hec</w><w>undecim</w></ab><ab n="1Cor.15.6"><w>deinde</w><w>ui
+<lb n="P162vC1L-vgs5" break="no"/>sus</w><w>est</w><w>plus</w><w>quam</w><w>quingentis</w>
+<lb n="P162vC1L-vgs5"/><w>fratribus</w><w>simul</w><w>ex</w><w>quibus</w><w>mul
+<lb n="P162vC1L-vgs5" break="no"/>ti</w><w>manent</w><w>usque</w><w>adhuc</w>
+<lb n="P162vC1L-vgs5"/><w>quidam</w><w>autem</w><w>dormierunt</w>
+<lb n="P162vC1L-vgs5"/></ab><ab n="1Cor.15.7"><w>deinde</w><w>uisus</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P162vC1L-vgs5"><w>est</w></seg></rdg></app><w>iacobo</w>
+<lb n="P162vC1L-vgs5"/><w>deinde</w><w>apostolis</w><w>omnibus</w></ab><ab n="1Cor.15.8"><w>noui
+<lb n="P162vC1L-vgs5" break="no"/>ssime</w><w>autem</w><w>omnium</w><w>tamquam</w>
+<lb n="P162vC1L-vgs5"/><w>abortiuo</w><w>uisus</w><w>est</w><w>et</w><w>mihi</w>
+<lb n="P162vC1L-vgs5"/></ab><ab n="1Cor.15.9"><w>ego</w><w>enim</w><w>sum</w><w>minimus</w>
+<lb n="P162vC1L-vgs5"/><w>apostolorum</w><w>qui</w><w>non</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P162vC1L-vgs5"><w>sum</w></seg></rdg></app><w>dignuus</w>
+<lb n="P162vC1L-vgs5"/><w>uocari</w><w>apostolus</w><w>quoniam</w><w>persecu
+<lb n="P162vC1L-vgs5" break="no"/>tus</w><w>sum</w><w>ecclesiam</w><w>dei</w></ab><ab n="1Cor.15.10"><w>gra
+<lb n="P162vC1L-vgs5" break="no"/>tia</w><w>autem</w><w>dei</w><w>sum</w><w>id</w><w>quod</w>
+<lb n="P162vC1L-vgs5"/><w>sum</w><w>et</w><w>gratia</w><w>eius</w><w>in</w><w>me</w><w>ua
+<lb n="P162vC1L-vgs5" break="no"/>cua</w><w>non</w><w>fuit</w><w>sed</w><w>habundan
+<lb n="P162vC1L-vgs5" break="no"/>tius</w><w>illis</w><w>omnibus</w><w>laboraui</w>
+<lb n="P162vC1L-vgs5"/><w>non</w><w>autem</w><w>ego</w><w>sed</w><w>gratia</w><w>dei</w>
+<lb n="P162vC1L-vgs5"/><w>mecum</w></ab><ab n="1Cor.15.11"><w>siue</w><w>enim</w><w>ego</w><w>siue</w>
+<pb n="163r" type="folio" xml:id="P163r-vgs5"/>
+<cb n="P163rC1-vgs5"/>
+<lb n="P163rC1L-vgs5"/><w>illi</w><w>sic</w><w>predicamus</w><w>et</w><w>sic</w><w>cre
+<lb n="P163rC1L-vgs5" break="no"/>didistis</w>
+<lb n="P163rC1L-vgs5"/></ab><ab n="1Cor.15.12"><w>si</w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>predicatur</w><w>quod</w><w>re
+<lb n="P163rC1L-vgs5" break="no"/>surexit</w><w>a</w><w>mortuis</w><w>quomodo</w>
+<lb n="P163rC1L-vgs5"/><w>quidam</w><w>dicunt</w><w>in</w><w>uobis</w><w>resur
+<lb n="P163rC1L-vgs5" break="no"/>rectio</w><w>mortuorum</w><w>quoniam</w>
+<lb n="P163rC1L-vgs5"/><w>non</w><w>est</w></ab><ab n="1Cor.15.13"><w>si</w><w>autem</w><w>resurrec
+<lb n="P163rC1L-vgs5" break="no"/>tio</w><w>mortuorum</w><w>non</w><w>est</w>
+<lb n="P163rC1L-vgs5"/><w>neque</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>resurrexit</w>
+<lb n="P163rC1L-vgs5"/></ab><ab n="1Cor.15.14"><w>si</w><w>autem</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>non</w><w>resur
+<lb n="P163rC1L-vgs5" break="no"/>rexit</w><w>inanis</w><w>est</w><w>predica
+<lb n="P163rC1L-vgs5" break="no"/>tio</w><w>nostra</w><w>inanis</w><w>est</w><w>fides</w>
+<lb n="P163rC1L-vgs5"/><w>uestra</w></ab><ab n="1Cor.15.15"><w>inuenimur</w><w>autem</w><w>et</w>
+<lb n="P163rC1L-vgs5"/><w>falsi</w><w>testes</w><w>dei</w><w>quoniam</w><w>te
+<lb n="P163rC1L-vgs5" break="no"/>stimonium</w><w>diximus</w><w>aduersus</w>
+<lb n="P163rC1L-vgs5"/><w>deum</w><w>quod</w><w>suscitauerit</w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w>
+<lb n="P163rC1L-vgs5"/><w>a</w><w>mortuis</w><w>quem</w><w>non</w><w>su
+<lb n="P163rC1L-vgs5" break="no"/>scitauit</w><w>si</w><w>mortui</w><w>non</w>
+<lb n="P163rC1L-vgs5"/><w>resurgunt</w></ab><ab n="1Cor.15.16"><w>nam</w><w>si</w><w>mor
+<lb n="P163rC1L-vgs5" break="no"/>tui</w><w>non</w><w>resurgunt</w><w>ne
+<lb n="P163rC1L-vgs5" break="no"/>que</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>resurrexit</w>
+<lb n="P163rC1L-vgs5"/></ab><ab n="1Cor.15.17"><w>quod</w><w>si</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>non</w><w>resurrexit</w>
+<lb n="P163rC1L-vgs5"/><w>uana</w><w>est</w><w>fides</w><w><unclear reason="faded ink">n</unclear>ostra</w><w>ad
+<lb n="P163rC1L-vgs5" break="no"/>huc</w><w>enim</w><w>estis</w><w>in</w><w>pecca
+<lb n="P163rC1L-vgs5" break="no"/>tis</w><w>uestris</w></ab><ab n="1Cor.15.18"><w>ergo</w><w>et</w><w>qui</w>
+<lb n="P163rC1L-vgs5"/><w>dormierunt</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xo</hi></abbr></w><w>perierunt</w></ab><ab n="1Cor.15.19">
+<lb n="P163rC1L-vgs5"/><w>si</w><w>enim</w><w>in</w><w>hac</w><w>uita</w><w>tantum</w>
+<lb n="P163rC1L-vgs5"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w>sperantes</w><w><unclear reason="faded ink">sumus</unclear></w>
+<pb n="163v" type="folio" xml:id="P163v-vgs5"/>
+<cb n="P163vC1-vgs5"/>
+<lb n="P163vC1L-vgs5"/><w>miserabiliores</w><w>sumus</w><w>omnibus</w>
+<lb n="P163vC1L-vgs5"/><w>hominibus</w></ab><ab n="1Cor.15.20"><w>nunc</w><w>autem</w><abbr type="nomSac">
+<lb n="P163vC1L-vgs5"/></abbr><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>resurrexit</w><w>a</w><w>mortuis</w>
+<lb n="P163vC1L-vgs5"/><w>primitie</w><w>dormientium</w></ab><ab n="1Cor.15.21"><w>quoniam</w>
+<lb n="P163vC1L-vgs5"/><w>quidem</w><w>per</w><w>hominem</w><w>mors</w>
+<lb n="P163vC1L-vgs5"/><w>et</w><w>per</w><w>hominem</w><w>resurrectio</w>
+<lb n="P163vC1L-vgs5"/><w>mortuorum</w></ab><ab n="1Cor.15.22"><w>et</w><w>sicut</w><w>in</w><w>adam</w>
+<lb n="P163vC1L-vgs5"/><w>omnes</w><w>moriuntur</w><w>ita</w><w>et</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w>
+<lb n="P163vC1L-vgs5"/><w>omnes</w><w>uiuificabuntur</w></ab><ab n="1Cor.15.23"><w>unus
+<lb n="P163vC1L-vgs5" break="no"/>quisque</w><w>autem</w><w>in</w><w>suo</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P163vC1L-vgs5"><w>ordine</w></seg></rdg></app><w>primitie</w>
+<lb n="P163vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>deinde</w><w>hii</w><w>qui</w><w>sunt</w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>qui</w>
+<lb n="P163vC1L-vgs5"/><w>in</w><w>aduentu</w><w>eius</w><w>crediderunt</w>
+<lb n="P163vC1L-vgs5"/></ab><ab n="1Cor.15.24"><w>deinde</w><w>finit</w><w>cum</w><w>tradide
+<lb n="P163vC1L-vgs5" break="no"/>rit</w><w>regnum</w><w>deo</w><w>et</w><w>patri</w><w>cum</w>
+<lb n="P163vC1L-vgs5"/><w>euacuauerit</w><w>omnem</w><w>princi
+<lb n="P163vC1L-vgs5" break="no"/>patum</w><w>et</w><w>potestatem</w><w>et</w><w>uirtu
+<lb n="P163vC1L-vgs5" break="no"/>tem</w></ab><ab n="1Cor.15.25"><w>oportet</w><w>autem</w><w>illum</w><w>re
+<lb n="P163vC1L-vgs5" break="no"/>gnare</w><w>donec</w><w>ponat</w><w>omnes</w>
+<lb n="P163vC1L-vgs5"/><w>inimicos</w><w>suos</w><w>sub</w><w>pedi
+<lb n="P163vC1L-vgs5" break="no"/>bus</w><w>suis</w></ab><ab n="1Cor.15.26"><w>nouissima</w><w>autem</w>
+<lb n="P163vC1L-vgs5"/><w>inimica</w><w>destruetur</w><w>mors</w>
+<lb n="P163vC1L-vgs5"/></ab><ab n="1Cor.15.27"><w>omnia</w><w>subiecit</w><w>sub</w><w>pedibus</w>
+<lb n="P163vC1L-vgs5"/><w>eius</w><w>cum</w><w>autem</w><w>dicat</w><w>omnia</w>
+<lb n="P163vC1L-vgs5"/><w>subiecta</w><w>sunt</w><w>ea</w><w>sine</w><w>du
+<lb n="P163vC1L-vgs5" break="no"/>bio</w><w>preter</w><w>eum</w><w>qui</w><w>subiecit</w>
+<lb n="P163vC1L-vgs5"/><w>illi</w><w>omnia</w></ab><ab n="1Cor.15.28"><w>cum</w><w>autem</w><w>subiecta</w>
+<lb n="P163vC1L-vgs5"/><w>fuerit</w><w>illi</w><w>omnia</w><w>tunc</w><w>et</w><w>ipse</w>
+<lb n="P163vC1L-vgs5"/><w>filius</w><w>subiectus</w><w>erit</w><w>illi</w>
+<lb n="P163vC1L-vgs5"/><w>qui</w><w>sibi</w><w>subiecit</w><w>omnia</w>
+<pb n="164r" type="folio" xml:id="P164r-vgs5"/>
+<cb n="P164rC1-vgs5"/>
+<lb n="P164rC1L-vgs5"/><w>ut</w><w>sit</w><w>deus</w><w>omnia</w><w>in</w><w>omnibus</w>
+<lb n="P164rC1L-vgs5"/></ab><ab n="1Cor.15.29"><w>alioquin</w><w>quid</w><w>facient</w><w>qui</w>
+<lb n="P164rC1L-vgs5"/><w>baptiçantur</w><w>pro</w><w>mortuis</w>
+<lb n="P164rC1L-vgs5"/><w>si</w><w>omnino</w><w>mortui</w><w>non</w><w>resurgunt</w>
+<lb n="P164rC1L-vgs5"/><w>ut</w><w>quid</w><w>baptiçantur</w><w>pro</w><w>mor
+<lb n="P164rC1L-vgs5" break="no"/>tuis</w></ab><ab n="1Cor.15.30"><w>ut</w><w>quid</w><w>et</w><w>nos</w><w>perecli
+<lb n="P164rC1L-vgs5" break="no"/>tamur</w><w>omni</w><w>hora</w></ab><ab n="1Cor.15.31"><w>cotidie</w>
+<lb n="P164rC1L-vgs5"/><w>morior</w><w>propter</w><w>uestram</w><w>gloriam</w>
+<lb n="P164rC1L-vgs5"/><w>fratres</w><w>quam</w><w>habeo</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w>
+<lb n="P164rC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>nostro</w></ab><ab n="1Cor.15.32"><w>si</w><w>secundum</w><w>hominem</w>
+<lb n="P164rC1L-vgs5"/><w>ad</w><w>bestias</w><w>pugnaui</w><w>e
+<lb n="P164rC1L-vgs5" break="no"/>phesi</w><w>quid</w><w>michi</w><w>prodest</w>
+<lb n="P164rC1L-vgs5"/><w>si</w><w>mortui</w><w>non</w><w>resurgunt</w>
+<lb n="P164rC1L-vgs5"/><w>manducemus</w><w>et</w><w>bibamus</w>
+<lb n="P164rC1L-vgs5"/><w>cras</w><w>enim</w><w>morimur</w></ab><ab n="1Cor.15.33"><w>nolite</w>
+<lb n="P164rC1L-vgs5"/><w>seduci</w><w>corrumpunt</w><w>bonos</w>
+<lb n="P164rC1L-vgs5"/><w>mores</w><w>colloquia</w><w>mala</w>
+<lb n="P164rC1L-vgs5"/></ab><ab n="1Cor.15.34"><w>euigilate</w><w>iusti</w><w>et</w><w>nolite</w>
+<lb n="P164rC1L-vgs5"/><w>peccare</w><w>ignorantiam</w>
+<lb n="P164rC1L-vgs5"/><w>enim</w><w>dei</w><w>quidam</w><w>habent</w><w>ad</w>
+<lb n="P164rC1L-vgs5"/><w>reuerentiam</w><w>uobis</w><w>loquor</w>
+<lb n="P164rC1L-vgs5"/></ab><ab n="1Cor.15.35"><w>set</w><w>dicit</w><w>aliquis</w><w>quo
+<lb n="P164rC1L-vgs5" break="no"/>modo</w><w>resurgunt</w><w>mortui</w>
+<lb n="P164rC1L-vgs5"/><w>quali</w><w>autem</w><w>corpore</w><w>ueni
+<lb n="P164rC1L-vgs5" break="no"/>unt</w></ab><ab n="1Cor.15.36"><w>incipiens</w><w>tu</w><w>quod</w><w>se
+<lb n="P164rC1L-vgs5" break="no"/>minas</w><w>non</w><w>uiuificatur</w>
+<lb n="P164rC1L-vgs5"/><w>nisi</w><w>prius</w><w>moriatur</w></ab><ab n="1Cor.15.37"><w>et</w><w>quod</w>
+<lb n="P164rC1L-vgs5"/><w>seminas</w><w>non</w><w>corpus</w><w>quod</w>
+<lb n="P164rC1L-vgs5"/><w>futurum</w><w>est</w><w>seminas</w><w>sed</w>
+<pb n="164v" type="folio" xml:id="P164v-vgs5"/>
+<cb n="P164vC1-vgs5"/>
+<lb n="P164vC1L-vgs5"/><w>nudum</w><w>granum</w><w>ut</w><w>puta</w>
+<lb n="P164vC1L-vgs5"/><w>tritici</w><w>aut</w><w>alicuius</w>
+<lb n="P164vC1L-vgs5"/><w>ceterorum</w></ab><ab n="1Cor.15.38"><w>deus</w><w>autem</w><w>da
+<lb n="P164vC1L-vgs5" break="no"/>t</w><w>illi</w><w>corpus</w><w>sicut</w><w>uu
+<lb n="P164vC1L-vgs5" break="no"/>lt</w><w>et</w><w>unicuique</w><w>seminum</w>
+<lb n="P164vC1L-vgs5"/><w>proprium</w><w>corpus</w></ab><ab n="1Cor.15.39"><w>non</w><w>enim</w>
+<lb n="P164vC1L-vgs5"/><w>omnis</w><w>caro</w><w>eadem</w><w>caro</w><w>sed</w>
+<lb n="P164vC1L-vgs5"/><w>alia</w><w>hominum</w><w>alia</w><w>pecorum</w>
+<lb n="P164vC1L-vgs5"/><w>alia</w><w>uolucrum</w><w>alia</w><w>autem</w>
+<lb n="P164vC1L-vgs5"/><w>piscium</w></ab><ab n="1Cor.15.40"><w>et</w><w>corpora</w><w>ce
+<lb n="P164vC1L-vgs5" break="no"/>lestia</w><w>et</w><w>terrestria</w><w>sed</w><w>alia</w>
+<lb n="P164vC1L-vgs5"/><w>quidem</w><w>celestium</w><w>gloria</w><w>ali
+<lb n="P164vC1L-vgs5" break="no"/>a</w><w>autem</w><w>terrestrium</w></ab><ab n="1Cor.15.41"><w>alia</w>
+<lb n="P164vC1L-vgs5"/><w>claritas</w><w>solis</w><w>alia</w><w>cla
+<lb n="P164vC1L-vgs5" break="no"/>ritas</w><w>lune</w><w>et</w><w>alia</w><w>clari
+<lb n="P164vC1L-vgs5" break="no"/>tas</w><w>stellarum</w><w>stella</w><w>enim</w>
+<lb n="P164vC1L-vgs5"/><w>a</w><w>stella</w><w>differt</w><w>in</w><w>cla
+<lb n="P164vC1L-vgs5" break="no"/>ritate</w></ab><ab n="1Cor.15.42"><w>sic</w><w>et</w><w>resurrectio</w>
+<lb n="P164vC1L-vgs5"/><w>mortuorum</w><w>seminatur</w><w>in</w>
+<lb n="P164vC1L-vgs5"/><w>ignobilitate</w><w>surget</w>
+<lb n="P164vC1L-vgs5"/><w>in</w><w>gloria</w></ab><ab n="1Cor.15.43"><w>seminatur</w><w>in</w><w>infir
+<lb n="P164vC1L-vgs5" break="no"/>mitate</w><w>surget</w><w>in</w><w>uirtu
+<lb n="P164vC1L-vgs5" break="no"/>te</w></ab><ab n="1Cor.15.44"><w>seminatur</w><w>corpus</w><w>animale</w>
+<lb n="P164vC1L-vgs5"/><w>surget</w><w>corpus</w><w>spirituale</w><w>si</w>
+<lb n="P164vC1L-vgs5"/><w>est</w><w>corpus</w><w>animale</w><w>est</w><w>et</w><w>spiritua
+<lb n="P164vC1L-vgs5" break="no"/>le</w></ab><ab n="1Cor.15.45"><w>sicut</w><w>scriptum</w><w>est</w><w>fac
+<lb n="P164vC1L-vgs5" break="no"/>tus</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P164vC1L-vgs5"><w>est</w></seg></rdg></app><w>primus</w><w>homo</w><w>adam</w><w>in</w><w>animam</w>
+<pb n="165r" type="folio" xml:id="P165r-vgs5"/>
+<cb n="P165rC1-vgs5"/>
+<lb n="P165rC1L-vgs5"/><w>uiuentem</w><w>nouissimus</w><w>addam</w>
+<lb n="P165rC1L-vgs5"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><app><rdg type="orig" hand="firsthand"><w>uiuifitem</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P165rC1L-vgs5"><w>uiuificantem</w></seg></rdg></app></ab><ab n="1Cor.15.46"><w>sed</w><w>non</w><w>pri
+<lb n="P165rC1L-vgs5" break="no"/>us</w><w>quod</w><w>spirituale</w><w>est</w><w>sed</w><w>quod</w><w>anima
+<lb n="P165rC1L-vgs5" break="no"/>le</w><w>deinde</w><w>quod</w><w>est</w><w>spirituale</w>
+<lb n="P165rC1L-vgs5"/></ab><ab n="1Cor.15.47"><w>primus</w><w>homo</w><w>de</w><w>terra</w><w>terrenus</w>
+<lb n="P165rC1L-vgs5"/><w>secundus</w><w>homo</w><w>de</w><w>celo</w><w>ce
+<lb n="P165rC1L-vgs5" break="no"/>lestis</w></ab><ab n="1Cor.15.48"><w>qualis</w><w>terrenus</w><w>tales</w><w>et</w><w>terreni</w>
+<lb n="P165rC1L-vgs5"/><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P165rC1L-vgs5"><w>et</w><w>qualis</w></seg></rdg></app><w>celestis</w><w>tales</w><w>et</w><w>celestes</w>
+<lb n="P165rC1L-vgs5"/></ab><ab n="1Cor.15.49"><w>igitur</w><w>sicut</w><w>portauimus</w><w>ymagi
+<lb n="P165rC1L-vgs5" break="no"/>nem</w><w>terreni</w><w>portemus</w><w>yma
+<lb n="P165rC1L-vgs5" break="no"/>ginem</w><w>celestis</w></ab><ab n="1Cor.15.50"><w>hoc</w><w>autem</w>
+<lb n="P165rC1L-vgs5"/><w>dico</w><w>fratres</w><w>quoniam</w><w>caro</w><w>et</w><w>san
+<lb n="P165rC1L-vgs5" break="no"/>guis</w><w>regnum</w><w>dei</w><w>possidere</w>
+<lb n="P165rC1L-vgs5"/><w>non</w><w>possunt</w><w>neque</w><w>corrup
+<lb n="P165rC1L-vgs5" break="no"/>tio</w><w>incorruptelam</w><w>possi
+<lb n="P165rC1L-vgs5" break="no"/>debit</w></ab><ab n="1Cor.15.51"><w>ecce</w><w>misterium</w>
+<lb n="P165rC1L-vgs5"/><w>uobis</w><w>dico</w><w>omnes</w><w>quidem</w><w>re
+<lb n="P165rC1L-vgs5" break="no"/>surgemus</w><w>sed</w><w>non</w><w>omnes</w><w>in
+<lb n="P165rC1L-vgs5" break="no"/>mutabimur</w></ab><ab n="1Cor.15.52"/><ab n="1Cor.15.53"><w>oportet</w><w>enim</w>
+<lb n="P165rC1L-vgs5"/><w>corruptibile</w><w>hoc</w><w>induere</w>
+<lb n="P165rC1L-vgs5"/><w>incorruptionem</w><w>et</w><app><rdg type="orig" hand="firsthand"><w>mortale​​​​
+<lb n="P165rC1L-vgs5" break="no"/>mlitatem</w></rdg><rdg type="corr" hand="corrector" rend="underdot"><w>mortale​</w></rdg></app><w>hoc</w><w>induere</w><w>inmor
+<lb n="P165rC1L-vgs5" break="no"/>talitatem</w></ab><ab n="1Cor.15.54"><w>cum</w><w>autem</w><w>mortale</w>
+<lb n="P165rC1L-vgs5"/><w>hoc</w><w>induerit</w><w>immortali
+<lb n="P165rC1L-vgs5" break="no"/>tatem</w><w>tunc</w><w>fiet</w><w>sermo</w><w>quod</w>
+<lb n="P165rC1L-vgs5"/><w>scriptum</w><w>est</w><w>absorta</w>
+<lb n="P165rC1L-vgs5"/><w>est</w><w>mors</w><w>in</w><w>uictoria</w></ab><ab n="1Cor.15.55"><w>ubi</w><w>est</w>
+<pb n="165v" type="folio" xml:id="P165v-vgs5"/>
+<cb n="P165vC1-vgs5"/>
+<lb n="P165vC1L-vgs5"/><w>mors</w><w>uictoria</w><w>tua</w><w>ubi</w>
+<lb n="P165vC1L-vgs5"/><w>est</w><w>mors</w><w>stimulus</w><w>tuus</w>
+<lb n="P165vC1L-vgs5"/></ab><ab n="1Cor.15.56"><w>stimulus</w><w>autem</w><w>mortis</w>
+<lb n="P165vC1L-vgs5"/><w>peccatum</w><w>est</w><w>uirtus</w><w>uero</w>
+<lb n="P165vC1L-vgs5"/><w>peccati</w><w>lex</w></ab><ab n="1Cor.15.57"><w>deo</w><w>autem</w><w>gra
+<lb n="P165vC1L-vgs5" break="no"/>tias</w><w>qui</w><w>dedit</w><w>nobis</w>
+<lb n="P165vC1L-vgs5"/><w>uictoriam</w><w>per</w><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w><w>nostrum</w>
+<lb n="P165vC1L-vgs5"/><w><abbr type="nomSac"><hi rend="overline">ihum</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w></ab><ab n="1Cor.15.58"><w>itaque</w><w>fratres</w>
+<lb n="P165vC1L-vgs5"/><w>mei</w><w>dilectissimi</w><w>stabi
+<lb n="P165vC1L-vgs5" break="no"/>les</w><w>estote</w><w>et</w><w>immobiles</w>
+<lb n="P165vC1L-vgs5"/><w>habundantes</w><w>in</w><w>opere</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w>
+<lb n="P165vC1L-vgs5"/><w>semper</w><w>scientes</w><w>quod</w><w>labor</w>
+<lb n="P165vC1L-vgs5"/><w>uester</w><w>non</w><w>est</w><w>inanis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<lb n="P165vC1L-vgs5"/></ab></div><div type="chapter" n="1Cor.16"><ab n="1Cor.16.1"><w>de</w><app><rdg type="orig" hand="firsthand"><w>colletis</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P165vC1L-vgs5"><w>collectis</w></seg></rdg></app><w>autem</w><w>que</w><w>fuerit</w><w>in</w>
+<lb n="P165vC1L-vgs5"/><w>sanctos</w><w>sicut</w><w>ordinaui</w><w>in</w><w>ecclesiis</w>
+<lb n="P165vC1L-vgs5"/><w>galatie</w><w>ita</w><w>et</w><w>uos</w><w>faci
+<lb n="P165vC1L-vgs5" break="no"/>te</w></ab><ab n="1Cor.16.2"><w>per</w><w>unam</w><w>sabati</w><w>unus
+<lb n="P165vC1L-vgs5" break="no"/>quisque</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P165vC1L-vgs5"><w>uestrum</w></seg></rdg></app><w>aput</w><w>se</w><w>reponat</w>
+<lb n="P165vC1L-vgs5"/><w>recondentes</w><w>quae</w><w>ei</w><app><rdg type="orig" hand="firsthand"><w>benepla​​​​
+<lb n="P165vC1L-vgs5" break="no"/>cuit</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P165vC1L-vgs5"><w>benepla​​​​
+<lb break="no"/>cuerit</w></seg></rdg></app><w>ut</w><w>non</w><w>cum</w><app><rdg type="orig" hand="firsthand"><w>uenio</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P165vC1L-vgs5"><w>uenero</w></seg></rdg></app><w>tunc</w>
+<lb n="P165vC1L-vgs5"/><w>collecte</w><w>fiant</w></ab><ab n="1Cor.16.3"><w>cum</w><w>autem</w>
+<lb n="P165vC1L-vgs5"/><w>presens</w><w>fuero</w><w>quos</w><w>probaueri
+<lb n="P165vC1L-vgs5" break="no"/>tis</w><w>per</w><w>epistolas</w><w>hos</w><w>mittam</w><w>per
+<lb n="P165vC1L-vgs5" break="no"/>ferre</w><w>gloriam</w><w>uestram</w><w>in</w><w>ierusalem</w>
+<lb n="P165vC1L-vgs5"/></ab><ab n="1Cor.16.4"><w>quod</w><w>si</w><w>dignum</w><w>fuerit</w><w>ut</w><w>ego</w>
+<lb n="P165vC1L-vgs5"/><w>eam</w><w>mecum</w><w>ibunt</w></ab><ab n="1Cor.16.5"><w>ueniant</w><w>autem</w>
+<lb n="P165vC1L-vgs5"/><w>ad</w><w>uos</w><w>cum</w><w>macidoniam</w><w>pertran
+<lb n="P165vC1L-vgs5" break="no"/>siero</w><w>nam</w><w>macedoniam</w><w>pertran
+<lb n="P165vC1L-vgs5" break="no"/>sibo</w></ab><ab n="1Cor.16.6"><w>apud</w><w>uos</w><w>forsitan</w><w>ma
+<lb n="P165vC1L-vgs5" break="no"/>nebo</w>
+<pb n="166r" type="folio" xml:id="P166r-vgs5"/>
+<cb n="P166rC1-vgs5"/>
+<lb n="P166rC1L-vgs5"/><w>uel</w><w>etiam</w><w>iemabo</w><w>ut</w><w>uos</w>
+<lb n="P166rC1L-vgs5"/><w>me</w><w>ducatis</w><w>quocumque</w><w>iero</w>
+<lb n="P166rC1L-vgs5"/></ab><ab n="1Cor.16.7"><w>nolo</w><w>autem</w><w>uos</w><w>in</w><w>transi
+<lb n="P166rC1L-vgs5" break="no"/>tu</w><w>uidere</w><w>modo</w><w>spero</w>
+<lb n="P166rC1L-vgs5"/><w>autem</w><w>aliquantum</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>temporis</w></rdg></app><w>manere</w>
+<lb n="P166rC1L-vgs5"/><w>apud</w><w>uos</w><w>si</w><w><abbr type="nomSac"><hi rend="overline">dns</hi></abbr></w><w>permi
+<lb n="P166rC1L-vgs5" break="no"/>serit</w></ab><ab n="1Cor.16.8"><w>permanebo</w><w>autem</w><w>ephe
+<lb n="P166rC1L-vgs5" break="no"/>si</w><w>usque</w><w>ad</w><w>pentecosten</w>
+<lb n="P166rC1L-vgs5"/></ab><ab n="1Cor.16.9"><w>hostium</w><w>enim</w><w>michi</w><w>apertum</w>
+<lb n="P166rC1L-vgs5"/><w>est</w><w>magnum</w><w>et</w><w>heuidens</w><w>et</w>
+<lb n="P166rC1L-vgs5"/><w>aduersarii</w><w>multi</w></ab><ab n="1Cor.16.10"><w>si</w><w>autem</w>
+<lb n="P166rC1L-vgs5"/><w>uenerit</w><w>ad</w><w>uos</w><w>thimo
+<lb n="P166rC1L-vgs5" break="no"/>theus</w><w>uidete</w><w>ut</w><w>sine</w>
+<lb n="P166rC1L-vgs5"/><w>timore</w><w>sit</w><w>apud</w><w>uos</w>
+<lb n="P166rC1L-vgs5"/><w>opus</w><w>enim</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>operatur</w>
+<lb n="P166rC1L-vgs5"/><w>sicut</w><w>et</w><w>ego</w></ab><ab n="1Cor.16.11"><w>ne</w><w>quis</w><w>ergo</w>
+<lb n="P166rC1L-vgs5"/><w>illum</w><w>spernat</w><w>deducite</w>
+<lb n="P166rC1L-vgs5"/><w>autem</w><w>illum</w><w>in</w><w>pace</w><w>ut</w><w>ue
+<lb n="P166rC1L-vgs5" break="no"/>niat</w><w>ad</w><w>me</w><w>expecto</w><w>enim</w>
+<lb n="P166rC1L-vgs5"/><w>illum</w><w>cum</w><w>fratribus</w>
+<lb n="P166rC1L-vgs5"/></ab><ab n="1Cor.16.12"><w>de</w><w>apollo</w><w>autem</w><w>fratre</w><w>notum</w>
+<lb n="P166rC1L-vgs5"/><w>uobis</w><w>et</w><w>facio</w><w>quoniam</w><w>multum</w>
+<lb n="P166rC1L-vgs5"/><w>rogaui</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P166rC1L-vgs5"><w>eum</w></seg></rdg></app><w>ut</w><w>ueniret</w><w>ad</w>
+<lb n="P166rC1L-vgs5"/><w>uos</w><w>cum</w><w>fratribus</w><w>et</w><w>utique</w><w>non</w>
+<lb n="P166rC1L-vgs5"/><w>fuit</w><w>uoluntas</w><w>eius</w><w>ut</w><w>nunc</w>
+<lb n="P166rC1L-vgs5"/><w>ueniret</w><w>ueniet</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P166rC1L-vgs5"><w>autem</w></seg></rdg></app><w>cum</w><w>ei</w><w>ua
+<lb n="P166rC1L-vgs5" break="no"/>cuum</w><w>fuerit</w></ab><ab n="1Cor.16.13"><w>uigilate</w><w>et</w>
+<lb n="P166rC1L-vgs5"/><w>state</w><w>in</w><w>fide</w><w>uiriliter</w><w>agi
+<lb n="P166rC1L-vgs5" break="no"/>te</w><w>et</w><w>confortamini</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w>
+<pb n="166v" type="folio" xml:id="P166v-vgs5"/>
+<cb n="P166vC1-vgs5"/>
+<lb n="P166vC1L-vgs5"/></ab><ab n="1Cor.16.14"><w>et</w><w>omnia</w><w>uestra</w><w>in</w><w>caritate</w><w>fiant</w>
+<lb n="P166vC1L-vgs5"/></ab><ab n="1Cor.16.15"><w>obsecro</w><w>autem</w><w>uos</w><w>fratres</w><w>no
+<lb n="P166vC1L-vgs5" break="no"/>stis</w><w>domum</w><w>stephane</w><w>et</w><w>for
+<lb n="P166vC1L-vgs5" break="no"/>tunati</w><w>et</w><w>achaici</w><w>quoniam</w><w>sunt</w>
+<lb n="P166vC1L-vgs5"/><w>primitie</w><w>achaie</w><w>et</w><w>in</w><w>ministe
+<lb n="P166vC1L-vgs5" break="no"/>rio</w><w>sanctorum</w><w>ordinauerunt</w><w>se</w>
+<lb n="P166vC1L-vgs5"/><w>ipsos</w></ab><ab n="1Cor.16.16"><w>ut</w><w>et</w><w>uos</w><w>subditi</w><w>sitis</w>
+<lb n="P166vC1L-vgs5"/><w>eiusmodi</w><w>et</w><w>omnia</w><app><rdg type="orig" hand="firsthand"><w>operanti</w></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P166vC1L-vgs5"><w>cooperanti</w></seg></rdg></app><w>et</w>
+<lb n="P166vC1L-vgs5"/><w>laboranti</w><w>et</w><app><rdg type="orig" hand="firsthand"><w>achaici</w></rdg><rdg type="corr" hand="corrector" rend="underdot"/></app></ab><ab n="1Cor.16.17"><w>gau
+<lb n="P166vC1L-vgs5" break="no"/>deo</w><w>autem</w><w>in</w><w>presentia</w><w>stepha
+<lb n="P166vC1L-vgs5" break="no"/>ne</w><w>et</w><w>fortunati</w><w>et</w><w>achaici</w>
+<lb n="P166vC1L-vgs5"/><w>quoniam</w><w>id</w><w>quod</w><w>uobis</w><w>deerat</w>
+<lb n="P166vC1L-vgs5"/><w>ipsi</w><w>suppleuerunt</w></ab><ab n="1Cor.16.18"><w>refecerunt</w>
+<lb n="P166vC1L-vgs5"/><w>enim</w><w>et</w><w>meum</w><w><abbr type="nomSac"><hi rend="overline">spm</hi></abbr></w><w>et</w><w>uestrum</w><w>co
+<lb n="P166vC1L-vgs5" break="no"/>gnoscite</w><w>ergo</w><w>qui</w><w>eiusmodi</w><w>sunt</w>
+<lb n="P166vC1L-vgs5"/></ab><ab n="1Cor.16.19"><w>salutant</w><w>uos</w><w>omnes</w><w>ecclesie</w><w>a
+<lb n="P166vC1L-vgs5" break="no"/>sye</w><w>salutant</w><w>uos</w><w>multum</w>
+<lb n="P166vC1L-vgs5"/><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>aquila</w><w>et</w><w>priscilla</w><w>et</w>
+<lb n="P166vC1L-vgs5"/><w>prisca</w><w>cum</w><w>domistica</w><w>eorum</w>
+<lb n="P166vC1L-vgs5"/><w>ecclesia</w><w>apud</w><w>quos</w><w>et</w><w>ospi
+<lb n="P166vC1L-vgs5" break="no"/>tor</w></ab><ab n="1Cor.16.20"><w>salutant</w><w>fratres</w><w>omnes</w><w>uos</w>
+<lb n="P166vC1L-vgs5"/><w>salutate</w><w>inuicem</w><w>in</w><w>osculo</w>
+<lb n="P166vC1L-vgs5"/><w>sancto</w></ab><ab n="1Cor.16.21"><w>salutatio</w><app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><seg type="margin" subtype="lineleft" n="@P166vC1L-vgs5"><w>mea</w></seg></rdg></app><w>manu</w><w>pau
+<lb n="P166vC1L-vgs5" break="no"/>li</w></ab><ab n="1Cor.16.22"><w>si</w><w>quis</w><w>non</w><w>amat</w><w><abbr type="nomSac"><hi rend="overline">dnm</hi></abbr></w>
+<lb n="P166vC1L-vgs5"/><w>nostrum</w><w><abbr type="nomSac"><hi rend="overline">ihum</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w>sit</w><app><rdg type="orig" hand="firsthand"><w>ana​​​​
+<lb n="P166vC1L-vgs5" break="no"/>thama</w></rdg><rdg type="corr" hand="corrector"><w>ana​​​​
+<lb n="P166vC1L-vgs5" break="no"/>thema</w></rdg></app><w>maranatha</w>
+<lb n="P166vC1L-vgs5"/></ab><ab n="1Cor.16.23"><w>gratia</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xi</hi></abbr></w><w>uobiscum</w>
+<lb n="P166vC1L-vgs5"/></ab><ab n="1Cor.16.24"><w>karitas</w><w>mea</w><w>cum</w><w>omnibus</w><w>uo
+<pb n="167r" type="folio" xml:id="P167r-vgs5" break="no"/>
+<cb n="P167rC1-vgs5"/>
+<lb n="P167rC1L-vgs5"/>bis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">xpo</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>nostro</w>
+<lb n="P167rC1L-vgs5"/><w>amen</w>
+<lb n="P167rC1L-vgs5"/></ab></div><div type="subscriptio"><ab n="1Cor.subscriptio"/></div></div></body></text></TEI>

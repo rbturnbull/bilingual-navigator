@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Carolinus-Gothic-Romans">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>A transcription of Romans in Gothic in Codex Carolinus</title>
+        <title type="document" n="Car">Codex Carolinus</title>
+        <title type="work" n="06">Romans</title>
+        <title type="short" n="06">Rom.</title>
+        <editor role="encoder">Robert Turnbull</editor><respStmt>
+          <resp>Original data entry and proofreading (<date from="1997" to="1998">1997–1998</date>)</resp>
+          <name>Robert Tannert</name>
+          <name>David Landau</name>
+          <name>Tom De Herdt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Conversion to TEI markup</resp>
+          <name>Tom De Herdt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Preparation of the Codex Carolinus Romans extract and conversion to TEI</resp>
+          <name xml:id="RT">Robert Turnbull</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Gothic Romans extract based on the Project Wulfila electronic edition of Streitberg (1919).</edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Project Wulfila (<ref target="https://www.wulfila.be/">https://www.wulfila.be</ref>), <ref target="https://www.uantwerpen.be/">University of Antwerp</ref>
+        </authority>
+        <pubPlace>Antwerpen</pubPlace>
+        <availability status="free">
+          <p>This file is freely available for non-commercial use, provided that a source description and reference to the project is included with any copy distributed. It is expected that use of the edition will be acknowledged appropriately, in accordance with normal scholarly etiquette.</p>
+          <p>The latest version can be found at <ref target="https://www.wulfila.be/">https://www.wulfila.be</ref>.</p>
+        </availability>
+        <date>March 2004; February 2026</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:lang="de">
+          <monogr>
+            <author>Streitberg, Wilhelm</author>
+            <title>Die gotische Bibel. Herausgegeben von <name>Wilhelm Streitberg</name>. Erster Teil: Der gotische Text und seine griechische Vorlage. Mit Einleitung, Lesarten und Quellennachweisen sowie den kleineren Denkmälern als Anhang</title>
+            <edition>Zweite, verbesserte Auflage</edition>
+            <imprint>
+              <publisher>Carl Winter</publisher>
+              <pubPlace>Heidelberg</pubPlace>
+              <date>1919</date>
+            </imprint>
+          </monogr>
+          <series>
+            <title>Germanische Bibliothek</title>
+            <biblScope>2. Abteilung</biblScope>
+            <biblScope>3. Band</biblScope>
+          </series>
+        </biblStruct>
+        <msDesc>
+          <msIdentifier>
+            <country>Germany</country>
+            <settlement>Wolfenbüttel</settlement>
+            <repository>Herzog-August-Bibliothek</repository>
+            <idno>Weißenburg 64, foll. 255–6, 277, 280</idno>
+            <msName xml:lang="la">Codex Carolinus</msName>
+            <msName xml:lang="en">Wolfenbüttel palimpsest</msName>
+          <altIdentifier type="VL"><idno>79</idno></altIdentifier><altIdentifier type="TM"><idno>67527</idno></altIdentifier></msIdentifier><msContents><summary>Gothic-Latin bilingual palimpsest fragments of Romans.</summary></msContents>
+        <history><origin><origDate notBefore="0500" notAfter="0599">6th century</origDate></origin></history></msDesc>
+        <p>Electronic source: Project Wulfila, University of Antwerp (https://www.wulfila.be/). Text scanned and edited by Robert Tannert, David Landau and Tom De Herdt (1997–1998). This extract was supplied as carolinus-romans.xml; source metadata was supplied in edition.xml. The derived plain-text source records generation from a TEI P5 master on 2026-06-25T03:17:05.3793149+02:00.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Book, chapter and verse divisions follow the numbering convention of 06_VL79.xml (B06, B06K11, B06K11V33). The transcription preserves the supplied Gothic text and punctuation. Words are encoded as w and punctuation as pc. Angle brackets mark editorial additions (add), square brackets editorial deletions (del), and spaced dots indicate lacunae of unknown extent (gap). Tildes marking assimilation or enclisis are retained. No manuscript page or line layout has been inferred.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="got">Gothic</language>
+        <language ident="en">English</language>
+        <language ident="de">German</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-11-17" who="#RT">Converted the supplied Codex Carolinus Romans extract to TEI XML, with source credits and reuse terms from the Project Wulfila edition.</change>
+    <change when="2026-11-19"><name>Robert Turnbull</name> added the manuscript's VL, TM, summary, date for the BICROSS Navigator.</change></revisionDesc>
+  </teiHeader>
+  <text xml:lang="got">
+    <body>
+      <div type="book" n="B06">
+        <div type="chapter" n="B06K11">
+          <ab n="B06K11V33">
+            <gap reason="lacuna" extent="unknown" unit="character" />
+            <w>jah</w>
+            <w>witubnjis</w>
+            <w>gudis</w>
+            <pc>!</pc>
+            <w>ƕaiwa</w>
+            <w>unusspilloda</w>
+            <w>sind</w>
+            <w>stauos</w>
+            <w>is</w>
+            <w>jah</w>
+            <w>unbilaistidai</w>
+            <w>wigos</w>
+            <w>is</w>
+            <pc>!</pc>
+          </ab>
+          <ab n="B06K11V34">
+            <w>ƕas</w>
+            <w>auk</w>
+            <w>ufkunþa</w>
+            <w>fraþi</w>
+            <w>fraujins</w>
+            <w>aiþþau</w>
+            <w>ƕas</w>
+            <w>imma</w>
+            <w>ragineis</w>
+            <w>was</w>
+            <pc>?</pc>
+          </ab>
+          <ab n="B06K11V35">
+            <w>aiþþau</w>
+            <w>ƕas</w>
+            <w>imma</w>
+            <w>fruma</w>
+            <w>gaf</w>
+            <pc>,</pc>
+            <w>jah</w>
+            <w>fragildaidau</w>
+            <w>imma</w>
+            <pc>?</pc>
+          </ab>
+          <ab n="B06K11V36">
+            <w>unte</w>
+            <w>us</w>
+            <w>imma</w>
+            <w>jah</w>
+            <w>þairh</w>
+            <w>ina</w>
+            <w>jah</w>
+            <w>in</w>
+            <w>imma</w>
+            <w>alla</w>
+            <pc>;</pc>
+            <w>immuh</w>
+            <w>wulþus</w>
+            <w>du</w>
+            <w>aiwam</w>
+            <pc>,</pc>
+            <w>amen</w>
+            <pc>.</pc>
+          </ab>
+        </div>
+        <div type="chapter" n="B06K12">
+          <ab n="B06K12V1">
+            <w>Bidja</w>
+            <w>nu</w>
+            <w>izwis</w>
+            <pc>,</pc>
+            <w>broþrjus</w>
+            <pc>,</pc>
+            <w>þairh</w>
+            <w>bleiþein</w>
+            <w>gudis</w>
+            <pc>,</pc>
+            <w>usgiban</w>
+            <w>leika</w>
+            <w>izwara</w>
+            <w>saud</w>
+            <w>qiwana</w>
+            <pc>,</pc>
+            <w>weihana</w>
+            <pc>,</pc>
+            <w>waila</w>
+            <w>galeikaidana</w>
+            <w>guda</w>
+            <pc>,</pc>
+            <w>andaþahtana</w>
+            <w>blotinassu</w>
+            <w>izwarana</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K12V2">
+            <w>ni</w>
+            <w>galeikoþ</w>
+            <w>izwis</w>
+            <w>þamma</w>
+            <w>aiwa</w>
+            <pc>,</pc>
+            <add>
+              <w>ak</w>
+              <w>inmaidjaiþ</w>
+            </add>
+            <w>ananiujiþai</w>
+            <w>fraþjis</w>
+            <w>izwaris</w>
+            <w>du</w>
+            <w>gakiusan</w>
+            <w>ƕa</w>
+            <w>sijai</w>
+            <w>wilja</w>
+            <w>gudis</w>
+            <pc>,</pc>
+            <w>þatei</w>
+            <w>goþ</w>
+            <w>jah</w>
+            <w>galeikaiþ</w>
+            <w>jah</w>
+            <w>ustauhan</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K12V3">
+            <w>qiþa</w>
+            <w>auk</w>
+            <w>þairh</w>
+            <w>anst</w>
+            <w>gudis</w>
+            <w>sei</w>
+            <w>gibana</w>
+            <w>ist</w>
+            <w>mis</w>
+            <pc>,</pc>
+            <w>allaim</w>
+            <w>wisandam</w>
+            <w>in</w>
+            <w>izwis</w>
+            <pc>,</pc>
+            <w>ni</w>
+            <w>mais</w>
+            <w>fraþjan</w>
+            <w>þau</w>
+            <w>skuli</w>
+            <w>fraþjan</w>
+            <pc>,</pc>
+            <w>ak</w>
+            <w>fraþjan</w>
+            <w>du</w>
+            <w>waila</w>
+            <w>fraþjan</w>
+            <pc>,</pc>
+            <w>ƕarjammeh</w>
+            <w>swaswe</w>
+            <w>guþ</w>
+            <w>gadailida</w>
+            <w>mitaþ</w>
+            <w>galaubeinais</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K12V4">
+            <w>swaswe</w>
+            <w>raihtis</w>
+            <w>in</w>
+            <w>ainamma</w>
+            <w>leika</w>
+            <w>liþuns</w>
+            <w>managans</w>
+            <w>habam</w>
+            <pc>,</pc>
+            <w>þaiþ~þan</w>
+            <w>liþjus</w>
+            <w>allai</w>
+            <w>ni</w>
+            <w>þata</w>
+            <w>samo</w>
+            <w>taui</w>
+            <w>haband</w>
+            <pc>;</pc>
+          </ab>
+          <ab n="B06K12V5">
+            <w>swa</w>
+            <w>managai</w>
+            <w>ain</w>
+            <w>leik</w>
+            <w>sijum</w>
+            <w>in</w>
+            <w>Xristau</w>
+            <pc>,</pc>
+            <w>aþþan</w>
+            <w>ainƕarjizuh</w>
+            <w>anþar</w>
+            <add>
+              <w>anþaris</w>
+              <w>liþjus</w>
+            </add>
+            <gap reason="lacuna" extent="unknown" unit="character" />
+          </ab>
+          <ab n="B06K12V17">
+            <gap reason="lacuna" extent="unknown" unit="character" />
+            <w>in</w>
+            <w>andwairþja</w>
+            <w>gudis</w>
+            <pc>,</pc>
+            <w>ak</w>
+            <w>jah</w>
+            <w>in</w>
+            <w>andwairþja</w>
+            <w>manne</w>
+            <w>allaize</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K12V18">
+            <w>jabai</w>
+            <w>magi</w>
+            <w>wairþan</w>
+            <w>us</w>
+            <w>izwis</w>
+            <pc>,</pc>
+            <w>miþ</w>
+            <w>allaim</w>
+            <w>mannam</w>
+            <w>gawairþi</w>
+            <w>habandans</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K12V19">
+            <w>ni</w>
+            <w>izwis</w>
+            <w>silbans</w>
+            <w>gawrikandans</w>
+            <pc>,</pc>
+            <w>liubans</w>
+            <pc>,</pc>
+            <w>ak</w>
+            <w>gibiþ</w>
+            <w>staþ</w>
+            <w>þwairhein</w>
+            <pc>;</pc>
+            <w>gameliþ</w>
+            <w>ist</w>
+            <w>auk</w>
+            <pc>:</pc>
+            <w>mis</w>
+            <w>fraweit</w>
+            <w>leitaidau</w>
+            <pc>,</pc>
+            <w>ik</w>
+            <w>fragilda</w>
+            <pc>,</pc>
+            <w>qiþiþ</w>
+            <w>frauja</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K12V20">
+            <w>jabai</w>
+            <w>gredo</w>
+            <w>fijand</w>
+            <w>þeinana</w>
+            <pc>,</pc>
+            <w>mat</w>
+            <w>gif</w>
+            <w>imma</w>
+            <pc>;</pc>
+            <w>iþ</w>
+            <w>jabai</w>
+            <w>þaursjai</w>
+            <pc>,</pc>
+            <w>dragkei</w>
+            <w>ina</w>
+            <pc>;</pc>
+            <w>þata</w>
+            <w>auk</w>
+            <w>taujands</w>
+            <w>haurja</w>
+            <w>funins</w>
+            <w>rikis</w>
+            <w>ana</w>
+            <w>haubiþ</w>
+            <w>is</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K12V21">
+            <w>ni</w>
+            <w>gajiukaizau</w>
+            <w>af</w>
+            <w>unþiuþa</w>
+            <pc>,</pc>
+            <w>ak</w>
+            <w>gajiukais</w>
+            <del>
+              <w>af</w>
+            </del>
+            <w>þiuþa</w>
+            <w>unþiuþ</w>
+            <pc>.</pc>
+          </ab>
+        </div>
+        <div type="chapter" n="B06K13">
+          <ab n="B06K13V1">
+            <w>All</w>
+            <w>saiwalo</w>
+            <w>waldufnjam</w>
+            <w>ufarwisandam</w>
+            <w>ufhausjai</w>
+            <pc>;</pc>
+            <w>unte</w>
+            <w>nist</w>
+            <w>waldufni</w>
+            <w>alja</w>
+            <w>fram</w>
+            <w>guda</w>
+            <pc>,</pc>
+            <w>iþ</w>
+            <w>þo</w>
+            <w>wisandona</w>
+            <w>fram</w>
+            <w>guda</w>
+            <w>gasatida</w>
+            <w>sind</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K13V2">
+            <w>swaei</w>
+            <w>sa</w>
+            <w>andstandands</w>
+            <w>waldufnja</w>
+            <w>gudis</w>
+            <w>garaideinai</w>
+            <w>andstoþ</w>
+            <pc>;</pc>
+            <w>iþ</w>
+            <w>þai</w>
+            <w>andstandandans</w>
+            <w>silbans</w>
+            <w>sis</w>
+            <w>wargiþa</w>
+            <w>nimand</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K13V3">
+            <w>þai</w>
+            <w>auk</w>
+            <w>reiks</w>
+            <w>ni</w>
+            <w>sind</w>
+            <w>agis</w>
+            <w>godamma</w>
+            <w>waurstwa</w>
+            <pc>,</pc>
+            <w>ak</w>
+            <w>ubilamma</w>
+            <pc>;</pc>
+            <w>aþþan</w>
+            <w>wileis</w>
+            <w>ei</w>
+            <w>ni</w>
+            <w>ogeis</w>
+            <w>waldufni</w>
+            <pc>,</pc>
+            <w>þiuþ</w>
+            <w>taujais</w>
+            <w>jah</w>
+            <w>habais</w>
+            <w>hazein</w>
+            <w>us</w>
+            <w>þamma</w>
+            <pc>;</pc>
+          </ab>
+          <ab n="B06K13V4">
+            <w>unte</w>
+            <w>gudis</w>
+            <w>andbahts</w>
+            <w>ist</w>
+            <w>þus</w>
+            <w>in</w>
+            <w>godamma</w>
+            <pc>.</pc>
+            <w>iþ</w>
+            <w>jabai</w>
+            <w>ubil</w>
+            <w>taujis</w>
+            <pc>,</pc>
+            <w>ogs</w>
+            <pc>;</pc>
+            <w>unte</w>
+            <w>ni</w>
+            <w>sware</w>
+            <w>þana</w>
+            <w>hairu</w>
+            <w>bairiþ</w>
+            <pc>;</pc>
+            <w>gudis</w>
+            <w>auk</w>
+            <w>andbahts</w>
+            <w>ist</w>
+            <pc>,</pc>
+            <w>fraweitands</w>
+            <w>in</w>
+            <w>þwairhein</w>
+            <w>þamma</w>
+            <w>ubil</w>
+            <w>taujandin</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K13V5">
+            <w>duþþe</w>
+            <w>ufhausjaiþ</w>
+            <gap reason="lacuna" extent="unknown" unit="character" />
+          </ab>
+        </div>
+        <div type="chapter" n="B06K14">
+          <ab n="B06K14V9">
+            <gap reason="lacuna" extent="unknown" unit="character" />
+            <w>jah</w>
+            <w>qiwaim</w>
+            <w>jah</w>
+            <w>dauþaim</w>
+            <w>fraujinoþ</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V10">
+            <w>iþ</w>
+            <w>þu</w>
+            <pc>,</pc>
+            <w>ƕa</w>
+            <w>stojis</w>
+            <w>broþar</w>
+            <w>þeinana</w>
+            <pc>?</pc>
+            <w>aiþþau</w>
+            <w>jah</w>
+            <w>þu</w>
+            <pc>,</pc>
+            <w>ƕa</w>
+            <w>frakant</w>
+            <w>broþr</w>
+            <w>þeinamma</w>
+            <pc>?</pc>
+            <w>allai</w>
+            <w>auk</w>
+            <w>gasatjanda</w>
+            <w>faura</w>
+            <w>stauastola</w>
+            <w>Xristaus</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V11">
+            <w>gameliþ</w>
+            <w>ist</w>
+            <w>auk</w>
+            <pc>:</pc>
+            <w>liba</w>
+            <w>ik</w>
+            <pc>,</pc>
+            <w>qiþiþ</w>
+            <w>frauja</w>
+            <pc>,</pc>
+            <w>þatei</w>
+            <w>mis</w>
+            <w>all</w>
+            <w>kniwe</w>
+            <w>biugiþ</w>
+            <w>jah</w>
+            <w>andhaitiþ</w>
+            <w>all</w>
+            <w>razdo</w>
+            <w>guda</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V12">
+            <w>þannu</w>
+            <w>nu</w>
+            <w>ƕarjizuh</w>
+            <w>unsara</w>
+            <w>fram</w>
+            <w>sis</w>
+            <w>raþjon</w>
+            <w>usgibiþ</w>
+            <w>guda</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V13">
+            <w>ni</w>
+            <w>þanamais</w>
+            <w>nu</w>
+            <w>uns</w>
+            <w>misso</w>
+            <w>stojaima</w>
+            <pc>,</pc>
+            <w>ak</w>
+            <w>þata</w>
+            <w>stojaiþ</w>
+            <w>mais</w>
+            <pc>,</pc>
+            <w>ei</w>
+            <w>ni</w>
+            <w>satjaiþ</w>
+            <w>bistugq</w>
+            <w>broþr</w>
+            <w>aiþþau</w>
+            <w>gamarzein</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V14">
+            <w>wait</w>
+            <w>jag~gatraua</w>
+            <w>in</w>
+            <w>fraujin</w>
+            <w>Iesua</w>
+            <pc>,</pc>
+            <w>þatei</w>
+            <w>ni</w>
+            <w>waiht</w>
+            <w>gawamm</w>
+            <w>þairh</w>
+            <w>sik</w>
+            <w>silbo</w>
+            <pc>,</pc>
+            <w>niba</w>
+            <w>þamma</w>
+            <w>munandin</w>
+            <add>
+              <w>ƕa</w>
+              <w>unhrain</w>
+              <w>wisan</w>
+            </add>
+            <pc>,</pc>
+            <w>þamma</w>
+            <w>gamain</w>
+            <w>ist</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V15">
+            <w>iþ</w>
+            <w>jabai</w>
+            <w>in</w>
+            <w>matis</w>
+            <w>broþar</w>
+            <w>þeins</w>
+            <w>gaurjada</w>
+            <pc>,</pc>
+            <w>ju</w>
+            <w>ni</w>
+            <w>bi</w>
+            <w>friaþwai</w>
+            <w>gaggis</w>
+            <pc>.</pc>
+            <w>ni</w>
+            <w>nunu</w>
+            <w>mata</w>
+            <w>þeinamma</w>
+            <w>jainamma</w>
+            <w>fraqistjais</w>
+            <pc>,</pc>
+            <w>faur</w>
+            <w>þanei</w>
+            <w>Xristus</w>
+            <w>gaswalt</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V16">
+            <w>ni</w>
+            <w>wajamerjaidau</w>
+            <w>unsar</w>
+            <w>þiuþ</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V17">
+            <w>nist</w>
+            <w>auk</w>
+            <w>þiudangardi</w>
+            <w>gudis</w>
+            <w>mats</w>
+            <w>jah</w>
+            <w>dragk</w>
+            <pc>,</pc>
+            <w>ak</w>
+            <w>garaihtei</w>
+            <w>jah</w>
+            <w>gawairþi</w>
+            <w>jah</w>
+            <w>faheþs</w>
+            <w>in</w>
+            <w>ahmin</w>
+            <w>weihamma</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V18">
+            <w>saei</w>
+            <w>auk</w>
+            <w>in</w>
+            <w>þaim</w>
+            <w>skalkinoþ</w>
+            <w>Xristau</w>
+            <pc>,</pc>
+            <w>waila</w>
+            <w>galeikaiþ</w>
+            <w>guda</w>
+            <w>jah</w>
+            <w>gakusans</w>
+            <w>ist</w>
+            <w>mannam</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V19">
+            <w>þannu</w>
+            <w>nu</w>
+            <w>þoei</w>
+            <w>gawairþjis</w>
+            <w>sind</w>
+            <pc>,</pc>
+            <w>laistjaima</w>
+            <pc>,</pc>
+            <w>jah</w>
+            <w>þoei</w>
+            <w>timreinais</w>
+            <w>sind</w>
+            <w>in</w>
+            <w>uns</w>
+            <w>misso</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K14V20">
+            <w>ni</w>
+            <w>nunu</w>
+            <w>in</w>
+            <w>matis</w>
+            <w>gatair</w>
+            <w>waurstw</w>
+            <w>gudis</w>
+            <gap reason="lacuna" extent="unknown" unit="character" />
+          </ab>
+        </div>
+        <div type="chapter" n="B06K15">
+          <ab n="B06K15V3">
+            <gap reason="lacuna" extent="unknown" unit="character" />
+            <w>þize</w>
+            <w>idweitjandane</w>
+            <w>þuk</w>
+            <w>gadrusun</w>
+            <w>ana</w>
+            <w>mik</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V4">
+            <w>swa</w>
+            <w>filu</w>
+            <w>auk</w>
+            <w>swe</w>
+            <w>fauragameliþ</w>
+            <w>warþ</w>
+            <pc>,</pc>
+            <w>du</w>
+            <w>unsarai</w>
+            <w>laiseinai</w>
+            <w>gameliþ</w>
+            <w>warþ</w>
+            <pc>,</pc>
+            <w>ei</w>
+            <w>þairh</w>
+            <w>þulain</w>
+            <w>jah</w>
+            <w>gaþrafstein</w>
+            <w>boko</w>
+            <w>wen</w>
+            <w>habaima</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V5">
+            <w>iþ</w>
+            <w>guþ</w>
+            <w>þulainais</w>
+            <w>jah</w>
+            <w>þrafsteinais</w>
+            <w>gibai</w>
+            <w>izwis</w>
+            <w>þata</w>
+            <w>samo</w>
+            <w>fraþjan</w>
+            <w>in</w>
+            <w>izwis</w>
+            <w>misso</w>
+            <w>bi</w>
+            <w>Xristu</w>
+            <w>Iesu</w>
+            <pc>,</pc>
+          </ab>
+          <ab n="B06K15V6">
+            <w>ei</w>
+            <w>gawiljai</w>
+            <w>ainamma</w>
+            <w>munþa</w>
+            <w>hauhjaiþ</w>
+            <w>guþ</w>
+            <w>jah</w>
+            <w>attan</w>
+            <w>fraujins</w>
+            <w>unsaris</w>
+            <w>Iesuis</w>
+            <w>Xristaus</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V7">
+            <w>in</w>
+            <w>þizei</w>
+            <w>andnimaiþ</w>
+            <w>izwis</w>
+            <w>misso</w>
+            <pc>,</pc>
+            <w>swaswe</w>
+            <w>jah</w>
+            <w>Xristus</w>
+            <w>andnam</w>
+            <w>izwis</w>
+            <w>du</w>
+            <w>wulþau</w>
+            <w>gudis</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V8">
+            <w>qiþa</w>
+            <w>auk</w>
+            <w>Xristu</w>
+            <w>Iesu</w>
+            <w>andbaht</w>
+            <w>waurþanana</w>
+            <add>
+              <w>bimaitis</w>
+            </add>
+            <w>fram</w>
+            <w>sunjai</w>
+            <w>gudis</w>
+            <w>du</w>
+            <w>gatulgjan</w>
+            <w>gahaita</w>
+            <w>attane</w>
+            <pc>,</pc>
+          </ab>
+          <ab n="B06K15V9">
+            <w>iþ</w>
+            <w>þiudos</w>
+            <w>in</w>
+            <w>armahairteins</w>
+            <w>hauhjan</w>
+            <w>guþ</w>
+            <pc>,</pc>
+            <w>swaswe</w>
+            <w>gameliþ</w>
+            <w>ist</w>
+            <pc>:</pc>
+            <w>duþþe</w>
+            <w>andhaita</w>
+            <w>þus</w>
+            <w>in</w>
+            <w>þiudom</w>
+            <pc>,</pc>
+            <w>frauja</w>
+            <pc>,</pc>
+            <w>jah</w>
+            <w>namin</w>
+            <w>þeinamma</w>
+            <w>liuþo</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V10">
+            <w>jah</w>
+            <w>aftra</w>
+            <w>qiþiþ</w>
+            <pc>:</pc>
+            <w>sifaiþ</w>
+            <w>þiudos</w>
+            <w>miþ</w>
+            <w>managein</w>
+            <w>is</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V11">
+            <w>jah</w>
+            <w>aftra</w>
+            <w>qiþiþ</w>
+            <pc>:</pc>
+            <w>hazjiþ</w>
+            <w>allos</w>
+            <w>þiudos</w>
+            <w>fraujan</w>
+            <w>jah</w>
+            <w>hazjaina</w>
+            <w>ina</w>
+            <w>allos</w>
+            <w>manageins</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V12">
+            <w>jah</w>
+            <w>aftra</w>
+            <w>Esaeias</w>
+            <w>qiþiþ</w>
+            <pc>:</pc>
+            <w>wairþiþ</w>
+            <w>waurts</w>
+            <w>Iaissaizis</w>
+            <pc>,</pc>
+            <w>jah</w>
+            <w>sa</w>
+            <w>usstandands</w>
+            <w>reikinoþ</w>
+            <w>þiudom</w>
+            <pc>;</pc>
+            <w>du</w>
+            <w>imma</w>
+            <w>þiudos</w>
+            <w>wenjand</w>
+            <pc>.</pc>
+          </ab>
+          <ab n="B06K15V13">
+            <w>iþ</w>
+            <w>guþ</w>
+            <w>lubainais</w>
+            <w>fulljai</w>
+            <w>izwis</w>
+            <w>allaizos</w>
+            <w>fahedais</w>
+            <gap reason="lacuna" extent="unknown" unit="character" />
+          </ab>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
