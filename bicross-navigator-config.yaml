@@ -7,6 +7,7 @@ theme:
   logo: theme/bicross-navigator-logo.jpg
   variables: theme/variables.scss
   about: theme/about.md
+  assets: theme/assets
   licence: CC-BY-NC-SA-4.0
 
 manuscripts:
@@ -46,16 +47,16 @@ manuscripts:
   claromontanus-latin:
     tei: GA06-claromontanus/09_VL75.xml
     parsing: GA06-claromontanus/gal-lat.conllu
-  ga460-latin:
+  GA460-latin:
     tei: GA460/Eph_460lat.xml
     parsing: GA460/Eph_460lat.conllu
-  ga460-arabic:
+  GA460-arabic:
     tei: GA460/Eph_460arb.xml
     parsing: GA460/Eph_460arb.conllu
-  ga629-greek:
+  GA629-greek:
     tei: GA629/NT_GRC_629_1Cor.xml
     parsing: GA629/NT_GRC_629_1Cor15.conllu
-  ga629-latin:
+  GA629-latin:
     tei: GA629/07_GA629_lat.xml
     parsing: GA629/07_GA629_lat_1Cor15.conllu
   harris9-greek:
@@ -64,10 +65,10 @@ manuscripts:
   harris9-arabic:
     tei: GA0136/Harris9-ar.xml
     parsing: GA0136/Harris9-ar.conllu
-  p6-greek:
+  P6-greek:
     tei: P6/NT_GRC_P6_John.xml
     parsing: P6/NT_GRC_P6_John.conllu
-  p6-coptic:
+  P6-coptic:
     tei: P6/NT_COP_ac1_John.xml
     parsing: P6/NT_COP_ac1_John.conllu
 
@@ -92,18 +93,18 @@ alignments:
   claromontanus:
     manuscripts: [claromontanus-greek, claromontanus-latin]
     links: GA06-claromontanus/gal-aligned.jsonl
-  ga460:
-    manuscripts: [ga460-latin, ga460-arabic]
+  GA460:
+    manuscripts: [GA460-latin, GA460-arabic]
     links: GA460/GA460-Eph-aligned.jsonl
-  ga629:
+  GA629:
     name: Codex Ottobonianus 298
-    manuscripts: [ga629-greek, ga629-latin]
+    manuscripts: [GA629-greek, GA629-latin]
     links: GA629/GA629-1Cor15-aligned.jsonl
   harris9:
     name: Harris 9
     manuscripts: [harris9-greek, harris9-arabic]
     links: GA0136/Harris9-aligned.jsonl
-  p6:
+  P6:
     name: Papyrus 6
-    manuscripts: [p6-greek, p6-coptic]
+    manuscripts: [P6-greek, P6-coptic]
     links: P6/P6-John-aligned.jsonl

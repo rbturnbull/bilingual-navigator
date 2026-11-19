@@ -5,7 +5,8 @@ Bilingual New Testament manuscripts, parsed and word-aligned, built with [Hexapl
 ## Layout
 
 - `bicross-navigator-config.yaml`: the theme, the manuscripts and the alignments between them.
-- `theme/`: logo, Bootstrap variables (`variables.scss`) and the about page (`about.md`).
+- `theme/`: logo, Bootstrap variables (`variables.scss`), the about page (`about.md`) and the images it shows
+  (`assets/`, such as the ERC logo).
 - One folder per codex, holding its TEI transcriptions, CoNLL-U parses (mcparser) and alignment links (mcaligner).
 
 Everything about a manuscript (its language, name, shelfmark, GA/VL/Trismegistos numbers, date, description,
