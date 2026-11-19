@@ -22,4 +22,10 @@ and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can b
 - **Parses** (lemmas, parts of speech, morphology and syntax) were made with mcparser.
 - **Alignments** between the two texts were made with mcaligner and checked by hand.
 
-The site is built with [Hexapla](https://github.com/rbturnbull/hexapla).
+## Credits
+
+The BICROSS Navigator and [Hexapla](https://github.com/rbturnbull/hexapla) were developed by
+[Robert Turnbull](https://robturnbull.com) (Melbourne Data Analytics Platform, University of Melbourne).
+Transcription contributors and licences are recorded in each manuscript’s TEI header and displayed on its manuscript
+page. Parsing and alignment were carried out with [MCParser](https://github.com/rbturnbull/llmparser) and
+[MCAligner](https://github.com/rbturnbull/llmaligner).
