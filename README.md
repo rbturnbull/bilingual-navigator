@@ -2,6 +2,9 @@
 
 Bilingual New Testament manuscripts, parsed and word-aligned, built with [Hexapla](https://github.com/rbturnbull/hexapla).
 
+**This is a prerelease of the Bilingual Navigator.** The data is subject to change. More manuscripts will be added
+soon, along with more content from the manuscripts already included.
+
 The Navigator presents bilingual and multilingual New Testament manuscripts verse by verse, linking words across
 languages to help researchers explore translation, grammar and vocabulary. It forms part of BICROSS, ‘The Significance
 of Bilingual Manuscripts for Detecting Cross-Language Interaction in the New Testament Tradition’.

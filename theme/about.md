@@ -1,5 +1,8 @@
 # About the BICROSS Navigator
 
+**This is a prerelease of the Bilingual Navigator.** The data is subject to change. More manuscripts will be added
+soon, along with more content from the manuscripts already included.
+
 The BICROSS Navigator presents bilingual and multilingual New Testament manuscripts verse by verse. Both texts of each
 manuscript are parsed, and every word is linked to its counterpart in the other language, so you can see how the
 translator rendered the grammar and vocabulary of the source text.
