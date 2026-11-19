@@ -1,6 +1,6 @@
 # BICROSS Navigator
 
-![Bilingual Navigator logo](theme/bicross-navigator-logo.jpg)
+![Bilingual Navigator logo](theme/bicross-navigator-logo.png)
 
 Bilingual New Testament manuscripts, parsed and word-aligned, built with [Hexapla](https://github.com/rbturnbull/hexapla).
 

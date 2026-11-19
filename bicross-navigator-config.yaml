@@ -4,7 +4,7 @@
 
 theme:
   name: BICROSS Navigator
-  logo: theme/bicross-navigator-logo.jpg
+  logo: theme/bicross-navigator-logo.png
   variables: theme/variables.scss
   about: theme/about.md
   assets: theme/assets
