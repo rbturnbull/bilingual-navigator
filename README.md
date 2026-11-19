@@ -1,5 +1,3 @@
-# BICROSS Navigator
-
 ![Bilingual Navigator logo](theme/bicross-navigator-logo.png)
 
 Bilingual New Testament manuscripts, parsed and word-aligned, built with [Hexapla](https://github.com/rbturnbull/hexapla).
@@ -38,6 +36,9 @@ Transcription contributors and licences are recorded in each manuscript’s TEI 
 page. Parses were made with [MCParser](https://github.com/rbturnbull/mcparser), and word alignments with
 [MCAligner](https://github.com/rbturnbull/mcaligner).
 
+<a href="https://github.com/rbturnbull/mcparser"><img src="theme/assets/mcparser-logo.svg" alt="MCParser" width="240"></a>
+<a href="https://github.com/rbturnbull/mcaligner"><img src="theme/assets/mcaligner-logo.svg" alt="MCAligner" width="240"></a>
+
 ## Funding
 
 The research leading to this contribution was conducted as part of the BICROSS project (‘The Significance of Bilingual
@@ -47,4 +48,4 @@ Agreement No. 101043730 – BICROSS – ERC-2021-COG). Funded by the European Un
 however those of the author only and do not necessarily reflect those of the European Union or the European Education
 and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
 
-![European Research Council](theme/assets/erc-logo.jpg)
+<img src="theme/assets/erc-logo.jpg" alt="European Research Council" width="160">
