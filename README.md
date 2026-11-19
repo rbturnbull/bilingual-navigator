@@ -19,7 +19,7 @@ parses and alignments, and any transcription whose TEI header does not give its 
 pip install git+https://github.com/rbturnbull/hexapla
 hexapla validate bicross-navigator-config.yaml
 hexapla build bicross-navigator-config.yaml --output site
-cd site && python -m http.server 8000
+python -m http.server 8989 --directory site
 ```
 
 Pushing to `main` builds and publishes the site with GitHub Pages (`.github/workflows/pages.yml`).
