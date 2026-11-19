@@ -3,7 +3,7 @@
 # Everything about a manuscript (language, names, identifiers, date, licence) is in its TEI header.
 
 theme:
-  name: BICROSS Navigator
+  name: Bilingual Navigator
   logo: theme/bicross-navigator-logo.png
   variables: theme/variables.scss
   about: theme/about.md
