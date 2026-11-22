@@ -11,7 +11,7 @@ of Bilingual Manuscripts for Detecting Cross-Language Interaction in the New Tes
 
 ## Layout
 
-- `bicross-navigator-config.yaml`: the theme, the manuscripts and the alignments between them.
+- `bicross-navigator-config.yaml`: the theme, the texts and the alignments between them.
 - `theme/`: logo, Bootstrap variables (`variables.scss`), the about page (`about.md`) and the images it shows
   (`assets/`, such as the ERC logo).
 - One folder per codex, holding its TEI transcriptions, CoNLL-U parses (mcparser) and alignment links (mcaligner).

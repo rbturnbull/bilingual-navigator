@@ -10,7 +10,7 @@ theme:
   assets: theme/assets
   licence: CC-BY-NC-SA-4.0
 
-manuscripts:
+texts:
   0278-greek:
     tei: GA0278/NT_GRC_0278_Eph.xml
     parsing: GA0278/0278-Eph-grc.conllu
@@ -72,39 +72,39 @@ manuscripts:
     tei: P6/NT_COP_ac1_John.xml
     parsing: P6/NT_COP_ac1_John.conllu
 
-# manuscripts are listed in the order of the links file: source, then target.
+# texts are listed in the order of the links file: source, then target.
 alignments:
   0278:
-    manuscripts: [0278-greek, 0278-arabic]
+    texts: [0278-greek, 0278-arabic]
     links: GA0278/eph-aligned.jsonl
   augiensis:
-    manuscripts: [augiensis-greek, augiensis-latin]
+    texts: [augiensis-greek, augiensis-latin]
     links: GA010-augiensis/Augiensis-Gal1-aligned.jsonl
   bezae:
-    manuscripts: [bezae-greek, bezae-latin]
+    texts: [bezae-greek, bezae-latin]
     links: GA05-bezae/Bezae-John20-aligned.jsonl
   borgianus:
     name: Codex Borgianus
-    manuscripts: [borgianus-greek, borgianus-coptic]
+    texts: [borgianus-greek, borgianus-coptic]
     links: GA029-borgianus/john-aligned.jsonl
   carolinus:
-    manuscripts: [carolinus-gothic, carolinus-latin]
+    texts: [carolinus-gothic, carolinus-latin]
     links: carolinus/romans-aligned-gotlat.jsonl
   claromontanus:
-    manuscripts: [claromontanus-greek, claromontanus-latin]
+    texts: [claromontanus-greek, claromontanus-latin]
     links: GA06-claromontanus/gal-aligned.jsonl
   GA460:
-    manuscripts: [GA460-latin, GA460-arabic]
+    texts: [GA460-latin, GA460-arabic]
     links: GA460/GA460-Eph-aligned.jsonl
   GA629:
     name: Codex Ottobonianus 298
-    manuscripts: [GA629-greek, GA629-latin]
+    texts: [GA629-greek, GA629-latin]
     links: GA629/GA629-1Cor15-aligned.jsonl
   harris9:
     name: Harris 9
-    manuscripts: [harris9-greek, harris9-arabic]
+    texts: [harris9-greek, harris9-arabic]
     links: GA0136/Harris9-aligned.jsonl
   P6:
     name: Papyrus 6
-    manuscripts: [P6-greek, P6-coptic]
+    texts: [P6-greek, P6-coptic]
     links: P6/P6-John-aligned.jsonl
