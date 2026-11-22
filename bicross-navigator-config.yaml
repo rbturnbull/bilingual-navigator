@@ -59,6 +59,12 @@ texts:
   GA629-latin:
     tei: GA629/07_GA629_lat.xml
     parsing: GA629/07_GA629_lat_1Cor15.conllu
+  GA79-greek:
+    tei: GA79/NT_GRC_79_Mark.xml
+    parsing: GA79/NT_GRC_79_Mark6-7.conllu
+  GA79-latin:
+    tei: GA79/02_GA79_lat.xml
+    parsing: GA79/02_GA79_lat_Mark6-7.conllu
   harris9-greek:
     tei: GA0136/Harris9-grc.xml
     parsing: GA0136/Harris9-grc.conllu
@@ -100,6 +106,10 @@ alignments:
     name: Codex Ottobonianus 298
     texts: [GA629-greek, GA629-latin]
     links: GA629/GA629-1Cor15-aligned.jsonl
+  GA79:
+    name: GA 79
+    texts: [GA79-greek, GA79-latin]
+    links: GA79/GA79-Mark6-7-aligned.jsonl
   harris9:
     name: Harris 9
     texts: [harris9-greek, harris9-arabic]
