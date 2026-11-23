@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE TEI [
+]>
+<?xml-stylesheet type="text/xsl" href="COMPAUL.xsl"?><?xml-model href="../../schemas/TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VL77"><teiHeader>
+		<fileDesc>      
+			<titleStmt>
+				<title>A Transcription of 1 Corinthians in VL 77 (Codex Boernerianus)</title>
+				<title type="document" n="77">VL 77</title>
+				<title type="collection" level="s" xml:lang="en">The New Testament</title>
+				<title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+				<title type="work" level="m" xml:lang="en" n="07">1 Corinthians</title>
+				<title type="short" level="m" xml:lang="en" n="07">1 Cor.</title>
+				<editor role="encoder">Robert Turnbull</editor>      
+				<respStmt><resp>Created by</resp><name>the COMPAUL Project</name>
+				</respStmt>
+				<respStmt><resp when="2012-04-17">Transcribed by</resp><name type="person">Christina Kreinecker</name></respStmt>
+				<respStmt><resp when="2017-04-10">Proofread by</resp><name type="person">Hugh Houghton</name></respStmt>
+				<funder>The European Research Council under the European Union Seventh Framework Programme (FP7/2007-13 grant agreement 283302).</funder>
+				<sponsor><name type="org">The Institute for Textual Scholarship and Electronic Editing</name></sponsor> 
+			</titleStmt>
+			<editionStmt>
+				<edition n="1.0">Version 1.0, created on <date>5.2.2018</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">The Institute for Textual Scholarship and Electronic Editing</name> 
+					<name type="org">University of Birmingham</name></publisher>
+				<date>5.2.2018</date>
+				<availability><p>Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0): available for re-use provided attribution is made to the original creators and an indication is given of any changes made. <ptr target="https://creativecommons.org/licenses/by/4.0/"/></p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+					 <country>Germany</country>
+ 							<settlement>Dresden</settlement>
+								<repository>Sächsische Landesbibliothek</repository>
+									<idno>A.145b</idno>
+							<msName xml:lang="la">Codex Boernerianus</msName>
+						<altIdentifier type="VL">
+							<idno>77</idno>
+						</altIdentifier>
+						<altIdentifier type="Gregory-Aland">
+							<idno>012</idno>
+						</altIdentifier>
+						<altIdentifier type="Liste"><idno>20012</idno></altIdentifier>
+						<altIdentifier type="TM"><idno>999752</idno></altIdentifier>
+					</msIdentifier>
+					<msContents><summary>Greek-Latin bilingual of the Pauline epistles.</summary></msContents>
+					<history><origin><origDate notBefore="825" notAfter="875">middle of the 9th century</origDate></origin></history>
+				</msDesc>
+	<listWit><witness xml:id="firsthand"/><witness xml:id="corrector"/></listWit></sourceDesc>
+		</fileDesc>
+		<encodingDesc n="1.5">
+			<projectDesc><p>This transcription was made by the COMPAUL Project, funded between 2011-16 by a Starting Grant awarded to Dr H.A.G. Houghton under the European Union Seventh Framework Programme (FP7/2007-13 grant agreement 283302).</p></projectDesc>
+			<editorialDecl><p>This transcription was made on a Vulgate base text, from a colour PDF at <ptr target="http://digital.slub-dresden.de/id274591448"/>. Reference was also made to the 1909 facsimile for pages which have suffered water damage. This is a bilingual manuscript with Latin glosses above the Greek text; only the Latin has been transcribed. This transcription includes all corrections, page layout information, formatting, punctuation, abbreviations and digraphs. Punctuation is practically non-existent in the Latin line and there is no rubrication of the Latin text, only the larger Greek capitals (where it has been added later). Unless otherwise indicated, word divisions correspond to the Vulgate base text. The transcriber was Christina Kreinecker in April 2012 and the transcription was proofread against the same source by Hugh Houghton in April 2017.</p> <p> As with other epistles in this manuscript, alternative readings (signified by alt) and glosses (signified by gl) have been added, many by the first hand but possibly not at the first time of writing. In some cases, the alternative is found in front of the original or principal reading and has been tagged as such (this is normally indicated by the fact that the original reading appears immediately above the corresponding Greek and the preceding text is displaced). Accents are added above certain Latin vowels; generally this is not easily confused with abbreviations, apart from the case of sic above ουτως (as sicut is normally written plene above καθως).</p>
+			<p>The plain text file was converted to XML in February 2018. The original transcription guidelines can be found at <ptr target="http://epapers.bham.ac.uk/1676/"/></p>
+				<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/></p></editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2026-11-23"><name>Robert Turnbull</name> added the manuscript's TM, summary, date for the BICROSS Navigator.</change>
+			<change n="2" when="2018-08-13">Corrections to 5:9 and 12:8 by Hugh Houghton, as noted during collation.</change>
+			<change n="1" when="2018-05-15">Verse division in 3:4-5, 6:9-10, 7:33-34, 9:20-1, 15:26-7 confirmed to NA28 by Hugh Houghton.</change>
+			<change n="0" when="2018-02-06">The plain text file was converted to XML using the project's Python conversion scripts 1.1 by Hugh Houghton.</change>
+		</revisionDesc>
+	</teiHeader>
+<text xml:lang="lat"><body>
+<pb xml:id="P21r-VL77" n="21r" type="folio"/>
+<cb xml:id="P21rC1-VL77" n="1"/>
+<lb xml:id="P21rC1L1-VL77" n="1"/><note type="editorial">The first half of the page is the end of Romans.</note><div n="B07" type="book"><div type="incipit" n="B07incipit"><ab><w>ad</w><w>corinthios</w><w>incipit</w>
+<lb xml:id="P21rC1L2-VL77" n="2"/></ab></div><div n="B07K1" type="chapter"><ab n="B07K1V1"><w>paulus</w><w>uocatus</w><w>apostolus</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w>per</w><w>uo
+<lb break="no" xml:id="P21rC1L3-VL77" n="3"/>luntatem</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>et</w><w>sosthenes</w><w>frater</w><pc>˙</pc>
+<lb xml:id="P21rC1L4-VL77" n="4"/></ab><ab n="B07K1V2"><w>aecclesiae</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>s<ex>an</ex>c<ex>t</ex>ificatis</w><w>in</w><w><abbr type="nomSac">ih<hi rend="overline">u</hi></abbr></w>
+<lb xml:id="P21rC1L5-VL77" n="5"/><w>quę</w><w><ex rend="÷">est</ex></w><w>in</w><w>corintho</w><w>uocatis</w><w>s<ex>an</ex>c<ex>t</ex>is</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">sanctis</hi></w><w>cu<ex>m</ex></w><w>omnib<ex>u</ex>s</w>
+<lb xml:id="P21rC1L6-VL77" n="6"/><w>inuocantibus</w><w>nomen</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>nostri</w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w>
+<lb xml:id="P21rC1L7-VL77" n="7"/><w>in</w><w>omni</w><w>loco</w><w>ipsor<ex>um</ex></w><w>et</w><w>n<ex>ost</ex>ro</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>nos</ex>tru<ex>m</ex></hi></w></ab><ab n="B07K1V3"><w>gratia</w><w>uobis</w>
+<pb xml:id="P21v-VL77" n="21v" type="folio"/>
+<cb xml:id="P21vC1-VL77" n="1"/>
+<lb xml:id="P21vC1L1-VL77" n="1"/><note type="editorial">This page is largely illegible in the PDF of the manuscript</note><w>et</w><w>pax</w><w>a</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>patre</w><w>n<ex>ost</ex>ro</w><w>et</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w></ab><ab n="B07K1V4"><w>gratias</w><w>ago</w>
+<lb xml:id="P21vC1L2-VL77" n="2"/><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>meo</w><w>se<ex>m</ex>p<ex>er</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">omnino</hi></w><w>p<ex>ro</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">de</hi></w><w>uobis</w><w>in</w><w>gratia</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>q<ex>ue</ex></w><w>data</w><w><ex rend="÷">est</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">data</hi></w>
+<lb xml:id="P21vC1L3-VL77" n="3"/><w>uobis</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w></ab><ab n="B07K1V5"><w>q<ex>uonia</ex>m</w><w>in</w><w>omni</w><w>locupletati</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ditati</hi></w><w>estis</w><w>in</w><w>illo</w><w>in</w>
+<lb xml:id="P21vC1L4-VL77" n="4"/><w>omni</w><w>uerbo</w><w>et</w><w>omni</w><w>scientia</w></ab><ab n="B07K1V6"><w>sicut</w><w>testimoniu<ex>m</ex></w>
+<lb xml:id="P21vC1L5-VL77" n="5"/><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>confirmatu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">fundatu<ex>m</ex></hi></w><w><hi rend="alt"><ex rend="÷">est</ex></hi></w><w>in</w><w>uobis</w></ab><ab n="B07K1V7"><w>ita</w><w>ut</w><w>uos</w><w>non</w><w>indigeatis</w>
+<lb xml:id="P21vC1L6-VL77" n="6"/><w>in</w><w>ulla</w><w>gratia</w><w>expectantibus</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">expectantes</hi></w><w>reuelationem</w>
+<lb xml:id="P21vC1L7-VL77" n="7"/><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>n<ex>ost</ex>ri</w><w><abbr type="nomSac">ih<hi rend="overline">u</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w></ab><ab n="B07K1V8"><w>qui</w><w>et</w><w>confirmauit</w><w>uos</w><w>usq<ex>ue</ex></w><w>in</w>
+<lb xml:id="P21vC1L8-VL77" n="8"/><w>finem</w><w>sine</w><w>crimine</w><w>in</w><w>aduentu</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>n<ex>ost</ex>ri</w><w><abbr type="nomSac">ih<hi rend="overline">u</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w>
+<lb xml:id="P21vC1L9-VL77" n="9"/></ab><ab n="B07K1V9"><w>fidelis</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>p<ex>er</ex></w><w>quem</w><w>uocati</w><w>estis</w><w>in</w><w>societatem</w><w>filii</w>
+<lb xml:id="P21vC1L10-VL77" n="10"/><w>eius</w><w><abbr type="nomSac">ih<hi rend="overline">u</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>n<ex>ost</ex>ri</w></ab><ab n="B07K1V10"><w>obsecro</w><w>aute<ex>m</ex></w><w>uos</w><w>fratres</w>
+<lb xml:id="P21vC1L11-VL77" n="11"/><w>p<ex>er</ex></w><w>nomen</w><w><abbr type="nomSac">ih<hi rend="overline">u</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>n<ex>ost</ex>ri</w><w>ut</w><w>id</w><w>ipsu<ex>m</ex></w><w>dicatis</w>
+<lb xml:id="P21vC1L12-VL77" n="12"/><w>omnes</w><w>et</w><w>non</w><w>sint</w><w>in</w><w>uobis</w><w>scismata</w><w>sitis</w><w>aute<ex>m</ex></w><w>perfecti</w>
+<lb xml:id="P21vC1L13-VL77" n="13"/><w>in</w><w>eodem</w><w>sensu</w><w>et</w><w>in</w><w>eadem</w><w>scientia</w></ab><ab n="B07K1V11"><w>perlatu<ex>m</ex></w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P21vC1L14-VL77" n="14"/><w>enim</w><w>mihi</w><w>de</w><w>uobis</w><w>fratres</w><w>mei</w><w>ab</w><w>his</w><w>q<ex>ui</ex></w><w>s<ex>un</ex>t</w><w>chloes</w><w>quod</w>
+<lb xml:id="P21vC1L15-VL77" n="15"/><w>contentiones</w><w>int<ex>er</ex></w><w>uos</w><w>sint</w></ab><ab n="B07K1V12"><w>dico</w><w>aute<ex>m</ex></w><w>hoc</w><w>quia</w><w>unusq<ex>ui</ex>sq<ex>ue</ex></w>
+<lb xml:id="P21vC1L16-VL77" n="16"/><w>u<ex>est</ex>r<ex>u</ex>m</w><w>dicit</w><w>ego</w><w>quide<ex>m</ex></w><w>sum</w><w>pauli</w><w>ego</w><w>aute<ex>m</ex></w><w>apollo</w>
+<lb xml:id="P21vC1L17-VL77" n="17"/><w>ego</w><w>aute<ex>m</ex></w><w>cephae</w><w>ego</w><w>uero</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w></ab><ab n="B07K1V13"><w>diuisus</w><w><ex rend="÷">est</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w>
+<lb xml:id="P21vC1L18-VL77" n="18"/><w>nunq<ex>ui</ex>d</w><w>paulus</w><w>crucifixus</w><w><ex rend="÷">est</ex></w><w>pro</w><w>uobis</w><w>aut</w><w>in</w><w>nomine</w>
+<lb xml:id="P21vC1L19-VL77" n="19"/><w>pauli</w><w>baptizati</w><w>estis</w></ab><ab n="B07K1V14"><w>gratias</w><w>ago</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>quod</w><w>nemine<ex>m</ex></w>
+<lb xml:id="P21vC1L20-VL77" n="20"/><w>uestru<ex>m</ex></w><w>baptizaui</w><w>nisi</w><w>crispum</w><w>et</w><w>gaium</w></ab><ab n="B07K1V15"><w>ut</w><w>ne</w><w>quis</w>
+<lb xml:id="P21vC1L21-VL77" n="21"/><w>dicat</w><w>quod</w><w>in</w><w>meo</w><w>nomine</w><w>baptizaUi</w></ab><ab n="B07K1V16"><w>baptizaui</w>
+<lb xml:id="P21vC1L22-VL77" n="22"/><w>autem</w><w>et</w><w>stephanę</w><w>domu<ex>m</ex></w><w>cet<ex>er</ex>um</w><w>nescio</w>
+<pb xml:id="P22r-VL77" n="22r" type="folio"/>
+<cb xml:id="P22rC1-VL77" n="1"/>
+<lb xml:id="P22rC1L1-VL77" n="1"/><note type="editorial">This page is largely illegible in the PDF of the manuscript</note><w>si</w><w>quem</w><w>baptizaui</w></ab><ab n="B07K1V17"><w>non</w><w>enim</w><w>misit</w><w>me</w><w><abbr type="nomSac"><hi rend="overline">xps</hi></abbr></w><w>baptizare</w>
+<lb xml:id="P22rC1L2-VL77" n="2"/><w>sed</w><w>euangelizare</w><w>non</w><w>in</w><w>sapientia</w><w>u<ex>er</ex>bi</w><w>ut</w><w>non</w><w>eua
+<lb break="no" xml:id="P22rC1L3-VL77" n="3"/>cuetur</w><w>crux</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w></ab><ab n="B07K1V18"><w>uerbu<ex>m</ex></w><w>enim</w><w>crucis</w>
+<lb xml:id="P22rC1L4-VL77" n="4"/><w>quide<ex>m</ex></w><w>p<ex>er</ex>euntibus</w><w>stultitia</w><w>est</w><w>salua
+<lb break="no" xml:id="P22rC1L5-VL77" n="5"/>tis</w><w>uero</w><w>uirtus</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w><ex rend="÷">est</ex></w></ab><ab n="B07K1V19"><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>esaia</w></note></seg><w>scrip<ex>tum</ex></w><w><ex rend="÷">est</ex></w><w><ex rend="⧺">enim</ex></w><w>perda<ex>m</ex></w>
+<lb xml:id="P22rC1L6-VL77" n="6"/><w>sapientia<ex>m</ex></w><w>sapientiu<ex>m</ex></w><w>et</w><w>prudentia<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">intellectu<ex>m</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">sensu<ex>m</ex></hi></w><w>prudentiu<ex>m</ex></w>
+<lb xml:id="P22rC1L7-VL77" n="7"/><w>reprobabo</w></ab><ab n="B07K1V20"><w>ubi</w><w>sapiens</w><w>ubi</w><w>scriba</w><w>ubi</w><w>conquisi
+<lb break="no" xml:id="P22rC1L8-VL77" n="8"/>tor</w><w>saeculi</w><w>huius</w><w>n<ex>on</ex>ne</w><w>stulta<ex>m</ex></w><w>fecit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>sapientia<ex>m</ex></w>
+<lb xml:id="P22rC1L9-VL77" n="9"/><w>mundi</w><w>huius</w></ab><ab n="B07K1V21"><w>nam</w><w>q<ex>uia</ex></w><w>in</w><w>sapientia</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>n<ex>on</ex></w><w>cognouit</w>
+<lb xml:id="P22rC1L10-VL77" n="10"/><w>mundus</w><w>p<ex>er</ex></w><w>sapientia<ex>m</ex></w><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w><w>placuit</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w>
+<lb xml:id="P22rC1L11-VL77" n="11"/><w>per</w><w>stultitiam</w><w>p<ex>re</ex>dicationis</w><w>saluare</w><w>credentes</w>
+<lb xml:id="P22rC1L12-VL77" n="12"/></ab><ab n="B07K1V22"><w>q<ex>uonia</ex>m</w><w>iudaei</w><w>signa</w><w>petunt</w><w>et</w><w>greci</w><w>sapientia<ex>m</ex></w><w>quaerunt</w>
+<lb xml:id="P22rC1L13-VL77" n="13"/></ab><ab n="B07K1V23"><w>nos</w><w>autem</w><w>p<ex>re</ex>dicamus</w><w><abbr type="nomSac">x<hi rend="overline">pm</hi></abbr></w><w>crucifixum</w><w>iudaeis</w><w>quide<ex>m</ex></w>
+<lb xml:id="P22rC1L14-VL77" n="14"/><w>scandalum</w><w>gentibus</w><w>aute<ex>m</ex></w><app><rdg type="orig" hand="firsthand"><w>stultia<ex>m</ex></w></rdg><rdg type="corr" hand="corrector"><w>stultitia<ex>m</ex></w></rdg></app></ab><ab n="B07K1V24"><w>ipsi</w><w>aute<ex>m</ex></w><w>uocatis</w>
+<lb xml:id="P22rC1L15-VL77" n="15"/><w>iudaeis</w><w>et</w><w>grecis</w><w><abbr type="nomSac">x<hi rend="overline">pm</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>uirtutem</w><w>et</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>sapientia<ex>m</ex></w>
+<lb xml:id="P22rC1L16-VL77" n="16"/></ab><ab n="B07K1V25"><w>q<ex>uia</ex></w><w>quod</w><w>stultu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>sapientius</w><w>est</w><w>homi<hi rend="lig">ni</hi>b<ex>us</ex></w>
+<lb xml:id="P22rC1L17-VL77" n="17"/><w>et</w><w>quod</w><w>infirmu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>fortius</w><w>est</w><w>homi<hi rend="lig">ni</hi>b<ex>us</ex></w>
+<lb xml:id="P22rC1L18-VL77" n="18"/></ab><ab n="B07K1V26"><w>uidete</w><w>ergo</w><w>uocatione<ex>m</ex></w><w>u<ex>est</ex>ram</w><w>fratres</w><w>q<ex>uonia</ex>m</w><w>non</w>
+<lb xml:id="P22rC1L19-VL77" n="19"/><w>multi</w><w>sapientes</w><w>s<ex>ecundu</ex>m</w><w>carnem</w><w>non</w><w>multi</w><w>nobiles</w></ab><ab n="B07K1V27"><w>sed</w>
+<lb xml:id="P22rC1L20-VL77" n="20"/><w>quae</w><w>stulta</w><w>s<ex>un</ex>t</w><w>mundi</w><w>elegit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>ut</w><w>confundat</w>
+<lb xml:id="P22rC1L21-VL77" n="21"/><w>fortia</w></ab><ab n="B07K1V28"><w>et</w><w>ignobilia</w><w>mundi</w><w>et</w><w>con
+<lb break="no" xml:id="P22rC1L22-VL77" n="22"/>temptibilia</w><w>elegit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>q<ex>uae</ex></w><w>n<ex>on</ex></w><w>s<ex>un</ex>t</w><w>ut</w><w>ea</w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w>
+<pb xml:id="P22v-VL77" n="22v" type="folio"/>
+<cb xml:id="P22vC1-VL77" n="1"/>
+<lb xml:id="P22vC1L1-VL77" n="1"/><w>destruet</w></ab><ab n="B07K1V29"><w>ut</w><w>non</w><w>glorietur</w><w>omnis</w><w>caro</w><w>in</w><w>conspectu</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">cora<ex>m</ex></hi></w>
+<lb xml:id="P22vC1L2-VL77" n="2"/><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></hi></w></ab><ab n="B07K1V30"><w>ex</w><w>ipso</w><w>autem</w><w>uos</w><w>estis</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w>qui</w><w>factus</w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P22vC1L3-VL77" n="3"/><w>sapientia</w><w>nobis</w><w>a</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>et</w><w>iustitia</w><w>et</w><w>s<ex>an</ex>c<ex>t</ex>ificatio</w><w>et</w>
+<lb xml:id="P22vC1L4-VL77" n="4"/><w>redemptio</w></ab><ab n="B07K1V31"><w>ut</w><w>quemadmodu<ex>m</ex></w><w>scriptu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>qui</w><w>gloriatur</w>
+<lb xml:id="P22vC1L5-VL77" n="5"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>in</w><w>ieremia</w></note></seg><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>glorietur</w></ab></div><div n="B07K2" type="chapter"><ab n="B07K2V1"><w>et</w><w>ego</w><w>ueniens</w><w>ad</w><w>uos</w><w>fratres</w><w>ue
+<lb break="no" xml:id="P22vC1L6-VL77" n="6"/>ni</w><w>non</w><w>in</w><w>sublimitate</w><w>sermonis</w><w>aut</w><w>sapientiae</w><w>adnuntians</w>
+<lb xml:id="P22vC1L7-VL77" n="7"/><w>uobis</w><w>testimonium</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K2V2"><w>non</w><w>enim</w><w>iudicaui</w><w>scire</w>
+<lb xml:id="P22vC1L8-VL77" n="8"/><w>aliquid</w><w>in</w><w>uobis</w><w>nisi</w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">ihm</hi></abbr></w><w>et</w><w>h<ex>un</ex>c</w><w>crucifixum</w>
+<lb xml:id="P22vC1L9-VL77" n="9"/></ab><ab n="B07K2V3"><w>et</w><w>ego</w><w>in</w><w>infirmitate</w><w>et</w><w>timore</w><w>et</w><w>tremore</w>
+<lb xml:id="P22vC1L10-VL77" n="10"/><w>multo</w><w>fui</w><w>ap<ex>ud</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ad</hi></w><w>uos</w></ab><ab n="B07K2V4"><w>et</w><w>sermo</w><w>meus</w><w>et</w>
+<lb xml:id="P22vC1L11-VL77" n="11"/><w>p<ex>re</ex>dicatio</w><w>mea</w><w>non</w><w>in</w><w>p<ex>er</ex>suasione</w><w>sapientię</w><w>sed</w><w>in</w>
+<lb xml:id="P22vC1L12-VL77" n="12"/><w>ostensione</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>et</w><w>uirtutis</w></ab><ab n="B07K2V5"><w>ut</w><w>fides</w><w>u<ex>est</ex>ra</w><w>non</w>
+<lb xml:id="P22vC1L13-VL77" n="13"/><w>in</w><w>sapientia</w><w>hominu<ex>m</ex></w><w>sed</w><w>in</w><w>uirtute</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K2V6"><w>sapientia<ex>m</ex></w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P22vC1L14-VL77" n="14"/><w>loquimur</w><w>int<ex>er</ex></w><w>p<ex>er</ex>fectos</w><w>sapientia<ex>m</ex></w><w><ex rend="ƕ">autem</ex></w><w>non</w><app><rdg type="orig" hand="firsthand"><w>h<ex>uiu</ex>s</w></rdg><rdg type="corr" hand="firsthand"></rdg></app>
+<lb xml:id="P22vC1L15-VL77" n="15"/><w>saeculi</w><w>huius</w><w>qui</w><w>destruuntur</w></ab><ab n="B07K2V7"><w>sed</w><w>lo
+<lb break="no" xml:id="P22vC1L16-VL77" n="16"/>quimur</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>sapientia<ex>m</ex></w><w>in</w><w>myst<ex>er</ex>io</w><w>absconditam</w>
+<lb xml:id="P22vC1L17-VL77" n="17"/><w>qua<ex>m</ex></w><w>p<ex>re</ex>destinauit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>ante</w><w>saecula</w><w>in</w>
+<lb xml:id="P22vC1L18-VL77" n="18"/><w>gloria<ex>m</ex></w><w>nostra<ex>m</ex></w></ab><ab n="B07K2V8"><w>quam</w><w>nemo</w><w>p<ex>ri</ex>ncipum</w><w>sęculi</w>
+<lb xml:id="P22vC1L19-VL77" n="19"/><note type="editorial">The margin contains the indication 'goddisk' in Greek text, for Godescalc</note><w>huius</w><w>cognouit</w><w>si</w><w><ex rend="⧺">enim</ex></w><w>cognouissent</w><w>nunqua<ex>m</ex></w><w><abbr type="nomSac">d<hi rend="overline">nm</hi></abbr></w>
+<lb xml:id="P22vC1L20-VL77" n="20"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>esaia</w></note></seg><w>glorię</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">maiestatis</hi></w><w>crucifixissent</w></ab><ab n="B07K2V9"><w>sed</w><w>sicut</w><w>scrip<ex>tum</ex></w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P22vC1L21-VL77" n="21"/><w>quę</w><w>oculus</w><w>non</w><w>uidit</w><w>et</w><w>auris</w><w>n<ex>on</ex></w><w>audiuit</w>
+<lb xml:id="P22vC1L22-VL77" n="22"/><w>et</w><w>in</w><w>cor</w><w>hominis</w><w>non</w><w>ascendit</w><w>quae</w><w>p<ex>re</ex>parauit</w>
+<pb xml:id="P23r-VL77" n="23r" type="folio"/>
+<cb xml:id="P23rC1-VL77" n="1"/>
+<lb xml:id="P23rC1L1-VL77" n="1"/><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>diligentibus</w><w>se</w></ab><ab n="B07K2V10"><w>nobis</w><w>aute<ex>m</ex></w><w>reuelauit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>p<ex>er</ex></w>
+<lb xml:id="P23rC1L2-VL77" n="2"/><w><abbr type="nomSac">sp<hi rend="overline">m</hi></abbr></w><w>suum</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>enim</w><w>omnia</w><w>scrutatur</w><w>et</w><w>altitudines</w>
+<lb xml:id="P23rC1L3-VL77" n="3"/><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">alta</hi></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K2V11"><w>quis</w><w>enim</w><w>scit</w><w>hominu<ex>m</ex></w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w>ho<ex>min</ex>is</w><w>nisi</w>
+<lb xml:id="P23rC1L4-VL77" n="4"/><w><abbr type="nomSac"><hi rend="overline">sps</hi></abbr></w><w>qui</w><w>in</w><w>ipso</w><w>sic</w><w>et</w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>nemo</w>
+<lb xml:id="P23rC1L5-VL77" n="5"/><w>cognouit</w><w>nisi</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K2V12"><w>nos</w><w>aute<ex>m</ex></w><w>n<ex>on</ex></w><w><abbr type="nomSac">s<hi rend="overline">pm</hi></abbr></w>
+<lb xml:id="P23rC1L6-VL77" n="6"/><w>mundi</w><w>huius</w><w>accepimus</w><w>sed</w><w><abbr type="nomSac">s<hi rend="overline">pm</hi></abbr></w><w>qui</w><w>ex</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P23rC1L7-VL77" n="7"/><w>ut</w><w>sciamus</w><w>quae</w><w>a</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>donata</w><w>s<ex>un</ex>t</w><w>nobis</w></ab><ab n="B07K2V13"><w>q<ex>uae</ex></w><w>et</w><w>lo
+<lb break="no" xml:id="P23rC1L8-VL77" n="8"/>quimur</w><w>non</w><w>in</w><w>doctrina</w><w>humanae</w><w>sapientie</w><w>uer
+<lb break="no" xml:id="P23rC1L9-VL77" n="9"/>bis</w><w>sed</w><w>in</w><w>doctrina</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>spiritalibus</w><w>spiritalia</w>
+<lb xml:id="P23rC1L10-VL77" n="10"/><w>comparantes</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>compara</ex>mus</hi></w></ab><ab n="B07K2V14"><w>animalis</w><w>aute<ex>m</ex></w><w>homo</w><w>n<ex>on</ex></w><w>p<ex>er</ex>ci
+<lb break="no" xml:id="P23rC1L11-VL77" n="11"/>pit</w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>stultitia</w><w>enim</w><w>illi</w><w>est</w><w>et</w>
+<lb xml:id="P23rC1L12-VL77" n="12"/><w>non</w><w>pot<ex rend="÷">est</ex></w><w>scire</w><w>q<ex>uonia</ex>m</w><w>sp<ex>ir</ex>italit<ex>er</ex></w><w>diiudicatur</w>
+<lb xml:id="P23rC1L13-VL77" n="13"/></ab><ab n="B07K2V15"><w>sp<ex>ir</ex>italis</w><w>autem</w><w>diiudicat</w><w>omnia</w><w>ipse</w><w>aute<ex>m</ex></w>
+<lb xml:id="P23rC1L14-VL77" n="14"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>esaia</w></note></seg><w>a</w><w>nemine</w><w>iudicatur</w></ab><ab n="B07K2V16"><w>quis</w><w><ex rend="⧺">enim</ex></w><w>cognouit</w><w>sensu<ex>m</ex></w>
+<lb xml:id="P23rC1L15-VL77" n="15"/><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>qui</w><w>instruat</w><w>eum</w><w>nos</w><w>aute<ex>m</ex></w><w>sensu<ex>m</ex></w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w>
+<lb xml:id="P23rC1L16-VL77" n="16"/><w>habemus</w></ab></div><div n="B07K3" type="chapter"><ab n="B07K3V1"><w>et</w><w>ego</w><w>fratres</w><w>non</w><w>potui</w><w>loqui</w><seg type="margin" subtype="lineright"><num type="chapNum"><w>iii</w></num></seg>
+<lb xml:id="P23rC1L17-VL77" n="17"/><w>uobis</w><w>q<ex>ua</ex>si</w><w>spiritalibus</w><w>sed</w><w>q<ex>ua</ex>si</w><w>carnalibus</w><w>q<ex>ua</ex>si</w>
+<lb xml:id="P23rC1L18-VL77" n="18"/><w>paruulis</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w></ab><ab n="B07K3V2"><w>lac</w><w>uos</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">uobis</hi></w><w>potauit</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">potu<ex>m</ex></hi></w><w><hi rend="alt">dedi</hi></w><w>et</w>
+<lb xml:id="P23rC1L19-VL77" n="19"/><w>non</w><w>escam</w><w>n<ex>on</ex>dum</w><w><ex rend="⧺">enim</ex></w><w>pot<ex>er</ex>atis</w><w>sed</w><w>neq<ex>ue</ex></w><w>adhuc</w>
+<lb xml:id="P23rC1L20-VL77" n="20"/><w>nunc</w><w>potestis</w><w>adhuc</w><w><ex rend="⧺">enim</ex></w><w>estis</w><w>carnales</w><note type="editorial">There are three lines of Irish in the bottom margin.</note>
+<pb xml:id="P23v-VL77" n="23v" type="folio"/>
+<cb xml:id="P23vC1-VL77" n="1"/>
+<lb xml:id="P23vC1L1-VL77" n="1"/><note type="editorial">This page is largely illegible in the PDF of the manuscript</note></ab><ab n="B07K3V3"><w>cu<ex>m</ex></w><w><ex rend="⧺">enim</ex></w><w>int<ex>er</ex></w><w>uos</w><w>sit</w><w>ęmulatio</w><w>et</w><w>contentio</w><w>et</w><w>dissentiones</w><w>nonne</w><w>carnales</w>
+<lb xml:id="P23vC1L2-VL77" n="2"/><w>estis</w><w>et</w><w>s<ex>ecundu</ex>m</w><w>hominem</w><w>ambulatis</w></ab><ab n="B07K3V4"><w>cum</w><w>enim</w><w>quis</w><w>dicit</w>
+<lb xml:id="P23vC1L3-VL77" n="3"/><w>ego</w><w>quide<ex>m</ex></w><w>sum</w><w>pauli</w><w>alius</w><w>aute<ex>m</ex></w><w>ego</w><w>apollo</w><w>n<ex>on</ex>ne</w>
+<lb xml:id="P23vC1L4-VL77" n="4"/><w>homines</w><w>estis</w></ab><ab n="B07K3V5"><w>quis</w><w>ergo</w><w>est</w><w>apollo</w><w>quis</w><w>uero</w><w>paulus</w>
+<lb xml:id="P23vC1L5-VL77" n="5"/><w>ministri</w><w>eius</w><w>cui</w><w>credidistis</w><w>et</w><w>unicuiq<ex>ue</ex></w><w>sicut</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>dedit</w>
+<lb xml:id="P23vC1L6-VL77" n="6"/></ab><ab n="B07K3V6"><w>ego</w><w>plantaui</w><w>apollo</w><w>rigauit</w><w>sed</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>i<ex>n</ex>crem<ex>en</ex>tu<ex>m</ex></w><w>dedit</w>
+<lb xml:id="P23vC1L7-VL77" n="7"/></ab><ab n="B07K3V7"><w>itaq<ex>ue</ex></w><w>neq<ex>ue</ex></w><w>qui</w><w>plantat</w><w>est</w><w>aliquid</w><w>neq<ex>ue</ex></w><w>qui</w><w>rigat</w>
+<lb xml:id="P23vC1L8-VL77" n="8"/><w>sed</w><w>qui</w><w>i<ex>n</ex>crem<ex>en</ex>tu<ex>m</ex></w><w>dat</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><note type="editorial">The rest of the page is blank, with the note in the left margin 'd(e)(est) i(n) g(re)co'</note></ab><ab n="B07K3V16"><gap reason="lacuna" unit="line" extent="unknown"/>
+<pb xml:id="P24r-VL77" n="24r" type="folio"/>
+<cb xml:id="P24rC1-VL77" n="1"/>
+<lb xml:id="P24rC1L1-VL77" n="1"/><note type="editorial">This page is largely illegible in the PDF of the manuscript</note><w>habitat</w><w>in</w><w>uobis</w></ab><ab n="B07K3V17"><w>si</w><w>quis</w><w>templu<ex>m</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>uiolauerit</w><w>disp<ex>er</ex>det</w><w>il
+<lb break="no" xml:id="P24rC1L2-VL77" n="2"/>lum</w><w><abbr type="nomSac"><hi rend="overline">ds</hi></abbr></w><w>templu<ex>m</ex></w><w><ex rend="⧺">enim</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>s<ex>an</ex>c<ex>tu</ex>m</w><w>est</w><w>quod</w><w>estis</w><w>uos</w>
+<lb xml:id="P24rC1L3-VL77" n="3"/></ab><ab n="B07K3V18"><w>nemo</w><w>uos</w><w>seducat</w><w>si</w><w>quis</w><w>uidetur</w><w>sapiens</w><w>esse</w><w>int<ex>er</ex></w>
+<lb xml:id="P24rC1L4-VL77" n="4"/><w>uos</w><w>in</w><w>sęculo</w><w>hoc</w><w>stultus</w><w>fiat</w><w>ut</w><w>sit</w>
+<lb xml:id="P24rC1L5-VL77" n="5"/><w>sapiens</w></ab><ab n="B07K3V19"><w>sapientia</w><w><ex rend="⧺">enim</ex></w><w>mundi</w><w>huius</w><w>stultitia</w><w>ap<ex>ud</ex></w>
+<lb xml:id="P24rC1L6-VL77" n="6"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>esaia</w></note></seg><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w><w>est</w><w>scriptu<ex>m</ex></w><w><ex rend="÷">est</ex></w><note type="editorial">sic</note><w><ex rend="⧺">enim</ex></w><w>adp<ex>re</ex>henda<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">adp<ex>re</ex>hendit</hi></w><w>sapientes</w>
+<lb xml:id="P24rC1L7-VL77" n="7"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>esaia</w></note></seg><w>in</w><w>astutia</w><w>eorum</w></ab><ab n="B07K3V20"><w>et</w><w>it<ex>er</ex>um</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>nouit</w>
+<lb xml:id="P24rC1L8-VL77" n="8"/><w>cogitationes</w><w>sapientiu<ex>m</ex></w><w>q<ex>uonia</ex>m</w><w>s<ex>un</ex>t</w><app><rdg type="orig" hand="firsthand"><w>uanae</w></rdg><rdg type="corr" hand="firsthand"></rdg></app><w>uanae</w></ab><ab n="B07K3V21"><w>itaq<ex>ue</ex></w>
+<lb xml:id="P24rC1L9-VL77" n="9"/><w>nemo</w><w>glorietur</w><w>in</w><w>homine</w><w>omnia</w><w>eni<ex>m</ex></w><w>uestra</w><w>s<ex>un</ex>t</w>
+<lb xml:id="P24rC1L10-VL77" n="10"/></ab><ab n="B07K3V22"><w>siue</w><w>paulus</w><w>siue</w><w>apollo</w><w>siue</w><w>cephas</w><w>siue</w><w>mundus</w>
+<lb xml:id="P24rC1L11-VL77" n="11"/><w>siue</w><w>uita</w><w>siue</w><w>mors</w><w>siue</w><w>p<ex>re</ex>sentia</w><w>siue</w>
+<lb xml:id="P24rC1L12-VL77" n="12"/><w>futura</w><w>omnia</w><w><ex rend="⧺">enim</ex></w><w>uestra</w><w>s<ex>un</ex>t</w></ab><ab n="B07K3V23"><w>uos</w><w>aute<ex>m</ex></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P24rC1L13-VL77" n="13"/><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab></div><div n="B07K4" type="chapter"><ab n="B07K4V1"><seg type="margin" subtype="lineright"><num type="chapNum"><w>iv</w></num><pc>.</pc></seg><w>sic</w><w>nos</w><w>existimet</w><w>homo</w><w>ut</w><w>ministros</w>
+<lb xml:id="P24rC1L14-VL77" n="14"/><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>et</w><w>dispensatores</w><w>myst<ex>er</ex>ior<ex>um</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w>
+<lb xml:id="P24rC1L15-VL77" n="15"/></ab><ab n="B07K4V2"><w>hic</w><w>ia<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">cet<ex>er</ex>um</hi></w><w>quęritur</w><w>int<ex>er</ex></w><w>dispensatores</w>
+<lb xml:id="P24rC1L16-VL77" n="16"/><w>ut</w><w>quis</w><w>fidelis</w><w>inueniat<ex>ur</ex></w></ab><ab n="B07K4V3"><w>mihi</w><w>aute<ex>m</ex></w><w>in</w><w>minimu<ex>m</ex></w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P24rC1L17-VL77" n="17"/><w>est</w><note type="editorial">sic</note><w>ut</w><w>a</w><w>uobis</w><w>iudicer</w><w>aut</w><w>ab</w><w>huma
+<lb break="no" xml:id="P24rC1L18-VL77" n="18"/>na</w><w>die</w><w>sed</w><w>neq<ex>ue</ex></w><w>me</w><w>ipsu<ex>m</ex></w><w>iudico</w></ab><ab n="B07K4V4"><w>nihil</w>
+<lb xml:id="P24rC1L19-VL77" n="19"/><w>enim</w><w>mihi</w><w>ipsi</w><w>sum</w><w>conscius</w><w>sed</w><w>non</w><w>in</w><w>hoc</w><w>iustifi
+<lb break="no" xml:id="P24rC1L20-VL77" n="20"/>catus</w><w>sum</w><w>qui</w><w>aute<ex>m</ex></w><w>iudicat</w><w>me</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>est</w>
+<lb xml:id="P24rC1L21-VL77" n="21"/></ab><ab n="B07K4V5"><w>itaq<ex>ue</ex></w><w>ne</w><w>an<ex>te</ex></w><w>tempus</w><w>aliq<ex>ui</ex>d</w><w>iudicate</w><w>donec</w><w>ue
+<lb break="no" xml:id="P24rC1L22-VL77" n="22"/>niat</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>et</w><w>illuminet</w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w>abscondita</w><w>tenebrar<ex>um</ex></w>
+<pb xml:id="P24v-VL77" n="24v" type="folio"/>
+<cb xml:id="P24vC1-VL77" n="1"/>
+<lb xml:id="P24vC1L1-VL77" n="1"/><note type="editorial">This page is largely illegible in the PDF of the manuscript.</note><w>et</w><w>manifestabit</w><w>consilia</w><w>cordiu<ex>m</ex></w><w>et</w><w>tunc</w>
+<lb xml:id="P24vC1L2-VL77" n="2"/><w>laus</w><w>erit</w><w>unicuiq<ex>ue</ex></w><w>a</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w></ab><ab n="B07K4V6"><w>haec</w><w>aute<ex>m</ex></w><w>fra
+<lb break="no" xml:id="P24vC1L3-VL77" n="3"/>tres</w><w>t<ex>ran</ex>sfiguraui</w><w>i<ex>n</ex></w><w>me</w><w>ipsu<ex>m</ex></w><w>et</w><w>apollo</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>uos</w>
+<lb xml:id="P24vC1L4-VL77" n="4"/><w>ut</w><w>in</w><w>nobis</w><w>discatis</w><w>ne</w><w>supra</w><w>q<ex>uod</ex></w><w>scriptu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>ut</w><w>n<ex>on</ex></w>
+<lb xml:id="P24vC1L5-VL77" n="5"/><w>unus</w><w>adu<ex>er</ex>sus</w><w>alt<ex>er</ex>um</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>er</ex></hi></w><w><hi rend="alt">uno</hi></w><w>infletur</w><w>adu<ex>er</ex>sus</w><w>alt<ex>er</ex>um</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>ro</ex></hi></w><w><hi rend="alt">alio</hi></w>
+<lb xml:id="P24vC1L6-VL77" n="6"/></ab><ab n="B07K4V7"><w>quis</w><w><ex rend="⧺">enim</ex></w><w>te</w><w>discernit</w><w>quid</w><w>aute<ex>m</ex></w><w>habes</w><w>quod</w><w>non</w><w>accepisti</w>
+<lb xml:id="P24vC1L7-VL77" n="7"/><w>si</w><w>aute<ex>m</ex></w><w>et</w><w>accepisti</w><w>quid</w><w>gloriaris</w><w>q<ex>ua</ex>si</w><w>n<ex>on</ex></w><w>acceperis</w>
+<lb xml:id="P24vC1L8-VL77" n="8"/></ab><ab n="B07K4V8"><w>iam</w><w>saturati</w><app><rdg type="orig" hand="firsthand"><w>estis</w></rdg><rdg type="corr" hand="firsthand"></rdg></app><w>estis</w><w>iam</w><w>diuites</w><w>facti</w><w>estis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ditati</hi></w><w><hi rend="alt">estis</hi></w>
+<lb xml:id="P24vC1L9-VL77" n="9"/><w>sine</w><w>nobis</w><w>regnatis</w><w>et</w><w>utinam</w><w>regnetis</w>
+<lb xml:id="P24vC1L10-VL77" n="10"/><w>ut</w><w>et</w><w>nos</w><w>uobiscu<ex>m</ex></w><w>corregnemus</w></ab><ab n="B07K4V9"><w>puto</w>
+<lb xml:id="P24vC1L11-VL77" n="11"/><w>enim</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>nos</w><w>apostolos</w><app><rdg type="orig" hand="firsthand"><w>nouisimos</w></rdg><rdg type="corr" hand="corrector"><w>nouissimos</w></rdg></app><w>ostendit</w>
+<lb xml:id="P24vC1L12-VL77" n="12"/><w>tanq<ex>uam</ex></w><w>morti</w><w>destinatos</w><w>q<ex>uonia</ex>m</w><w>spectaculu<ex>m</ex></w><w>facti</w><w>sumus</w>
+<lb xml:id="P24vC1L13-VL77" n="13"/><w>mundo</w><w>et</w><w>angelis</w><w>et</w><w>hominibus</w></ab><ab n="B07K4V10"><w>nos</w>
+<lb xml:id="P24vC1L14-VL77" n="14"/><w>stulti</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w><abbr type="nomSac">x<hi rend="overline">pm</hi></abbr></w><w>uos</w><w>aute<ex>m</ex></w><w>prudentes</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w>
+<lb xml:id="P24vC1L15-VL77" n="15"/><w>nos</w><w>infirmi</w><w>uos</w><w>aute<ex>m</ex></w><w>fortes</w><w>uos</w><w>no
+<lb break="no" xml:id="P24vC1L16-VL77" n="16"/>biles</w><w>nos</w><w>u<ex>er</ex>o</w><w>i<ex>n</ex>honorati</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ignobiles</hi></w></ab><ab n="B07K4V11"><w>usq<ex>ue</ex></w><w>in</w><w>hanc</w><w>hora<ex>m</ex></w>
+<lb xml:id="P24vC1L17-VL77" n="17"/><w>et</w><w>esurimus</w><w>et</w><w>sitimus</w><w>et</w><w>nudi</w><w>sumus</w>
+<lb xml:id="P24vC1L18-VL77" n="18"/><w>et</w><w>colaphizamur</w><w>et</w><w>instabiles</w><w>sumus</w>
+<lb xml:id="P24vC1L19-VL77" n="19"/></ab><ab n="B07K4V12"><w>et</w><w>laboramus</w><w>operantes</w><w>p<ex>ro</ex>priis</w><w>mani
+<lb break="no" xml:id="P24vC1L20-VL77" n="20"/>bus</w><w>maledicimur</w><w>et</w><w>b<ex>ene</ex>dicimus</w><w>p<ex>er</ex>secutione<ex>m</ex></w>
+<lb xml:id="P24vC1L21-VL77" n="21"/><w>passi</w><w>et</w><w>sustinemus</w></ab><ab n="B07K4V13"><w>blasphemamur</w><w><ex rend="₇">et</ex></w><w>obse
+<lb break="no" xml:id="P24vC1L22-VL77" n="22"/>cramur</w><note type="editorial">sic</note><w>tanqua<ex>m</ex></w><w>purgamenta</w><w>mundi</w>
+<pb xml:id="P25r-VL77" n="25r" type="folio"/>
+<cb xml:id="P25rC1-VL77" n="1"/>
+<lb xml:id="P25rC1L1-VL77" n="1"/><note type="editorial">This page is largely illegible in the PDF of the manuscript.</note><note type="editorial">In the top margin there is a Greek sentence followed by the Latin 'Nos generat mater generamus nos quoque matre(m). According to Dieter Schaller et alt., Initia carminum Latinorum saeculo undecimo antiquiorum. Bibliographisches Repertorium für die lateinische Dichtung der Antike und des früheren Mittelalters (Supplementband), Göttingen 2005, pag. 294–5, this is the Incipitarium to a Latin poem.</note><w>facti</w><w>sumus</w><w>omniu<ex>m</ex></w><w>peripsema</w><w>usq<ex>ue</ex></w><w>adhuc</w></ab><ab n="B07K4V14"><w>non</w><w>ut</w><w>confundam</w>
+<lb xml:id="P25rC1L2-VL77" n="2"/><w>uos</w><w>haec</w><w>scribo</w><w>sed</w><w>ut</w><w>filios</w><w>meos</w><w>carissimos</w><w>moneo</w></ab><ab n="B07K4V15"><w>si</w>
+<lb xml:id="P25rC1L3-VL77" n="3"/><w>decem</w><w>milia</w><w>paedagogos</w><w>habeatis</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w>sed</w><w>n<ex>on</ex></w><w>multos</w>
+<lb xml:id="P25rC1L4-VL77" n="4"/><w>patres</w><w>in</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">na<ex>m</ex></hi></w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w><ex rend="⧺">enim</ex></w><w><abbr type="nomSac"><hi rend="overline">ihu</hi></abbr></w><w>p<ex>er</ex></w><w>euangelium</w><w>ego</w><w>uos</w>
+<lb xml:id="P25rC1L5-VL77" n="5"/><w>genui</w></ab><ab n="B07K4V16"><w>obsecro</w><w>itaq<ex>ue</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex rend="ƕ">autem</ex></hi></w><w>uos</w><w>imitatores</w><w>mei</w><w>estote</w>
+<lb xml:id="P25rC1L6-VL77" n="6"/></ab><ab n="B07K4V17"><w>ideo</w><w>misi</w><w>ad</w><w>uos</w><w>timotheum</w><w>qui</w><w>est</w><w>filius</w>
+<lb xml:id="P25rC1L7-VL77" n="7"/><w>meus</w><w>carissimus</w><w>et</w><w>fidelis</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">dno</hi></abbr></w><w>qui</w><w>uos</w><w>admonebit</w>
+<lb xml:id="P25rC1L8-VL77" n="8"/><w>uias</w><w>meas</w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w>sicut</w><w>ubiq<ex>ue</ex></w><w>in</w><w>omni</w>
+<lb xml:id="P25rC1L9-VL77" n="9"/><w>ecclesia</w><w>doceo</w></ab><ab n="B07K4V18"><w>tanq<ex>uam</ex></w><w>n<ex>on</ex></w><w>uent<ex>ur</ex>us</w><w>sim</w><w>ad</w>
+<lb xml:id="P25rC1L10-VL77" n="10"/><w>uos</w><w>inflati</w><w>s<ex>un</ex>t</w><w>quida<ex>m</ex></w></ab><ab n="B07K4V19"><w>ueniam</w><w><ex rend="ƕ">autem</ex></w><w>cito</w>
+<lb xml:id="P25rC1L11-VL77" n="11"/><w>ad</w><w>uos</w><w>si</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>uoluerit</w><w>et</w><w>cognoscam</w><w>non</w><w>uerbu<ex>m</ex></w>
+<lb xml:id="P25rC1L12-VL77" n="12"/><w>eor<ex>um</ex></w><w>i<ex>n</ex>flantiu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>u</ex>i</hi></w><w><hi rend="alt">i<ex>n</ex>flati</hi></w><w><hi rend="alt">s<ex>un</ex>t</hi></w><w>sed</w><w>uirtute<ex>m</ex></w></ab><ab n="B07K4V20"><w><hi rend="alt">nec</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><note type="editorial">The place and the smaller script indicate that this has been added as a gloss later, the following "non" is perfectly above the Greek negation.</note><w>non</w>
+<lb xml:id="P25rC1L13-VL77" n="13"/><w><ex rend="⧺">enim</ex></w><w>in</w><w>sermone</w><w><ex rend="÷">est</ex></w><w>regnum</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>sed</w><w>in</w><w>uirtute</w>
+<lb xml:id="P25rC1L14-VL77" n="14"/></ab><ab n="B07K4V21"><w>quid</w><w>uultis</w><w>in</w><w>uirga</w><w>uenia<ex>m</ex></w><w>ad</w><w>uos</w><w>an</w><w>in</w>
+<lb xml:id="P25rC1L15-VL77" n="15"/><w>caritate</w><w><abbr type="nomSac">s<hi rend="overline">p</hi>s</abbr></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><abbr type="nomSac"><ex>sp</ex><hi rend="overline">u</hi></abbr></hi></w><w>q<ex>uo</ex>q<ex>ue</ex></w><w>mansuetudinis</w></ab></div><div n="B07K5" type="chapter"><ab n="B07K5V1"><seg type="margin" subtype="lineright"><num type="chapNum"><w>v</w><pc>.</pc></num></seg><w>omnino</w><w>auditur</w>
+<lb xml:id="P25rC1L16-VL77" n="16"/><w>int<ex>er</ex></w><w>uos</w><w>fornicatio</w><w>et</w><w>talis</w><w>fornicatio</w><w>qualis</w><w>nec</w>
+<lb xml:id="P25rC1L17-VL77" n="17"/><w>i<ex>n</ex>t<ex>er</ex></w><w>gentes</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">i<ex>n</ex></hi></w><w><hi rend="alt">gentibus</hi></w><w>ita</w><w>ut</w><w>uxorem</w><w>patris</w><w>habeat</w><w>aliquis</w>
+<lb xml:id="P25rC1L18-VL77" n="18"/></ab><ab n="B07K5V2"><w>et</w><w>uos</w><w>inflati</w><w>estis</w><w>et</w><w>n<ex>on</ex></w><w>potius</w><w>luctu<ex>m</ex></w>
+<lb xml:id="P25rC1L19-VL77" n="19"/><w>habuistis</w><w>ut</w><w>tollat<ex>ur</ex></w><w>de</w><w>medio</w><w>u<ex>est</ex>r<ex>u</ex>m</w><w>qui</w><w>opus</w>
+<lb xml:id="P25rC1L20-VL77" n="20"/><w>hoc</w><w>fecit</w></ab><ab n="B07K5V3"><w>ego</w><w>quide<ex>m</ex></w><w><ex rend="⧺">enim</ex></w><w>ut</w><w>absens</w><w>corpore</w>
+<lb xml:id="P25rC1L21-VL77" n="21"/><w>p<ex>re</ex>sens</w><w>autem</w><w><abbr type="nomSac">sp<hi rend="overline">u</hi></abbr></w><w>iam</w><w>iudicaui</w><w>tanqua<ex>m</ex></w><w>p<ex>re</ex>sens</w><w>eum</w>
+<lb xml:id="P25rC1L22-VL77" n="22"/><w>qui</w><w>sic</w><w>operatus</w><w><ex rend="÷">est</ex></w></ab><ab n="B07K5V4"><w>in</w><w>nomine</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>n<ex>ost</ex>ri</w>
+<pb xml:id="P25v-VL77" n="25v" type="folio"/>
+<cb xml:id="P25vC1-VL77" n="1"/>
+<lb xml:id="P25vC1L1-VL77" n="1"/><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpi</hi></abbr></w><w>cong<ex>re</ex>gatis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">c<ex>on</ex>uenientib<ex>us</ex></hi></w><w>u<ex>o</ex>b<ex>is</ex></w><w>et</w><w>cu<ex>m</ex></w><w>meo</w><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w><w>cum</w><w>uir
+<lb break="no" xml:id="P25vC1L2-VL77" n="2"/>tute</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>n<ex>ost</ex>ri</w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w></ab><ab n="B07K5V5"><w>tradere</w><w>eum</w><w>satanę</w>
+<lb xml:id="P25vC1L3-VL77" n="3"/><w>in</w><w>int<ex>er</ex>itum</w><w>carnis</w><w>ut</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>saluus</w><w>sit</w><w>in</w><w>die</w>
+<lb xml:id="P25vC1L4-VL77" n="4"/><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>n<ex>ost</ex>ri</w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w></ab><ab n="B07K5V6"><w>non</w><w>bona</w><w>gloriatio</w><w>u<ex>est</ex>ra</w>
+<lb xml:id="P25vC1L5-VL77" n="5"/><w>nescitis</w><w>quia</w><w>modicum</w><w>fermentu<ex>m</ex></w><w>tota<ex>m</ex></w><w>massam</w>
+<lb xml:id="P25vC1L6-VL77" n="6"/><w>ferm<ex>en</ex>tat</w></ab><ab n="B07K5V7"><w>expurgate</w><w>uetus</w><w>fermentu<ex>m</ex></w><w>ut</w>
+<lb xml:id="P25vC1L7-VL77" n="7"/><w>sitis</w><w>noua</w><w>c<ex>on</ex>sparsio</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">massa</hi></w><w>sicut</w><w>estis</w><w>azymi</w><w>et
+<lb break="no" xml:id="P25vC1L8-VL77" n="8"/>enim</w><w>pascha</w><w>n<ex>ost</ex>r<ex>u</ex>m</w><w>im<ex>m</ex>olatus</w><w><ex rend="÷">est</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w></ab><ab n="B07K5V8"><w>itaq<ex>ue</ex></w><w>die<ex>m</ex></w><w>festu<ex>m</ex></w><w>celebrem<ex>us</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">epulemur</hi></w>
+<lb xml:id="P25vC1L9-VL77" n="9"/><w>non</w><w>in</w><w>ferm<ex>en</ex>to</w><w>ueteri</w><w>neq<ex>ue</ex></w><w>in</w><w>ferm<ex>en</ex>to</w><w>malitiae</w>
+<lb xml:id="P25vC1L10-VL77" n="10"/><w>et</w><w>neq<ex>ui</ex>tię</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">fornicatio<hi rend="lig">ni</hi>s</hi></w><w>sed</w><w>in</w><w>azymis</w><w>sinceritatis</w><w>et</w>
+<lb xml:id="P25vC1L11-VL77" n="11"/><w>ueritatis</w></ab><ab n="B07K5V9"><w>scripsi</w><w>uobis</w><w>in</w><w>epistola</w><w><hi rend="alt">n<ex>on</ex><ex>ue</ex>l</hi></w><w>ne</w><w>com
+<lb break="no" xml:id="P25vC1L12-VL77" n="12"/>misceamini</w><w>fornicariis</w></ab><ab n="B07K5V10"><w>n<ex>on</ex></w><w>utiq<ex>ue</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">omnino</hi></w><w>fornicariis</w>
+<lb xml:id="P25vC1L13-VL77" n="13"/><w>mundi</w><w>huius</w><w>aut</w><w>auaris</w><w>et</w><w>rapacibus</w><w>aut</w>
+<lb xml:id="P25vC1L14-VL77" n="14"/><w>idolatriis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">idolis</hi></w><w><hi rend="alt">seruientib<ex>us</ex></hi></w><w>alioqui</w><w>debueratis</w><w>de</w><w>mundo</w>
+<lb xml:id="P25vC1L15-VL77" n="15"/><w>exire</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">exisse</hi></w></ab><ab n="B07K5V11"><w>n<ex>un</ex>c</w><w>aute<ex>m</ex></w><w>scripsi</w><w>uobis</w><w>n<ex>on</ex></w><w>commisceri</w><w>uos</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">n<ex>on</ex></hi></w><w><hi rend="alt">com<ex>m</ex>isceamini</hi></w>
+<lb xml:id="P25vC1L16-VL77" n="16"/><w>si</w><w>quis</w><w>frat<ex>er</ex></w><w>nominatur</w><w>aut</w><w>fornicator</w><w>aut</w>
+<lb xml:id="P25vC1L17-VL77" n="17"/><w>auarus</w><w>aut</w><w>idolis</w><w>seruiens</w><w><hi rend="alt">a<ex>ut</ex></hi></w><w><hi rend="alt">idolor<ex>um</ex></hi></w><w><hi rend="alt">cultor</hi></w><w>aut</w><w>maledicus</w><w>aut</w>
+<lb xml:id="P25vC1L18-VL77" n="18"/><w>ebriosus</w><w>aut</w><w>rapax</w><w>cu<ex>m</ex></w><w>huiusmodi</w><w>non</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">nec</hi></w><w>comedere</w>
+<lb xml:id="P25vC1L19-VL77" n="19"/></ab><ab n="B07K5V12"><w>si</w><w>enim</w><w>mihi</w><w>de</w><w>his</w><w>qui</w><w>foris</w><w>s<ex>un</ex>t</w><w>iudicare</w><w>n<ex>on</ex>ne</w><w>de</w><w>his</w><w>qui</w>
+<lb xml:id="P25vC1L20-VL77" n="20"/><w>i<ex>n</ex>tus</w><w>s<ex>un</ex>t</w><w>uos</w><w>iudicatis</w></ab><ab n="B07K5V13"><w>qui</w><w><ex rend="ƕ">autem</ex></w><w>foris</w><w>s<ex>un</ex>t</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>iudicabit</w>
+<lb xml:id="P25vC1L21-VL77" n="21"/><w>auferte</w><w>malum</w><w>ex</w><w>uobis</w><w>ipsis</w></ab></div><div n="B07K6" type="chapter"><ab n="B07K6V1"><seg type="margin" subtype="lineleft"><num type="chapNum"><w>vi</w></num><pc>.</pc></seg><w>audet</w><w>aliquis</w>
+<lb xml:id="P25vC1L22-VL77" n="22"/><w>uestr<ex>um</ex></w><w>ad</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">adu<ex>er</ex>sus</hi></w><w>alt<ex>er</ex>um</w><app><rdg type="orig" hand="firsthand"><w>habens</w></rdg><rdg type="corr" hand="firsthand"></rdg></app><w>negotiu<ex>m</ex></w><w>h<ex>abe</ex>ns</w><w>iudicari</w>
+<pb xml:id="P26r-VL77" n="26r" type="folio"/>
+<cb xml:id="P26rC1-VL77" n="1"/>
+<lb xml:id="P26rC1L1-VL77" n="1"/><w>ap<ex>ud</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">i<ex>n</ex>t<ex>er</ex></hi></w><w>i<ex>n</ex>iquos</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">i<ex>n</ex>iustos</hi></w><w>et</w><w>n<ex>on</ex></w><w>ap<ex>ud</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">int<ex>er</ex></hi></w><w>s<ex>an</ex>c<ex>t</ex>os</w></ab><ab n="B07K6V2"><w>an</w><w>nesci
+<lb break="no" xml:id="P26rC1L2-VL77" n="2"/>tis</w><w>q<ex>uonia</ex>m</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>uia</ex></hi></w><w>s<ex>an</ex>c<ex>t</ex>i</w><w>mundu<ex>m</ex></w><w>iudicabunt</w><w>et</w><w>si</w>
+<lb xml:id="P26rC1L3-VL77" n="3"/><w>in</w><w>uobis</w><w>iudicabitur</w><w>mundus</w><w>indigni</w><w>estis</w><w>iudiciorum</w>
+<lb xml:id="P26rC1L4-VL77" n="4"/><w>minimorum</w></ab><ab n="B07K6V3"><w>nescitis</w><w>q<ex>uonia</ex>m</w><w>angelos</w><w>iudicauimus</w>
+<lb xml:id="P26rC1L5-VL77" n="5"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>de</w><w>iudicibus</w></note></seg><w>quanto</w><w>magis</w><w>saecularia</w></ab><ab n="B07K6V4"><w>saecularia</w><w>igitur</w><w>iudicia</w><w>si</w>
+<lb xml:id="P26rC1L6-VL77" n="6"/><w>habueritis</w><w>contemptibiles</w><w>qui</w><w>s<ex>un</ex>t</w><w>in</w><w>ecclesia</w><w>illos</w>
+<lb xml:id="P26rC1L7-VL77" n="7"/><w>constituite</w></ab><ab n="B07K6V5"><w>ad</w><w>uerecundia<ex>m</ex></w><w>uobis</w><w>dico</w><w>sic</w><w>n<ex>on</ex></w><w>est</w>
+<lb xml:id="P26rC1L8-VL77" n="8"/><w>int<ex>er</ex></w><w>uos</w><w>quisquam</w><w>sapiens</w><w>qui</w><w>possit</w><w>iudicare</w>
+<lb xml:id="P26rC1L9-VL77" n="9"/><w>int<ex>er</ex></w><w>p<ex>ro</ex>ximu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">i<ex>n</ex></hi></w><w><hi rend="alt">medio</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>medi</ex>u<ex>m</ex></hi></w><w>fratrem</w><w>suum</w></ab><ab n="B07K6V6"><w>sed</w><w>frat<ex>er</ex></w><w>cum</w>
+<lb xml:id="P26rC1L10-VL77" n="10"/><w>fratre</w><w><hi rend="alt">c<ex>on</ex>tenditis</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>iudicio</w><w>c<ex>on</ex>tendit</w><w>et</w><w>hoc</w><w>ap<ex>ud</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">int<ex>er</ex></hi></w><w>infideles</w><w>et</w><w>n<ex>on</ex></w><w>int<ex>er</ex></w>
+<lb xml:id="P26rC1L11-VL77" n="11"/><w>s<ex>an</ex>c<ex>t</ex>os</w><note type="editorial">The rest of the page has been left blank, presumably corresponding to the gap left after 3:7</note></ab><ab n="B07K6V12">
+<pb xml:id="P26v-VL77" n="26v" type="folio"/>
+<cb xml:id="P26vC1-VL77" n="1"/>
+<lb xml:id="P26vC1L1-VL77" n="1"/></ab><ab n="B07K6V13"><note type="editorial">The top four lines of the page have been left blank</note></ab><ab n="B07K6V14">
+<lb xml:id="P26vC1L2-VL77" n="2"/>
+<lb xml:id="P26vC1L3-VL77" n="3"/>
+<lb xml:id="P26vC1L4-VL77" n="4"/>
+<lb xml:id="P26vC1L5-VL77" n="5"/></ab><ab n="B07K6V15"><w>an</w><w>nescitis</w><w>quia</w><w>corpora</w><w>uestra</w><w>membra</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>s<ex>un</ex>t</w>
+<lb xml:id="P26vC1L6-VL77" n="6"/><w>faciam</w><w>membra</w><w>meretricis</w><w>absit</w><w>an</w><w>tollens</w><w><ex>er</ex>go</w>
+<lb xml:id="P26vC1L7-VL77" n="7"/><w>membra</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>facia<ex>m</ex></w><w>membra</w><w><unclear>pornice</unclear>tricis</w><note type="editorial">It looks as though the Greek word has been written above in (mostly) Latin letters, followed by the garbled end of 'meretricis'</note><w>absit</w></ab><ab n="B07K6V16"><w>an</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">aut</hi></w>
+<lb xml:id="P26vC1L8-VL77" n="8"/><w>nescitis</w><w>q<ex>uonia</ex>m</w><w>qui</w><w>adhęret</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">iungit</hi></w><w>meritrici</w><w>unu<ex>m</ex></w><w>corpus</w>
+<lb xml:id="P26vC1L9-VL77" n="9"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>genesi</w></note></seg><w>est</w><w>erunt</w><w><ex rend="⧺">enim</ex></w><w>inquit</w><w>duo</w><w>in</w><w>carne</w><w>una</w></ab><ab n="B07K6V17"><w>qui</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P26vC1L10-VL77" n="10"/><w>adhęret</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">iungit</hi></w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>unus</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>est</w></ab><ab n="B07K6V18"><w>fugite</w><w>fornicatione<ex>m</ex></w>
+<lb xml:id="P26vC1L11-VL77" n="11"/><w>omne</w><w>peccatum</w><w>q<ex>uod</ex>cunq<ex>ue</ex></w><w>fecerit</w><w>homo</w><w>extra</w><w>corpus</w>
+<lb xml:id="P26vC1L12-VL77" n="12"/><w>est</w><w>qui</w><w><ex rend="ƕ">autem</ex></w><w>fornicatur</w><w>in</w><w>suu<ex>m</ex></w><w>corpus</w><w>peccat</w>
+<lb xml:id="P26vC1L13-VL77" n="13"/></ab><ab n="B07K6V19"><w>an</w><w>nescitis</w><w>quia</w><w>corpus</w><w>uestr<ex>um</ex></w><w>templu<ex>m</ex></w><w>qui</w>
+<lb xml:id="P26vC1L14-VL77" n="14"/><w>in</w><w>uobis</w><w><ex rend="÷">est</ex></w><w>s<ex>an</ex>c<ex>t</ex>i</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w><ex rend="÷">est</ex></w><w>q<ex>uod</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">quem</hi></w><w>habetis</w><w>a</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>et</w>
+<lb xml:id="P26vC1L15-VL77" n="15"/><w>non</w><w>estis</w><w>uestri</w></ab><ab n="B07K6V20"><w>empti</w><w>estis</w><w><ex rend="⧺">enim</ex></w><w>pretio</w><w>glorificate</w>
+<lb xml:id="P26vC1L16-VL77" n="16"/><w><ex rend="₇">et</ex></w><w>portate</w><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w><w>in</w><w>corpore</w><w>uestro</w></ab></div><div n="B07K7" type="chapter"><ab n="B07K7V1"><seg type="margin" subtype="lineleft"><num type="chapNum"><w>vii</w></num><pc>.</pc></seg><w>de</w><w>quibus</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P26vC1L17-VL77" n="17"/><w>scripsistis</w><w>mihi</w><w>bonu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>ho<ex>min</ex>i</w><w>mulierem</w><w>non</w><w>tangere</w>
+<lb xml:id="P26vC1L18-VL77" n="18"/></ab><ab n="B07K7V2"><w>p<ex>ro</ex>pt<ex>er</ex></w><w>autem</w><w>fornicatione<ex>m</ex></w><w>unusquisq<ex>ue</ex></w><w>sua<ex>m</ex></w><w>uxore<ex>m</ex></w>
+<lb xml:id="P26vC1L19-VL77" n="19"/><w>habeat</w></ab><ab n="B07K7V3"><w>uxori</w><w>uir</w><w>debitu<ex>m</ex></w><w>reddat</w>
+<lb xml:id="P26vC1L20-VL77" n="20"/><w>similit<ex>er</ex></w><w>aute<ex>m</ex></w><w>et</w><w>uxor</w><app><rdg type="orig" hand="firsthand"><w><gap extent="1" unit="char" reason="illegible"/>iro</w></rdg><rdg type="corr" hand="corrector"><w>uiro</w></rdg></app></ab><ab n="B07K7V4"><w>mulier</w>
+<lb xml:id="P26vC1L21-VL77" n="21"/><w>sui</w><w>corporis</w><w>non</w><w>h<ex>abe</ex>t</w><w>potestatem</w><w>sed</w><w>uir</w><w>simi
+<lb break="no" xml:id="P26vC1L22-VL77" n="22"/>liter</w><w>aute<ex>m</ex></w><w>et</w><w>uir</w><w>sui</w><w>corporis</w><w>n<ex>on</ex></w><w>h<ex>abe</ex>t</w><w>potestate<ex>m</ex></w>
+<pb xml:id="P27r-VL77" n="27r" type="folio"/>
+<cb xml:id="P27rC1-VL77" n="1"/>
+<lb xml:id="P27rC1L1-VL77" n="1"/><note type="editorial">This page is partially illegible in the PDF of the manuscript.</note><w>sed</w><w>mulier</w></ab><ab n="B07K7V5"><w>nolite</w><w>fraudare</w><w>inuicem</w><w>nisi</w><w>forte</w><w>ex</w><w>con
+<lb break="no" xml:id="P27rC1L2-VL77" n="2"/>sensu</w><w>ad</w><w>tempus</w><w>ut</w><w>uacetis</w><w>orationi</w><w>et</w><w>it<ex>er</ex>um</w>
+<lb xml:id="P27rC1L3-VL77" n="3"/><w>in</w><w>id</w><w>ipsu<ex>m</ex></w><w>reu<ex>er</ex>timini</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">sitis</hi></w><w>ut</w><w>ne</w><w>temptet</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">uret</hi></w><w>uos</w><w>satanas</w><w>p<ex>ro</ex>pt<ex>er</ex></w>
+<lb xml:id="P27rC1L4-VL77" n="4"/><w>incontinentia<ex>m</ex></w><w>uestra<ex>m</ex></w></ab><ab n="B07K7V6"><w>hoc</w><w>aute<ex>m</ex></w><w>dico</w><w>s<ex>ecundu</ex>m</w><w>conscientia<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">consiliu<ex>m</ex></hi></w>
+<lb xml:id="P27rC1L5-VL77" n="5"/><w>non</w><w>s<ex>ecundu</ex>m</w><w>imperiu<ex>m</ex></w></ab><ab n="B07K7V7"><w>uolo</w><w>aute<ex>m</ex></w><w>omnes</w><w>homines</w><w>esse</w>
+<lb xml:id="P27rC1L6-VL77" n="6"/><w>sicut</w><w>et</w><w>me</w><w>ipsum</w><w>sed</w><w>unusq<ex>u</ex>isq<ex>ue</ex></w><w>p<ex>ropri</ex>um</w><w>h<ex>abe</ex>t</w><w>donum</w><w>a</w>
+<lb xml:id="P27rC1L7-VL77" n="7"/><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>alius</w><w>q<ex>u</ex>ide<ex>m</ex></w><w>sic</w><w>alius</w><w>u<ex>er</ex>o</w><w>sic</w></ab><ab n="B07K7V8"><w>dico</w><w>aute<ex>m</ex></w><w><hi rend="alt">his</hi></w><w><hi rend="alt">q<ex>ui</ex></hi></w><w><hi rend="alt">s<ex>i</ex>n<ex>e</ex></hi></w><w><hi rend="alt">uxorib<ex>us</ex></hi></w><w><hi rend="alt">s<ex>un</ex>t</hi></w>
+<lb xml:id="P27rC1L8-VL77" n="8"/><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>n<ex>on</ex></w><w>nuptis</w><w>et</w><w>uiduis</w><w>bonu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>illis</w><w>si</w><w>p<ex>er</ex>manserint</w><w>sic</w>
+<lb xml:id="P27rC1L9-VL77" n="9"/><w>sicut</w><w>et</w><w>ego</w></ab><ab n="B07K7V9"><w>si</w><w>u<ex>er</ex>o</w><w>n<ex>on</ex></w><w>continent</w><w>se</w><w>nubant</w>
+<lb xml:id="P27rC1L10-VL77" n="10"/><w>melius</w><w><ex rend="⧺">enim</ex></w><w>nubere</w><w>qua<ex>m</ex></w><w>uri</w><note type="gloss"><w>i<ex>d</ex></w><w><ex>est</ex></w><w>malo</w><w>fornicationis</w></note></ab><ab n="B07K7V10"><w>his</w><w><ex rend="ƕ">autem</ex></w><w><hi rend="alt">qui</hi></w><w><hi rend="alt">matrimonio</hi></w><w><hi rend="alt">iuncti</hi></w><w><hi rend="alt">s<ex>un</ex>t</hi></w>
+<lb xml:id="P27rC1L11-VL77" n="11"/><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>nubentibus</w><w>denuntio</w><w>non</w><w>ego</w><w>sed</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>uxore<ex>m</ex></w>
+<lb xml:id="P27rC1L12-VL77" n="12"/><w>a</w><w>uiro</w><w>n<ex>on</ex></w><w>discedere</w></ab><ab n="B07K7V11"><w>si</w><w>aute<ex>m</ex></w><w>et</w><w>disces
+<lb break="no" xml:id="P27rC1L13-VL77" n="13"/>serit</w><w>manere</w><w>innupta<ex>m</ex></w><w>aut</w><w>uiro</w><w>reconciliari</w><w>et</w>
+<lb xml:id="P27rC1L14-VL77" n="14"/><w>uir<ex>um</ex></w><w>uxorem</w><w>non</w><w>dimitt<ex>er</ex>e</w></ab><ab n="B07K7V12"><w>cet<ex>er</ex>is</w><w>aute<ex>m</ex></w>
+<lb xml:id="P27rC1L15-VL77" n="15"/><w>ego</w><w>dico</w><w>n<ex>on</ex></w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>si</w><w>quis</w><w>frater</w><w>uxorem</w><w>h<ex>abe</ex>t</w>
+<lb xml:id="P27rC1L16-VL77" n="16"/><w>infidelem</w><w>et</w><w>haec</w><w>consentit</w><w>habitare</w><w>cu<ex>m</ex></w><w>illo</w><w>non</w><w>dimit
+<lb break="no" xml:id="P27rC1L17-VL77" n="17"/>tat</w><w>illam</w></ab><ab n="B07K7V13"><w>et</w><w>mulier</w><w>si</w><w>qua</w><w>h<ex>abe</ex>t</w><w>uir<ex>um</ex></w><w>infidelem</w>
+<lb xml:id="P27rC1L18-VL77" n="18"/><w>et</w><w>hic</w><w>consentit</w><w>habitare</w><w>cu<ex>m</ex></w><w>illa</w><w>n<ex>on</ex></w><w>dimittat</w>
+<lb xml:id="P27rC1L19-VL77" n="19"/><w>uir<ex>um</ex></w></ab><ab n="B07K7V14"><w>s<ex>an</ex>c<ex>t</ex>ificatus</w><w><ex rend="÷">est</ex></w><w><ex rend="⧺">enim</ex></w><w>uir</w><w>infidelis</w>
+<lb xml:id="P27rC1L20-VL77" n="20"/><w>muliere</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">uxore</hi></w><w>fideli</w><w>et</w><app><rdg type="orig" hand="firsthand"><w>s<ex>an</ex>c<ex>t</ex>ificatus</w></rdg><rdg type="corr" hand="corrector"><w>s<ex>an</ex>c<ex>t</ex>ificata</w></rdg></app><w><ex rend="÷">est</ex></w><w>mulier</w><w>infidelis</w>
+<lb xml:id="P27rC1L21-VL77" n="21"/><w>in</w><w>fratre</w><w>alioqui</w><w>filii</w><w>u<ex>est</ex>ri</w><w>inmundi</w>
+<pb xml:id="P27v-VL77" n="27v" type="folio"/>
+<cb xml:id="P27vC1-VL77" n="1"/>
+<lb xml:id="P27vC1L1-VL77" n="1"/><w>sunt</w><w>nunc</w><w>aute<ex>m</ex></w><w>s<ex>an</ex>c<ex>t</ex>i</w><w>s<ex>un</ex>t</w></ab><ab n="B07K7V15"><w>q<ex>uod</ex></w><w>si</w><w><ex rend="ƕ">autem</ex></w><w>infidelis</w><w>dis
+<lb break="no" xml:id="P27vC1L2-VL77" n="2"/>cedit</w><w>discedat</w><w>n<ex>on</ex></w><w><ex rend="÷">est</ex></w><w>seruituti</w><w>subiect<ex>us</ex></w><w>frat<ex>er</ex></w>
+<lb xml:id="P27vC1L3-VL77" n="3"/><w><ex>ue</ex>l</w><w>soror</w><w>in</w><w>eiusmodi</w><app><rdg type="orig" hand="firsthand"><w>p</w></rdg><rdg type="corr" hand="firsthand"></rdg></app><w>in</w><w>pace</w><w><ex rend="ƕ">autem</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex rend="⧺">enim</ex></hi></w><w>uoca
+<lb break="no" xml:id="P27vC1L4-VL77" n="4"/>uit</w><w>nos</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w></ab><ab n="B07K7V16"><w>quid</w><w><ex rend="⧺">enim</ex></w><w>scis</w><w>mulier</w><w>si</w><w>uir<ex>um</ex></w>
+<lb xml:id="P27vC1L5-VL77" n="5"/><w>saluu<ex>m</ex></w><w>facies</w><w>aut</w><w>quid</w><w>scis</w><w>uir</w><w>si</w><w>uxore<ex>m</ex></w><w>salua<ex>m</ex></w><w>facies</w>
+<lb xml:id="P27vC1L6-VL77" n="6"/></ab><ab n="B07K7V17"><w>nisi</w><w>unicuiq<ex>ue</ex></w><w>sicut</w><w>diuisit</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>et</w><w>ununquenq<ex>ue</ex></w><note type="editorial">sic</note>
+<lb xml:id="P27vC1L7-VL77" n="7"/><w>sicut</w><w>uocauit</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>ita</w><w>ambulet</w><note type="gloss"><w>h<ex>oc</ex></w><w><ex rend="÷">est</ex></w><w>c<ex>on</ex>u<ex>er</ex>set<ex>ur</ex></w></note><w>et</w>
+<lb xml:id="P27vC1L8-VL77" n="8"/><w>ita</w><w>in</w><w>ecclesiis</w><w>omnibus</w><w>doceo</w></ab><ab n="B07K7V18"><w>circu<ex>m</ex>
+<lb break="no" xml:id="P27vC1L9-VL77" n="9"/>cisus</w><w>aliquis</w><w>uocatus</w><w>n<ex>on</ex></w><w>adducat</w><w>p<ex>re</ex>putiu<ex>m</ex></w><w>in</w><w>p<ex>re</ex>pu
+<lb break="no" xml:id="P27vC1L10-VL77" n="10"/>tio</w><w>aliquis</w><w>uocatus</w><w>n<ex>on</ex></w><w>circu<ex>m</ex>cidatur</w></ab><ab n="B07K7V19"><w>circu<ex>m</ex>
+<lb break="no" xml:id="P27vC1L11-VL77" n="11"/>cisio</w><w>nihil</w><w>est</w><w>sed</w><w>obseruatio</w><w>mandator<ex>um</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w>
+<lb xml:id="P27vC1L12-VL77" n="12"/></ab><ab n="B07K7V20"><w>unusquisq<ex>ue</ex></w><w>in</w><w>uocatione</w><w>qua</w><w>uocatus</w><w><ex rend="÷">est</ex></w><w>in</w><w>ea</w><w>p<ex>er</ex>maneat</w>
+<lb xml:id="P27vC1L13-VL77" n="13"/></ab><ab n="B07K7V21"><w>seruus</w><w>uocatus</w><w>es</w><w>n<ex>on</ex></w><w>tibi</w><w>sit</w><w>curae</w><w>sed</w><w>si</w><w>potes</w>
+<lb xml:id="P27vC1L14-VL77" n="14"/><w>liber</w><w>fieri</w><w>magis</w><w>utere</w></ab><ab n="B07K7V22"><w>qui</w><w><ex rend="⧺">enim</ex></w><w>in</w>
+<lb xml:id="P27vC1L15-VL77" n="15"/><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>uocatus</w><w><ex rend="÷">est</ex></w><w>seruus</w><w>libertus</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>est</w><w>similit<ex>er</ex></w>
+<lb xml:id="P27vC1L16-VL77" n="16"/><w><ex rend="ƕ">autem</ex></w><w>et</w><w>qui</w><w>liber</w><w>uocatus</w><w><ex rend="÷">est</ex></w><w>seruus</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>est</w>
+<lb xml:id="P27vC1L17-VL77" n="17"/></ab><ab n="B07K7V23"><w>pretio</w><w>empti</w><w>estis</w><w>nolite</w><w>fieri</w><w>serui</w><w>ho<ex>min</ex>um</w>
+<lb xml:id="P27vC1L18-VL77" n="18"/></ab><ab n="B07K7V24"><w>unusq<ex>ui</ex>sq<ex>ue</ex></w><w>fratres</w><w>in</w><w>quo</w><w>uocat<ex>us</ex></w><w><ex rend="÷">est</ex></w><w>in</w><w>hoc</w><w>maneat</w>
+<lb xml:id="P27vC1L19-VL77" n="19"/><w>apud</w><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w></ab><ab n="B07K7V25"><w>de</w><w><ex rend="ƕ">autem</ex></w><w>uirginibus</w><app><rdg type="orig" hand="firsthand"><w>ex</w></rdg><rdg type="corr" hand="corrector"></rdg></app><w>p<ex>re</ex>ceptu<ex>m</ex></w>
+<lb xml:id="P27vC1L20-VL77" n="20"/><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>non</w><w>habeo</w><w>consiliu<ex>m</ex></w><w>aute<ex>m</ex></w><w>d<hi rend="overline">o</hi></w><w>tanq<ex>uam</ex></w><w>misericor
+<lb break="no" xml:id="P27vC1L21-VL77" n="21"/>diam</w><w>c<ex>on</ex>secut<ex>us</ex></w><w>a</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>fidelis</w><w>esse</w></ab><ab n="B07K7V26"><w>existimo</w>
+<pb xml:id="P28r-VL77" n="28r" type="folio"/>
+<cb xml:id="P28rC1-VL77" n="1"/>
+<lb xml:id="P28rC1L1-VL77" n="1"/><w>ergo</w><w>hoc</w><w>bonum</w><w>esse</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>instantem</w><w>necessitate<ex>m</ex></w>
+<lb xml:id="P28rC1L2-VL77" n="2"/><w>quia</w><w>bonu<ex>m</ex></w><w>est</w><w>ho<ex>min</ex>i</w><w>sic</w><w>esse</w></ab><ab n="B07K7V27"><w>alligatus</w><w>es</w><w>uxori</w>
+<lb xml:id="P28rC1L3-VL77" n="3"/><w>ne</w><w>quaere</w><w>solutione<ex>m</ex></w><w>solutus</w><w>es</w><w>ab</w><w>uxore</w><w>ne</w>
+<lb xml:id="P28rC1L4-VL77" n="4"/><w>quaere</w><w>uxorem</w></ab><ab n="B07K7V28"><w>si</w><w>aute<ex>m</ex></w><w>et</w><w>accep<ex>er</ex>is</w><w>uxorem</w><w>non</w><w>pec
+<lb break="no" xml:id="P28rC1L5-VL77" n="5"/>casti</w><w>et</w><w>si</w><w>nupserit</w><w>uirgo</w><w>non</w><w>peccauit</w><w>tribu
+<lb break="no" xml:id="P28rC1L6-VL77" n="6"/>latione<ex>m</ex></w><w>aute<ex>m</ex></w><w>in</w><w>carne</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">carnis</hi></w><w>habebunt</w><w>huiusmodi</w><w>ego</w><w>aute<ex>m</ex></w>
+<lb xml:id="P28rC1L7-VL77" n="7"/><w>uobis</w><w>parco</w></ab><ab n="B07K7V29"><w>hoc</w><w>autem</w><w>dico</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">itaq<ex>ue</ex></hi></w><w>fr<ex>atre</ex>s</w><w>quia</w>
+<lb xml:id="P28rC1L8-VL77" n="8"/><w>tempus</w><w>breue</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">breuiatu<ex>m</ex></hi></w><w><ex rend="÷">est</ex></w><w>reliquu<ex>m</ex></w><w>est</w><w>ut</w>
+<lb xml:id="P28rC1L9-VL77" n="9"/><w>et</w><w><hi rend="alt">q<ex>ui</ex></hi></w><w><hi rend="alt">h<ex>abe</ex>nt</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>habentes</w><w>uxores</w><w>tanq<ex>uam</ex></w><w>n<ex>on</ex></w><w>habentes</w></ab><ab n="B07K7V30"><w>et</w><w><hi rend="alt">q<ex>ui</ex></hi></w><w><hi rend="alt">flent</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w>
+<lb xml:id="P28rC1L10-VL77" n="10"/><w>flentes</w><w>tanq<ex>uam</ex></w><w>n<ex>on</ex></w><w>flentes</w><w>et</w><w>gaudentes</w><w>tanqua<ex>m</ex></w><w>n<ex>on</ex></w>
+<lb xml:id="P28rC1L11-VL77" n="11"/><w>gaudentes</w><w>et</w><w><hi rend="alt">q<ex>ui</ex></hi></w><w><hi rend="alt">emunt</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>ementes</w><w>tanqua<ex>m</ex></w><w>non</w><w>possidentes</w>
+<lb xml:id="P28rC1L12-VL77" n="12"/></ab><ab n="B07K7V31"><w>et</w><w><hi rend="alt">q<ex>ui</ex></hi></w><w><hi rend="alt">utunt<ex>ur</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>utentes</w><w>mundu<ex>m</ex></w><w>hunc</w><w>tanqua<ex>m</ex></w><w>n<ex>on</ex></w><w>abuten
+<lb break="no" xml:id="P28rC1L13-VL77" n="13"/>tes</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">abutant<ex>ur</ex></hi></w><w>p<ex>re</ex>t<ex>er</ex>it</w><w>enim</w><w>figura</w><w>mundi</w><w>huius</w>
+<lb xml:id="P28rC1L14-VL77" n="14"/></ab><ab n="B07K7V32"><w>uolo</w><w>uos</w><w>sine</w><w>sollicitudine</w><w>esse</w><w>qui</w><w>sine</w><w>uxore</w><w><ex rend="÷">est</ex></w><w>sollicit<ex>us</ex></w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P28rC1L15-VL77" n="15"/><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>placeat</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w></ab><ab n="B07K7V33"><w>qui</w><w><ex rend="ƕ">autem</ex></w><w>nubit</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">h<ex>abe</ex>t</hi></w><w><hi rend="alt">uxore<ex>m</ex></hi></w>
+<lb xml:id="P28rC1L16-VL77" n="16"/><w>sollicitat</w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w>mundi</w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>placeat</w><w>uxori</w></ab><ab n="B07K7V34"><w>diui
+<lb break="no" xml:id="P28rC1L17-VL77" n="17"/>sa</w><w><ex rend="÷">est</ex></w><w>et</w><w>mulier</w><w>et</w><w>uirgo</w><w>quę</w><w>n<ex>on</ex></w><w><ex rend="÷">est</ex></w><w>nupta</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">innupta</hi></w><w><hi rend="alt">cogitat</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w>
+<lb xml:id="P28rC1L18-VL77" n="18"/><w>sollicitat</w><w>ea</w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>ut</w><w>sit</w><w>s<ex>an</ex>c<ex>t</ex>a</w><w>et</w><w>corpore</w><w>et</w><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w>
+<lb xml:id="P28rC1L19-VL77" n="19"/><w>quę</w><w>aute<ex>m</ex></w><w>nupta</w><w><ex rend="÷">est</ex></w><w>cogitat</w><w>q<ex>uae</ex></w><w>s<ex>un</ex>t</w><w>mundi</w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>pla
+<lb break="no" xml:id="P28rC1L20-VL77" n="20"/>ceat</w><w>uiro</w></ab><ab n="B07K7V35"><w>hoc</w><w>autem</w><w>ad</w><w>u<ex>est</ex>ram</w>
+<lb xml:id="P28rC1L21-VL77" n="21"/><w>utilitatem</w><w>dico</w><w>non</w><w>ut</w><w>laqueum</w><w>uobis</w><w>iniiciam</w>
+<pb xml:id="P28v-VL77" n="28v" type="folio"/>
+<cb xml:id="P28vC1-VL77" n="1"/>
+<lb xml:id="P28vC1L1-VL77" n="1"/><w><hi rend="alt">s<ex>ed</ex></hi></w><w><hi rend="alt">ad</hi></w><w><hi rend="alt">honestu<ex>m</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>sed</w><w>ad</w><w>id</w><w>quod</w><w>honestu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>et</w><w>bene</w><w>stabile</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>in
+<lb break="no" xml:id="P28vC1L2-VL77" n="2"/>adducibiliter</w></ab><ab n="B07K7V36"><w>si</w><w>aute<ex>m</ex></w><w>quis</w><w>turpe<ex>m</ex></w><w>se</w><w>existimat</w><w>sup<ex>er</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">circa</hi></w><w>uirgine<ex>m</ex></w>
+<lb xml:id="P28vC1L3-VL77" n="3"/><w>sua<ex>m</ex></w><w>si</w><w>sit</w><w>sup<ex>er</ex>adulta</w><w>et</w><w>ita</w><w>oportet</w><w>fieri</w>
+<lb xml:id="P28vC1L4-VL77" n="4"/><w>quod</w><w>uult</w><w>faciat</w><w>non</w><w>peccat</w><w>nubat</w></ab><ab n="B07K7V37"><w>qui</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P28vC1L5-VL77" n="5"/><w>statuit</w><w>in</w><w>corde</w><w>suo</w><w>n<ex>on</ex></w><w>h<ex>abe</ex>ns</w><w>necessitatem</w>
+<lb xml:id="P28vC1L6-VL77" n="6"/><w>potestate<ex>m</ex></w><w><ex rend="ƕ">autem</ex></w><w>h<ex>abe</ex>t</w><w>de</w><w>sua</w><w>uoluntate</w><w>et</w>
+<lb xml:id="P28vC1L7-VL77" n="7"/><w>hoc</w><w>statuit</w><w>in</w><w>corde</w><w>suo</w><w>seruare</w><w>sua<ex>m</ex></w>
+<lb xml:id="P28vC1L8-VL77" n="8"/><w>uirginem</w><w>bene</w><w>facit</w></ab><ab n="B07K7V38"><w>et</w><w>qui</w><w>n<ex>on</ex></w><w>dat</w><w>nuptum</w>
+<lb xml:id="P28vC1L9-VL77" n="9"/><w>melius</w><w>facit</w></ab><ab n="B07K7V39"><w>mulier</w><w><hi rend="alt">uincta</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>alligata</w><w><ex rend="÷">est</ex></w><w>legi</w><w>quanto</w><w>tempore</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">quandiu</hi></w>
+<lb xml:id="P28vC1L10-VL77" n="10"/><w>uiuit</w><w>uir</w><w>eius</w><w>si</w><w><ex rend="ƕ">autem</ex></w><w>dormierit</w><w>uir</w><w>eius</w>
+<lb xml:id="P28vC1L11-VL77" n="11"/><w>liberata</w><w>est</w><w>cui</w><w>uult</w><w>nubat</w><w>tantu<ex>m</ex></w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w>
+<lb xml:id="P28vC1L12-VL77" n="12"/></ab><ab n="B07K7V40"><w>beatior</w><w>autem</w><w>est</w><w>si</w><w>sic</w><w>p<ex>er</ex>manserit</w><w>s<ex>ecundu</ex>m</w>
+<lb xml:id="P28vC1L13-VL77" n="13"/><w>meum</w><w>consiliu<ex>m</ex></w><w>puto</w><w>aute<ex>m</ex></w><w>et</w><w>ego</w><w><abbr type="nomSac">s<hi rend="overline">pm</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>habeo</w>
+<lb xml:id="P28vC1L14-VL77" n="14"/></ab></div><div n="B07K8" type="chapter"><ab n="B07K8V1"><seg type="margin" subtype="lineleft"><num type="chapNum"><w>viii</w></num></seg><w>de</w><w>his</w><w><ex rend="ƕ">autem</ex></w><w>q<ex>uae</ex></w><w>idolis</w><w>im<ex>m</ex>olant<ex>ur</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">sacrificant<ex>ur</ex></hi></w><w>scimus</w><w>q<ex>uonia</ex>m</w><w>om<ex>ne</ex>s</w>
+<lb xml:id="P28vC1L15-VL77" n="15"/><w>scientia<ex>m</ex></w><w>habemus</w><w>scientia</w><w>inflat</w><w>caritas</w><w>u<ex>er</ex>o</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex rend="ƕ">autem</ex></hi></w>
+<lb xml:id="P28vC1L16-VL77" n="16"/><w>aedificat</w></ab><ab n="B07K8V2"><w>si</w><w><ex rend="ƕ">autem</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>uod</ex></hi></w><w><hi rend="alt">si</hi></w><w>quis</w><w>se</w><w>existimat</w><w>cognoscere</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">scire</hi></w><w>aliq<ex>ui</ex>d</w><w>n<ex>on</ex>
+<lb break="no" xml:id="P28vC1L17-VL77" n="17"/>dum</w><w>cognouit</w><w>que<ex>m</ex>admodu<ex>m</ex></w><w>oporteat</w><w>scire</w></ab><ab n="B07K8V3"><w>si</w><w><ex rend="ƕ">autem</ex></w><w>quis</w><w>diligit</w>
+<lb xml:id="P28vC1L18-VL77" n="18"/><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w><w>hic</w><w>cognitus</w><w><ex rend="÷">est</ex></w><w>ab</w><w>illo</w></ab><ab n="B07K8V4"><w>de</w>
+<lb xml:id="P28vC1L19-VL77" n="19"/><w>esca</w><w>ergo</w><w>sacrificiorum</w><w>scimus</w><w>quia</w>
+<lb xml:id="P28vC1L20-VL77" n="20"/><w>nihil</w><w>est</w><w>idolum</w><w>in</w><w>mundo</w><w>et</w><w>q<ex>uod</ex></w><w>nullus</w>
+<lb xml:id="P28vC1L21-VL77" n="21"/><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>nisi</w><w>unus</w></ab><ab n="B07K8V5"><w>nam</w><w>et</w><w>si</w><w>sunt</w><w>qui</w><w>dicant<ex>ur</ex></w><w>dii</w>
+<lb xml:id="P28vC1L22-VL77" n="22"/><w>siue</w><w>in</w><w>cęlo</w><w>siue</w><w>in</w><w>t<ex>er</ex>ra</w><w>sicut</w><w>sunt</w><w>dii</w><w>multi</w><w><hi rend="displaced-under">et</hi></w><w><hi rend="displaced-under">domini</hi></w><w><hi rend="displaced-under">multi</hi></w>
+<pb xml:id="P29r-VL77" n="29r" type="folio"/>
+<cb xml:id="P29rC1-VL77" n="1"/>
+<lb xml:id="P29rC1L1-VL77" n="1"/></ab><ab n="B07K8V6"><w>sed</w><w>nobis</w><w>unus</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>pat<ex>er</ex></w><w>ex</w><w>quo</w><w>omnia</w><w>et</w><w>nos</w>
+<lb xml:id="P29rC1L2-VL77" n="2"/><w>in</w><w>ipsu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>ips</ex>o</hi></w><w>et</w><w>unus</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hs</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>p<ex>er</ex></w><w>quem</w><w>omnia</w><w>et</w>
+<lb xml:id="P29rC1L3-VL77" n="3"/><w>nos</w><w>p<ex>er</ex></w><w>ipsum</w></ab><ab n="B07K8V7"><w>sed</w><w>non</w><w>in</w><w>omnibus</w><w><ex rend="÷">est</ex></w><w>scientia</w><w>quida<ex>m</ex></w>
+<lb xml:id="P29rC1L4-VL77" n="4"/><w>autem</w><w>i<ex>n</ex></w><w>conscientia</w><w>usq<ex>ue</ex></w><w>adhuc</w><w>idoli</w><w>q<ex>ua</ex>si</w><w>idolothytu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">idolo</hi></w><w><hi rend="alt">im<ex>m</ex>olatum</hi></w>
+<lb xml:id="P29rC1L5-VL77" n="5"/><w>manducant</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">edunt</hi></w><w>et</w><w>conscientia</w><w>eor<ex>um</ex></w><w>cu<ex>m</ex></w><w>sit</w><w>infirma</w>
+<lb xml:id="P29rC1L6-VL77" n="6"/><w>inquinatur</w></ab><ab n="B07K8V8"><w>esca</w><w><ex rend="ƕ">autem</ex></w><w>nos</w><w>n<ex>on</ex></w><w>com<ex>m</ex>endat</w>
+<lb xml:id="P29rC1L7-VL77" n="7"/><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>neq<ex>ue</ex></w><w><ex rend="⧺">enim</ex></w><w>si</w><w>manducauerim<ex>us</ex></w><w>abundabimus</w><w>neq<ex>ue</ex></w>
+<lb xml:id="P29rC1L8-VL77" n="8"/><w>si</w><w>n<ex>on</ex></w><w>manducauerim<ex>us</ex></w><w>deerit</w><w>n<ex>o</ex>b<ex>is</ex></w></ab><ab n="B07K8V9"><w>uidete</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P29rC1L9-VL77" n="9"/><w>ne</w><w>forte</w><w>licentia</w><w>u<ex>est</ex>ra</w><w>h<ex>aec</ex></w><w>offendiculum</w>
+<lb xml:id="P29rC1L10-VL77" n="10"/><w>fiat</w><w>infirmis</w></ab><ab n="B07K8V10"><w>si</w><w>eni<ex>m</ex></w><w>quis</w><w>uiderit</w><w>haben
+<lb break="no" xml:id="P29rC1L11-VL77" n="11"/>tem</w><w>scientia<ex>m</ex></w><w>in</w><w>idolio</w><w>recumbentem</w><w>n<ex>on</ex>ne</w>
+<lb xml:id="P29rC1L12-VL77" n="12"/><w>conscientia</w><w>eius</w><w>i<ex>n</ex>firmantis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">cu<ex>m</ex></hi></w><w><hi rend="alt">sit</hi></w><w><hi rend="alt">i<ex>n</ex>firma</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>infirm</ex>us</hi></w><w>aedificatur</w>
+<lb xml:id="P29rC1L13-VL77" n="13"/><w>ad</w><w>manducandu<ex>m</ex></w><w>idolothyta</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">im<ex>m</ex>olata</hi></w></ab><ab n="B07K8V11"><w>et</w><w>p<ex>er</ex>ibit</w><w>qui</w><w>i<ex>n</ex>fir
+<lb break="no" xml:id="P29rC1L14-VL77" n="14"/>mus</w><w><ex rend="÷">est</ex></w><w>in</w><w>tua</w><w>scientia</w><w>frater</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>que<ex>m</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>mortuus</w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P29rC1L15-VL77" n="15"/></ab><ab n="B07K8V12"><w>sic</w><w><ex rend="ƕ">autem</ex></w><w>peccantes</w><w>in</w><w>fratres</w><w>p<ex>er</ex>cutientes</w><w>eor<ex>um</ex></w>
+<lb xml:id="P29rC1L16-VL77" n="16"/><w>conscientia<ex>m</ex></w><w>infirmam</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w>peccatis</w><note type="gloss"><w>i<ex>d</ex></w><w><ex>est</ex></w><w>u<ex>er</ex>bu<ex>m</ex></w></note></ab><ab n="B07K8V13"><w><hi rend="alt">p<ex>ro</ex>pt<ex>er</ex></hi></w><w><hi rend="alt">q<ex>uod</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w>
+<lb xml:id="P29rC1L17-VL77" n="17"/><w>quap<ex>ro</ex>pt<ex>er</ex></w><w>si</w><w>aesca</w><w>scandalizat</w><w>fratrem</w><w>non</w>
+<lb xml:id="P29rC1L18-VL77" n="18"/><w>manducabo</w><w>carne<ex>m</ex></w><w>in</w><w>aet<ex>er</ex>num</w><w>ut</w><w>non</w><w>fratrem</w>
+<lb xml:id="P29rC1L19-VL77" n="19"/><w>scandalizem</w></ab></div><div n="B07K9" type="chapter"><ab n="B07K9V1"><seg type="margin" subtype="lineright"><num type="chapNum"><w>ix</w></num><pc>.</pc></seg><app><rdg type="orig" hand="firsthand"><w>n<ex>on</ex></w></rdg><rdg type="corr" hand="corrector"><w>n<ex>on</ex>ne</w></rdg></app><w>sum</w><w>apostolus</w><w>n<ex>on</ex>ne</w><note type="editorial">This word may also have been corrected from 'non' to 'nonne', but it is less clear.</note><w>sum</w><w>liber</w>
+<lb xml:id="P29rC1L20-VL77" n="20"/><w>n<ex>on</ex>ne</w><w><abbr type="nomSac">x<hi rend="overline">pm</hi></abbr></w><w><abbr type="nomSac">ih<hi rend="overline">m</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">nm</hi></abbr></w><w>n<ex>ost</ex>r<ex>u</ex>m</w><w>uidi</w><w>n<ex>on</ex>ne</w><w>opus</w>
+<lb xml:id="P29rC1L21-VL77" n="21"/><w>meu<ex>m</ex></w><w>uos</w><w>estis</w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w></ab><ab n="B07K9V2"><w>si</w><w>aliis</w><w>n<ex>on</ex></w><w>sum</w><w>apostolus</w>
+<pb xml:id="P29v-VL77" n="29v" type="folio"/>
+<cb xml:id="P29vC1-VL77" n="1"/>
+<lb xml:id="P29vC1L1-VL77" n="1"/><w>sed</w><w>t<ex>ame</ex>n</w><w>uobis</w><w>sum</w><w>nam</w><w>signaculum</w><w>mei</w><w>apostolatus</w>
+<lb xml:id="P29vC1L2-VL77" n="2"/><w>uos</w><w>estis</w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w></ab><ab n="B07K9V3"><w>mea</w><w>defensio</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">excusatio</hi></w><w>ap<ex>ud</ex></w><w>eos</w><w>qui</w><w>me</w><w>iudi
+<lb break="no" xml:id="P29vC1L3-VL77" n="3"/>cant</w><w>haec</w><w>est</w></ab><ab n="B07K9V4"><w>nu<ex>m</ex>q<ex>ui</ex>d</w><w>non</w><w>habemus</w><w>potestate<ex>m</ex></w><w>man
+<lb break="no" xml:id="P29vC1L4-VL77" n="4"/>ducandi</w><w>et</w><w>bibendi</w><w>nunq<ex>ui</ex>d</w><w>non</w><w>habemus</w><w>potestate<ex>m</ex></w><w>man
+<lb break="no" xml:id="P29vC1L5-VL77" n="5"/>ducandi</w><w>et</w><w>bibendi</w></ab><ab n="B07K9V5"><w>nunq<ex>ui</ex>d</w><w>n<ex>on</ex></w><w>habemus</w><w>potestate<ex>m</ex></w><w>mulieres</w>
+<lb xml:id="P29vC1L6-VL77" n="6"/><w>circ<ex>um</ex>ducendi</w><w>sicut</w><w>et</w><w>cet<ex>er</ex>i</w><w>apostoli</w><w>et</w><w>fra
+<lb break="no" xml:id="P29vC1L7-VL77" n="7"/>tres</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>et</w><w>cephas</w></ab><ab n="B07K9V6"><w>aut</w><w>solus</w><w>ego</w><w>et</w><w>barna
+<lb break="no" xml:id="P29vC1L8-VL77" n="8"/>bas</w><w>non</w><w>habemus</w><w>potestatem</w><w>non</w><w>operandi</w></ab><ab n="B07K9V7"><w>quis</w>
+<lb xml:id="P29vC1L9-VL77" n="9"/><w>militat</w><w>suis</w><w>stipendiis</w><w>umqua<ex>m</ex></w><w>quis</w><w>plantat</w>
+<lb xml:id="P29vC1L10-VL77" n="10"/><w>uineam</w><w>et</w><w>fructu<ex>m</ex></w><w>eius</w><w>n<ex>on</ex></w><w>manducabit</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">edit</hi></w>
+<lb xml:id="P29vC1L11-VL77" n="11"/><w>et</w><w>bibit</w><w>quis</w><w>pascit</w><w>gregem</w><w>et</w><w>de</w><w>lacte</w>
+<lb xml:id="P29vC1L12-VL77" n="12"/><w>ipsius</w><w>n<ex>on</ex></w><w>edit</w></ab><ab n="B07K9V8"><w>nunquid</w><w>secundu<ex>m</ex></w><w>ho<ex>min</ex>em</w>
+<lb xml:id="P29vC1L13-VL77" n="13"/><w>haec</w><w>dico</w><w>an</w><w>si</w><w>et</w><w>lex</w><w>haec</w><w>d<ex>ici</ex>t</w></ab><ab n="B07K9V9"><app><rdg type="orig" hand="firsthand"><w>scrip
+<lb break="no" xml:id="P29vC1L14-VL77" n="14"/>tum</w></rdg><rdg type="corr" hand="corrector"><w>scriptum</w></rdg></app><note type="editorial">The corrector has simply changed the word division to match the Greek</note><w><ex rend="÷">est</ex></w><w><ex rend="⧺">enim</ex></w><w>non</w><w>alligabis</w><w>os</w><w>boui</w><w>trituranti</w><w>nunq<ex>ui</ex>d</w>
+<lb xml:id="P29vC1L15-VL77" n="15"/><w>de</w><w>bobus</w><w>cura</w><w><ex rend="÷">est</ex></w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w></ab><ab n="B07K9V10"><w>an</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>nos</w><w>utiq<ex>ue</ex></w>
+<lb xml:id="P29vC1L16-VL77" n="16"/><w>d<ex>ici</ex>t</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>nos</w><w>enim</w><w>scriptu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>q<ex>uonia</ex>m</w><w>debet</w><w>qui</w>
+<lb xml:id="P29vC1L17-VL77" n="17"/><w>in</w><w>spe</w><w>debet</w><note type="editorial">The Latin translator has mis-segmented the Greek.</note><w>qui</w><w>arat</w><w>debet</w><w>arare</w><w>et</w><w>tri
+<lb break="no" xml:id="P29vC1L18-VL77" n="18"/>turans</w><w>spei</w><w>suae</w><w>fructu<ex>m</ex></w><w>p<ex>er</ex>cip<ex>er</ex>e</w></ab><ab n="B07K9V11"><w>si</w><w>nos</w><w>uobis</w>
+<lb xml:id="P29vC1L19-VL77" n="19"/><w><abbr type="nomSac">sp<ex>irit</ex>u</abbr>talia</w><note type="editorial">The copyist seems to have written the ablative nomen sacrum incorrectly</note><w>seminauimus</w><w>magnu<ex>m</ex></w><w>si</w><w>nos</w><w>uestra</w>
+<lb xml:id="P29vC1L20-VL77" n="20"/><w>carnalia</w><w>metamus</w></ab><ab n="B07K9V12"><w>si</w><w>alii</w><w>uestrae</w><w>po
+<lb break="no" xml:id="P29vC1L21-VL77" n="21"/>testatis</w><w>participes</w><w>s<ex>un</ex>t</w><w>n<ex>on</ex></w><w>magis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">poti<ex>us</ex></hi></w><w>nos</w><w>sed</w><w>non</w><w>usi</w>
+<lb xml:id="P29vC1L22-VL77" n="22"/><w>sumus</w><w>potestate</w><w>hac</w><w>sed</w><w>omnia</w><w>sufferimus</w>
+<pb xml:id="P30r-VL77" n="30r" type="folio"/>
+<cb xml:id="P30rC1-VL77" n="1"/>
+<lb xml:id="P30rC1L1-VL77" n="1"/><w>ut</w><w>non</w><w><hi rend="alt">offendem<ex>us</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>offendiculu<ex>m</ex></w><w>demus</w><w>euangelio</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w></ab><ab n="B07K9V13"><w>ne
+<lb break="no" xml:id="P30rC1L2-VL77" n="2"/>scitis</w><w>q<ex>uonia</ex>m</w><w>qui</w><w>in</w><w>sacrariis</w><w>op<ex>er</ex>antur</w><w>quę</w><w>de</w><w>sacrario</w><w>s<ex>un</ex>t</w><w>e
+<lb break="no" xml:id="P30rC1L3-VL77" n="3"/>dunt</w><w>qui</w><w>altario</w><w>deseruiunt</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">deseruientes</hi></w><w>de</w><w>altario</w>
+<lb xml:id="P30rC1L4-VL77" n="4"/><w>compartiunt<ex>ur</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">participant</hi></w></ab><ab n="B07K9V14"><w>ita</w><w>et</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>disposuit</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ordinauit</hi></w><w>his</w>
+<lb xml:id="P30rC1L5-VL77" n="5"/><w>qui</w><w>euangelium</w><w>annuntiant</w><app><rdg type="orig" hand="firsthand"><w>ut</w></rdg><rdg type="corr" hand="corrector"></rdg></app><w>de</w><w>euangelio</w><w>uiuere</w>
+<lb xml:id="P30rC1L6-VL77" n="6"/></ab><ab n="B07K9V15"><w>ego</w><w><ex rend="ƕ">autem</ex></w><w>n<ex>on</ex></w><w>usus</w><w>sum</w><w>nihil</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">nullu<ex>m</ex></hi></w><w>horum</w><w>n<ex>on</ex></w><w>scripsi</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P30rC1L7-VL77" n="7"/><w>hec</w><w>ut</w><w>ita</w><w>fiant</w><w>in</w><w>me</w><w>bonum</w><w>enim</w><w><hi rend="lig">mi</hi>hi</w><w><ex rend="÷">est</ex></w><w>ma
+<lb break="no" xml:id="P30rC1L8-VL77" n="8"/>gis</w><w>mori</w><w>quam</w><w>gloriam</w><w>meam</w><w>quis</w><w>euacuat</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">exi<ex>n</ex>aniat</hi></w></ab><ab n="B07K9V16"><w>si</w>
+<lb xml:id="P30rC1L9-VL77" n="9"/><w>enim</w><w>euangelizem</w><w>non</w><w>est</w><w>mihi</w><w>gratia</w><w>necessitas</w><w>eni<ex>m</ex></w>
+<lb xml:id="P30rC1L10-VL77" n="10"/><w>mihi</w><w>incumbit</w><w>ue</w><w>enim</w><w>mihi</w><w>est</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">erit</hi></w><w>si</w><w>non</w><w>euangelize<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">n<ex>on</ex></hi></w><w><hi rend="alt">euangelizauero</hi></w>
+<lb xml:id="P30rC1L11-VL77" n="11"/></ab><ab n="B07K9V17"><w>si</w><w><ex rend="⧺">enim</ex></w><w>uolens</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">cupiens</hi></w><w>hoc</w><w>ago</w><w>mercedem</w><w>habeo</w>
+<lb xml:id="P30rC1L12-VL77" n="12"/><w>si</w><w>aute<ex>m</ex></w><w>inuitus</w><w>dispensatio</w><w>credita</w><w><ex rend="÷">est</ex></w><w>mihi</w></ab><ab n="B07K9V18"><app><rdg type="orig" hand="firsthand"><w>q<ex>ua</ex></w></rdg><rdg type="corr" hand="corrector"><w>quit</w></rdg></app><w>ergo</w>
+<lb xml:id="P30rC1L13-VL77" n="13"/><w>erit</w><w>mihi</w><w>merces</w><w>ut</w><w>euangelizans</w><w>sine</w><w>sumptu</w>
+<lb xml:id="P30rC1L14-VL77" n="14"/><w>ponam</w><w>euangelium</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>ut</w><w>non</w><w>abutar</w>
+<lb xml:id="P30rC1L15-VL77" n="15"/><w>potestate</w><w>mea</w><w>in</w><w>euangelio</w></ab><ab n="B07K9V19"><w>na<ex>m</ex></w><w>cu<ex>m</ex></w><w>liber</w>
+<lb xml:id="P30rC1L16-VL77" n="16"/><w>essem</w><w>ab</w><w>omnibus</w><w>omnibus</w><w>me</w><w>seruum</w><w>feci</w>
+<lb xml:id="P30rC1L17-VL77" n="17"/><w>ut</w><w>plures</w><w>lucrificarem</w></ab><ab n="B07K9V20"><w>et</w><w>factus</w><w>su<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">fui</hi></w>
+<lb xml:id="P30rC1L18-VL77" n="18"/><w>q<ex>ua</ex>si</w><w>iudaeus</w><w>iudęis</w><w>ut</w><w>iudaeos</w><w>lucrificare<ex>m</ex></w><w>his</w><w>qui</w><w>sub</w>
+<lb xml:id="P30rC1L19-VL77" n="19"/><w>lege</w><w>q<ex>ua</ex>si</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">tanq<ex>uam</ex></hi></w><w>sub</w><w>lege</w><w>cu<ex>m</ex></w><w>n<ex>on</ex></w><w>essem</w><w>ipse</w><w>sub</w><w>lege</w><w>ut</w>
+<lb xml:id="P30rC1L20-VL77" n="20"/><w>eos</w><w>qui</w><w>sub</w><w>lege</w><w>erant</w><w>lucrarer</w></ab><ab n="B07K9V21"><w>his</w><w>q<ex>ui</ex></w><w>s<ex>i</ex>n<ex>e</ex></w><w>lege</w><w>s<ex>un</ex>t</w><w>tanq<ex>uam</ex></w>
+<lb xml:id="P30rC1L21-VL77" n="21"/><w>sine</w><w>lege</w><w>esse<ex>m</ex></w><w>cum</w><w>n<ex>on</ex></w><w>si<ex>m</ex></w><w>s<ex>i</ex>n<ex>e</ex></w><w>lege</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>sed</w><w>in</w><w>lege</w><w>esse<ex>m</ex></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w>
+<lb xml:id="P30rC1L22-VL77" n="22"/><w>ut</w><w>lucrarer</w><w>eos</w><w>qui</w><w>s<ex>i</ex>n<ex>e</ex></w><w>lege</w><w>s<ex>un</ex>t</w></ab><ab n="B07K9V22"><w>fui</w><w>aute<ex>m</ex></w><w>et</w>
+<lb xml:id="P30rC1L23-VL77" n="23"/><w>infirmis</w><w>tanq<ex>uam</ex></w><w>infirmus</w><w>ut</w><w>infirmos</w><w>lucri
+<pb xml:id="P30v-VL77" n="30v" type="folio" break="no"/>
+<cb xml:id="P30vC1-VL77" n="1"/>
+<lb xml:id="P30vC1L1-VL77" n="1"/>ficarem</w><w>omnibus</w><w>factus</w><w>su<ex>m</ex></w><w>omnia</w><w>ut</w><w>omnes</w><w>saluos</w><w>facere<ex>m</ex></w></ab><ab n="B07K9V23"><w>om<ex>ni</ex>a</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P30vC1L2-VL77" n="2"/><w>facio</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>euangelium</w><w>ut</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">c<ex>on</ex>scius</hi></w><w>consocius</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">particeps</hi></w><w>eius</w><w>efficiar</w>
+<lb xml:id="P30vC1L3-VL77" n="3"/></ab><ab n="B07K9V24"><w>nescitis</w><w>q<ex>uonia</ex>m</w><w>hi</w><w>qui</w><w>in</w><w>stadio</w><w>curr<ex>un</ex>t</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">currentes</hi></w><w>om<ex>ne</ex>s</w><w>quide<ex>m</ex></w>
+<lb xml:id="P30vC1L4-VL77" n="4"/><w>curr<ex>un</ex>t</w><w>unus</w><w><ex rend="ƕ">autem</ex></w><w>accipit</w><w>brabium</w><w>ego</w><w>aute<ex>m</ex></w><w>dico</w><w>uobis</w>
+<lb xml:id="P30vC1L5-VL77" n="5"/><w>sic</w><w>currite</w><w>ut</w><w>comp<ex>re</ex>hendatis</w></ab><ab n="B07K9V25"><w>om<ex>ni</ex>s</w><w><ex rend="ƕ">autem</ex></w><w>qui</w><w>ago<hi rend="lig">ni</hi>zat</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">in</hi></w><w><hi rend="alt">agone</hi></w><w><hi rend="alt">c<ex>on</ex>tendit</hi></w>
+<lb xml:id="P30vC1L6-VL77" n="6"/><w>ab</w><w>om<hi rend="lig">ni</hi>b<ex>us</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>omni</ex>a</hi></w><w>se</w><w>abstinet</w><w>illi</w><w>quide<ex>m</ex></w><w>ut</w><w>corruptibile<ex>m</ex></w>
+<lb xml:id="P30vC1L7-VL77" n="7"/><w>coronam</w><w>accipiant</w><w>nos</w><w><ex rend="ƕ">autem</ex></w><w>i<ex>n</ex>corruptibile<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">i<ex>n</ex>corruptam</hi></w></ab><ab n="B07K9V26"><w>ego</w><w>quide<ex>m</ex></w>
+<lb xml:id="P30vC1L8-VL77" n="8"/><w>sic</w><w>curro</w><w>n<ex>on</ex></w><w>q<ex>ua</ex><hi rend="lig">si</hi></w><w>in</w><w>incertu<ex>m</ex></w><w>sic</w><w>pugno</w><w>n<ex>on</ex></w><w>q<ex>ua</ex>si</w>
+<lb xml:id="P30vC1L9-VL77" n="9"/><w>aerem</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">aera</hi></w><w>cędens</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">u<ex>er</ex>b<ex>er</ex>ans</hi></w></ab><ab n="B07K9V27"><w>sed</w><w>castigo</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">libidu<ex>m</ex></hi></w><w>facio</w><w>meu<ex>m</ex></w><w>corpus</w><w>et</w>
+<lb xml:id="P30vC1L10-VL77" n="10"/><w>seruituti</w><w>redigo</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">subicio</hi></w><w>ne</w><w>forte</w><w>aliis</w><w>p<ex>re</ex>dicans</w><w>ipse</w><w>reprobus</w>
+<lb xml:id="P30vC1L11-VL77" n="11"/><w>efficiar</w></ab></div><div n="B07K10" type="chapter"><ab n="B07K10V1"><w>nolo</w><w><ex rend="⧺">enim</ex></w><w>uos</w><w>ignorare</w><w>fratres</w><w>q<ex>uonia</ex>m</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>uo</ex>d</hi></w>
+<lb xml:id="P30vC1L12-VL77" n="12"/><w>patres</w><w>n<ex>ost</ex>ri</w><w>omnes</w><w>sub</w><w>nube</w><w>fuer<ex>un</ex>t</w><w>et</w>
+<lb xml:id="P30vC1L13-VL77" n="13"/><w>omnes</w><w>p<ex>er</ex></w><w>mare</w><w>t<ex>ran</ex>sierunt</w></ab><ab n="B07K10V2"><w>et</w><w>om<ex>ne</ex>s</w><w>in</w>
+<lb xml:id="P30vC1L14-VL77" n="14"/><w>moysen</w><w>baptizati</w><w>s<ex>un</ex>t</w><w>in</w><w>mari</w><w>et</w><w>in</w><w>nu
+<lb break="no" xml:id="P30vC1L15-VL77" n="15"/>be</w></ab><ab n="B07K10V3"><w>et</w><w>omnes</w><w>eande<ex>m</ex></w><w>escam</w><w>sp<ex>ir</ex>italem</w><w>manduca
+<lb break="no" xml:id="P30vC1L16-VL77" n="16"/>uerunt</w></ab><ab n="B07K10V4"><w>et</w><w>om<ex>ne</ex>s</w><w>eundem</w><w>potu<ex>m</ex></w><w>sp<ex>ir</ex>italem</w><w>biberunt</w>
+<lb xml:id="P30vC1L17-VL77" n="17"/><w>bibebant</w><w><ex rend="⧺">enim</ex></w><w>de</w><w>sp<ex>ir</ex>itali</w><w>sequenti</w><w>petra</w>
+<lb xml:id="P30vC1L18-VL77" n="18"/><w>petra</w><w>aute<ex>m</ex></w><w>erat</w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w></ab><ab n="B07K10V5"><w>sed</w><w>non</w><w>in</w><w>pluribus</w><w>eor<ex>um</ex></w><w>bene
+<lb break="no" xml:id="P30vC1L19-VL77" n="19"/>placuit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>prostrati</w><w>s<ex>un</ex>t</w><w><ex rend="⧺">enim</ex></w><w>in</w><w>deserto</w>
+<lb xml:id="P30vC1L20-VL77" n="20"/></ab><ab n="B07K10V6"><w>hæc</w><w>autem</w><w>i<ex>n</ex></w><w>figura</w><w>n<ex>ost</ex>ri</w><w>facta</w><w>s<ex>un</ex>t</w><w>ut</w><w>n<ex>on</ex></w><w>simus</w>
+<lb xml:id="P30vC1L21-VL77" n="21"/><w>nos</w><w>concupiscentes</w><w>malor<ex>um</ex></w><w>sicut</w><w>et</w><w>illi</w><w>concupier<ex>un</ex>t</w>
+<lb xml:id="P30vC1L22-VL77" n="22"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>exodo</w></note></seg></ab><ab n="B07K10V7"><w>ne</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">nec</hi></w><w>idolatres</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">idolor<ex>um</ex></hi></w><w><hi rend="alt">cultores</hi></w><w>effici</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">efficiamini</hi></w><w>sicut</w><w>scriptu<ex>m</ex></w><w><ex rend="÷">est</ex></w>
+<lb xml:id="P30vC1L23-VL77" n="23"/><w>populus</w><w>manducare</w><w>et</w><w>bib<ex>er</ex>e</w><w>et</w><w>surrexer<ex>un</ex>t</w><w>ludere</w>
+<pb xml:id="P31r-VL77" n="31r" type="folio"/>
+<cb xml:id="P31rC1-VL77" n="1"/>
+<lb xml:id="P31rC1L1-VL77" n="1"/></ab><ab n="B07K10V8"><w>neq<ex>ue</ex></w><w>fornicemur</w><w>sicut</w><w>ipsor<ex>um</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ex</hi></w><w><hi rend="alt">ipsis</hi></w><w>fornicati</w><w>s<ex>un</ex>t</w>
+<lb xml:id="P31rC1L2-VL77" n="2"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>nu<ex>mer</ex>is</w></note></seg><w>et</w><w>cecider<ex>un</ex>t</w><w>una</w><w>die</w><w><abbr type="num"><hi rend="overline">xx</hi></abbr></w><w>tria</w><w>milia</w></ab><ab n="B07K10V9"><w>neq<ex>ue</ex></w>
+<lb xml:id="P31rC1L3-VL77" n="3"/><w>temptemus</w><w><abbr type="nomSac">x<hi rend="overline">pm</hi></abbr></w><w>sicut</w><w>quidam</w><w>eor<ex>um</ex></w><w>temptauer<ex>un</ex>t</w>
+<lb xml:id="P31rC1L4-VL77" n="4"/><w>et</w><w>a</w><w>serpentibus</w><w>p<ex>er</ex>ierunt</w></ab><ab n="B07K10V10"><w>neq<ex>ue</ex></w><w>murmurauer<ex>un</ex>t</w>
+<lb xml:id="P31rC1L5-VL77" n="5"/><w>sicut</w><w>quidam</w><w>eor<ex>um</ex></w><w>murmurauer<ex>un</ex>t</w><w>et</w><w>p<ex>er</ex>ierunt</w><w>ab</w>
+<lb xml:id="P31rC1L6-VL77" n="6"/><w>ext<ex>er</ex>minatore</w></ab><ab n="B07K10V11"><w>omnia</w><w><ex rend="ƕ">autem</ex></w><w>haec</w><w>i<ex>n</ex></w><w>figura</w><w>contingebant</w>
+<lb xml:id="P31rC1L7-VL77" n="7"/><w>illis</w><w>scripta</w><w>s<ex>un</ex>t</w><w><ex rend="ƕ">autem</ex></w><w>ad</w><w>correptione<ex>m</ex></w><w>n<ex>ost</ex>ram</w><w>in</w>
+<lb xml:id="P31rC1L8-VL77" n="8"/><w>quos</w><w>fines</w><w>sęculor<ex>um</ex></w><w>deuenit</w></ab><ab n="B07K10V12"><w>itaq<ex>ue</ex></w>
+<lb xml:id="P31rC1L9-VL77" n="9"/><w>qui</w><w>se</w><w>putat</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">existimat</hi></w><w>stare</w><w>uideat</w><w>ne</w><w>cadat</w></ab><ab n="B07K10V13"><w>temptatio</w>
+<lb xml:id="P31rC1L10-VL77" n="10"/><w>uos</w><w>n<ex>on</ex></w><w>adp<ex>re</ex>hendat</w><w>nisi</w><w>humana</w><w>fidelis</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w>
+<lb xml:id="P31rC1L11-VL77" n="11"/><w>qui</w><w>n<ex>on</ex></w><w>patit<ex>ur</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">n<ex>on</ex></hi></w><w><hi rend="alt">dimittit</hi></w><w>uos</w><w>temptari</w><w>sup<ex>er</ex></w><w>id</w><w>q<ex>uod</ex></w><w>n<ex>on</ex></w><w>potestis</w>
+<lb xml:id="P31rC1L12-VL77" n="12"/><w>sustinere</w><w>sed</w><w>faciet</w><w>cu<ex>m</ex></w><w>temptatione</w><w>etia<ex>m</ex></w>
+<lb xml:id="P31rC1L13-VL77" n="13"/><w>p<ex>ro</ex>uentum</w><w>ut</w><w>possitis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">posse</hi></w><w>sustinere</w></ab><ab n="B07K10V14"><w>p<ex>ro</ex>pt<ex>er</ex></w><w>caris
+<lb break="no" xml:id="P31rC1L14-VL77" n="14"/>simi</w><w>mei</w><w>fugite</w><w>ab</w><w>idolor<ex>um</ex></w><w>cultura</w></ab><ab n="B07K10V15"><w>sicut</w>
+<lb xml:id="P31rC1L15-VL77" n="15"/><w>prudentibus</w><w>dico</w><w>iudicate</w><w>uos</w><w>quod</w><w>dico</w></ab><ab n="B07K10V16"><w>calix</w>
+<lb xml:id="P31rC1L16-VL77" n="16"/><w>benedictionis</w><w>que<ex>m</ex></w><w>benedicimus</w><w>n<ex>on</ex>ne</w><w>com<ex>m</ex>unicatio</w>
+<lb xml:id="P31rC1L17-VL77" n="17"/><w>corporis</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>est</w><w>panem</w><w>quem</w><w>frangimus</w><w>n<ex>on</ex>ne</w>
+<lb xml:id="P31rC1L18-VL77" n="18"/><w>com<ex>m</ex>unicatio</w><w>corporis</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>est</w></ab><ab n="B07K10V17"><w>q<ex>uonia</ex>m</w><w>unus</w><w>panis</w>
+<lb xml:id="P31rC1L19-VL77" n="19"/><w>unu<ex>m</ex></w><w>corpus</w><w>multi</w><w>sumus</w><w>omnes</w><w><ex rend="⧺">enim</ex></w><w>de</w>
+<lb xml:id="P31rC1L20-VL77" n="20"/><w>uno</w><w>pane</w><w>et</w><w>uno</w><w>c</w><note type="editorial">This 'c' is an anticipation of the next word above a deleted Greek word</note><w>calice</w><w>participam<ex>us</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>er</ex>cipimus</hi></w>
+<lb xml:id="P31rC1L21-VL77" n="21"/></ab><ab n="B07K10V18"><w>uidete</w><w>isr<ex>ahe</ex>l</w><w>s<ex>ecundu</ex>m</w><w>carnem</w><w>n<ex>on</ex>ne</w><w>qui</w><w>edunt</w><w><ex>ue</ex>l</w><w>edentes</w>
+<lb xml:id="P31rC1L22-VL77" n="22"/><w>sacrificia</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">hostias</hi></w><w>participes</w><w>s<ex>un</ex>t</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">com<ex>m</ex>u<hi rend="lig">ni</hi>cantes</hi></w><w>altaris</w><w>s<ex>un</ex>t</w></ab><ab n="B07K10V19"><w>quid</w><w>ergo</w>
+<lb xml:id="P31rC1L23-VL77" n="23"/><w>dico</w><w>q<ex>uod</ex></w><w>idolis</w><w>i<ex>m</ex>molatu<ex>m</ex></w><w>sit</w><w>est</w><note type="editorial">sic</note><w>aliq<ex>ui</ex>d</w><w>non</w><w>q<ex>uo</ex>d</w><w>idolu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">idolothitu<ex>m</ex></hi></w>
+<pb xml:id="P31v-VL77" n="31v" type="folio"/>
+<cb xml:id="P31vC1-VL77" n="1"/>
+<lb xml:id="P31vC1L1-VL77" n="1"/><w>sit</w><w>aliquid</w></ab><ab n="B07K10V20"><w>sed</w><w>quę</w><w>gentes</w><w>i<ex>m</ex>molant</w><w>dęmoniis</w><w>i<ex>m</ex>molant</w>
+<lb xml:id="P31vC1L2-VL77" n="2"/><w>et</w><w>non</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>nolo</w><w>autem</w><w>uos</w><w>dęmonior<ex>um</ex></w><w>so
+<lb break="no" xml:id="P31vC1L3-VL77" n="3"/>cios</w><w>fieri</w><w>non</w><w>potestis</w><w>calicem</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>bibere</w><w>et</w>
+<lb xml:id="P31vC1L4-VL77" n="4"/><w>calicem</w><w>dęmonior<ex>um</ex></w></ab><ab n="B07K10V21"><w>n<ex>on</ex></w><w>potestis</w><w>mensae</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w>
+<lb xml:id="P31vC1L5-VL77" n="5"/><w>participare</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>participar</ex>i</hi></w><w>et</w><w>mensae</w><w>dęmonior<ex>um</ex></w></ab><ab n="B07K10V22"><w>an</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">a<ex>ut</ex></hi></w><w>ęmulemur</w>
+<lb xml:id="P31vC1L6-VL77" n="6"/><w><abbr type="nomSac">d<hi rend="overline">nm</hi></abbr></w><w>nunq<ex>ui</ex>d</w><w>fortiores</w><w>illo</w><w>sumus</w><w>om
+<lb break="no" xml:id="P31vC1L7-VL77" n="7"/>nia</w><w>licent</w><w>sed</w><w>n<ex>on</ex></w><w>omnia</w>
+<lb xml:id="P31vC1L8-VL77" n="8"/><w>expediunt</w></ab><ab n="B07K10V24"><w>nemo</w><w>q<ex>uod</ex></w><w>suu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>quaerat</w><w>sed</w>
+<lb xml:id="P31vC1L9-VL77" n="9"/><w>q<ex>uod</ex></w><w>alt<ex>er</ex>ius</w></ab><ab n="B07K10V25"><w>omne</w><w>q<ex>uod</ex></w><w>in</w><w>macello</w><w>uenit</w><w><hi rend="alt">i<ex>d</ex></hi></w><w><hi rend="alt"><ex>est</ex></hi></w><w><hi rend="alt">uendit<ex>ur</ex></hi></w><w><hi rend="alt">i<ex>d</ex></hi></w><w><hi rend="alt"><ex>est</ex></hi></w><w><hi rend="alt">a</hi></w><w><hi rend="alt">u<gap extent="undefined" unit="char" reason="lacuna"/></hi></w><w><hi rend="alt">ueneo</hi></w>
+<lb xml:id="P31vC1L10-VL77" n="10"/><w>edite</w><w>nihil</w><w>int<ex>er</ex>rogantes</w><w>p<ex>ro</ex>pt<ex>er</ex></w>
+<lb xml:id="P31vC1L11-VL77" n="11"/><w>conscientia<ex>m</ex></w></ab><ab n="B07K10V26"><w><abbr type="nomSac"><hi rend="overline">dni</hi></abbr></w><w><ex rend="⧺">enim</ex></w><w>t<ex>er</ex>ra</w><w>et</w><w>plenitudo</w>
+<lb xml:id="P31vC1L12-VL77" n="12"/><w>eius</w></ab><ab n="B07K10V27"><w>si</w><w>quis</w><w>uocat</w><w>uos</w><w>ex</w><w>i<ex>n</ex>fidelibus</w><w>ad</w>
+<lb xml:id="P31vC1L13-VL77" n="13"/><w>cenam</w><w>et</w><w>uolueritis</w><w>ire</w><w>omne</w><w>q<ex>uod</ex></w><w>adpositu<ex>m</ex></w>
+<lb xml:id="P31vC1L14-VL77" n="14"/><w>fuerit</w><w>uobis</w><w>edite</w><w>nihil</w><w>int<ex>er</ex>rogantes</w><w>p<ex>ro</ex>pt<ex>er</ex></w>
+<lb xml:id="P31vC1L15-VL77" n="15"/><w>conscientiam</w></ab><ab n="B07K10V28"><w>si</w><w>aute<ex>m</ex></w><w>quis</w><w>dixerit</w><w>hoc</w><w>im<ex>m</ex>olati
+<lb break="no" xml:id="P31vC1L16-VL77" n="16"/>ciu<ex>m</ex></w><w>idolis</w><w><ex rend="÷">est</ex></w><w>nolite</w><w>edere</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ne</hi></w><w><hi rend="alt">edite</hi></w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>conscientia<ex>m</ex></w>
+<lb xml:id="P31vC1L17-VL77" n="17"/></ab><ab n="B07K10V29"><w>conscientia<ex>m</ex></w><w><ex rend="ƕ">autem</ex></w><w>dico</w><w>non</w><w>tuam</w><w>sed</w>
+<lb xml:id="P31vC1L18-VL77" n="18"/><w>alt<ex>er</ex>ius</w><w>ut</w><w>quid</w><w><ex rend="⧺">enim</ex></w><w>lib<ex>er</ex>tas</w><w>mea</w><w>iudicatur</w>
+<lb xml:id="P31vC1L19-VL77" n="19"/><w>ab</w><w>infideli</w><w>conscientia</w></ab><ab n="B07K10V30"><w>si</w><w>ego</w><w>gratia</w><note type="gloss"><w>i<ex>d</ex></w><w><ex>est</ex></w><w>ab<ex>latiuus</ex></w></note><w>participo</w>
+<lb xml:id="P31vC1L20-VL77" n="20"/><w>quid</w><w>blasphemor</w><w>p<ex>ro</ex></w><w>quo</w><w>ego</w><w>bene</w><w>gratulor</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">g<ex>ra</ex>tias</hi></w><w><hi rend="alt">ago</hi></w>
+<lb xml:id="P31vC1L21-VL77" n="21"/></ab><ab n="B07K10V31"><w>siue</w><w>ergo</w><w>manducatis</w><w>siue</w><w>bibitis</w><w>sine</w><w>faciatis</w><w>aliq<ex>ui</ex>d</w>
+<pb xml:id="P32r-VL77" n="32r" type="folio"/>
+<cb xml:id="P32rC1-VL77" n="1"/>
+<lb xml:id="P32rC1L1-VL77" n="1"/><w>omnia</w><w>in</w><w>gloria<ex>m</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K10V32"><w>sine</w><w>offensione</w><w>estote</w><w>iudaeis</w>
+<lb xml:id="P32rC1L2-VL77" n="2"/><w>et</w><w>g<ex>re</ex>cis</w><w>et</w><w>ecclesiae</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K10V33"><w>et</w><w>sicut</w><w>et</w><w>ego</w>
+<lb xml:id="P32rC1L3-VL77" n="3"/><w>omnibus</w><w>p<ex>er</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">s<ex>ecundu</ex>m</hi></w><w>omnia</w><w>placeo</w><w>non</w><w>q<ex>uae</ex>rens</w><w>q<ex>uod</ex></w><w><hi rend="alt">m<ex>ih</ex>i</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>meum</w>
+<lb xml:id="P32rC1L4-VL77" n="4"/><w>utile</w><w><ex rend="÷">est</ex></w><w>sed</w><w>q<ex>uod</ex></w><w>multis</w><w>ut</w><w>salui</w><w>fiant</w></ab></div><div n="B07K11" type="chapter"><ab n="B07K11V1"><seg type="margin" subtype="lineright"><num type="chapNum"><w>xi</w></num></seg><w>imita
+<lb break="no" xml:id="P32rC1L5-VL77" n="5"/>tores</w><w>mei</w><w>estote</w><w>sicut</w><w>et</w><w>ego</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w></ab><ab n="B07K11V2"><w>laudo</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P32rC1L6-VL77" n="6"/><w>uos</w><w>fratres</w><w>q<ex>uod</ex></w><w>omnia</w><w>mei</w><w>memoramini</w><w>et</w>
+<lb xml:id="P32rC1L7-VL77" n="7"/><w>sicut</w><w>ubiq<ex>ue</ex></w><w>tradidi</w><w>traditiones</w><w>meas</w><w>ne</w>
+<lb xml:id="P32rC1L8-VL77" n="8"/><w>tinetis</w></ab><ab n="B07K11V3"><w>uolo</w><w>uos</w><w>scire</w><w>quia</w><w>omnis</w><w>uiri</w>
+<lb xml:id="P32rC1L9-VL77" n="9"/><w>caput</w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>est</w><w>caput</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><note type="editorial">This anticipation has been corrected in the Greek but not the Latin!</note><w>mulieris</w>
+<lb xml:id="P32rC1L10-VL77" n="10"/><w>uir</w><w>caput</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w></ab><ab n="B07K11V4"><w>omnis</w><w>uir</w><w>orans</w>
+<lb xml:id="P32rC1L11-VL77" n="11"/><w>aut</w><w>prophetans</w><w>uelatum</w><w>caput</w><w>h<ex>abe</ex>ns</w><w>de
+<lb break="no" xml:id="P32rC1L12-VL77" n="12"/>turpat</w><w>caput</w><w>suum</w></ab><ab n="B07K11V5"><w>omnis</w><w><ex rend="ƕ">autem</ex></w><w>mulier</w>
+<lb xml:id="P32rC1L13-VL77" n="13"/><w>orans</w><w><ex>ue</ex>l</w><w>prophetans</w><w>n<ex>on</ex></w><w>uelato</w><w>capite</w>
+<lb xml:id="P32rC1L14-VL77" n="14"/><w>det<ex>ur</ex>pat</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">dehonestat</hi></w><w>caput</w><w>suum</w><w>unu<ex>m</ex></w><w><ex rend="⧺">enim</ex></w><w>est</w><w>atq<ex>ue</ex></w>
+<lb xml:id="P32rC1L15-VL77" n="15"/><w>id</w><w>ipsum</w><w>si</w><w>decaluata</w><w>sit</w></ab><ab n="B07K11V6"><w>si</w><w><ex rend="⧺">enim</ex></w><w>n<ex>on</ex></w><w>uelatur</w>
+<lb xml:id="P32rC1L16-VL77" n="16"/><w>mulier</w><w>et</w><w>tondeatur</w><w>si</w><w>u<ex>er</ex>o</w><w>turpe</w><w><ex rend="÷">est</ex></w><w>muli
+<lb break="no" xml:id="P32rC1L17-VL77" n="17"/>eri</w><w>tonderi</w><w><ex>ue</ex>l</w><w>decaluari</w><w>uelet</w><w>caput</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">uelet</hi></w><w><hi rend="alt">se</hi></w>
+<lb xml:id="P32rC1L18-VL77" n="18"/></ab><ab n="B07K11V7"><w>uir</w><w>quidem</w><w>non</w><w>debet</w><w>uelare</w>
+<lb xml:id="P32rC1L19-VL77" n="19"/><w>caput</w><w>q<ex>uonia</ex>m</w><w>imago</w><w>et</w><w>gloria</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>a</w><w>p<ex>ri</ex>ncipio</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>er</ex></hi></w><w><hi rend="alt">i<ex>n</ex>itiu<ex>m</ex></hi></w><note type="gloss"><w>n<ex>on</ex></w><w><ex rend="÷">est</ex></w><w>i<ex>n</ex></w><w>lat<ex>inam</ex></w><w>int<ex>er</ex>p<ex>re</ex>tatu<ex>m</ex></w></note>
+<lb xml:id="P32rC1L20-VL77" n="20"/><w>mulier</w><w><ex rend="ƕ">autem</ex></w><w>gloria</w><w>uiri</w><w>est</w></ab><ab n="B07K11V8"><w>n<ex>on</ex></w><w><ex rend="⧺">enim</ex></w><w>est</w>
+<lb xml:id="P32rC1L21-VL77" n="21"/><w>uir</w><w>ex</w><w>muliere</w><w>sed</w><w>mulier</w><w>ex</w><w>uiro</w><note type="gloss"><w>i<ex>d</ex></w><w><ex>est</ex></w><w>costa</w></note>
+<pb xml:id="P32v-VL77" n="32v" type="folio"/>
+<cb xml:id="P32vC1-VL77" n="1"/>
+<lb xml:id="P32vC1L1-VL77" n="1"/></ab><ab n="B07K11V9"><w>etenim</w><w>n<ex>on</ex></w><w><ex rend="÷">est</ex></w><w>creatus</w><w>uir</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>muliere<ex>m</ex></w><w>sed</w><w>mu
+<lb break="no" xml:id="P32vC1L2-VL77" n="2"/>lier</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>uir<ex>um</ex></w></ab><ab n="B07K11V10"><w>p<ex>ro</ex>pt<ex>er</ex>ea</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ideo</hi></w><w>debet</w><w>mulier</w><w>po
+<lb break="no" xml:id="P32vC1L3-VL77" n="3"/>testatem</w><w>h<ex>abe</ex>re</w><w>sup<ex>er</ex></w><w>caput</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>angelos</w></ab><ab n="B07K11V11"><w>uer<ex>um</ex>t<ex>ame</ex>n</w>
+<lb xml:id="P32vC1L4-VL77" n="4"/><w>neq<ex>ue</ex></w><w>mulier</w><w>sine</w><w>uiro</w><w>neq<ex>ue</ex></w><w>uir</w><w>sine</w><w>mu
+<lb break="no" xml:id="P32vC1L5-VL77" n="5"/>liere</w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w></ab><ab n="B07K11V12"><w>nam</w><w>sicut</w><w>mulier</w><w>de</w><w>uiro</w>
+<lb xml:id="P32vC1L6-VL77" n="6"/><w>ita</w><w>et</w><w>uir</w><w>p<ex>er</ex></w><w>mulierem</w><w>om<ex>ni</ex>a</w><w>autem</w>
+<lb xml:id="P32vC1L7-VL77" n="7"/><w>ex</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w></ab><ab n="B07K11V13"><w>int<ex>er</ex></w><w>uos</w><w>ipsos</w><w>iudicate</w><w>decet</w>
+<lb xml:id="P32vC1L8-VL77" n="8"/><w>muliere<ex>m</ex></w><w>non</w><w>uelatam</w><w>orare</w>
+<lb xml:id="P32vC1L9-VL77" n="9"/><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w></ab><ab n="B07K11V14"><note type="editorial">In the left margin is written 'c(on)t(ra) g(re)cos'</note><w>n<ex>on</ex>ne</w><w><ex rend="ƕ">autem</ex></w><w>ipsa</w><w>natura</w><w>docet</w><w>uos</w><w>quia</w><w>uir</w>
+<lb xml:id="P32vC1L10-VL77" n="10"/><w>quidem</w><w>si</w><w>coma<ex>m</ex></w><w>nutriat</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">h<ex>a</ex>beat</hi></w><w>ignominia</w><w>illi</w><w>est</w></ab><ab n="B07K11V15"><w>mulier</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P32vC1L11-VL77" n="11"/><w>si</w><w>coma<ex>m</ex></w><w>nutriat</w><w>gloria</w><w>illi</w><w>est</w><w>quia</w><w>coma</w><w>pro</w>
+<lb xml:id="P32vC1L12-VL77" n="12"/><w>uelamine</w><w>data</w><w><ex rend="÷">est</ex></w><w>ei</w></ab><ab n="B07K11V16"><w>si</w><w>aute<ex>m</ex></w><w>quis</w><w>uidetur</w><w>contentiosus</w>
+<lb xml:id="P32vC1L13-VL77" n="13"/><w>esse</w><w>nos</w><w>talem</w><w>consuetudine<ex>m</ex></w><w>non</w><w>habemus</w><w>neq<ex>ue</ex></w>
+<lb xml:id="P32vC1L14-VL77" n="14"/><w>aecclesiae</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K11V17"><w>hoc</w><w><ex rend="ƕ">autem</ex></w><w>p<ex>rae</ex>cipiens</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">annuntians</hi></w>
+<lb xml:id="P32vC1L15-VL77" n="15"/><w>non</w><w>laudo</w><w>quod</w><w>non</w><w>in</w><w>melius</w><w>sed</w><w>in</w>
+<lb xml:id="P32vC1L16-VL77" n="16"/><w>det<ex>er</ex>ius</w><w>conuenitis</w></ab><ab n="B07K11V18"><w>p<ex>ri</ex>mum</w><w>quidem</w><w>conuenientib<ex>us</ex></w>
+<lb xml:id="P32vC1L17-VL77" n="17"/><w>uobis</w><w>in</w><w>ecclesia</w><w>audio</w><w>schismata</w><w>esse</w>
+<lb xml:id="P32vC1L18-VL77" n="18"/><w>in</w><w>u<ex>o</ex>bis</w><w>et</w><w>ex</w><w>parte</w><w>aliqua</w><w>credo</w></ab><ab n="B07K11V19"><w>oportet</w><w><ex rend="⧺">enim</ex></w><w>et</w><w>hę
+<lb break="no" xml:id="P32vC1L19-VL77" n="19"/>reses</w><w>esse</w><w>ut</w><w>probati</w><w>manifesti</w><w>fiant</w><w>in</w>
+<lb xml:id="P32vC1L20-VL77" n="20"/><w>uobis</w></ab><ab n="B07K11V20"><w>conuenientibus</w><w>uobis</w><w>in</w><w>id</w><w>ipsu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">i<ex>n</ex></hi></w><w><hi rend="alt">unu<ex>m</ex></hi></w><w>iam</w><w>n<ex>on</ex></w>
+<lb xml:id="P32vC1L21-VL77" n="21"/><w>dominicam</w><w>cęnam</w><w>manducare</w></ab><ab n="B07K11V21"><w>unusq<ex>ui</ex>sq<ex>ue</ex></w><w><ex rend="⧺">enim</ex></w><w>suam</w>
+<pb xml:id="P33r-VL77" n="33r" type="folio"/>
+<cb xml:id="P33rC1-VL77" n="1"/>
+<lb xml:id="P33rC1L1-VL77" n="1"/><w>cę</w><w>p<ex>re</ex>sumit</w><w>in</w><w>manducandu<ex>m</ex></w><w>et</w><w>alius</w><w>q<ex>ui</ex>de<ex>m</ex></w><w>essurit</w>
+<lb xml:id="P33rC1L2-VL77" n="2"/><w>alius</w><w><ex rend="ƕ">autem</ex></w><w>ebrius</w><w><ex rend="÷">est</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>ebria</ex>t<ex>ur</ex></hi></w></ab><ab n="B07K11V22"><w>nunquid</w><w>domus</w><w>non</w><w>habetis</w><w>manducare</w>
+<lb xml:id="P33rC1L3-VL77" n="3"/><w>et</w><w>bib<ex>er</ex>e</w><w>aut</w><w>ecclesia<ex>m</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>contemnitis</w>
+<lb xml:id="P33rC1L4-VL77" n="4"/><w>et</w><w>confunditis</w><w><hi rend="alt">qui</hi></w><w><hi rend="alt">n<ex>on</ex></hi></w><w><hi rend="alt">habetis</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>non</w><w>habentes</w><w>quid</w><w>dicam</w><w>uobis</w>
+<lb xml:id="P33rC1L5-VL77" n="5"/><w>laudo</w><w>uos</w><w>in</w><w>hoc</w><w>non</w><w>laudo</w></ab><ab n="B07K11V23"><w>ego</w><w><ex rend="⧺">enim</ex></w>
+<lb xml:id="P33rC1L6-VL77" n="6"/><w>accepi</w><w>a</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>q<ex>uod</ex></w><w>et</w><w>tradidi</w><w>uobis</w><w>q<ex>uod</ex></w>
+<lb xml:id="P33rC1L7-VL77" n="7"/><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hs</hi></abbr></w><w>in</w><w>qua</w><w>nocte</w><w>tradebatur</w><w>accepit</w>
+<lb xml:id="P33rC1L8-VL77" n="8"/><w>panem</w></ab><ab n="B07K11V24"><w>et</w><w>gratias</w><w>agens</w><w>fregit</w><w>et</w><w>dixit</w>
+<lb xml:id="P33rC1L9-VL77" n="9"/><w>hoc</w><w>meu<ex>m</ex></w><w>est</w><w>corpus</w><w>q<ex>uod</ex></w><w>p<ex>ro</ex></w><w>uobis</w><w>fran
+<lb break="no" xml:id="P33rC1L10-VL77" n="10"/>getur</w><w>hoc</w><w>facite</w><w>in</w><w>meam</w><w>com<ex>m</ex>emoratione<ex>m</ex></w>
+<lb xml:id="P33rC1L11-VL77" n="11"/></ab><ab n="B07K11V25"><w>similit<ex>er</ex></w><w>et</w><w>calicem</w><w>postqua<ex>m</ex></w><w>cęnauit</w><w>dicens</w>
+<lb xml:id="P33rC1L12-VL77" n="12"/><w>hic</w><w>calix</w><w>nouu<ex>m</ex></w><w>testamentu<ex>m</ex></w><w>est</w><w>in</w>
+<lb xml:id="P33rC1L13-VL77" n="13"/><w>meo</w><w>sanguine</w><w>hoc</w><w>facite</w><w>q<ex>u</ex>otiesc<ex>um</ex>q<ex>ue</ex></w><w>bibetis</w><w>in</w>
+<lb xml:id="P33rC1L14-VL77" n="14"/><w>meam</w><w>recordatione<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">co<ex>m</ex>me<ex>morationem</ex></hi></w></ab><ab n="B07K11V26"><w>quotiesc<ex>um</ex>q<ex>ue</ex></w><w><ex rend="⧺">enim</ex></w><app><rdg type="orig" hand="firsthand"><w>manducatis</w></rdg><rdg type="corr" hand="corrector"><w>manducabitis</w></rdg></app>
+<lb xml:id="P33rC1L15-VL77" n="15"/><w>panem</w><w>hunc</w><w>et</w><w>calicem</w><w>bibitis</w><w>mortem</w>
+<lb xml:id="P33rC1L16-VL77" n="16"/><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>annuntiatis</w><w>donec</w><w>ueniat</w></ab><ab n="B07K11V27"><w>itaq<ex>ue</ex></w><w>q<ex>ui</ex>c<ex>um</ex>q<ex>ue</ex></w>
+<lb xml:id="P33rC1L17-VL77" n="17"/><w>manducauerit</w><w>panem</w><w>aut</w><w>biberit</w><w>calicem</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w>
+<lb xml:id="P33rC1L18-VL77" n="18"/><w>indigne</w><w>reus</w><w>erit</w><w>corporis</w><w>et</w><w>sang<hi rend="lig">ui</hi>
+<lb break="no" xml:id="P33rC1L19-VL77" n="19"/>nis</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w></ab><ab n="B07K11V28"><w>probet</w><w><ex rend="ƕ">autem</ex></w><w>se</w><w>ipsu<ex>m</ex></w><w>homo</w>
+<lb xml:id="P33rC1L20-VL77" n="20"/><w>et</w><w>sic</w><w>de</w><w>pane</w><w>edat</w><w>et</w><w>de</w><w>calice</w>
+<lb xml:id="P33rC1L21-VL77" n="21"/><w>bibat</w></ab><ab n="B07K11V29"><w>qui</w><w><ex rend="⧺">enim</ex></w><w><ex rend="÷">est</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">manducat</hi></w><w>et</w><w>bibit</w><app><rdg type="orig" hand="firsthand"><w>indi
+<lb break="no" xml:id="P33rC1L22-VL77" n="22"/>ge</w></rdg><rdg type="corr" hand="corrector"><w>indigne</w></rdg></app><w>iudicium</w><w>sibi</w><w>manducat</w><w>et</w><w>bibit</w><w>n<ex>on</ex></w><w>discernens</w>
+<pb xml:id="P33v-VL77" n="33v" type="folio"/>
+<cb xml:id="P33vC1-VL77" n="1"/>
+<lb xml:id="P33vC1L1-VL77" n="1"/><w>corpus</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w></ab><ab n="B07K11V30"><w>propt<ex>er</ex>ea</w><w>int<ex>er</ex></w><w>uos</w><w>multi</w><w>infirmi</w>
+<lb xml:id="P33vC1L2-VL77" n="2"/><w>et</w><w>aegri</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">imbicelles</hi></w><w>et</w><w>dormiunt</w><w>multi</w></ab><ab n="B07K11V31"><w>si</w><w><ex rend="ƕ">autem</ex></w><w>nos</w><w>ipsos</w>
+<lb xml:id="P33vC1L3-VL77" n="3"/><w>iudicaremus</w><w>non</w><w>utiq<ex>ue</ex></w><w>iudicaremur</w></ab><ab n="B07K11V32"><w><hi rend="alt">iudicati</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>dum</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">cu<ex>m</ex></hi></w><w>iudicamur</w><w><ex rend="ƕ">autem</ex></w><w>a</w>
+<lb xml:id="P33vC1L4-VL77" n="4"/><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>corripimur</w><w>ut</w><w>non</w><w>cum</w><w>mundo</w><w>hoc</w><w>dam
+<lb break="no" xml:id="P33vC1L5-VL77" n="5"/>nemur</w><note type="gloss"><w>i<ex>d</ex></w><w><ex>est</ex></w><w>i<ex>n</ex></w><w>iudicio</w></note></ab><ab n="B07K11V33"><w>itaq<ex>ue</ex></w><w>fratres</w><w>mei</w><w>conuenientes</w><w>ad</w>
+<lb xml:id="P33vC1L6-VL77" n="6"/><w>manducandu<ex>m</ex></w><w>inuicem</w><w>expectate</w></ab><ab n="B07K11V34"><w>si</w><w>quis</w><w>esurit</w><w>in</w>
+<lb xml:id="P33vC1L7-VL77" n="7"/><w>domo</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">domi</hi></w><w>manducet</w><w>ut</w><w>non</w><w>ad</w><w>iudiciu<ex>m</ex></w><w>conueniatis</w>
+<lb xml:id="P33vC1L8-VL77" n="8"/><w>cet<ex>er</ex>a</w><w><ex rend="ƕ">autem</ex></w><w>cum</w><w>uenero</w><w>ordinabo</w></ab></div><div n="B07K12" type="chapter"><ab n="B07K12V1"><seg type="margin" subtype="lineleft"><num type="chapNum"><w>xii</w></num></seg><w>de</w>
+<lb xml:id="P33vC1L9-VL77" n="9"/><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr>alibus</w><w>nolo</w><w>uos</w><w>ignorare</w><w>fratres</w>
+<lb xml:id="P33vC1L10-VL77" n="10"/></ab><ab n="B07K12V2"><w>scitis</w><w>q<ex>uonia</ex>m</w><w>cu<ex>m</ex></w><w>gentes</w><w>eratis</w><w>ad</w><w>simulacror<ex>um</ex></w><w>formationes</w>
+<lb xml:id="P33vC1L11-VL77" n="11"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>f<ex>eri</ex>a</w><w>eb<ex>do</ex>mada</w><w>p<ex>os</ex>t</w><w>pentecosten</w></note></seg><w>p<ex>ro</ex>ut</w><w>ducebamini</w><w>euntes</w></ab><ab n="B07K12V3"><w><hi rend="alt">ideo</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>q<ex>uod</ex></w><w>notesco</w><w>uobis</w>
+<lb xml:id="P33vC1L12-VL77" n="12"/><w>q<ex>uia</ex></w><w>nemo</w><w>in</w><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>dicit</w><w>anathema</w><w><abbr type="nomSac">ih<hi rend="overline">m</hi></abbr></w><w>et</w>
+<lb xml:id="P33vC1L13-VL77" n="13"/><w>nemo</w><w>potest</w><w>dicere</w><w><abbr type="nomSac">d<hi rend="overline">nm</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hm</hi></abbr></w><w>nisi</w><w>in</w><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w><w>s<ex>an</ex>c<ex>t</ex>o</w>
+<lb xml:id="P33vC1L14-VL77" n="14"/></ab><ab n="B07K12V4"><w>diuisiones</w><w><ex rend="ƕ">autem</ex></w><w>gratiar<ex>um</ex></w><w><ex>ue</ex>l</w><w>donationu<ex>m</ex></w><w>sunt</w><w>idem</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P33vC1L15-VL77" n="15"/><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w></ab><ab n="B07K12V5"><w>et</w><w>diuisiones</w><w>ministerior<ex>um</ex></w><w>sunt</w><w>et</w><w>idem</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w>
+<lb xml:id="P33vC1L16-VL77" n="16"/></ab><ab n="B07K12V6"><w>et</w><w>diuisiones</w><w>op<ex>er</ex>ationum</w><w>sunt</w><w>idem</w><w>u<ex>er</ex>o</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w>
+<lb xml:id="P33vC1L17-VL77" n="17"/><w>qui</w><w>op<ex>er</ex>atur</w><w>omnia</w><w>in</w><w>omnibus</w></ab><ab n="B07K12V7"><w>unicuiq<ex>ue</ex></w><w><ex rend="ƕ">autem</ex></w><w>datur</w>
+<lb xml:id="P33vC1L18-VL77" n="18"/><w>manifestatio</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>ad</w><w>utilitate<ex>m</ex></w></ab><ab n="B07K12V8"><w>alii</w><w>quide<ex>m</ex></w>
+<lb xml:id="P33vC1L19-VL77" n="19"/><w>p<ex>er</ex></w><w><abbr type="nomSac">s<hi rend="overline">pm</hi></abbr></w><w>datur</w><w>sermo</w><w>sapientię</w><w>alii</w><w><ex rend="ƕ">autem</ex></w><w>sermo</w>
+<lb xml:id="P33vC1L20-VL77" n="20"/><w>scientiae</w><w>s<ex>ecundu</ex>m</w><w>eundem</w><w><abbr type="nomSac">s<hi rend="overline">pm</hi></abbr></w></ab><ab n="B07K12V9"><w>alii</w><w>fides</w><w>in</w><w>eodem</w>
+<lb xml:id="P33vC1L21-VL77" n="21"/><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>alii</w><w>dona</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><app><rdg type="orig" hand="firsthand"><w><hi rend="alt">gratię</hi></w></rdg><rdg type="corr" hand="corrector"><w><hi rend="alt">gratia</hi></w></rdg></app><w>sanitatum</w><w>in</w><w>eodem</w><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w>
+<lb xml:id="P33vC1L22-VL77" n="22"/></ab><ab n="B07K12V10"><w>alii</w><w>op<ex>er</ex>atio</w><w>uirtutis</w><w>alii</w><w>p<ex>ro</ex>phetia</w>
+<pb xml:id="P34r-VL77" n="34r" type="folio"/>
+<cb xml:id="P34rC1-VL77" n="1"/>
+<lb xml:id="P34rC1L1-VL77" n="1"/><w>alii</w><w>discretio</w><w>sp<ex>ir</ex>ituum</w><w>alii</w><w>genera</w><w>linguar<ex>um</ex></w><w>alii</w>
+<lb xml:id="P34rC1L2-VL77" n="2"/><w><ex rend="ƕ">autem</ex></w><w>int<ex>er</ex>p<ex>re</ex>tatio</w><w>linguar<ex>um</ex></w></ab><ab n="B07K12V11"><w>hæ</w><w><ex rend="ƕ">autem</ex></w><w>omnia</w><w>operat<ex>ur</ex></w>
+<lb xml:id="P34rC1L3-VL77" n="3"/><w>unus</w><w>atq<ex>ue</ex></w><w>idem</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>diuidens</w><w>u<hi rend="lig">ni</hi>c<hi rend="lig">ui</hi>q<ex>ue</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">singulis</hi></w><w>p<ex>ro</ex>ut</w><w>uult</w>
+<lb xml:id="P34rC1L4-VL77" n="4"/></ab><ab n="B07K12V12"><w>sicut</w><w>enim</w><w>corpus</w><w>unu<ex>m</ex></w><w>est</w><w>membra</w><w><ex rend="ƕ">autem</ex></w><w>h<ex>abe</ex>t</w><w>multa</w>
+<lb xml:id="P34rC1L5-VL77" n="5"/><w>omnia</w><w><ex rend="ƕ">autem</ex></w><w>membra</w><w>corporis</w><w>cu<ex>m</ex></w><w>sint</w><w>multa</w><w>unu<ex>m</ex></w>
+<lb xml:id="P34rC1L6-VL77" n="6"/><w>est</w><w>corpus</w><w>ita</w><w>et</w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w></ab><ab n="B07K12V13"><w>etenim</w><w>in</w><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w><w>nos</w><w>om
+<lb break="no" xml:id="P34rC1L7-VL77" n="7"/>nes</w><w>in</w><w>unu<ex>m</ex></w><w>corpus</w><w>baptizati</w><w>sumus</w><w>siue</w><w>iudaei</w><w>siue</w>
+<lb xml:id="P34rC1L8-VL77" n="8"/><w>g<ex>re</ex>ci</w><w>siue</w><w>serui</w><w>siue</w><w>liberi</w><w>et</w><w>omnes</w><w>unu<ex>m</ex></w><w><abbr type="nomSac">s<hi rend="overline">pm</hi></abbr></w>
+<lb xml:id="P34rC1L9-VL77" n="9"/><w>potauimus</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>pota</ex>b<ex>imus</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>potaui</ex>mur</hi></w></ab><ab n="B07K12V14"><w>et<ex rend="⧺">enim</ex></w><w>corpus</w><w>n<ex>on</ex></w><w>est</w><w>unu<ex>m</ex></w><w>membr<ex>um</ex></w>
+<lb xml:id="P34rC1L10-VL77" n="10"/><w>sed</w><w>multa</w></ab><ab n="B07K12V15"><w>si</w><w>dixerit</w><w>pes</w><w>q<ex>uonia</ex>m</w><w>non</w><w>sum</w><w>manus</w>
+<lb xml:id="P34rC1L11-VL77" n="11"/><w>non</w><w>sum</w><w>de</w><w>corpore</w><w>non</w><w>p<ex>ro</ex>pt<ex>er</ex>ea</w><w>non</w><w>est</w>
+<lb xml:id="P34rC1L12-VL77" n="12"/><w>de</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ex</hi></w><w>corpore</w></ab><ab n="B07K12V16"><w>et</w><w>si</w><w>dixerit</w><w>auricula</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>au</ex>ris</hi></w><w>quia</w><w>non</w>
+<lb xml:id="P34rC1L13-VL77" n="13"/><w>sum</w><w>oculus</w><w>n<ex>on</ex></w><w>sum</w><w>ex</w><w>corpore</w><w>n<ex>on</ex></w><w>ideo</w>
+<lb xml:id="P34rC1L14-VL77" n="14"/><w>n<ex>on</ex></w><w>est</w><w>ex</w><w>corpore</w></ab><ab n="B07K12V17"><w>si</w><w>totu<ex>m</ex></w><w>corpus</w>
+<lb xml:id="P34rC1L15-VL77" n="15"/><w>oculus</w><w>ubi</w><w>auditus</w><w>si</w><w>totu<ex>m</ex></w><w>auditus</w><w>ubi</w>
+<lb xml:id="P34rC1L16-VL77" n="16"/><w>odoratus</w></ab><ab n="B07K12V18"><w>nunc</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>posuit</w><w>membra</w><w>unu<ex>m</ex>q<ex>uod</ex>q<ex>ue</ex></w>
+<lb xml:id="P34rC1L17-VL77" n="17"/><w>eor<ex>um</ex></w><w>in</w><w>corpore</w><w>sicut</w><w>uoluit</w></ab><ab n="B07K12V19"><w>q<ex>uod</ex></w><w>si</w>
+<lb xml:id="P34rC1L18-VL77" n="18"/><w>essent</w><w>omnia</w><w>unu<ex>m</ex></w><w>membr<ex>um</ex></w><w>ubi</w><w>corpus</w></ab><ab n="B07K12V20"><w>nunc</w><w><ex rend="ƕ">autem</ex></w><w>mul
+<lb break="no" xml:id="P34rC1L19-VL77" n="19"/>ta</w><w>quide<ex>m</ex></w><w>membra</w><w>unu<ex>m</ex></w><w>aute<ex>m</ex></w><w>corpus</w></ab><ab n="B07K12V21"><w>non</w><w>potest</w><w>ocu
+<lb break="no" xml:id="P34rC1L20-VL77" n="20"/>lus</w><w>dicere</w><w>manui</w><w>necessitate<ex>m</ex></w><w>tua<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>tu</ex>i</hi></w><w>n<ex>on</ex></w><w>habeo</w><w>aut</w>
+<lb xml:id="P34rC1L21-VL77" n="21"/><w>it<ex>er</ex>um</w><w>caput</w><w>pedibus</w><w>necesariu<ex>m</ex></w><w>uos</w><w>non</w><w>habeo</w>
+<lb xml:id="P34rC1L22-VL77" n="22"/></ab><ab n="B07K12V22"><w>sed</w><w>multo</w><w>magis</w><w>q<ex>uae</ex></w><w>uident<ex>ur</ex></w><w>membra</w>
+<pb xml:id="P34v-VL77" n="34v" type="folio"/>
+<cb xml:id="P34vC1-VL77" n="1"/>
+<lb xml:id="P34vC1L1-VL77" n="1"/><w>corporis</w><w>infirmiora</w><w>esse</w><w>necessaria</w><w>sunt</w></ab><ab n="B07K12V23"><w>et</w><w>q<ex>uae</ex></w><w>puta
+<lb break="no" xml:id="P34vC1L2-VL77" n="2"/>mus</w><w>ignobiliora</w><w>esse</w><w>membra</w><w>corporis</w><w>his</w>
+<lb xml:id="P34vC1L3-VL77" n="3"/><w>honorem</w><w>abundantiorem</w><w>circundamur</w><w>et</w><w>q<ex>uae</ex></w><w>inhonesta</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">t<ex>ur</ex>pia</hi></w>
+<lb xml:id="P34vC1L4-VL77" n="4"/><w>n<ex>ost</ex>ra</w><w>s<ex>un</ex>t</w><w>honestatem</w><w>abundantiorem</w><w>habent</w></ab><ab n="B07K12V24"><w>honesta</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P34vC1L5-VL77" n="5"/><w>nostra</w><w>nullius</w><w>egent</w><w>sed</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>tempera
+<lb break="no" xml:id="P34vC1L6-VL77" n="6"/>uit</w><w>corpus</w><w>ei</w><w>cui</w><w>deerat</w><w>plus</w><w>tribuendo</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">abundantiore<ex>m</ex></hi></w><w><hi rend="alt">dando</hi></w>
+<lb xml:id="P34vC1L7-VL77" n="7"/><w>honorem</w></ab><ab n="B07K12V25"><w>ut</w><w>n<ex>on</ex></w><w>sint</w><w>scismata</w><w>in</w><w>corpore</w><w>sed</w><w>i<ex>n</ex></w><w>id</w><w>ipsu<ex>m</ex></w>
+<lb xml:id="P34vC1L8-VL77" n="8"/><w>sint</w><w>pro</w><w>inuicem</w><w>sollicita</w><w>sint</w><w>membra</w></ab><ab n="B07K12V26"><w>et</w><w>si</w><w>quid</w>
+<lb xml:id="P34vC1L9-VL77" n="9"/><w>patitur</w><w>unu<ex>m</ex></w><w>membru<ex>m</ex></w><w>compatiunt<ex>ur</ex></w><w>omnia</w><w>membra</w><w>siue</w><w>glo
+<lb break="no" xml:id="P34vC1L10-VL77" n="10"/>riatur</w><w>unu<ex>m</ex></w><w>membr<ex>um</ex></w><w>congaudent</w><w>omnia</w><w>membra</w></ab><ab n="B07K12V27"><w>uos</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P34vC1L11-VL77" n="11"/><w>corpus</w><w>estis</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>et</w><w>membra</w><w>ex</w><w>parte</w></ab><ab n="B07K12V28"><w>et</w><w>q<ex>u</ex>osda<ex>m</ex></w><w>quide<ex>m</ex></w>
+<lb xml:id="P34vC1L12-VL77" n="12"/><w>posuit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>in</w><w>ecclesia</w><w>p<ex>ri</ex>mum</w><w>apostolos</w><w>secun
+<lb break="no" xml:id="P34vC1L13-VL77" n="13"/>dum</w><w>prophetas</w><w>t<ex>er</ex>tio</w><w>magistros</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">doctores</hi></w><w>deinde</w><w>uir
+<lb break="no" xml:id="P34vC1L14-VL77" n="14"/>tutes</w><w>donationes</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">g<ex>ra</ex>tias</hi></w><w>sanitatu<ex>m</ex></w><w>opitulationes</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">adiutoria</hi></w><w>guberna
+<lb break="no" xml:id="P34vC1L15-VL77" n="15"/>tiones</w><w>genera</w><w>linguar<ex>um</ex></w></ab><ab n="B07K12V29"><w>nunquid</w><w>om<ex>ne</ex>s</w><w>apostoli</w><w>nunq<ex>ui</ex>d</w>
+<lb xml:id="P34vC1L16-VL77" n="16"/><w>om<ex>ne</ex>s</w><w>prophetae</w><w>nunq<ex>ui</ex>d</w><w>magistri</w></ab><ab n="B07K12V30"><w>nunq<ex>ui</ex>d</w><w>omnes</w>
+<lb xml:id="P34vC1L17-VL77" n="17"/><w>uirtutes</w><w>nunq<ex>ui</ex>d</w><w>omnes</w><w>dona</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">g<ex>ra</ex>tias</hi></w><w>h<ex>abe</ex>nt</w><w>sanitatu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">curationu<ex>m</ex></hi></w>
+<lb xml:id="P34vC1L18-VL77" n="18"/><w>nunq<ex>ui</ex>d</w><w>omnes</w><w>linguis</w><w>loquuntur</w><w>nunq<ex>ui</ex>d</w><w>omnes</w><w>int<ex>er</ex>pre
+<lb break="no" xml:id="P34vC1L19-VL77" n="19"/>tantur</w></ab><ab n="B07K12V31"><w>æmulamini</w><w><ex rend="ƕ">autem</ex></w><w>dona</w><w>meliora</w><w>adhuc</w>
+<lb xml:id="P34vC1L20-VL77" n="20"/><w>excellentiorem</w><w>uiam</w><w>demonstro</w><w>uobis</w></ab></div><div n="B07K13" type="chapter"><ab n="B07K13V1"><seg type="margin" subtype="lineleft"><num type="chapNum"><w>xiii</w></num></seg><w>si</w><w>ling<ex>u</ex>is</w>
+<lb xml:id="P34vC1L21-VL77" n="21"/><w>hominu<ex>m</ex></w><w>loquar</w><w>et</w><w>angelor<ex>um</ex></w><w>caritate<ex>m</ex></w>
+<lb xml:id="P34vC1L22-VL77" n="22"/><w><ex rend="ƕ">autem</ex></w><w>n<ex>on</ex></w><w>habeam</w><w>unu<ex>m</ex></w><w>sum</w><w><ex>ue</ex>lut</w><w>ęs</w><w>sonans</w><w>aut</w><w>cymbalum</w>
+<lb xml:id="P34vC1L23-VL77" n="23"/><w>tinniens</w></ab><ab n="B07K13V2"><w>et</w><w>si</w><w>habeam</w><w>p<ex>ro</ex>phetiam</w><w>et</w><w>nouerim</w>
+<pb xml:id="P35r-VL77" n="35r" type="folio"/>
+<cb xml:id="P35rC1-VL77" n="1"/>
+<lb xml:id="P35rC1L1-VL77" n="1"/><w>myst<ex>er</ex>ia</w><w>omnia</w><w>et</w><w>omne<ex>m</ex></w><w>scientia<ex>m</ex></w><w>et</w><w>si</w><w>habeam</w>
+<lb xml:id="P35rC1L2-VL77" n="2"/><w>omne<ex>m</ex></w><w>fidem</w><w>ita</w><w>ut</w><w>montes</w><w>t<ex>ran</ex>sferam</w><w>caritate<ex>m</ex></w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P35rC1L3-VL77" n="3"/><w>n<ex>on</ex></w><w>habeam</w><w>nihil</w><w>sum</w></ab><ab n="B07K13V3"><w>et</w><w>si</w><w>distribuero</w><w>om<ex>ne</ex>s</w><w><hi rend="alt">facultates</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w>
+<lb xml:id="P35rC1L4-VL77" n="4"/><w>substantias</w><w>meas</w><w>i<ex>n</ex></w><w>cibos</w><w>pauperum</w><note type="editorial">There is no Greek text below "i(n) cibos pauperum".</note>
+<lb xml:id="P35rC1L5-VL77" n="5"/><w>et</w><w>si</w><w>tradidero</w><w>corpus</w><w>meum</w><w>ut</w><w>ardeam</w>
+<lb xml:id="P35rC1L6-VL77" n="6"/><w>caritate<ex>m</ex></w><w><ex rend="ƕ">autem</ex></w><w>n<ex>on</ex></w><w>habeam</w><w>nihil</w><w>mihi</w><w>p<ex>ro</ex>dest</w>
+<lb xml:id="P35rC1L7-VL77" n="7"/></ab><ab n="B07K13V4"><w>caritas</w><w>patiens</w><w><ex rend="÷">est</ex></w><w>benigna</w><w>est</w><w>caritas</w>
+<lb xml:id="P35rC1L8-VL77" n="8"/><w>n<ex>on</ex></w><w>ęmulatur</w><w>caritas</w><w>n<ex>on</ex></w><w>p<ex>er</ex>p<ex>er</ex>at</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">n<ex>on</ex></hi></w><w><hi rend="alt">p<ex>er</ex>p<ex>er</ex>a<ex>m</ex></hi></w><w><hi rend="alt">agit</hi></w><w>n<ex>on</ex></w><w>infla
+<lb break="no" xml:id="P35rC1L9-VL77" n="9"/>tur</w></ab><ab n="B07K13V5"><w>n<ex>on</ex></w><w>dehonestat<ex>ur</ex></w><w>n<ex>on</ex></w><w>quęrit</w><w>sua</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>ropri</ex>a</hi></w><w>n<ex>on</ex></w>
+<lb xml:id="P35rC1L10-VL77" n="10"/><w>irritatur</w><w>non</w><w>cogitat</w><w>malum</w></ab><ab n="B07K13V6"><w>n<ex>on</ex></w><w>gaudet</w>
+<lb xml:id="P35rC1L11-VL77" n="11"/><w>sup<ex>er</ex></w><w>iniquitate</w><w>congaudet</w><w><ex rend="ƕ">autem</ex></w><w>ueritati</w></ab><ab n="B07K13V7"><w>omnia</w>
+<lb xml:id="P35rC1L12-VL77" n="12"/><w>suffert</w><w>omnia</w><w>credit</w><w>omnia</w><w>sperat</w><w>omnia</w>
+<lb xml:id="P35rC1L13-VL77" n="13"/><w>sustinet</w></ab><ab n="B07K13V8"><w>caritas</w><w>nunquam</w><w>excidit</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">cadit</hi></w><w>siue</w>
+<lb xml:id="P35rC1L14-VL77" n="14"/><w>p<ex>ro</ex>phetiae</w><w>abolebunt<ex>ur</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">euacuabuntur</hi></w><w>siue</w><w>linguae</w><w>cessabunt</w>
+<lb xml:id="P35rC1L15-VL77" n="15"/><w>siue</w><w>scientiae</w><w>destruentur</w></ab><ab n="B07K13V9"><w>ex</w><w>parte</w><w><ex rend="⧺">enim</ex></w>
+<lb xml:id="P35rC1L16-VL77" n="16"/><w>scimus</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">cognoscimus</hi></w><w>et</w><w>ex</w><w>parte</w><w>prophetamus</w></ab><ab n="B07K13V10"><w>cu<ex>m</ex></w>
+<lb xml:id="P35rC1L17-VL77" n="17"/><w><ex rend="ƕ">autem</ex></w><w>uenerit</w><w>p<ex>er</ex>fectu<ex>m</ex></w><w>destruent<ex>ur</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">euacuabunt<ex>ur</ex></hi></w><w>ea</w><w>q<ex>uae</ex></w><w>ex</w><w>par
+<lb break="no" xml:id="P35rC1L18-VL77" n="18"/>te</w></ab><ab n="B07K13V11"><w>cu<ex>m</ex></w><w>eram</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">esse<ex>m</ex></hi></w><w>paruulus</w><w>ut</w><w>paruulus</w><w>loquebar</w>
+<lb xml:id="P35rC1L19-VL77" n="19"/><w>ut</w><w>paruul<ex>us</ex></w><w>sapiebam</w><w>ut</w><w>paruulus</w><w>cogitabam</w>
+<lb xml:id="P35rC1L20-VL77" n="20"/><w>cum</w><w><ex rend="ƕ">autem</ex></w><w>fact<ex>us</ex></w><w>sum</w><w>uir</w><w>quę</w><w>paruuli</w><w>erant</w><w>depo
+<lb break="no" xml:id="P35rC1L21-VL77" n="21"/>sui</w></ab><ab n="B07K13V12"><w>uidemus</w><w>n<ex>un</ex>c</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">modo</hi></w><w>p<ex>er</ex></w><w>speculum</w><w>in</w><w>aenigmate</w>
+<pb xml:id="P35v-VL77" n="35v" type="folio"/>
+<cb xml:id="P35vC1-VL77" n="1"/>
+<lb xml:id="P35vC1L1-VL77" n="1"/><w>tunc</w><w><ex rend="ƕ">autem</ex></w><w>faciem</w><w>ad</w><w>faciem</w><w>n<ex>un</ex>c</w><w>scio</w><w>ex</w><w>parte</w>
+<lb xml:id="P35vC1L2-VL77" n="2"/><w>tunc</w><w><ex rend="ƕ">autem</ex></w><w>ex</w><w>parte</w><w>cognoscam</w><w>sicut</w><w>et</w><w>ego</w><w>sup<ex>er</ex></w><w>cognitus</w>
+<lb xml:id="P35vC1L3-VL77" n="3"/><w>sum</w></ab><ab n="B07K13V13"><w>manet</w><w><ex rend="ƕ">autem</ex></w><w>fides</w><w>spes</w><w>caritas</w><w>tria</w><w>haec</w>
+<lb xml:id="P35vC1L4-VL77" n="4"/><w>maior</w><w><ex rend="ƕ">autem</ex></w><w>his</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">hor<ex>um</ex></hi></w><w>caritas</w></ab></div><div n="B07K14" type="chapter"><ab n="B07K14V1"><seg type="margin" subtype="lineleft"><num type="chapNum"><w>xiv</w></num></seg><w>sectamini</w><w>caritate<ex>m</ex></w>
+<lb xml:id="P35vC1L5-VL77" n="5"/><w>emulamini</w><w>aute<ex>m</ex></w><w>sp<ex>ir</ex>italia</w><w>magis</w><w><ex rend="ƕ">autem</ex></w><w>ut</w><w>prophe
+<lb break="no" xml:id="P35vC1L6-VL77" n="6"/>tetis</w></ab><ab n="B07K14V2"><w>qui</w><w>enim</w><w>loquit<ex>ur</ex></w><app><rdg type="orig" hand="firsthand"><w>lingua</w></rdg><rdg type="corr" hand="corrector"><w>linguis</w></rdg></app><w>n<ex>on</ex></w><w>ho<ex>min</ex>ibus</w><w>loquit<ex>ur</ex></w>
+<lb xml:id="P35vC1L7-VL77" n="7"/><w>sed</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>nemo</w><w>enim</w><w>audit</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w><ex rend="ƕ">autem</ex></w><w>loquit<ex>ur</ex></w><w>mys
+<lb break="no" xml:id="P35vC1L8-VL77" n="8"/>teria</w></ab><ab n="B07K14V3"><w>si</w><w><ex rend="⧺">enim</ex></w><w>qui</w><w>p<ex>ro</ex>phetat</w><w>hominibus</w><w>loquitur</w><w>aedifica
+<lb break="no" xml:id="P35vC1L9-VL77" n="9"/>tionem</w><w>et</w><app><rdg type="orig" hand="firsthand"><w>exortatione<ex>m</ex></w></rdg><rdg type="corr" hand="corrector"></rdg></app><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">c<ex>on</ex>solatione<ex>m</ex></hi></w><w>et</w><w>exortatione<ex>m</ex></w></ab><ab n="B07K14V4"><w>qui</w><w>loquit<ex>ur</ex></w>
+<lb xml:id="P35vC1L10-VL77" n="10"/><w>lingua</w><w>se</w><w>ipsum</w><w>ędificat</w><w>qui</w><w>u<ex>er</ex>o</w><w>prophetat</w><w>eccl<ex>esi</ex>am</w>
+<lb xml:id="P35vC1L11-VL77" n="11"/><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>aedificat</w></ab><ab n="B07K14V5"><w>uolo</w><w><ex rend="ƕ">autem</ex></w><w>omnes</w><w>uos</w><w>loqui</w><w>linguis</w>
+<lb xml:id="P35vC1L12-VL77" n="12"/><w>magis</w><w>aute<ex>m</ex></w><w>ut</w><w>prophetetis</w><w>maior</w><w>enim</w><w>est</w><w>qui</w><w>prophe
+<lb break="no" xml:id="P35vC1L13-VL77" n="13"/>tat</w><w>qua<ex>m</ex></w><w>qui</w><w>loquitur</w><app><rdg type="orig" hand="firsthand"><w>lingua</w></rdg><rdg type="corr" hand="corrector"><w>linguis</w></rdg></app><w>nisi</w><w>qui</w><w>int<ex>er</ex>p<ex>re</ex>tetur</w>
+<lb xml:id="P35vC1L14-VL77" n="14"/><w>ut</w><w>ecclesia</w><w>aedificatione<ex>m</ex></w><w>habeat</w><w><hi rend="alt">accipiat</hi></w></ab><ab n="B07K14V6"><w>nunc</w><w><ex rend="ƕ">autem</ex></w><w>fra
+<lb break="no" xml:id="P35vC1L15-VL77" n="15"/>tres</w><w>si</w><w>uenero</w><w>ad</w><w>uos</w><w>linguis</w><w>loquens</w><w>quid</w><w>uobis</w>
+<lb xml:id="P35vC1L16-VL77" n="16"/><w>p<ex>ro</ex>dero</w><w>nisi</w><w>uobis</w><w>loquar</w><w>aut</w><w>in</w><w>reuelatione</w><w>aut</w>
+<lb xml:id="P35vC1L17-VL77" n="17"/><w>in</w><w>scientia</w><w>aut</w><w>in</w><w>p<ex>ro</ex>phetia</w><w>aut</w><w>i<ex>n</ex></w><w>doctrina</w></ab><ab n="B07K14V7"><w>tamen</w><w>quę</w>
+<lb xml:id="P35vC1L18-VL77" n="18"/><w>sine</w><w>anima</w><w>uocem</w><w>dantia</w><w>siue</w><w>tibia</w><w>siue</w><w>cithara</w>
+<lb xml:id="P35vC1L19-VL77" n="19"/><w>nisi</w><w>distinctione<ex>m</ex></w><w><ex rend="&amp;">et</ex></w><w>phthongis</w><w>dederunt</w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>scietur</w><w>q<ex>uod</ex></w><w>tibicin<ex>a</ex>t<ex>ur</ex>
+<lb break="no" xml:id="P35vC1L20-VL77" n="20"/>ale</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>uod</ex></hi></w><w><hi rend="alt">p<ex>er</ex></hi></w><w><hi rend="alt">tibia<ex>m</ex></hi></w><w><hi rend="alt">canit<ex>ur</ex></hi></w><w>aut</w><w>q<ex>uod</ex></w><w>citharizatur</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>citharizat</ex>um</hi></w></ab><ab n="B07K14V8"><w>et<ex rend="⧺">enim</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">na<ex>m</ex></hi></w><w>si</w>
+<lb xml:id="P35vC1L21-VL77" n="21"/><w>incertam</w><w>uocem</w><w>sapix</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">tuba</hi></w><w>dederit</w><w>quis</w><w>parabit</w><w>se</w>
+<lb xml:id="P35vC1L22-VL77" n="22"/><w>ad</w><w>bellum</w></ab><ab n="B07K14V9"><w>ita</w><w>et</w><w>uos</w><w>p<ex>er</ex></w><w>lingua<ex>m</ex></w><w>nisi</w>
+<lb xml:id="P35vC1L23-VL77" n="23"/><w>significante<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">significatu<ex>m</ex></hi></w><w>sermone<ex>m</ex></w><w>dederitis</w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>scietur</w><w>locutio</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>uod</ex></hi></w><w><hi rend="alt">dicitur</hi></w>
+<pb xml:id="P36r-VL77" n="36r" type="folio"/>
+<cb xml:id="P36rC1-VL77" n="1"/>
+<lb xml:id="P36rC1L1-VL77" n="1"/><w>eritis</w><w>enim</w><w>in</w><w>aera</w><w>loquentes</w></ab><ab n="B07K14V10"><w>ut</w><w>pote</w><w>genera</w><w>uocu<ex>m</ex></w><w><hi rend="alt">i<ex>d</ex></hi></w><w><hi rend="alt"><ex>est</ex></hi></w><w><hi rend="alt">linguar<ex>um</ex></hi></w>
+<lb xml:id="P36rC1L2-VL77" n="2"/><w>sunt</w><w>in</w><w>mundo</w><w>et</w><w>nihil</w><w>eor<ex>um</ex></w><w>sine</w><w>uoce</w><w>est</w></ab><ab n="B07K14V11"><w>si</w><w>ergo</w>
+<lb xml:id="P36rC1L3-VL77" n="3"/><w>nesciero</w><w>uirtutem</w><w>uocis</w><w>ero</w>
+<lb xml:id="P36rC1L4-VL77" n="4"/><w>loquenti</w><w>barbarus</w><w>et</w><w>is</w><w>qui</w><w>loquit<ex>ur</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>loqu</ex>ens</hi></w><w>mihi</w><w>barbarus</w></ab><ab n="B07K14V12"><w>sic</w>
+<lb xml:id="P36rC1L5-VL77" n="5"/><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ita</hi></w><w>et</w><w>uos</w><w>q<ex>uonia</ex>m</w><w>ęmulatores</w><w>estis</w><w><abbr type="nomSac">s<hi rend="overline">pu</hi>um</abbr></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">sp<ex>ir</ex>italiu<ex>m</ex></hi></w><w>ad</w><w>aedifica
+<lb break="no" xml:id="P36rC1L6-VL77" n="6"/>tionem</w><w>ecclesiae</w><w>q<ex>uae</ex>rite</w><w>ut</w><w>abundetis</w></ab><ab n="B07K14V13"><w>p<ex>ro</ex>pt<ex>er</ex></w><w>q<ex>uod</ex></w><w>qui</w>
+<lb xml:id="P36rC1L7-VL77" n="7"/><w>loq<ex>ui</ex>t<ex>ur</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>loqu</ex>ens</hi></w><w>lingua</w><w>oret</w><w>ut</w><w>int<ex>er</ex>prętetur</w></ab><ab n="B07K14V14"><w>si</w>
+<lb xml:id="P36rC1L8-VL77" n="8"/><w>orauero</w><w>lingua</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>meus</w><w>orat</w>
+<lb xml:id="P36rC1L9-VL77" n="9"/><w>mens</w><w><ex rend="ƕ">autem</ex></w><w>mea</w><w>sine</w><w>fructu</w><w>est</w></ab><ab n="B07K14V15"><w>quid</w><w><ex>er</ex>go</w><w><ex rend="÷">est</ex></w><w>orabo</w>
+<lb xml:id="P36rC1L10-VL77" n="10"/><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w><w><hi rend="alt">i<ex>d</ex></hi></w><w><hi rend="alt"><ex>est</ex></hi></w><w><hi rend="alt">uoce</hi></w><w>orabo</w><w>et</w><w>mente</w><w>psalla<ex>m</ex></w><w><abbr type="nomSac">s<hi rend="overline">pu</hi></abbr></w><w><hi rend="alt">i<ex>d</ex></hi></w><w><hi rend="alt"><ex>est</ex></hi></w><w><hi rend="alt">uoce</hi></w>
+<lb xml:id="P36rC1L11-VL77" n="11"/><w>psalla<ex>m</ex></w><w>et</w><w>mente</w></ab><ab n="B07K14V16"><w>cet<ex>er</ex>um</w><w>si</w><w>b<ex>ene</ex>dixeris</w><w><abbr type="nomSac">sp<hi rend="overline">u</hi></abbr></w><w>quis</w>
+<lb xml:id="P36rC1L12-VL77" n="12"/><w>supplet</w><w>locum</w><w>idiotę</w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>dicet</w><w>amen</w>
+<lb xml:id="P36rC1L13-VL77" n="13"/><note type="editorial">There is an annotation in the left margin, which seems to refer to monks</note><w>sup<ex>er</ex></w><w>tua<ex>m</ex></w><w>gratia<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">b<ex>ene</ex>dictione<ex>m</ex></hi></w><w>q<ex>uonia</ex>m</w><w>q<ex>ui</ex>de<ex>m</ex></w><w>nescit</w><w>quid</w><w>dicis</w>
+<lb xml:id="P36rC1L14-VL77" n="14"/></ab><ab n="B07K14V17"><w>na<ex>m</ex></w><w>tu</w><w>quidem</w><w>bene</w><w>b<ex>ene</ex>g<ex>ra</ex>tias</w><w>agis</w><w>sed</w><w>alius</w><w>non</w>
+<lb xml:id="P36rC1L15-VL77" n="15"/><w>aedificatur</w></ab><ab n="B07K14V18"><w>gratias</w><w>ago</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>quod</w><w>omniu<ex>m</ex></w><w>uestr<ex>um</ex></w>
+<lb xml:id="P36rC1L16-VL77" n="16"/><w>lingua</w><w>magis</w><w>loquor</w></ab><ab n="B07K14V19"><w>sed</w><w>in</w><w>eccl<ex>esi</ex>a</w><w>uolo</w><w>quinq<ex>ue</ex></w>
+<lb xml:id="P36rC1L17-VL77" n="17"/><w>serm<ex>ones</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">u<ex>er</ex>ba</hi></w><w>loqui</w><w>quidem</w><w>mente</w><w>mea</w><w>ut</w><w>et</w><w>alios</w><w>instrua<ex>m</ex></w>
+<lb xml:id="P36rC1L18-VL77" n="18"/><w>qua<ex>m</ex></w><w>decem</w><w>milia</w><w>sermonu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>sermon</ex>es</hi></w><w>in</w><w>lingua</w></ab><ab n="B07K14V20"><w>fratres</w><w>nolite</w>
+<lb xml:id="P36rC1L19-VL77" n="19"/><w>pueri</w><w>effici</w><w>sensibus</w><w>sed</w><w>malitia</w><w>paruuli</w><w>estote</w>
+<lb xml:id="P36rC1L20-VL77" n="20"/><w>ut</w><w>sensibus</w><w>p<ex>er</ex>fecti</w><w>sitis</w></ab><ab n="B07K14V21"><w>in</w><w>lege</w><w>scriptu<ex>m</ex></w>
+<lb xml:id="P36rC1L21-VL77" n="21"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>ieremia</w></note></seg><w><ex rend="÷">est</ex></w><w>q<ex>uonia</ex>m</w><w>in</w><w>aliis</w><w>linguis</w><w>et</w><w>in</w><w>labiis</w><w>aliis</w><w>lo
+<lb break="no" xml:id="P36rC1L22-VL77" n="22"/>quar</w><w>p<ex>opu</ex>lo</w><w>huic</w><w>et</w><w>nondum</w><w>exaudiet</w><w>me</w>
+<lb xml:id="P36rC1L23-VL77" n="23"/><w>dicit</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w></ab><ab n="B07K14V22"><w>itaq<ex>ue</ex></w><w>linguę</w><w>in</w><w>signum</w><w>sunt</w>
+<pb xml:id="P36v-VL77" n="36v" type="folio"/>
+<cb xml:id="P36vC1-VL77" n="1"/>
+<lb xml:id="P36vC1L1-VL77" n="1"/><w>non</w><w>fidelibus</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">credentibus</hi></w><w>sed</w><w><hi rend="alt">n<ex>on</ex></hi></w><w><hi rend="alt">credentib<ex>us</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>infidelibus</w><w>prophetia</w><w>autem</w>
+<lb xml:id="P36vC1L2-VL77" n="2"/><w>n<ex>on</ex></w><w>infidelibus</w><w>sed</w><w>fidelibus</w></ab><ab n="B07K14V23"><w>si</w><w>conuenerit</w><w>uniu<ex>er</ex>sa</w>
+<lb xml:id="P36vC1L3-VL77" n="3"/><w>ecclesia</w><w>in</w><w>unu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">i<ex>n</ex></hi></w><w><hi rend="alt">id</hi></w><w><hi rend="alt">ipsu<ex>m</ex></hi></w><w>et</w><w>om<ex>ne</ex>s</w><w>loquantur</w><w>linguis</w>
+<lb xml:id="P36vC1L4-VL77" n="4"/><w>intrent</w><w><ex rend="ƕ">autem</ex></w><w>idiotae</w><w>aut</w><w>infideles</w><w>n<ex>on</ex>ne</w><w>dicent</w>
+<lb xml:id="P36vC1L5-VL77" n="5"/><w>quia</w><w>insanitis</w></ab><ab n="B07K14V24"><w>si</w><w><ex rend="ƕ">autem</ex></w><w>omnes</w><w>prophetent</w><w>intret</w>
+<lb xml:id="P36vC1L6-VL77" n="6"/><w><ex rend="ƕ">autem</ex></w><w>quis</w><w>infidelis</w><w>aut</w><w>idiota</w><w>conuincit<ex>ur</ex></w><w>ab</w><w>omnibus</w>
+<lb xml:id="P36vC1L7-VL77" n="7"/><w>int<ex>er</ex>rogatur</w><w>ab</w><w>omnibus</w></ab><ab n="B07K14V25"><w>occulta</w><w>cordis</w>
+<lb xml:id="P36vC1L8-VL77" n="8"/><w>eius</w><w>manifesta</w><w>fiunt</w><w>et</w><w>ita</w><w>cadens</w><w>in</w><w>faciem</w>
+<lb xml:id="P36vC1L9-VL77" n="9"/><w>adorabit</w><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w><app><rdg type="orig" hand="firsthand"><w>annuntians</w></rdg><rdg type="corr" hand="corrector"><w>p<ex>er</ex>nuntians</w></rdg></app><w>quod</w><w>uere</w>
+<lb xml:id="P36vC1L10-VL77" n="10"/><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>in</w><w>uobis</w><w>est</w></ab><ab n="B07K14V26"><w>quid</w><w><ex>er</ex>go</w><w>est</w><w>fratres</w><w>cum</w><w>con
+<lb break="no" xml:id="P36vC1L11-VL77" n="11"/>uenitis</w><w>unusq<ex>ui</ex>sq<ex>ue</ex></w><w>u<ex>e</ex>s<ex>tru</ex>m</w><w>psalmu<ex>m</ex></w><w>h<ex>abe</ex>t</w><w>doctrinam</w>
+<lb xml:id="P36vC1L12-VL77" n="12"/><w>h<ex>abe</ex>t</w><w>reuelatione<ex>m</ex></w><w>h<ex>abe</ex>t</w><w>lingua<ex>m</ex></w><w>h<ex>abe</ex>t</w><w>int<ex>er</ex>p<ex>re</ex>tationem</w>
+<lb xml:id="P36vC1L13-VL77" n="13"/><w>h<ex>abe</ex>t</w><w>omnia</w><w>ad</w><w>ędificationem</w><w>fiant</w></ab><ab n="B07K14V27"><w>siue</w><w>lingua</w>
+<lb xml:id="P36vC1L14-VL77" n="14"/><w>quis</w><w>loquit<ex>ur</ex></w><w>s<ex>ecundu</ex>m</w><w>duos</w><w>aut</w><w>ut</w><w>multu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">plurimu<ex>m</ex></hi></w><w>tres</w><w>et</w><w>p<ex>er</ex></w>
+<lb xml:id="P36vC1L15-VL77" n="15"/><w>partes</w><w>et</w><w>unus</w><w>int<ex>er</ex>p<ex>re</ex>tetur</w></ab><ab n="B07K14V28"><w>si</w><w><ex rend="ƕ">autem</ex></w><w>n<ex>on</ex></w><w>fuerit</w><w>int<ex>er</ex>
+<lb break="no" xml:id="P36vC1L16-VL77" n="16"/>pręs</w><w>taceat</w><w>in</w><w>ecclesia</w><w>sibi</w><w><ex rend="ƕ">autem</ex></w><w>loquat<ex>ur</ex></w>
+<lb xml:id="P36vC1L17-VL77" n="17"/><w>et</w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w></ab><ab n="B07K14V29"><w>prophetae</w><w><ex rend="ƕ">autem</ex></w><w>duo</w><w><ex>ue</ex>l</w><w>tres</w><w>loquan
+<lb break="no" xml:id="P36vC1L18-VL77" n="18"/>tur</w><w>et</w><w>cet<ex>er</ex>i</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">alii</hi></w><w>deiudicent</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">examinent</hi></w></ab><ab n="B07K14V30"><w>si</w><w>alii</w>
+<lb xml:id="P36vC1L19-VL77" n="19"/><w>reuelatu<ex>m</ex></w><w>fuerit</w><w>sedenti</w><w>prior</w><w>taceat</w></ab><ab n="B07K14V31"><w>potes
+<lb break="no" xml:id="P36vC1L20-VL77" n="20"/>tis</w><w>enim</w><w>omnes</w><w>p<ex>er</ex></w><w>singulos</w><w>prophetare</w><w>ut</w><w>omnes</w>
+<lb xml:id="P36vC1L21-VL77" n="21"/><w>discant</w><w>et</w><w>omnes</w><w>exortent<ex>ur</ex></w></ab><ab n="B07K14V32"><w>et</w><w><abbr type="nomSac">s<hi rend="overline">ps</hi></abbr></w><w>pro
+<pb xml:id="P37r-VL77" n="37r" type="folio" break="no"/>
+<cb xml:id="P37rC1-VL77" n="1"/>
+<lb xml:id="P37rC1L1-VL77" n="1"/>phetarum</w><w>prophetis</w><w>subiectus</w><w>est</w></ab><ab n="B07K14V33"><w>n<ex>on</ex></w><w>enim</w><w>est</w><w>dissen
+<lb break="no" xml:id="P37rC1L2-VL77" n="2"/>sionis</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>sed</w><w>pacis</w><w>sicut</w><w>in</w><w>omnibus</w><w>ecclesiis</w>
+<lb xml:id="P37rC1L3-VL77" n="3"/><w>s<ex>an</ex>c<ex>t</ex>or<ex>um</ex></w><w>doceo</w></ab><ab n="B07K14V36"><w>an</w><w>a</w><w>uobis</w><w>sermo</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w>
+<lb xml:id="P37rC1L4-VL77" n="4"/><w>p<ex>ro</ex>cessit</w><w>an</w><w>in</w><w>uos</w><w>deuenit</w><w>solos</w></ab><ab n="B07K14V37"><w>si</w><w>quis</w>
+<lb xml:id="P37rC1L5-VL77" n="5"/><w>uidetur</w><w>propheta</w><w>esse</w><w>aut</w><w>sp<ex>ir</ex>italis</w><w>cognoscat</w>
+<lb xml:id="P37rC1L6-VL77" n="6"/><w>quę</w><w>scribo</w><w>uobis</w><w>quia</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>sunt</w></ab><ab n="B07K14V38"><w>si</w><w><ex rend="ƕ">autem</ex></w><w>quis</w>
+<lb xml:id="P37rC1L7-VL77" n="7"/><w>ignorat</w><w>ignorabitur</w></ab><ab n="B07K14V39"><w>itaq<ex>ue</ex></w><w>fratres</w><w>ęmulamini</w><w>pro
+<lb break="no" xml:id="P37rC1L8-VL77" n="8"/>phetare</w><note type="local">Is there a dot?</note><w>et</w><w>loqui</w><w><ex rend="ƕ">autem</ex></w><w>linguis</w><w>ne</w><w>p<ex>ro</ex>hibete</w>
+<lb xml:id="P37rC1L9-VL77" n="9"/></ab><ab n="B07K14V40"><w>omnia</w><w><ex rend="ƕ">autem</ex></w><w>honeste</w><w>et</w><w>s<ex>ecundu</ex>m</w><w>ordinem</w>
+<lb xml:id="P37rC1L10-VL77" n="10"/><w>fiant</w></ab><ab n="B07K14V34"><w>mulieres</w><w>uestrae</w><w>in</w><w>ecclesiis</w>
+<lb xml:id="P37rC1L11-VL77" n="11"/><w>taceant</w><w>n<ex>on</ex></w><w><unclear>eni<ex>m</ex></unclear></w><w>p<ex>er</ex>mittitur</w><w>eis</w><w>loqui</w><w>sed</w>
+<lb xml:id="P37rC1L12-VL77" n="12"/><w>subditas</w><w>e<ex>ss</ex>e</w><w>sicut</w><w>et</w><w>lex</w><w>dicit</w></ab><ab n="B07K14V35"><w>si</w><w>quid</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P37rC1L13-VL77" n="13"/><w>discere</w><w>uolunt</w><w>domo</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">domi</hi></w><w>suos</w><w>uiros</w>
+<lb xml:id="P37rC1L14-VL77" n="14"/><w>int<ex>er</ex>rogent</w><w>turpe</w><w><ex rend="⧺">enim</ex></w><w>est</w><w>mulieribus</w><w>in</w><w>eccle
+<lb break="no" xml:id="P37rC1L15-VL77" n="15"/>siis</w><w>loqui</w></ab></div><div n="B07K15" type="chapter"><ab n="B07K15V1"><w>notesco</w><w><ex rend="ƕ">autem</ex></w><w>uobis</w><w>fratres</w><w>euan
+<lb break="no" xml:id="P37rC1L16-VL77" n="16"/>gelium</w><w>q<ex>uod</ex></w><w>euangelizaui</w><w>uobis</w><w>quod</w><w>et</w><w>accepistis</w>
+<lb xml:id="P37rC1L17-VL77" n="17"/><w>in</w><w>quo</w><w>et</w><w>statis</w></ab><ab n="B07K15V2"><w>p<ex>er</ex></w><w>quod</w><w>et</w><w>saluamini</w><w>qua</w>
+<lb xml:id="P37rC1L18-VL77" n="18"/><w>ratione</w><w>euaangelizaui</w><note type="local">sic</note><w>uobis</w><w>debetur</w><w>tenere</w>
+<lb xml:id="P37rC1L19-VL77" n="19"/><w>nisi</w><w>s<ex>i</ex>n<ex>e</ex></w><w>causa</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">frust<ex>ra</ex></hi></w><w>credidistis</w></ab><ab n="B07K15V3"><w>tradidi</w><w><ex rend="⧺">enim</ex></w>
+<lb xml:id="P37rC1L20-VL77" n="20"/><w>uobis</w><w>in</w><w>p<ex>ri</ex>mis</w><w>q<ex>uod</ex></w><w>et</w><w>accepi</w><w>quia</w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>mor
+<lb break="no" xml:id="P37rC1L21-VL77" n="21"/>tuus</w><w><ex rend="÷">est</ex></w><w>p<ex>ro</ex></w><w>peccatis</w><w>nostris</w><w>s<ex>ecundu</ex>m</w><w>scripturas</w>
+<lb xml:id="P37rC1L22-VL77" n="22"/></ab><ab n="B07K15V4"><w>et</w><w>q<ex>uia</ex></w><w>sepultus</w><w><ex rend="÷">est</ex></w><w>et</w><w>quia</w><w>surrexit</w><w>t<ex>er</ex>tia</w><w>die</w>
+<pb xml:id="P37v-VL77" n="37v" type="folio"/>
+<cb xml:id="P37vC1-VL77" n="1"/>
+<lb xml:id="P37vC1L1-VL77" n="1"/><w>s<ex>ecundu</ex>m</w><w>scripturas</w></ab><ab n="B07K15V5"><w>et</w><w>quia</w><w>uisus</w><w><ex rend="÷">est</ex></w><w>kephae</w><w>et</w><w>postea</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>os</ex>t</hi></w><w><hi rend="alt">haec</hi></w><w>unde
+<lb break="no" xml:id="P37vC1L2-VL77" n="2"/>cim</w></ab><ab n="B07K15V6"><w>deinde</w><w>apparuit</w><w><hi rend="alt">pl<ex>us</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">plus</hi></w><w><hi rend="alt">quam</hi></w><w>amplius</w><w>quingentis</w><w>fratribus</w><w>simul</w>
+<lb xml:id="P37vC1L3-VL77" n="3"/><w>ex</w><w>quibus</w><w>plures</w><w>manent</w><w>usq<ex>ue</ex></w><w>adhuc</w><w>quida<ex>m</ex></w><w><ex rend="ƕ">autem</ex></w><w>dor
+<lb break="no" xml:id="P37vC1L4-VL77" n="4"/>mierunt</w></ab><ab n="B07K15V7"><w>deinde</w><app><rdg type="orig" hand="firsthand"><w>uisus</w><w><ex rend="÷">est</ex></w></rdg><rdg type="corr" hand="corrector"><w>apparuit</w></rdg></app><w>iacobo</w><w>postmodu<ex>m</ex></w><w>apostolis</w>
+<lb xml:id="P37vC1L5-VL77" n="5"/><w>omnibus</w></ab><ab n="B07K15V8"><w>nouissime</w><w><ex rend="ƕ">autem</ex></w><w>omnium</w><w>tanqua<ex>m</ex></w><w>abortiuo</w><w>uisus</w>
+<lb xml:id="P37vC1L6-VL77" n="6"/><w><ex rend="÷">est</ex></w><w>et</w><w>mihi</w></ab><ab n="B07K15V9"><w>ego</w><w><ex rend="⧺">enim</ex></w><w>sum</w><w>minimus</w><w>apos
+<lb break="no" xml:id="P37vC1L7-VL77" n="7"/>tolor<ex>um</ex></w><w>qui</w><w>n<ex>on</ex></w><w>sum</w><w>dignus</w><w>uocari</w><w>apostolus</w><w>p<ex>ro</ex>pt<ex>er</ex></w><w>q<ex>uod</ex></w>
+<lb xml:id="P37vC1L8-VL77" n="8"/><w>p<ex>er</ex>secutus</w><w>su<ex>m</ex></w><w>ecclesiam</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w></ab><ab n="B07K15V10"><note type="gloss"><w>ab<ex>latiuus</ex></w></note><w>gratia</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w>
+<lb xml:id="P37vC1L9-VL77" n="9"/><w>sum</w><w>id</w><w>q<ex>uod</ex></w><w>sum</w><w>et</w><w>gratia</w><w>eius</w><w>in</w><w>me</w><w>pauper</w><note type="gloss"><w>i<ex>d</ex></w><w><ex>est</ex></w><w>fe<ex>minina</ex></w></note><w>n<ex>on</ex></w>
+<lb xml:id="P37vC1L10-VL77" n="10"/><w>fuit</w><w>sed</w><w>abundantius</w><w>illis</w><w>omnibus</w><w>laboraui</w>
+<lb xml:id="P37vC1L11-VL77" n="11"/><w>n<ex>on</ex></w><w>ego</w><w><ex rend="ƕ">autem</ex></w><w>sed</w><w>gratia</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>mecum</w></ab><ab n="B07K15V11"><w>siue</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P37vC1L12-VL77" n="12"/><w>ego</w><w>siue</w><w>illi</w><w>sic</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ita</hi></w><w>p<ex>re</ex>dicamus</w><w>et</w><w>sic</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ita</hi></w>
+<lb xml:id="P37vC1L13-VL77" n="13"/><w>credidistis</w></ab><ab n="B07K15V12"><w>si</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>p<ex>re</ex>dicatur</w><w>a</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ex</hi></w><w>mortuis</w><w>q<ex>uod</ex></w><w>resur
+<lb break="no" xml:id="P37vC1L14-VL77" n="14"/>rexit</w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>dicunt</w><w>quidam</w><w>in</w><w>uobis</w><w>quod</w><w>resurrectio</w><w>mor
+<lb break="no" xml:id="P37vC1L15-VL77" n="15"/>tuor<ex>um</ex></w><w>n<ex>on</ex></w><w>est</w></ab><ab n="B07K15V13"><w>si</w><w><ex rend="ƕ">autem</ex></w><w>resurrectio</w><w>mortuor<ex>um</ex></w><w>non</w><w>est</w>
+<lb xml:id="P37vC1L16-VL77" n="16"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>de</w><w>resurrectione</w><w>mortuor<ex>um</ex></w></note></seg><w>neq<ex>ue</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>resurrexit</w></ab><ab n="B07K15V14"><w>si</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>n<ex>on</ex></w><w>resurrexit</w><w>inanis</w>
+<lb xml:id="P37vC1L17-VL77" n="17"/><w>igitur</w><w>et</w><w>p<ex>re</ex>dicatio</w><w>n<ex>ost</ex>ra</w><w>inanis</w><w>et</w><w>fides</w><w>u<ex>est</ex>ra</w>
+<lb xml:id="P37vC1L18-VL77" n="18"/></ab><ab n="B07K15V15"><w>inuenimur</w><w><ex rend="ƕ">autem</ex></w><w>et</w><w>falsi</w><w>testes</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>q<ex>uia</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>uonia</ex>m</hi></w>
+<lb xml:id="P37vC1L19-VL77" n="19"/><w>testati</w><w>sumus</w><w>adu<ex>er</ex>sus</w><w><abbr type="nomSac">d<hi rend="overline">m</hi></abbr></w><w>q<ex>uod</ex></w><w>suscitauerit</w><w><abbr type="nomSac">x<hi rend="overline">pm</hi></abbr></w>
+<lb xml:id="P37vC1L20-VL77" n="20"/><w>quem</w><w>n<ex>on</ex></w><w>suscitauit</w><w>siquide<ex>m</ex></w><w>igitur</w><w>mortui</w><w>n<ex>on</ex></w><w>resurgunt</w>
+<lb xml:id="P37vC1L21-VL77" n="21"/></ab><ab n="B07K15V16"><w>si</w><w><ex rend="⧺">enim</ex></w><w>mortui</w><w>n<ex>on</ex></w><w>resurgunt</w><w>neq<ex>ue</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>resur
+<lb break="no" xml:id="P37vC1L22-VL77" n="22"/>rexit</w></ab><ab n="B07K15V17"><w>si</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>n<ex>on</ex></w><w>resurrexit</w><w>uana</w><w><ex rend="÷">est</ex></w><w>fides</w><w>u<ex>est</ex>ra</w>
+<lb xml:id="P37vC1L23-VL77" n="23"/><w>adhuc</w><w>estis</w><w>in</w><w>peccatis</w><w>peccatis</w><note type="editorial">sic: the second "peccatis" is written above the Greek "υμων".</note></ab><ab n="B07K15V18"><w><ex>er</ex>go</w><w>et</w><w>qui</w><w>dor
+<lb break="no" xml:id="P37vC1L24-VL77" n="24"/>mier<ex>un</ex>t</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>dormien</ex>tes</hi></w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w>p<ex>er</ex>ierunt</w></ab><ab n="B07K15V19"><w>si</w><w>in</w><w>uita</w><w>hac</w>
+<pb xml:id="P38r-VL77" n="38r" type="folio"/>
+<cb xml:id="P38rC1-VL77" n="1"/>
+<lb xml:id="P38rC1L1-VL77" n="1"/><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w>sperantes</w><w>sumus</w><w>t<ex>antu</ex>m</w><w>miserabiliores</w><app><rdg type="orig" hand="firsthand"><w>e<ex>ss</ex>e</w></rdg><rdg type="corr" hand="corrector"></rdg></app><w>omnibus</w><w>ho<ex>min</ex>ib<ex>us</ex></w>
+<lb xml:id="P38rC1L2-VL77" n="2"/><w>sumus</w></ab><ab n="B07K15V20"><w>nunc</w><w><ex rend="ƕ">autem</ex></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w><w>resurrexit</w><w>a</w><w>mortus</w><note type="editorial">sic</note><w>initium</w>
+<lb xml:id="P38rC1L3-VL77" n="3"/><w>dormientium</w></ab><ab n="B07K15V21"><w>q<ex>uonia</ex>m</w><w>q<ex>ui</ex>de<ex>m</ex></w><w><ex rend="⧺">enim</ex></w><w>p<ex>er</ex></w><w>ho<ex>min</ex>em</w><w>mors</w><w>et</w><w>p<ex>er</ex></w>
+<lb xml:id="P38rC1L4-VL77" n="4"/><w>homine<ex>m</ex></w><w>resurrectio</w><w>mortuor<ex>um</ex></w></ab><ab n="B07K15V22"><w>sicut</w><w><ex rend="⧺">enim</ex></w><w>in</w><w>adam</w><w>om
+<lb break="no" xml:id="P38rC1L5-VL77" n="5"/>nes</w><w>moriuntur</w><w>ita</w><w>et</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w>omnes</w><w>uiuifica
+<lb break="no" xml:id="P38rC1L6-VL77" n="6"/>buntur</w></ab><ab n="B07K15V23"><w>unusq<ex>ui</ex>sq<ex>ue</ex></w><w><ex rend="ƕ">autem</ex></w><w>in</w><w>suo</w><w>ordine</w><w>i<ex>n</ex>itiu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>ri</ex>mitię</hi></w><w><abbr type="nomSac">x<hi rend="overline">ps</hi></abbr></w>
+<lb xml:id="P38rC1L7-VL77" n="7"/><w>deinde</w><w>hi</w><w>q<ex>ui</ex></w><w>s<ex>un</ex>t</w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>qui</w><w>in</w><w>aduentu</w><w>eius</w><w>sperauer<ex>un</ex>t</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>speran</ex>tes</hi></w>
+<lb xml:id="P38rC1L8-VL77" n="8"/></ab><ab n="B07K15V24"><w>deinde</w><w>finis</w><w>cum</w><w>tradiderit</w><w>regnu<ex>m</ex></w><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w><ex rend="&amp;">et</ex></w>
+<lb xml:id="P38rC1L9-VL77" n="9"/><w>patri</w><w>cum</w><w>euacuauerit</w><w>omnem</w><w>p<ex>ri</ex>ncipatu<ex>m</ex></w><w>et</w><w>omnem</w><w>potes
+<lb break="no" xml:id="P38rC1L10-VL77" n="10"/>tatem</w><w>et</w><w>uirtutem</w></ab><ab n="B07K15V25"><w>oportet</w><w><ex rend="⧺">enim</ex></w><w>illum</w><w>regnare</w><w>donec</w><w>ponat</w>
+<lb xml:id="P38rC1L11-VL77" n="11"/><w>omnes</w><w>inimicos</w><w>eius</w><w>sub</w><w>pedib<ex>us</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>ped</ex>es</hi></w></ab><ab n="B07K15V26"><w>nouissima</w>
+<lb xml:id="P38rC1L12-VL77" n="12"/><w>inimica</w><w>destruetur</w><w>mors</w></ab><ab n="B07K15V27"><w>omnia</w><w><ex rend="⧺">enim</ex></w><w>subiecit</w><w>sub</w>
+<lb xml:id="P38rC1L13-VL77" n="13"/><w>pedibus</w><w>eius</w><w>cum</w><w><ex rend="ƕ">autem</ex></w><w>dicat</w><w><hi rend="alt">q<ex>uonia</ex>m</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>quia</w><w>om<ex>ni</ex>a</w><w>subiec
+<lb break="no" xml:id="P38rC1L14-VL77" n="14"/>ta</w><w>s<ex>un</ex>t</w><w>ei</w><w>p<ex>re</ex>t<ex>er</ex></w><w>eu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">quem</hi></w><w>qui</w><w>sine</w><w>dubio</w><w>subiecit</w><w>ei</w>
+<lb xml:id="P38rC1L15-VL77" n="15"/><w>omnia</w></ab><ab n="B07K15V28"><w>cum</w><w><ex rend="ƕ">autem</ex></w><w>subiecta</w><w>illi</w><w>omnia</w><app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="corrector"><w>fuerint</w></rdg></app><w>tunc</w>
+<lb xml:id="P38rC1L16-VL77" n="16"/><w>ipse</w><w>filius</w><w>erit</w><w>subiect<ex>us</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">subiciet<ex>ur</ex></hi></w><w>illi</w><w>qui</w><w>subiecit</w><w>ei</w><seg type="margin" subtype="lineright"><note type="gloss"><w>subiciet</w></note></seg>
+<lb xml:id="P38rC1L17-VL77" n="17"/><w>omnia</w><w>ut</w><w>sit</w><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w>omnia</w><w>in</w><w>omnibus</w></ab><ab n="B07K15V29"><w>alioq<ex>ui</ex>n</w><w>quid</w><w>fa
+<lb break="no" xml:id="P38rC1L18-VL77" n="18"/>cient</w><w>baptizati</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>u</ex>i</hi></w><w><hi rend="alt">baptizant<ex>ur</ex></hi></w><w>p<ex>ro</ex></w><w>mortuis</w><w>si</w><w>omnino</w><w>mor
+<lb break="no" xml:id="P38rC1L19-VL77" n="19"/>tui</w><w>non</w><w>resurgent</w><w>ut</w><w>quid</w><w>et</w><w>baptizantur</w><w>pro</w><w>illis</w></ab><ab n="B07K15V30"><w>ut</w><w>q<ex>ui</ex>d</w>
+<lb xml:id="P38rC1L20-VL77" n="20"/><w>et</w><w>nos</w><w>p<ex>er</ex>iclitamur</w><w>omni</w><w>hora</w></ab><ab n="B07K15V31"><w>cotidie</w>
+<lb xml:id="P38rC1L21-VL77" n="21"/><w>morior</w><w>p<ex>er</ex></w><w>uestram</w><w>gloriam</w><w>qua<ex>m</ex></w><w>habeo</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w>
+<lb xml:id="P38rC1L22-VL77" n="22"/><w><abbr type="nomSac">ih<hi rend="overline">u</hi></abbr></w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>n<ex>ost</ex>ro</w></ab><ab n="B07K15V32"><w>si</w><w>s<ex>ecundu</ex>m</w><w>hominem</w><w>ad</w><w>bestias</w><w>pugnaui</w>
+<lb xml:id="P38rC1L23-VL77" n="23"/><w>in</w><w>effeso</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>effes</ex>i</hi></w><w>quid</w><w>mihi</w><w>prodest</w><w>si</w><w>mortui</w><w>non</w><w>resurgunt</w>
+<pb xml:id="P38v-VL77" n="38v" type="folio"/>
+<cb xml:id="P38vC1-VL77" n="1"/>
+<lb xml:id="P38vC1L1-VL77" n="1"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>essaia</w></note></seg><w>manducemus</w><w>et</w><w>bibamus</w><w>cras</w><w>enim</w><app><rdg type="orig" hand="firsthand"><w>moriamur</w></rdg><rdg type="corr" hand="corrector"><w>moriemur</w></rdg></app>
+<lb xml:id="P38vC1L2-VL77" n="2"/></ab><ab n="B07K15V33"><w>nolite</w><w>errare</w><w>corrumpunt</w><w>mores</w><w>bonos</w><w>colloquia</w>
+<lb xml:id="P38vC1L3-VL77" n="3"/><w>mala</w></ab><ab n="B07K15V34"><w>sobrii</w><w>estote</w><w>iuste</w><w>et</w><w>nolite</w><w>peccare</w>
+<lb xml:id="P38vC1L4-VL77" n="4"/><w>ignorantia<ex>m</ex></w><w>enim</w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>quida<ex>m</ex></w><w>h<ex>abe</ex>nt</w><w>ad</w><app><rdg type="orig" hand="firsthand"><w>reuerantia<ex>m</ex></w></rdg><rdg type="corr" hand="corrector"><w>reuerentia<ex>m</ex></w></rdg></app>
+<lb xml:id="P38vC1L5-VL77" n="5"/><w>uobis</w><w>dico</w></ab><ab n="B07K15V35"><w>sed</w><w>d<ex>ici</ex>t</w><w>aliquis</w><w>q<ex>uo</ex>m<ex>od</ex>o</w><w>resurgent</w><w>mortui</w>
+<lb xml:id="P38vC1L6-VL77" n="6"/><w>quali</w><w><ex rend="ƕ">autem</ex></w><w>corpore</w><w>ueniunt</w></ab><ab n="B07K15V36"><w>insipiens</w><w>tu</w><w>quod</w>
+<lb xml:id="P38vC1L7-VL77" n="7"/><w>seminas</w><w>non</w><w>uiuificatur</w><w>nisi</w><w>p<ex>r</ex>ius</w><w>moriatur</w>
+<lb xml:id="P38vC1L8-VL77" n="8"/></ab><ab n="B07K15V37"><w>et</w><w>q<ex>uod</ex></w><w>seminas</w><w>n<ex>on</ex></w><w>corpus</w><w>q<ex>uod</ex></w><w>nascetur</w><w>seminas</w><w>sed</w>
+<lb xml:id="P38vC1L9-VL77" n="9"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>de</w><w>seminibus</w></note></seg><w>nudum</w><w>granu<ex>m</ex></w><w>utpote</w><w>tritici</w><w>aut</w><w>alicuius</w><w>cet<ex>er</ex>or<ex>um</ex></w>
+<lb xml:id="P38vC1L10-VL77" n="10"/></ab><ab n="B07K15V38"><w><abbr type="nomSac">d<hi rend="overline">s</hi></abbr></w><w><ex rend="ƕ">autem</ex></w><w>illi</w><w>dat</w><w>corpus</w><w>sicut</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>ro</ex>ut</hi></w><w>uoluit</w>
+<lb xml:id="P38vC1L11-VL77" n="11"/><w>et</w><w>unicuiq<ex>ue</ex></w><w>seminum</w><w>p<ex>ro</ex>p<ex>r</ex>iu<ex>m</ex></w><w>corpus</w></ab><ab n="B07K15V39"><w>n<ex>on</ex></w><w>omnis</w>
+<lb xml:id="P38vC1L12-VL77" n="12"/><w>caro</w><w>eadem</w><w>sed</w><w>alia</w><w>quidem</w><w>hominu<ex>m</ex></w><w>alia</w><w><ex rend="ƕ">autem</ex></w><w>pecorum</w>
+<lb xml:id="P38vC1L13-VL77" n="13"/><w>alia</w><w>u<ex>er</ex>o</w><w>piscium</w><w>alia</w><w>caro</w><w>uolucrum</w></ab><ab n="B07K15V40"><w>et</w><w>cor
+<lb break="no" xml:id="P38vC1L14-VL77" n="14"/>pora</w><w>cęlestia</w><w>et</w><w>t<ex>er</ex>restria</w><w>sed</w><w>alia</w><w>quide<ex>m</ex></w><w>aut</w>
+<lb xml:id="P38vC1L15-VL77" n="15"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>δοξα</w><w>gl<ex>ori</ex>a</w><w>claritas</w><w>maiestas</w></note></seg><w>cęlestium</w><w>gloria</w><w>alia</w><w><ex rend="ƕ">autem</ex></w><w>aut</w><w>t<ex>er</ex>restriu<ex>m</ex></w>
+<lb xml:id="P38vC1L16-VL77" n="16"/></ab><ab n="B07K15V41"><w>alia</w><w><ex rend="ƕ">autem</ex></w><w>claritas</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">gloria</hi></w><w>solis</w><w>alia</w><w>claritas</w><w>lunę</w>
+<lb xml:id="P38vC1L17-VL77" n="17"/><w>et</w><w>alia</w><w>claritas</w><w>stellarum</w><w>stella</w><w><ex rend="⧺">enim</ex></w><w>stellae</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ab</hi></w><w><hi rend="alt">stella</hi></w>
+<lb xml:id="P38vC1L18-VL77" n="18"/><w>differt</w><w>in</w><w>claritate</w></ab><ab n="B07K15V42"><w>ita</w><w>et</w><w>resurrectio</w>
+<lb xml:id="P38vC1L19-VL77" n="19"/><app><rdg type="orig" hand="firsthand"><w>m<gap extent="1" unit="char" reason="illegible"/>rtuor<ex>um</ex></w></rdg><rdg type="corr" hand="corrector"><w>mortuor<ex>um</ex></w></rdg></app><w>seminat<ex>ur</ex></w><w>in</w><w>corruptione</w><w>surgit</w><w>in</w><app><rdg type="orig" hand="firsthand"><w>inccorruptione</w></rdg><rdg type="corr" hand="corrector"><w>incorruptione</w></rdg></app>
+<lb xml:id="P38vC1L20-VL77" n="20"/></ab><ab n="B07K15V43"><w>seminatur</w><w>in</w><w>c<ex>on</ex>tumelia</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ignobilitate</hi></w><w>surgit</w><w>in</w><w>gloria</w><w>seminatur</w>
+<lb xml:id="P38vC1L21-VL77" n="21"/><w>in</w><w>infirmitate</w><w>surget</w><w>in</w><w>uirtute</w></ab><ab n="B07K15V44"><w>seminatur</w><w>cor
+<lb break="no" xml:id="P38vC1L22-VL77" n="22"/>pus</w><w>animale</w><app><rdg type="orig" hand="firsthand"><w>surget</w></rdg><rdg type="corr" hand="corrector"><w>surgit</w></rdg></app><w>corpus</w><w>sp<ex>ir</ex>ituale</w><w>sicut</w>
+<pb xml:id="P39r-VL77" n="39r" type="folio"/>
+<cb xml:id="P39rC1-VL77" n="1"/>
+<lb xml:id="P39rC1L1-VL77" n="1"/><w>si</w><w>est</w><w>corpus</w><w>animale</w><w>est</w><w>et</w><w>spirituale</w></ab><ab n="B07K15V45"><w>sicut</w>
+<lb xml:id="P39rC1L2-VL77" n="2"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>genesi</w></note></seg><w>scrip<ex>tum</ex></w><w><ex rend="÷">est</ex></w><w>factus</w><w><ex rend="÷">est</ex></w><w>p<ex>ri</ex>mus</w><w>homo</w><w>adam</w><w>in</w><w>ani
+<lb break="no" xml:id="P39rC1L3-VL77" n="3"/>mam</w><w>uiuentem</w><w>nouissimus</w><w>adam</w><w>in</w><w><abbr type="nomSac"><hi rend="overline">spu</hi></abbr></w><w>uiuifican
+<lb break="no" xml:id="P39rC1L4-VL77" n="4"/>tem</w></ab><ab n="B07K15V46"><w>sed</w><w>n<ex>on</ex></w><w>prius</w><w>sp<ex>ir</ex>itale</w><w>sed</w><w>ani
+<lb break="no" xml:id="P39rC1L5-VL77" n="5"/>male</w><w>deinde</w><w>sp<ex>irit</ex>uale</w></ab><ab n="B07K15V47"><w>p<ex>ri</ex>mus</w><w>homo</w>
+<lb xml:id="P39rC1L6-VL77" n="6"/><w>de</w><w>t<ex>er</ex>ra</w><w>t<ex>er</ex>renus</w><w>s<ex>ecund</ex>us</w><w>homo</w><w>de</w><w>cęlo</w>
+<lb xml:id="P39rC1L7-VL77" n="7"/><w>cęlestis</w></ab><ab n="B07K15V48"><w>qualis</w><w>t<ex>er</ex>renus</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">t<ex>er</ex>restris</hi></w><w>tales</w><w>t<ex>er</ex>reni</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">t<ex>er</ex>restres</hi></w>
+<lb xml:id="P39rC1L8-VL77" n="8"/><w>et</w><w>qualis</w><w>cęlestis</w><w>tales</w><w>et</w><w>cęlestes</w>
+<lb xml:id="P39rC1L9-VL77" n="9"/></ab><ab n="B07K15V49"><w>sicut</w><w>portauimus</w><w>imagine<ex>m</ex></w><w>t<ex>er</ex>reni</w>
+<lb xml:id="P39rC1L10-VL77" n="10"/><w>portemus</w><w>et</w><w>imaginem</w><w>cęlestis</w>
+<lb xml:id="P39rC1L11-VL77" n="11"/></ab><ab n="B07K15V50"><w>hoc</w><w><ex rend="⧺">enim</ex></w><w>dico</w><w>fratres</w><w>quia</w><w>caro</w><w>et</w>
+<lb xml:id="P39rC1L12-VL77" n="12"/><w>sanguis</w><w>regnu<unclear><ex>m</ex></unclear></w><w><abbr type="nomSac">d<hi rend="overline">i</hi></abbr></w><w>n<ex>on</ex></w><w>hereditabunt</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">possidebunt</hi></w><w>neq<ex>ue</ex></w>
+<lb xml:id="P39rC1L13-VL77" n="13"/><w>corruptio</w><w>i<ex>n</ex>corruptela<ex>m</ex></w><w>possidebit</w>
+<lb xml:id="P39rC1L14-VL77" n="14"/></ab><ab n="B07K15V51"><w>ecce</w><w>myst<ex>er</ex>ium</w><w>uobis</w><w>dico</w><w>omnes</w><w>quide<ex>m</ex></w>
+<lb xml:id="P39rC1L15-VL77" n="15"/><w>dormiemus</w><w>n<ex>on</ex></w><w>omnes</w><w><ex rend="ƕ">autem</ex></w><w>immutabi
+<lb break="no" xml:id="P39rC1L16-VL77" n="16"/>mur</w></ab><ab n="B07K15V52"><w>in</w><w>momento</w><w>in</w><w>ictu</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">nutu</hi></w><w>oculi</w><w>in</w>
+<lb xml:id="P39rC1L17-VL77" n="17"/><w>nouissima</w><w>tuba</w><w><hi rend="alt">tubicinat<ex>ur</ex></hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>tuba</w><w><ex rend="⧺">enim</ex></w><w>canit<ex>ur</ex></w><w>et</w><w>mor
+<lb break="no" xml:id="P39rC1L18-VL77" n="18"/>tui</w><w>resurgent</w><w>incorrupti</w><w>et</w><w>nos</w><w>i<ex>m</ex>muta
+<lb break="no" xml:id="P39rC1L19-VL77" n="19"/>tabimur</w></ab><ab n="B07K15V53"><w>oportet</w><w><ex rend="⧺">enim</ex></w><w>corruptibile</w><w>hoc</w><w>in
+<lb break="no" xml:id="P39rC1L20-VL77" n="20"/>duere</w><w>incorruptione<ex>m</ex></w><w>et</w><w>mortale</w><w>induere</w>
+<lb xml:id="P39rC1L21-VL77" n="21"/><w>im<ex>m</ex>ortalitatem</w></ab><ab n="B07K15V54"><w>tunc</w><w>fiet</w><w>sermo</w>
+<pb xml:id="P39v-VL77" n="39v" type="folio"/>
+<cb xml:id="P39vC1-VL77" n="1"/>
+<lb xml:id="P39vC1L1-VL77" n="1"/><seg type="margin" subtype="lineleft"><note type="gloss"><w>i<ex>n</ex></w><w>osee</w></note></seg><w>qui</w><w>scriptus</w><w><ex rend="÷">est</ex></w><w>absorpta</w><w><ex rend="÷">est</ex></w><w>mors</w><w>in</w><w>uictoria</w></ab><ab n="B07K15V55"><w>ubi</w><w>tuus</w>
+<lb xml:id="P39vC1L2-VL77" n="2"/><w>mors</w><note type="gloss"><w>i<ex>d</ex></w><w><ex>est</ex></w><w>uo<ex>catiuus</ex></w></note><w>aculeus</w><w>ubi</w><w>tua</w><w>o</w><w>mors</w><w>uictoria</w>
+<lb xml:id="P39vC1L3-VL77" n="3"/></ab><ab n="B07K15V56"><w>aculeus</w><w><ex rend="ƕ">autem</ex></w><w>mortis</w><w>peccatu<ex>m</ex></w><w>uirtus</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P39vC1L4-VL77" n="4"/><w>peccati</w><w>lex</w></ab><ab n="B07K15V57"><w><abbr type="nomSac">d<hi rend="overline">o</hi></abbr></w><w>gratias</w><w>danti</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">qui</hi></w><w><hi rend="alt">dedit</hi></w>
+<lb xml:id="P39vC1L5-VL77" n="5"/><w>uobis</w><note type="editorial">sic, not 'nobis' despite Greek</note><w>uictoria<ex>m</ex></w><w>p<ex>er</ex></w><w><abbr type="nomSac">d<hi rend="overline">nm</hi></abbr></w><w>n<ex>ost</ex>r<ex>u</ex>m</w><w><abbr type="nomSac">i<hi rend="overline">hm</hi></abbr></w><w><abbr type="nomSac"><hi rend="overline">xpm</hi></abbr></w></ab><ab n="B07K15V58"><w>itaq<ex>ue</ex></w>
+<lb xml:id="P39vC1L6-VL77" n="6"/><w>fratres</w><w>mei</w><w>dilecti</w><w>stabiles</w><w>estote</w><w>immobiles</w>
+<lb xml:id="P39vC1L7-VL77" n="7"/><w>abundantes</w><w>in</w><w>opere</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>semper</w><w>scientes</w>
+<lb xml:id="P39vC1L8-VL77" n="8"/><w>quia</w><w>non</w><w>est</w><w>labor</w><w>uest<ex>er</ex></w><w>inanis</w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w>
+<lb xml:id="P39vC1L9-VL77" n="9"/></ab></div><div n="B07K16" type="chapter"><ab n="B07K16V1"><seg type="margin" subtype="lineleft"><num type="chapNum"><w>xvi</w></num></seg><w>de</w><w><hi rend="alt">collectione</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>collectis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><note type="editorial">There is no addition following after "(ue)l". Maybe the gloss squeezed in before "collectis" was meant to be added afterwards.</note><w><ex rend="ƕ">autem</ex></w><w>in</w><w>s<ex>an</ex>c<ex>t</ex>os</w><w>sicut</w>
+<lb xml:id="P39vC1L10-VL77" n="10"/><w>ordinaui</w><w>ecclesiis</w><w>galatiae</w><w>ita</w><w>et</w>
+<lb xml:id="P39vC1L11-VL77" n="11"/><w>uos</w><w>facite</w></ab><ab n="B07K16V2"><w>p<ex>er</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">s<ex>ecundu</ex>m</hi></w><w>una<ex>m</ex></w><w>sabbati</w><w>unusq<ex>ui</ex>sq<ex>ue</ex></w><w>uestr<ex>um</ex></w>
+<lb xml:id="P39vC1L12-VL77" n="12"/><w>apud</w><w>se</w><w>ponat</w><w>thesaurizans</w><w>q<ex>uod</ex></w><w>ei</w><w>b<ex>ene</ex>placuerit</w>
+<lb xml:id="P39vC1L13-VL77" n="13"/><w>ut</w><w>non</w><w>cu<ex>m</ex></w><w>uenero</w><w>tunc</w><w>collectę</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>collect</ex>a</hi></w><w>fiant</w></ab><ab n="B07K16V3"><w>cum</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P39vC1L14-VL77" n="14"/><w>aduenero</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>re</ex>sens</hi></w><w><hi rend="alt">fuero</hi></w><w>q<ex>u</ex>oscu<ex>m</ex>q<ex>ue</ex></w><w>probaueritis</w><w>per</w><w>epistolas</w>
+<lb xml:id="P39vC1L15-VL77" n="15"/><w>hos</w><w>mittam</w><w>perferre</w><w>gratia<ex>m</ex></w><w>uestra<ex>m</ex></w><w>in</w><w>ierosalem</w>
+<lb xml:id="P39vC1L16-VL77" n="16"/></ab><ab n="B07K16V4"><w>si</w><w><ex rend="ƕ">autem</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">q<ex>uod</ex></hi></w><w><hi rend="alt">si</hi></w><w>fuerit</w><w>dignu<ex>m</ex></w><w>ut</w><w>ego</w><app><rdg type="orig" hand="firsthand"><w>eam</w></rdg><rdg type="corr" hand="corrector"></rdg></app><w>eam</w><w>mecum</w><w>ibunt</w>
+<lb xml:id="P39vC1L17-VL77" n="17"/></ab><ab n="B07K16V5"><w>ueniam</w><w>aute<ex>m</ex></w><w>ad</w><w>uos</w><w>cum</w><w>macedoniam</w>
+<lb xml:id="P39vC1L18-VL77" n="18"/><w>p<ex>er</ex>t<ex>ran</ex>siero</w><w>na<ex>m</ex></w><w>macedonia<ex>m</ex></w><w><ex rend="⧺">enim</ex></w><w>p<ex>er</ex>t<ex>ran</ex>sibo</w></ab><ab n="B07K16V6"><w>apud</w><w>uos</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P39vC1L19-VL77" n="19"/><w>forsitan</w><w>remanebo</w><w>et</w><w>hibernabo</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><hi rend="lig">hi</hi>emabo</hi></w><w>nisi</w><w>uos</w>
+<lb xml:id="P39vC1L20-VL77" n="20"/><w>me</w><w>deduxeritis</w><w>quocunq<ex>ue</ex></w><w>iero</w></ab><ab n="B07K16V7"><w>nolo</w><w>enim</w>
+<lb xml:id="P39vC1L21-VL77" n="21"/><w>uos</w><w>n<ex>un</ex>c</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">m<ex>od</ex>o</hi></w><w>in</w><w>t<ex>ran</ex>situ</w><w>uidere</w><w>spero</w><w>enim</w><w>tempus</w>
+<lb xml:id="P39vC1L22-VL77" n="22"/><w>aliquod</w><w>manere</w><w>apud</w><w>uos</w><w>si</w><w><abbr type="nomSac">d<hi rend="overline">ns</hi></abbr></w><w>permiserit</w>
+<pb xml:id="P40r-VL77" n="40r" type="folio"/>
+<cb xml:id="P40rC1-VL77" n="1"/>
+<lb xml:id="P40rC1L1-VL77" n="1"/></ab><ab n="B07K16V8"><w>p<ex>er</ex>manebo</w><w><ex rend="ƕ">autem</ex></w><w>efessi</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">in</hi></w><w><hi rend="alt">ephesso</hi></w><w>usq<ex>ue</ex></w><w>ad</w><w>pentekosten</w></ab><ab n="B07K16V9"><w>hostiu<ex>m</ex></w>
+<lb xml:id="P40rC1L2-VL77" n="2"/><w><ex rend="⧺">enim</ex></w><w>mihi</w><w>ap<ex>er</ex>tu<ex>m</ex></w><w><ex rend="÷">est</ex></w><w>magnum</w><w>et</w><w>euidens</w><w>et</w><w>adu<ex>er</ex>sarii</w>
+<lb xml:id="P40rC1L3-VL77" n="3"/><w>multi</w></ab><ab n="B07K16V10"><w>si</w><w>aute<ex>m</ex></w><w>uenerit</w><w>timotheus</w><w>uidete</w><w>ut</w><w>s<ex>i</ex>n<ex>e</ex></w><w>timore</w>
+<lb xml:id="P40rC1L4-VL77" n="4"/><w>sit</w><w>ap<ex>ud</ex></w><w>uos</w><w>opus</w><w>enim</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w>operatur</w><w>sicut</w>
+<lb xml:id="P40rC1L5-VL77" n="5"/><w>et</w><w>ego</w></ab><ab n="B07K16V11"><w>ne</w><w>quis</w><w>illum</w><w>spernat</w><w>p<ex>re</ex>mittite</w><w><ex rend="ƕ">autem</ex></w>
+<lb xml:id="P40rC1L6-VL77" n="6"/><w>illum</w><w>in</w><w>pace</w><w>ut</w><w>ueniat</w><w>ad</w><w>me</w><w>exspecto</w><w>enim</w>
+<lb xml:id="P40rC1L7-VL77" n="7"/><w>illum</w><w>cum</w><w>fratribus</w></ab><ab n="B07K16V12"><w>de</w><w>apollo</w><w><ex rend="ƕ">autem</ex></w><w>fra
+<lb break="no" xml:id="P40rC1L8-VL77" n="8"/>tre</w><w>notesco</w><w>u<ex>o</ex>b<ex>is</ex></w><w>quia</w><w>multu<ex>m</ex></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>mult</ex>a</hi></w><w>rogaui</w><w>illum</w><w>ut</w><w>ue<hi rend="lig">ni</hi>
+<lb break="no" xml:id="P40rC1L9-VL77" n="9"/>ret</w><w>ad</w><w>uos</w><w>cu<ex>m</ex></w><w>fratribus</w><w>et</w><w>omnino</w>
+<lb xml:id="P40rC1L10-VL77" n="10"/><w>non</w><w>fuit</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">erat</hi></w><w>uoluntas</w><w>nunc</w><w>ueniret</w><w>ueniet</w><w>aute<ex>m</ex></w>
+<lb xml:id="P40rC1L11-VL77" n="11"/><w>cu<ex>m</ex></w><w>oportunu<ex>m</ex></w><w>fuerit</w></ab><ab n="B07K16V13"><w>uigilate</w><w>staate</w><note type="local">sic</note><w>in</w><w>fide</w>
+<lb xml:id="P40rC1L12-VL77" n="12"/><w>uirilit<ex>er</ex></w><w>agite</w><w>confortamini</w></ab><ab n="B07K16V14"><w>omnia</w><w>u<ex>est</ex>ra</w><w>in</w><w>cari
+<lb break="no" xml:id="P40rC1L13-VL77" n="13"/>tate</w><w>fiant</w></ab><ab n="B07K16V15"><w>obsecro</w><w>autem</w><w>uos</w><w>fratres</w><w>nostis</w>
+<lb xml:id="P40rC1L14-VL77" n="14"/><w>domu<ex>m</ex></w><w>stephanę</w><w>et</w><w>phortunati</w><w>et</w><w>achaici</w>
+<lb xml:id="P40rC1L15-VL77" n="15"/><w>q<ex>uonia</ex>m</w><w>sunt</w><w>primitiae</w><w>achaiae</w><w>et</w><w>in</w><w>minist<ex>er</ex>ium</w>
+<lb xml:id="P40rC1L16-VL77" n="16"/><w>s<ex>an</ex>c<ex>t</ex>is</w><w><hi rend="alt">c<ex>on</ex>stituer<ex>un</ex>t</hi></w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w>ordinauer<ex>un</ex>t</w><w>se</w><w>ipsos</w></ab><ab n="B07K16V16"><w>ut</w><w>et</w><w>uos</w><w>subditi</w><w>sitis</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">subdatis</hi></w>
+<lb xml:id="P40rC1L17-VL77" n="17"/><w>talibus</w><w>et</w><w>omni</w><w>coop<ex>er</ex>anti</w><w>et</w><w>laboranti</w>
+<lb xml:id="P40rC1L18-VL77" n="18"/><w>in</w><w>u<ex>o</ex>b<ex>is</ex></w></ab><ab n="B07K16V17"><w>gaudeo</w><w><ex rend="ƕ">autem</ex></w><w>in</w><w>aduentu</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">p<ex>re</ex>sentia</hi></w><w>stepha
+<lb break="no" xml:id="P40rC1L19-VL77" n="19"/>nę</w><w>et</w><w>phortunati</w><w>et</w><app><rdg type="orig" hand="firsthand"><w>achaikou</w></rdg><rdg type="corr" hand="corrector"><w>achaiki</w></rdg></app><w>quia</w><w>q<ex>uod</ex></w><w>uobis</w>
+<lb xml:id="P40rC1L20-VL77" n="20"/><w>de<ex>ss</ex>e</w><w>fuit</w><w>illi</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt">ipsi</hi></w><w>suppleuerunt</w></ab><ab n="B07K16V18"><w>refecer<ex>un</ex>t</w><w>enim</w>
+<lb xml:id="P40rC1L21-VL77" n="21"/><w>et</w><w>meum</w><w><abbr type="nomSac">s<hi rend="overline">pm</hi></abbr></w><w>et</w><w>uestru<ex>m</ex></w><w>cognoscite</w><w>ergo</w>
+<pb xml:id="P40v-VL77" n="40v" type="folio"/>
+<cb xml:id="P40vC1-VL77" n="1"/>
+<lb xml:id="P40vC1L1-VL77" n="1"/><w>q<ex>ui</ex></w><w>eiusmodi</w><w>s<ex>un</ex>t</w></ab><ab n="B07K16V19"><w>salutant</w><w>uos</w><w>ecclesiae</w>
+<lb xml:id="P40vC1L2-VL77" n="2"/><w>asiae</w><w>salutant</w><w>uos</w><w>in</w><w><abbr type="nomSac">d<hi rend="overline">no</hi></abbr></w><w>multa</w><w><hi rend="alt"><ex>ue</ex>l</hi></w><w><hi rend="alt"><ex>mult</ex>u<ex>m</ex></hi></w><w>aquila</w>
+<lb xml:id="P40vC1L3-VL77" n="3"/><w>et</w><w>p<ex>ri</ex>scilla</w><w>cum</w><w>domestica</w><w>sua</w><w>ecclesia</w>
+<lb xml:id="P40vC1L4-VL77" n="4"/><w>ap<ex>ud</ex></w><w>quos</w><w>et</w><w>hospitor</w></ab><ab n="B07K16V20"><w>salutant</w><w>uos</w>
+<lb xml:id="P40vC1L5-VL77" n="5"/><w>fratres</w><w>omnes</w><w>salutate</w><w>inuicem</w><w>in</w>
+<lb xml:id="P40vC1L6-VL77" n="6"/><w>osculo</w><w>s<ex>an</ex>c<ex>t</ex>o</w></ab><ab n="B07K16V21"><w>salutatio</w><w>mea</w><w>manu</w>
+<lb xml:id="P40vC1L7-VL77" n="7"/><w>pauli</w></ab><ab n="B07K16V22"><w>si</w><w>quis</w><w>n<ex>on</ex></w><w>amat</w><w><abbr type="nomSac">d<hi rend="overline">nm</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hm</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pm</hi></abbr></w>
+<lb xml:id="P40vC1L8-VL77" n="8"/><w>sit</w><w>p<ex>er</ex>ditio</w><w>i<ex>n</ex></w><w>aduentu</w><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w></ab><ab n="B07K16V23"><w>gratia</w>
+<lb xml:id="P40vC1L9-VL77" n="9"/><w><abbr type="nomSac">d<hi rend="overline">ni</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w><w><abbr type="nomSac">x<hi rend="overline">pi</hi></abbr></w><w>uobiscum</w></ab><ab n="B07K16V24"><w>caritas</w><w>mea</w><w>cu<ex>m</ex></w>
+<lb xml:id="P40vC1L10-VL77" n="10"/><w>omnibus</w><w>uobis</w><w>in</w><w><abbr type="nomSac">x<hi rend="overline">po</hi></abbr></w><w><abbr type="nomSac">i<hi rend="overline">hu</hi></abbr></w>
+<lb xml:id="P40vC1L11-VL77" n="11"/><note type="editorial">This line contains only Greek without a Latin translation.</note>
+<lb xml:id="P40vC1L12-VL77" n="12"/></ab></div><div type="explicit" n="B07explicit"><ab><w>explicit</w><w>ad</w><app><rdg type="orig" hand="firsthand"><w>corinthios</w></rdg><rdg type="corr" hand="corrector"><w>corinthius</w></rdg></app><note type="editorial">It is hard to find a rationale for the correction unless it is taken as an imitation of a Greek upsilon.</note>
+<lb xml:id="P40vC1L13-VL77" n="13"/><w>prima</w></ab></div></div></body></text></TEI>

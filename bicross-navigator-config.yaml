@@ -35,6 +35,12 @@ texts:
   borgianus-coptic:
     tei: GA029-borgianus/NT_COP_sa117_John.xml
     parsing: GA029-borgianus/sa117-John-cop.conllu
+  boernerianus-greek:
+    tei: GA012-boernerianus/NT_GRC_012_1Cor.xml
+    parsing: GA012-boernerianus/NT_GRC_012_1Cor13.conllu
+  boernerianus-latin:
+    tei: GA012-boernerianus/07_VL77.xml
+    parsing: GA012-boernerianus/07_VL77_1Cor13.conllu
   carolinus-gothic:
     tei: carolinus/carolinus-romans-gothic.xml
     parsing: carolinus/carolinus-romans-got-with-gold.conllu
@@ -89,6 +95,10 @@ alignments:
   bezae:
     texts: [bezae-greek, bezae-latin]
     links: GA05-bezae/Bezae-John20-aligned.jsonl
+  boernerianus:
+    name: Codex Boernerianus
+    texts: [boernerianus-greek, boernerianus-latin]
+    links: GA012-boernerianus/Boernerianus-1Cor13-aligned.jsonl
   borgianus:
     name: Codex Borgianus
     texts: [borgianus-greek, borgianus-coptic]
